@@ -1,5 +1,9 @@
 project:
   type: website
+  output-dir: docs
+
+pbulish:
+  dir: .
 
 website:
   title: "RUEN Research"
