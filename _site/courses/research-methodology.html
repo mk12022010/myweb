@@ -1,0 +1,1953 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Professor Dr.&nbsp;Md. Kamrul Hasan">
+
+<title>RUEN Research - Understanding Research Methodology: A Comprehensive Guide</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script src="script.js"></script>
+
+
+<link rel="stylesheet" href="../styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../images/logo.png" alt="" class="navbar-logo">
+    </a>
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">RUEN Research</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html" rel="" target="">
+ <span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../teaching.html" rel="" target="">
+ <span class="menu-text">Teaching</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-courses" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+ <span class="menu-text">Courses</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-courses">    
+        <li>
+    <a class="dropdown-item" href="../courses/research-methodology.html" rel="" target="">
+ <span class="dropdown-text">Research Methodology</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../courses/data-analysis.html" rel="" target="">
+ <span class="dropdown-text">Data Analysis Using R</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../courses/machine-learning.html" rel="" target="">
+ <span class="dropdown-text">Machine Learning Using R</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../blogs.html" rel="" target="">
+ <span class="menu-text">Blogs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../contact.html" rel="" target="">
+ <span class="menu-text">Contact</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.youtube.com/@RUENResearch" rel="" target=""><i class="bi bi-youtube" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.facebook.com/share/1Zg85wujVJ/?mibextid=wwXIfr" rel="" target=""><i class="bi bi-facebook" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.instagram.com/kamrulext/" rel="" target=""><i class="bi bi-instagram" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/kamrulext/" rel="" target=""><i class="bi bi-linkedin" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#research-methodology" id="toc-research-methodology" class="nav-link active" data-scroll-target="#research-methodology">Research Methodology</a>
+  <ul class="collapse">
+  <li><a href="#knowledge-science-technology-research" id="toc-knowledge-science-technology-research" class="nav-link" data-scroll-target="#knowledge-science-technology-research">Knowledge, Science, Technology, Research</a></li>
+  <li><a href="#data-informatin-fact-hypothesis-theory-and-law" id="toc-data-informatin-fact-hypothesis-theory-and-law" class="nav-link" data-scroll-target="#data-informatin-fact-hypothesis-theory-and-law">Data, Informatin, Fact, Hypothesis, Theory, and Law</a>
+  <ul class="collapse">
+  <li><a href="#key-distinctions" id="toc-key-distinctions" class="nav-link" data-scroll-target="#key-distinctions">Key Distinctions:</a></li>
+  </ul></li>
+  <li><a href="#research-problem" id="toc-research-problem" class="nav-link" data-scroll-target="#research-problem">Research Problem</a>
+  <ul class="collapse">
+  <li><a href="#importance-of-a-research-problem" id="toc-importance-of-a-research-problem" class="nav-link" data-scroll-target="#importance-of-a-research-problem"><strong>Importance of a Research Problem</strong></a></li>
+  <li><a href="#how-to-identify-a-research-problem" id="toc-how-to-identify-a-research-problem" class="nav-link" data-scroll-target="#how-to-identify-a-research-problem"><strong>How to Identify a Research Problem?</strong></a></li>
+  <li><a href="#example-identifying-a-research-problem-in-agricultural-extension" id="toc-example-identifying-a-research-problem-in-agricultural-extension" class="nav-link" data-scroll-target="#example-identifying-a-research-problem-in-agricultural-extension"><strong>Example: Identifying a Research Problem in Agricultural Extension</strong></a></li>
+  <li><a href="#steps-to-prioritize-research-problems" id="toc-steps-to-prioritize-research-problems" class="nav-link" data-scroll-target="#steps-to-prioritize-research-problems"><strong>Steps to Prioritize Research Problems</strong></a></li>
+  </ul></li>
+  <li><a href="#research-proposal" id="toc-research-proposal" class="nav-link" data-scroll-target="#research-proposal">Research Proposal</a>
+  <ul class="collapse">
+  <li><a href="#development-of-conceptual-framework-of-research" id="toc-development-of-conceptual-framework-of-research" class="nav-link" data-scroll-target="#development-of-conceptual-framework-of-research"><strong>Development of Conceptual Framework of Research</strong></a></li>
+  <li><a href="#research-design" id="toc-research-design" class="nav-link" data-scroll-target="#research-design"><strong>Research Design</strong></a></li>
+  </ul></li>
+  <li><a href="#scale-and-measurement" id="toc-scale-and-measurement" class="nav-link" data-scroll-target="#scale-and-measurement"><strong>Scale and Measurement</strong></a></li>
+  <li><a href="#development-of-scales" id="toc-development-of-scales" class="nav-link" data-scroll-target="#development-of-scales"><strong>Development of Scales</strong></a></li>
+  <li><a href="#population-and-sampling" id="toc-population-and-sampling" class="nav-link" data-scroll-target="#population-and-sampling"><strong>Population and Sampling</strong></a></li>
+  <li><a href="#sampling-techniques" id="toc-sampling-techniques" class="nav-link" data-scroll-target="#sampling-techniques"><strong>Sampling Techniques</strong></a></li>
+  <li><a href="#data-collection-tools" id="toc-data-collection-tools" class="nav-link" data-scroll-target="#data-collection-tools"><strong>Data Collection Tools</strong></a>
+  <ul class="collapse">
+  <li><a href="#pra-and-rra" id="toc-pra-and-rra" class="nav-link" data-scroll-target="#pra-and-rra"><strong>PRA and RRA</strong></a></li>
+  </ul></li>
+  <li><a href="#reliability-and-validity-of-research-instruments" id="toc-reliability-and-validity-of-research-instruments" class="nav-link" data-scroll-target="#reliability-and-validity-of-research-instruments"><strong>Reliability and Validity of Research Instruments</strong></a></li>
+  <li><a href="#data-and-its-types" id="toc-data-and-its-types" class="nav-link" data-scroll-target="#data-and-its-types"><strong>Data and its Types</strong></a></li>
+  <li><a href="#variables" id="toc-variables" class="nav-link" data-scroll-target="#variables"><strong>Variables</strong></a></li>
+  <li><a href="#hypothesis" id="toc-hypothesis" class="nav-link" data-scroll-target="#hypothesis"><strong>Hypothesis</strong></a>
+  <ul class="collapse">
+  <li><a href="#criteria-of-hypothesis" id="toc-criteria-of-hypothesis" class="nav-link" data-scroll-target="#criteria-of-hypothesis"><strong>Criteria of hypothesis</strong></a></li>
+  <li><a href="#importance-of-hypothesis" id="toc-importance-of-hypothesis" class="nav-link" data-scroll-target="#importance-of-hypothesis"><strong>Importance of hypothesis</strong></a></li>
+  <li><a href="#types-of-hypothesis" id="toc-types-of-hypothesis" class="nav-link" data-scroll-target="#types-of-hypothesis"><strong>Types of hypothesis</strong></a></li>
+  <li><a href="#testing-of-hypothesis" id="toc-testing-of-hypothesis" class="nav-link" data-scroll-target="#testing-of-hypothesis"><strong>Testing of Hypothesis</strong></a></li>
+  </ul></li>
+  <li><a href="#data-processing-and-analysis" id="toc-data-processing-and-analysis" class="nav-link" data-scroll-target="#data-processing-and-analysis"><strong>Data Processing and Analysis</strong></a>
+  <ul class="collapse">
+  <li><a href="#editing-coding-and-categorization" id="toc-editing-coding-and-categorization" class="nav-link" data-scroll-target="#editing-coding-and-categorization"><strong>Editing, Coding and Categorization</strong></a></li>
+  <li><a href="#selection-of-statistical-tests" id="toc-selection-of-statistical-tests" class="nav-link" data-scroll-target="#selection-of-statistical-tests"><strong>Selection of Statistical Tests</strong></a></li>
+  <li><a href="#statistical-software-comparative-notes-on-r-python-spss-stata-and-sas-as-statistical-software" id="toc-statistical-software-comparative-notes-on-r-python-spss-stata-and-sas-as-statistical-software" class="nav-link" data-scroll-target="#statistical-software-comparative-notes-on-r-python-spss-stata-and-sas-as-statistical-software"><strong>Statistical Software: Comparative Notes on R, Python, SPSS, STATA, and SAS as Statistical Software</strong></a></li>
+  <li><a href="#forms-of-presenting-results" id="toc-forms-of-presenting-results" class="nav-link" data-scroll-target="#forms-of-presenting-results"><strong>Forms of Presenting Results</strong></a></li>
+  </ul></li>
+  <li><a href="#format-of-a-scientific-report" id="toc-format-of-a-scientific-report" class="nav-link" data-scroll-target="#format-of-a-scientific-report"><strong>Format of a Scientific Report</strong></a></li>
+  <li><a href="#citations-references-and-footnotes" id="toc-citations-references-and-footnotes" class="nav-link" data-scroll-target="#citations-references-and-footnotes"><strong>Citations, References and Footnotes</strong></a></li>
+  <li><a href="#research-plagiarism-and-ai-artificial-intelligence" id="toc-research-plagiarism-and-ai-artificial-intelligence" class="nav-link" data-scroll-target="#research-plagiarism-and-ai-artificial-intelligence"><strong>Research Plagiarism and AI (Artificial Intelligence)</strong></a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><strong>References</strong></a>
+  <ul class="collapse">
+  <li><a href="#cite-this-page-as" id="toc-cite-this-page-as" class="nav-link" data-scroll-target="#cite-this-page-as"><strong>Cite this page as</strong></a></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content column-page-left" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Understanding Research Methodology: A Comprehensive Guide</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Professor Dr.&nbsp;Md. Kamrul Hasan </p>
+          </div>
+  </div>
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="research-methodology" class="level1">
+<h1>Research Methodology</h1>
+<blockquote class="blockquote">
+<p><strong><em>To ensure the validity and reproducibility of any research work, all actions must be justified with appropriate reasoning, for which Research Methodology serves as the only acceptable foundation(M. K. Hasan).</em></strong></p>
+</blockquote>
+<table class="table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 30%">
+<col style="width: 16%">
+<col style="width: 18%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><strong>Research methodology</strong> &gt;</td>
+<td>&gt; <strong>Research method</strong> &gt;</td>
+<td>&gt; <strong>Research design</strong> &gt;</td>
+<td>&gt; <strong>Experimental design</strong></td>
+</tr>
+<tr class="even">
+<td>Research methodology deals with how to conduct a scientific study. As an academic course, it discusses all the theories, methods and procedures that are required to carry out a research work.</td>
+<td>Research methods typically include study location, population, sampling, research design, experimental design, variables, data collection tools, and analytical procedures.</td>
+<td>Research approach (qualitative, quantitative, mixed) that also includes experimental design.</td>
+<td>The intended settings of experimental units, treatment application, randomization, data collection period.</td>
+</tr>
+<tr class="odd">
+<td>This provides necessary explanations of choosing a particular location and methods for a specific research work.</td>
+<td>Research method is a part of research methodology.</td>
+<td>Research design is a part of research methods.</td>
+<td>Experimental design is a part of research design.</td>
+</tr>
+</tbody>
+</table>
+<section id="knowledge-science-technology-research" class="level2">
+<h2 class="anchored" data-anchor-id="knowledge-science-technology-research">Knowledge, Science, Technology, Research</h2>
+<p><img src="images/clipboard-3489032357.png" class="img-fluid"></p>
+<p>Knowledge is the stored information in our brain, books or internet that can be recalled when needed. If we cannot recall or retrieve the information that is not considered as knowledge. Knowledge can be gathered randomly from anywhere and by any means. However, if the knowledge is generated using systematic process (problem identification, data collection, analysis and interpretation) then this systematic knowledge is called science. Science is seen through its invention (device - pen, idea - planting date, or practice - row planting), which is called technology. When a technology is perceived as being new to an individual, the technology is termed as innovation (new technology).</p>
+<p><strong>Research</strong> is the process of generating the knowledge, i.e.&nbsp;the systematic process by which knowledge or technology is generated, in other words, a problem is solved. This process has to be reproducible. It is a systematic progress from the known to the unknown. Research is a crucial tool for making adjustment to the ever changing situation of our universe. Research can be fundamental/basic, applied, and action research depending on their nature.</p>
+<ol type="1">
+<li><p><strong>Fundamental or basic research:</strong> This type of research involves experimental and theoretical work aimed at gaining new knowledge without any immediate practical applications, focusing solely on advancing understanding.</p></li>
+<li><p><strong>Applied research:</strong> This research aims to address practical problems, with the goal of improving products or processes, rather than simply gaining knowledge for its own sake.</p></li>
+<li><p><strong>Action research:</strong> This methodology combines action and research to explore specific questions, issues, or phenomena through observation, reflection, and intentional interventions, with a focus on immediate application in a local context. This is more participatory than applied research.</p></li>
+<li><p><strong>Behavioral research:</strong> Behavioral research is a scientific field that investigates the actions and interactions of individuals and groups. It seeks to understand, describe, and predict behavior through systematic observation, experimentation, and analysis. This type of research encompasses a wide range of activities, including studying how people think, feel, and act in various situations, and examining the underlying psychological, social, and environmental factors influencing these behaviors.</p></li>
+</ol>
+<p><strong>Behavioral research</strong> employs various methodologies, such as experiments, surveys, observations, and case studies. Experimental methods involve manipulating variables to observe their effects on behavior, often in controlled settings, to establish cause-and-effect relationships. Surveys and questionnaires gather data on attitudes, beliefs, and behaviors from large groups, providing insights into trends and correlations. Observational studies involve systematically recording behaviors in natural or laboratory settings without interference, while case studies offer in-depth analyses of individual or group behaviors over time.</p>
+<p>Applications of behavioral research are vast, spanning fields like psychology, sociology, education, healthcare, marketing, and public policy. Insights gained from behavioral research inform interventions, treatments, and strategies to address social issues, improve mental health, enhance educational outcomes, and optimize organizational performance. Ultimately, behavioral research contributes to a deeper understanding of human behavior, helping to create more effective solutions for individual and societal challenges.</p>
+<p>Some other types of research can be mentioned.</p>
+<ul>
+<li><p><strong>Historical research:</strong> This type of research aims to describe past events to uncover generalizations that aid in understanding both the past and present and, to some extent, predicting the future.</p></li>
+<li><p><strong>Descriptive research:</strong> This research focuses on describing the current state of affairs to identify relationships between variables that are not manipulated.</p></li>
+<li><p><strong>Experimental research:</strong> This research investigates what will happen when specific variables are carefully controlled or manipulated to determine relationships between these manipulated variables and other variables.</p></li>
+</ul>
+</section>
+<section id="data-informatin-fact-hypothesis-theory-and-law" class="level2">
+<h2 class="anchored" data-anchor-id="data-informatin-fact-hypothesis-theory-and-law">Data, Informatin, Fact, Hypothesis, Theory, and Law</h2>
+<table class="table">
+<colgroup>
+<col style="width: 11%">
+<col style="width: 50%">
+<col style="width: 36%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Term</th>
+<th>Definition</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Data</strong></td>
+<td>Raw, unprocessed observations (numbers, text, etc.).</td>
+<td>“Temperature readings: 25°C, 30°C, 22°C.”</td>
+</tr>
+<tr class="even">
+<td><strong>Information</strong></td>
+<td>Processed data with context or meaning.</td>
+<td>“Average temperature this week: 26°C.”</td>
+</tr>
+<tr class="odd">
+<td><strong>Fact</strong></td>
+<td>An objective, verifiable observation.</td>
+<td>“Water boils at 100°C at sea level.”</td>
+</tr>
+<tr class="even">
+<td><strong>Hypothesis</strong></td>
+<td>A testable prediction about a phenomenon.</td>
+<td>“Increasing light exposure speeds up plant growth.”</td>
+</tr>
+<tr class="odd">
+<td><strong>Theory</strong></td>
+<td>A well-substantiated explanation of natural phenomena.</td>
+<td>“Darwin’s theory of evolution by natural selection.”</td>
+</tr>
+<tr class="even">
+<td><strong>Law</strong></td>
+<td>A consistent, universal description of <em>how</em> (not <em>why</em>) phenomena behave.</td>
+<td>“Newton’s law of universal gravitation.”</td>
+</tr>
+</tbody>
+</table>
+<section id="key-distinctions" class="level3">
+<h3 class="anchored" data-anchor-id="key-distinctions">Key Distinctions:</h3>
+<ul>
+<li><strong>Data → Information</strong>: Adding meaning turns data into information.<br>
+</li>
+<li><strong>Hypothesis → Theory</strong>: A hypothesis becomes a theory after extensive evidence.<br>
+</li>
+<li><strong>Theory vs.&nbsp;Law</strong>: Theories explain <em>why</em>; laws describe <em>what</em> happens (e.g., gravity <em>law</em> describes attraction; general relativity <em>theory</em> explains it).</li>
+</ul>
+<p>A fact is a statement that can be proven true or false based on empirical evidence. It is objective and verifiable, often derived from observation or measurement. Facts are not always necessarily true. While facts are statements that can be proven true or false, they are considered true based on the best available evidence at the time. However, new evidence or better understanding can sometimes change what is considered a fact. For example, it was once considered a fact that the Earth was the center of the universe, but this was later disproved by scientific advancements. Therefore, facts are true as long as they are supported by current evidence, but they can be revised in light of new information. A theory, on the other hand, is a well-substantiated explanation of some aspect of the natural world, based on a body of evidence and reasoning. Theories are broader in scope than facts and can provide a framework for understanding and predicting phenomena. For example, the theory of evolution explains the diversity of life based on evidence from various scientific fields.</p>
+<p>A theory is formed based on observation through a systematic process. Initially, observations and empirical data are gathered from experiments or natural occurrences. Scientists then analyze this data to identify patterns, relationships, and regularities. Hypotheses are proposed as tentative explanations for these observations. These hypotheses are rigorously tested through further experimentation and data collection. If a hypothesis consistently explains the observations and withstands repeated testing and scrutiny, it may be integrated into a broader theoretical framework. Over time, as more evidence accumulates and the theory proves robust, it becomes widely accepted as a reliable explanation of the observed phenomena.</p>
+</section>
+</section>
+<section id="research-problem" class="level2">
+<h2 class="anchored" data-anchor-id="research-problem">Research Problem</h2>
+<p>A research problem is a specific issue, difficulty, contradiction, or gap in knowledge that a researcher aims to address through systematic investigation. It is the foundation of any research project, guiding the direction of study and focusing efforts on finding solutions or answers. In essence, a research problem sets the stage for the entire research process by outlining what needs to be investigated, why it is significant, and how it can be explored.</p>
+<p>Identifying a research problem is a critical step in the research process. It requires careful observation, comprehensive literature review, and engagement with the field’s practical and theoretical aspects. In agricultural extension, addressing the right research problem can lead to significant improvements in how knowledge and technologies are disseminated to farmers, ultimately contributing to enhanced agricultural productivity and rural development. By focusing on real-world issues and gaps in existing knowledge, researchers can ensure that their work is relevant, impactful, and valuable to stakeholders.</p>
+<p>A research problem should not be too vague (e.g.&nbsp;effect of climate change on agriculture), not too narrow (e.g.&nbsp;name of the first president of the Malaysia.). It has be new with novelty that has not been done before but consistent with previous research.</p>
+<section id="importance-of-a-research-problem" class="level3">
+<h3 class="anchored" data-anchor-id="importance-of-a-research-problem"><strong>Importance of a Research Problem</strong></h3>
+<ol type="1">
+<li><p><strong>Guides the Research Process</strong>: A clearly defined research problem provides a clear direction for the research process. It helps in formulating research questions, hypotheses, and objectives, ensuring that the study remains focused and relevant.</p></li>
+<li><p><strong>Determines Research Design</strong>: The nature of the research problem influences the choice of research design, methods, and procedures. It dictates whether the study will be qualitative, quantitative, or mixed-methods.</p></li>
+<li><p><strong>Ensures Relevance</strong>: A well-articulated research problem ensures that the research addresses real-world issues or gaps in knowledge, making the findings valuable to stakeholders, practitioners, and policymakers.</p></li>
+<li><p><strong>Facilitates Resource Allocation</strong>: By identifying a specific problem, researchers can better allocate time, funding, and other resources to areas that require attention, optimizing the efficiency and impact of the study.</p></li>
+<li><p><strong>Enhances Research Quality</strong>: A precise research problem helps in maintaining the study’s rigor and coherence, contributing to the validity and reliability of the research findings.</p></li>
+</ol>
+</section>
+<section id="how-to-identify-a-research-problem" class="level3">
+<h3 class="anchored" data-anchor-id="how-to-identify-a-research-problem"><strong>How to Identify a Research Problem?</strong></h3>
+<ol type="1">
+<li><p><strong>Literature Review</strong>: Conducting a thorough review of existing literature helps in identifying gaps, inconsistencies, and unresolved questions in the current body of knowledge. This can highlight areas that require further investigation.</p></li>
+<li><p><strong>Practical Observations</strong>: Real-world observations and experiences can reveal pressing issues or challenges that need to be addressed. Engaging with practitioners, stakeholders, and communities can provide insights into practical problems.</p></li>
+<li><p><strong>Expert Consultation</strong>: Discussing with experts, mentors, and colleagues in the field can help in identifying significant research problems. Their experience and perspective can shed light on critical areas that may not be immediately apparent.</p></li>
+<li><p><strong>Previous Research</strong>: Analyzing findings and recommendations from previous research studies can reveal new problems or questions that have emerged as a result of earlier work.</p></li>
+<li><p><strong>Policy Analysis</strong>: Reviewing policies, regulations, and strategic plans can uncover gaps or areas needing evaluation, particularly in applied fields like agricultural extension.</p></li>
+</ol>
+</section>
+<section id="example-identifying-a-research-problem-in-agricultural-extension" class="level3">
+<h3 class="anchored" data-anchor-id="example-identifying-a-research-problem-in-agricultural-extension"><strong>Example: Identifying a Research Problem in Agricultural Extension</strong></h3>
+<ol type="1">
+<li><p><strong>Context</strong>: Agricultural extension involves the dissemination of knowledge and technologies to farmers to improve their productivity, income, and livelihoods. In Bangladesh, agricultural extension services are crucial for enhancing food security and rural development.</p></li>
+<li><p><strong>Observation</strong>: Despite extensive efforts, many farmers in Bangladesh are not adopting modern agricultural practices and technologies. This results in lower productivity and inefficiencies in the agricultural sector.</p></li>
+<li><p><strong>Literature Review</strong>: A review of literature reveals that while several studies have focused on the development and efficacy of extension methods, there is limited research on the barriers to adoption from the farmers’ perspective.</p></li>
+<li><p><strong>Identified Research Problem</strong>: “What are the key barriers to the adoption of modern agricultural practices among smallholder farmers in Bangladesh, and how can agricultural extension services be improved to address these barriers?”</p></li>
+<li><p><strong>Importance</strong>: Understanding these barriers is crucial for designing effective extension programs that are responsive to the needs and constraints of farmers. Addressing this problem can lead to increased adoption of beneficial practices, ultimately enhancing agricultural productivity and sustainability</p></li>
+</ol>
+</section>
+<section id="steps-to-prioritize-research-problems" class="level3">
+<h3 class="anchored" data-anchor-id="steps-to-prioritize-research-problems"><strong>Steps to Prioritize Research Problems</strong></h3>
+<ol type="1">
+<li><p><strong>Identify Potential Problems</strong>: Compile a comprehensive list of potential research problems based on literature reviews, expert consultations, observations, and stakeholder input.</p></li>
+<li><p><strong>Define Criteria for Prioritization</strong>: Establish criteria to evaluate and rank the identified research problems. Common criteria include relevance, feasibility, urgency, potential impact, and alignment with strategic national and international goals.</p></li>
+<li><p><strong>Evaluate Each Problem</strong>: Assess each research problem against the defined criteria. This can be done through qualitative assessment, scoring, or ranking methods.</p></li>
+<li><p><strong>Engage Stakeholders</strong>: Involve key stakeholders, including practitioners, policymakers, funders, and the target population, in the prioritization process to ensure the selected problems are relevant and impactful.</p></li>
+<li><p><strong>Analyze and Decide</strong>: Analyze the evaluation results and make decisions on which research problems to prioritize. This might involve selecting the top-ranked problems or those that meet multiple criteria strongly.</p></li>
+<li><p><strong>Review and Adjust</strong>: Periodically review the prioritization process and adjust based on new information, changing contexts, or emerging issues.</p></li>
+</ol>
+</section>
+</section>
+<section id="research-proposal" class="level2">
+<h2 class="anchored" data-anchor-id="research-proposal">Research Proposal</h2>
+<p>A research proposal is a detailed plan outlining a proposed study, aiming to communicate the significance, methodology, and anticipated outcomes of the research. <em>All the components and methods of a research work chosen by the researcher must have acceptable reasons based on literature and appropriate arguments.</em> Here are the key components of a research proposal:</p>
+<ol type="1">
+<li><p><strong>Title</strong>: The title provides a concise summary of the research topic. It should be clear, specific, and informative. It includes what (purpose), who (scope) and sometimes how. It is better to keep around 10-15 words (not exceeding 16 words). You can watch this video to create a smart title <a href="https://www.youtube.com/watch?v=LdiJ8qUclQE" class="uri">https://www.youtube.com/watch?v=LdiJ8qUclQE</a>. You can also take help from ChatGPT for phrasing a smart title.</p></li>
+<li><p><strong>Abstract</strong>: The abstract summarizes the key elements of the proposal. It is a brief overview of the research problem, objectives, methodology, and expected outcomes. In a journal article, it is composed of usually 200-300 words. However, in a thesis it can be extended as required and suggested by the supervisors.</p></li>
+<li><p><strong>Introduction</strong>: The introduction introduces the research topic and establishes the context. It contains background information, statement of the problem, significance of the study, and research questions.</p></li>
+<li><p><strong>Literature Review</strong>: This section reviews existing research and theories related to the topic. It summarizes the relevant studies, identification of gaps in the current knowledge, and justification for the proposed research. A conceptual framework can be drawn based on the facts and theories to visualize the components and connections between various variables in a study. In a journal article, this section is integrated in the introduction section.</p></li>
+<li><p><strong>Research Objectives</strong>: This section clearly defines what the study aims to achieve. An objective should be specific, measurable, achievable, relevant, and time-bound (SMART). Objectives are written usually using ‘to + verb’. This section is also merged with the introduction section in a scientific report and article.</p></li>
+<li><p><strong>Research Hypotheses</strong>: A hypothesis is an intellectual guess based on literature and context that a researcher wants to evaluate and test. This section specifies the clear and focused hypotheses to be tested. Example: training has a positive effect on food security.</p></li>
+<li><p><strong>Research methods</strong>: This section describes the research design and methods to be used. It contains:</p>
+<ul>
+<li><p><strong>Location:</strong> Study location where the study will take place.</p></li>
+<li><p><strong>Research Design</strong>: Qualitative, quantitative, or mixed methods.</p></li>
+<li><p><strong>Population and Sample</strong>: Description of the study population, sampling methods, and sample size.</p></li>
+<li><p><strong>Data Collection Methods</strong>: Techniques for gathering data (e.g., surveys, interviews, observations).</p></li>
+<li><p><strong>Data Analysis</strong>: Methods for analyzing the collected data.</p></li>
+<li><p><strong>Ethical Considerations</strong>: Ethical issues and how they will be addressed. For example, informed consent and application of treatments ethically.</p></li>
+</ul></li>
+<li><p><strong>Work Plan and Timeline</strong>: It provides a time schedule for the research activities and key milestones. It is often presented as a Gantt chart. It is a non-financial budget that allocates time for different activities.</p></li>
+<li><p><strong>Budget</strong>: It outlines the financial requirements of the study. Itemized budget including costs for personnel, equipment, materials, travel, and other expenses.</p></li>
+<li><p><strong>Expected Outcomes</strong>: This section describes the anticipated results and their implications. It contains potential findings, contributions to knowledge, and practical applications.</p></li>
+<li><p><strong>References</strong>: The references include a list of all the sources cited in the proposal. It contains properly formatted bibliography following a standard citation style, e.g. APA, MLA, and EEE. The citations and references must match with each other.</p></li>
+<li><p><strong>Appendices</strong> (not always required): this section provides supplementary information and additional materials such as questionnaires, consent forms, detailed methodology, or supporting documents.</p></li>
+</ol>
+<section id="development-of-conceptual-framework-of-research" class="level3">
+<h3 class="anchored" data-anchor-id="development-of-conceptual-framework-of-research"><strong>Development of Conceptual Framework of Research</strong></h3>
+<p>Developing a conceptual framework from a literature review involves identifying key concepts, understanding their relationships, formulating hypotheses or research questions, and visualizing these elements in a coherent structure. This process helps in organizing and guiding the research, ensuring that it builds on existing knowledge and addresses relevant gaps. In behavioral research, such as agricultural extension, a well-developed conceptual framework can illuminate the factors influencing behaviors and provide a clear pathway for investigation. Developing a conceptual framework from a literature review for a behavioral research work involves several key steps. The conceptual framework helps in organizing and visualizing the key concepts, variables, and their relationships that will be studied. Here’s a step-by-step guide to developing a conceptual framework:</p>
+<p><strong>1. Identify Key Concepts from the Literature Review:</strong></p>
+<ul>
+<li><p>Read and analyze a wide range of studies related to your research topic.</p></li>
+<li><p>Identify recurring themes, variables, and constructs that are important in the field.</p></li>
+<li><p>Extract relevant concepts, theories, and models from the existing literature.</p></li>
+</ul>
+<p><strong>2. Define Relationships Between Concepts</strong> <strong>from the Literature Review:</strong></p>
+<ul>
+<li><p>Look for empirical studies that examine relationships between the identified concepts.</p></li>
+<li><p>Note the direction and nature (positive, negative, causal, correlational) of these relationships.</p></li>
+<li><p>Understand how different concepts are related based on previous research.</p></li>
+</ul>
+<p><strong>3. Develop Hypotheses or Research Questions</strong> <strong>based on Literature Insights:</strong></p>
+<ul>
+<li><p>Use insights from the literature to develop testable hypotheses or focused research questions.</p></li>
+<li><p>Formulate specific hypotheses or research questions that your study will address.</p></li>
+<li><p>Ensure that these are logically derived from the identified relationships.</p></li>
+<li><p>Hypotheses based on literature might include:</p>
+<ul>
+<li><p>H1: Higher access to agricultural information positively influences the adoption of modern practices.</p></li>
+<li><p>H2: Perceived risks negatively affect the adoption of modern agricultural practices.</p></li>
+<li><p>H3: Socio-economic factors such as income and education level significantly impact the adoption behavior.</p></li>
+</ul></li>
+</ul>
+<p><strong>4. Organize the Concepts and Relationships Visually:</strong></p>
+<ul>
+<li><p>Draw a diagram or flowchart that includes all key concepts (variables) and illustrates the hypothesized relationships among them.</p></li>
+<li><p>Use arrows to indicate the direction of relationships and labels to describe the nature of these relationships.</p></li>
+<li><p>Visualize the structure of the concepts and their relationships.</p></li>
+</ul>
+<p><strong>5. Refine the Framework:</strong></p>
+<ul>
+<li><p>Review and refine the framework to ensure all relevant concepts and relationships are included.</p></li>
+<li><p>Simplify where possible to make the framework easy to understand and interpret.</p></li>
+<li><p>Ensure the conceptual framework is clear, coherent, and comprehensive.</p></li>
+</ul>
+</section>
+<section id="research-design" class="level3">
+<h3 class="anchored" data-anchor-id="research-design"><strong>Research Design</strong></h3>
+<p>Research design means the strategy which is planned to answer the research questions. It essentially has the theories and models related to the research questions, sampling frame, data collection methods and analytical approaches. There are two broad types of research design or approaches: quantitative and qualitative. Although research approach is a broader term, still research design and approach are used interchangeably. There are two philosophical approaches of research – inductive and deductive. Inductive approach formulates theory from observations, and deductive approach test hypothesis based on observations using the theoretical framework.</p>
+<p><strong>Mixed method research</strong> answers research questions by combining both quantitative and qualitative research methods where one complements another. This a triangulation of different methods to clearly understand a research problem. The information revealed by quantitative method can also be validated using the information obtained using qualitative method.</p>
+<p><strong>Differences between quantitative and qualitative research design/approach</strong></p>
+<table class="table">
+<colgroup>
+<col style="width: 16%">
+<col style="width: 36%">
+<col style="width: 45%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>Aspect</td>
+<td>Quantitative</td>
+<td>Qualitative</td>
+</tr>
+<tr class="even">
+<td>Objective</td>
+<td>Quantify data, generalize results to a population</td>
+<td>Understand concepts, thoughts, or experience</td>
+</tr>
+<tr class="odd">
+<td>Data Collection Methods</td>
+<td>Surveys, experiments, structured observational studies</td>
+<td>Interviews, focus groups, participant observation, document analysis</td>
+</tr>
+<tr class="even">
+<td>Data Type</td>
+<td>Numerical data</td>
+<td>Non-numerical data (text, audio, video)</td>
+</tr>
+<tr class="odd">
+<td>Nature of Data</td>
+<td>Structured, quantifiable</td>
+<td>Unstructured or semi-structured, not easily quantifiable</td>
+</tr>
+<tr class="even">
+<td>Analysis</td>
+<td>Statistical analysis (e.g., regression, ANOVA)</td>
+<td>Thematic, content, narrative analysis, coding</td>
+</tr>
+<tr class="odd">
+<td>Generalizability</td>
+<td>High, applicable to larger populations</td>
+<td>Low, specific to particular contexts</td>
+</tr>
+<tr class="even">
+<td>Depth vs.&nbsp;Breadth</td>
+<td>Breadth across large number of cases</td>
+<td>Depth within a smaller number of cases</td>
+</tr>
+<tr class="odd">
+<td>Approach</td>
+<td>Deductive, testing hypotheses</td>
+<td>Inductive, generating hypotheses</td>
+</tr>
+<tr class="even">
+<td>Examples</td>
+<td>Measuring effect of a teaching method on performance</td>
+<td>Exploring experiences of farmers with disasters</td>
+</tr>
+</tbody>
+</table>
+<section id="experimental-design" class="level4">
+<h4 class="anchored" data-anchor-id="experimental-design"><strong>Experimental Design</strong></h4>
+<p>Experimental design is a part of a research design. In order to establish a cause-and-effect relationship, manipulation of variable(s) is done with specific settings of sample(s) or experimental units. Such specific settings or approaches are called research design. Research design is the blue-print of research. It helps to control variance and minimize errors in addition to the accurate conduction of study, efficient allocation of resources and well defined reproducible work procedures. It is required for yielding maximal reliable and valid information with minimal efforts. It includes hypothesis formulation, selecting samples, random assignment of treatments, replications and local control. Research design is done with utmost care in advance since any error in it can ruin the entire research efforts.</p>
+<p><strong>Essential Components of Experimental Designs</strong></p>
+<p>A good experimental design maximizes reliability of information and minimize experimental errors, which is ensured by the following three components:</p>
+<ol type="1">
+<li><p><strong>Randomization:</strong> Treatments must be assigned randomly to experimental units. Any bias can result in variance in result that can falsely be attributed to the treatments.</p></li>
+<li><p><strong>Replication:</strong> To improve accuracy and minimize error, identical treatments are applied to more than one experimental units. Thus, the number of experimental units with the identical treatments are called replication.</p></li>
+<li><p><strong>Local control:</strong> A researcher must have a high level of control over the variables. To attribute the variance truly to the treatments, factors and conditions other than the treatments must be kept homogeneous for all experimental units. This process of keeping homogeneity among the experimental units is called local control. If a researcher fails to maintain homogeneity, the effect of replication will be significant and they cannot claim that the resulted variance in the dependent variable is due to the effect of the treatments.</p></li>
+</ol>
+<p><strong>Types of experimental design in social research</strong></p>
+<ol type="1">
+<li><p><strong>Pre-experimental or non-experimental design:</strong> Randomization is not practical to be used in this case. This design can take different forms, some of which are explained here.</p>
+<ul>
+<li><p><strong>One group post-test design:</strong> Data is collected after certain time of applying treatments. In this design, no pretest/benchmark/initial data is available, and therefore, exact effect of the treatment is not possible.</p></li>
+<li><p><strong>One group pretest-post-test design:</strong> Data is collected twice – firstly before applying the treatment and secondly after certain period of treatment application. Effect is measured by deducting the initial quantity from the final quantity.</p></li>
+<li><p><strong>Static group comparison (Control group post-test) design:</strong> Data is collected after certain time of applying treatments from the treatment groups. Data is collected from another control group that has not received the treatment. Two groups should be as similar as possible to make them comparable. However, the groups should also be as distant as possible to avoid spill-over/triple effect of the treatment.</p></li>
+</ul></li>
+<li><p><strong>True experimental design:</strong> Randomization is properly done and at least a control group is included.</p>
+<ul>
+<li><p><strong>Post-test control group design (Randomized control trial – RCT):</strong> Participants are randomly selected from control and treatment groups. Observations are made after applying the treatments.</p></li>
+<li><p><strong>Pretest-post-test control group design:</strong> Similar to the RCT design, participants are randomly assigned treatments, but data is collected before the treatment application and after certain period of the treatment application.</p></li>
+</ul></li>
+<li><p><strong>Quasi-experimental design:</strong> Randomization is not possible, such as in psychological study. For example, we cannot assign a school going kid in the drop out group.</p>
+<ul>
+<li><p><strong>Non-equivalent control group design:</strong> Similar to the pretest-post-test control group design, it has both control and treatment groups but without randomization. It also similar to the static group comparison design because both have control groups and do not have randomization, but different because the static group comparison design does not have the pretest step.</p></li>
+<li><p><strong>Interrupted/multiple time series design:</strong> Similar to the non-equivalent control group design but several observations are taken before assigning the treatment and several observations are taken after assigning the treatment. By analyzing data points over time, both before and after the intervention, a time series design allows researchers to observe trends that existed prior to the intervention. This helps in distinguishing the actual effect of the intervention from pre-existing trends, reducing the risk of selection bias. Using lagged variables (past values of the dependent variable) can help account for autocorrelation (if present value is correlated with past values) and control for past influences, making it easier to isolate the effect of the intervention. Thus, it helps to minimize selection bias and endogeneity problems.</p></li>
+</ul></li>
+</ol>
+</section>
+<section id="experimental-designs-in-agricultural-and-medical-sciences" class="level4">
+<h4 class="anchored" data-anchor-id="experimental-designs-in-agricultural-and-medical-sciences"><strong>Experimental designs in agricultural and medical sciences</strong></h4>
+<p>Natural sciences, such as Agronomy, Horticulture, Pathology, Fisheries, and Anatomy, three basic (one factor) and two advance research designs (more than one factor) are usually used. The basic designs are: CRD, RCBD and LSD. The advance designs are factorial design and split-plot design. All of these designs must have randomization, replication and local control.</p>
+<p><strong>CRD – Completely Randomized Design:</strong> One factor design where all units are homogeneous, i.e.&nbsp;experimental field is homogeneous in both direction. Treatments are applied randomly to all units.</p>
+<p><img src="images/clipboard-4083441025.png" class="img-fluid"></p>
+<p><strong>RCBD – Randomized Complete Block Design:</strong>&nbsp;One factor design where field is homogeneous in one direction but heterogeneous in another direction. The heterogeneous direction is divided into a number of blocks equal to the number of replications. Randomization of treatment is done within each block.</p>
+<p><img src="images/clipboard-1233838033.png" class="img-fluid"></p>
+<p><strong>LSD – Latin Square Design:</strong> One factor design where the field is heterogeneous in both directions. Therefore, treatments are applied randomly but restricted from both directions. Each row or column receives a treatment only once. It is a restricted design, so degree of freedom is less compared to the CRD and RCBD.</p>
+<p><img src="images/clipboard-1021137386.png" class="img-fluid"></p>
+<p><strong>Factorial Design:</strong> Two factors or treatments and both are easy to manage or manipulate. For example, effect of N and P on rice yield. This design can follow any of the basic designs.</p>
+<p><img src="images/clipboard-1589060275.png" class="img-fluid"></p>
+<p><img src="images/clipboard-2897278034.png" class="img-fluid"></p>
+<p><strong>Split-plot design:</strong> Two factors where one is easy to manager (fertilizer) and another is difficult to mange (irrigation). For example, effect of N and irrigation on rice yield. Firstly, the factor which is difficult to manage is randomly assigned to different whole plot (first stage randomization). Secondly, the factor which is easy to manage is randomly assigned to the split plots within each of the whole plots (second stage randomization). This design can also follow any of the basic designs.</p>
+<p><img src="images/clipboard-1953270149.png" class="img-fluid"></p>
+<p><img src="images/clipboard-125333176.png" class="img-fluid"></p>
+</section>
+</section>
+</section>
+<section id="scale-and-measurement" class="level2">
+<h2 class="anchored" data-anchor-id="scale-and-measurement"><strong>Scale and Measurement</strong></h2>
+<p>A Scale means a measuring tool that puts a value, score, word, or symbol against a response obtained from a respondent. The method of assigning a number for the value, score, word, or symbol is called measurement. Examples of the scale include tape, balance, measuring cup, thermometer etc. In social and behavioral science, data is collected using Thurstone scale, Likert scale, Guttman scale, semantic differential, rating scale, multidimensional scaling and so on. However, there are many other ways of collecting qualitative information from the respondents, e.g.&nbsp;alternate response items, sentence completion items, ranking items, open ended questions, multiple choice questions, observation checklists, situation tests, and projective techniques.</p>
+<p>Four levels of measurement (nominal, ordinal, interval, and ratio) are possible to obtain from various scales of measurement that are explained here.</p>
+<p><strong>Nominal level of measurement:</strong> What is your gender? Answer: Male = 1, Female = 2; Are you a student? Answer: Yes = 1, No = 2. This type of assigning number to responses is called nominal level of measurement. Here the number is used just to identify the response, not to quantify it. In this level, true zero point is absent and the responses cannot be ordered based on practical values. Therefore, mathematical operations are not allowed for this nominal values. Permissible statistical operations are: frequency, percentage, chi-square test etc.</p>
+<p><strong>Ordinal level of measurement:</strong> What is your age group? Answer: Adolescence = 1, Young = 2, Old = 3; How much do you believe that ghost exists? Not at all = 0, Low = 1, Medium = 2, High = 3. Here, the categories can be ordered but the intervals are not equal and true zero point is absent. Therefore, mathematical operations are still not allowed. Permissible statistical operations are: frequency, percentage, chi-square test, correlation coefficient based on rankings etc.</p>
+<p><strong>Interval level of measurement:</strong> What is the outside temperature now? Answer: 25°C, What is your monthly income group? Answer: BDT 20,000 or less = 1, BDT &gt;20,000 to 40,000 = 2, BDT &gt;40,000 to 60,000 = 3, BDT &gt;60,000 = 4. Here, the intervals are equal but true zero point is absent, i.e.&nbsp;zero does not mean absence of attribute. Example, 0°C does not mean absence of temperature. permissible statistical operations are: mean, standard deviation, Pearson product moment correlation coefficient, t-test, F-test etc.</p>
+<p><strong>Ratio level of measurement:</strong> What is your age? Answer: 25 years; What is your weight? Answer 60 kg; What is your family size? Answer: 6. This is the highest level of measurement which has a true zero point and intervals are equal. All types of mathematical and statistical operations are allowed.</p>
+<p><strong>Development of test for measurement</strong></p>
+<p><strong>1. Multiple Choice Questions (MCQ):</strong> More than one, usually four to five, probable options are provided for answers. One option is typically true and other alternatives are distractors which are prepared with care so that the distractors are related to the correct option but not correct. Good distractors should receive at least 2% of the responses. Item analysis (difficulty index and discrimination index) based on pretest is done to select the items for the tests. The best 27% and worst 27% of the items are retained for the questionnaire. The formula is similar to the Kudar-Richardson (KR-20) coefficient of split-half reliability.</p>
+<p><img src="images/clipboard-2836698370.png" class="img-fluid"></p>
+<p>Possible range of the difficulty index is 0.00 to 0.99, and that the discrimination index is -1.00 to +1.00. Items to be retained for the test have difficulty index from 0.50 and 0.70 and discrimination index from 0.20 to 0.29 (twenties). The difficulty index is inversely correlated with the discrimination index.</p>
+<p><strong>2. Alternate response items:</strong> The responses include only two possible options and either one is intended to be selected by the respondents. Example: Where would you prefer to live? Options: a) City, b) Rural area.</p>
+<p><strong>3. Open ended questions</strong> without any given answers. Example: What would be the consequences if population growth is allowed to continue unabated?</p>
+<p><strong>4. Sentence completion items</strong>: Unfinished statements. Example: Our ancestors had large families because _________________.</p>
+<p><strong>5. Ranking items:</strong> Respondents are asked to rank the items according to their importance, values or preferences.</p>
+<p><strong>6. Pairwise ranking:</strong> Respondents are asked to rank two items from a list of more than two items in all possible combinations. The scores are noted in a matrix format. It is particularly useful for less educated people. It reduces the cognitive burden of the respondents. To interpret the results, you can count the number of times each item is preferred.</p>
+<table class="table">
+<colgroup>
+<col style="width: 15%">
+<col style="width: 14%">
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 13%">
+<col style="width: 19%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td></td>
+<td><br>
+Apple (A)</td>
+<td>Banana (B)</td>
+<td>Cherry (C)</td>
+<td>Date (D)</td>
+<td>Ranks (R)</td>
+</tr>
+<tr class="even">
+<td>Apple (A)</td>
+<td>–</td>
+<td>A</td>
+<td>A</td>
+<td>A</td>
+<td>R1: Apple: 3</td>
+</tr>
+<tr class="odd">
+<td>Banana (B)</td>
+<td>–</td>
+<td>–</td>
+<td>B</td>
+<td>B</td>
+<td>R2: Banana: 2</td>
+</tr>
+<tr class="even">
+<td>Cherry (C)</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>C</td>
+<td>R3: Cherry: 1</td>
+</tr>
+<tr class="odd">
+<td>Date (D)</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>R4: Date: 0</td>
+</tr>
+</tbody>
+</table>
+<p><strong>7. Projective technique:</strong> Respondents are asked to draw something (e.g.&nbsp;happy and unhappy family) or write a paragraph telling their thoughts before/after a given situation. This technique unknowingly reveals their attitudes, values and beliefs.</p>
+<p><strong>8. Multidimensional scaling:</strong> Respondents are asked to point their position in a quadrant in a two dimensional aspects.</p>
+<p><img src="images/clipboard-198327488.png" class="img-fluid"></p>
+<p><strong>9. Rating scale:</strong> Respondents are asked to rate the statements against scores, percentage, or descriptions. Example: To what extent did the cyclone Remal affect your standing crops? Options: Low | Medium | High.</p>
+</section>
+<section id="development-of-scales" class="level2">
+<h2 class="anchored" data-anchor-id="development-of-scales"><strong>Development of Scales</strong></h2>
+<p>In behavioral research, a researcher may not find any existing scales to measure attitudes, feelings, perceptions, aspiration, fatalism, interest, perception, personality traits or behavior of respondents. In this case, they must develop a scale that can measure such psychological constructs with reliability and validity. This is done to quantify the mysterious mental world of an individual. Four major ways to develop scales are:</p>
+<ul>
+<li><p>Thurstone (differential or equal appearing interval) scales,</p></li>
+<li><p>Likert (summated) scales,</p></li>
+<li><p>Guttman (cumulative) scales, and</p></li>
+<li><p>Semantic differential scales (asking participants to place a mark along a line between two opposite adjectives, e.g.&nbsp;good —— bad).</p></li>
+</ul>
+<p><strong>Likert scales</strong></p>
+<p>Likert scales are widely used to measure attitudes and perceptions in social research. In a summated rating scale, individuals express their agreement or disagreement with each statement, and their scores for all statements are summed to determine their overall characteristic. Likert scales, developed in 1932, use a familiar five-point bipolar response format. These scales typically ask respondents to indicate their level of agreement or disagreement, approval or disapproval, or belief in the truth or falsehood of statements. The key aspect of a Likert scale is having at least five response categories to ensure ordinal data can be treated as interval data.</p>
+<p>Here are some examples of Likert scale responses:</p>
+<ul>
+<li><p><strong>Frequency:</strong> Never – Seldom – Sometimes – Often – Always</p></li>
+<li><p><strong>Agreement:</strong> Strongly Agree – Agree – About 50/50 – Disagree – Strongly Disagree – Don’t Know</p></li>
+<li><p><strong>Approval:</strong> Strongly Approve – Approve – Need more information – Disapprove – Strongly Disapprove</p></li>
+<li><p><strong>Opposition:</strong> Strongly Opposed – Definitely Opposed – A bit of both – Definitely Unopposed – Strongly Unopposed</p></li>
+</ul>
+<p>While “Don’t Know” is optional, responses like “About 50/50,” “Need more information,” or “A bit of both” are preferable. Seven-point scales can be created by adding “very” to the extremes, enhancing reliability. It’s best to use a wide scale, as responses can always be condensed during analysis.</p>
+<p><strong>Steps to Construct a Likert Scale</strong></p>
+<ul>
+<li><p><strong>Assemble Statements:</strong> Gather a large number (e.g., 50) of clear, favorable, or unfavorable statements relevant to the attitude under study.</p></li>
+<li><p><strong>Administer to Subjects:</strong> Present these statements to a representative group.</p></li>
+<li><p><strong>Score Responses:</strong> Score the responses for positive and negative statements according to the rules.</p></li>
+<li><p><strong>Total Scores:</strong> Sum the scores for all statements to get each individual’s total score.</p></li>
+<li><p><strong>Analyze Scores:</strong> Evaluate the reliability of the items for the study using the following formula:</p></li>
+</ul>
+<p><img src="images/clipboard-2369331857.png" class="img-fluid"></p>
+<p>A <em>t</em>-value of 1.75 or higher indicates significant differentiation between high and low groups. Statements with <em>t</em>-values equal to or greater than 1.75 are selected for the final investigation.</p>
+<p><strong>Criteria for Constructing Statements</strong></p>
+<p>When creating statements for Likert or Thurstone scales, follow these criteria set by Edwards (1957):</p>
+<ol type="1">
+<li><p>Avoid past-tense statements; focus on the present.</p></li>
+<li><p>Avoid factual statements or those that could be interpreted as such.</p></li>
+<li><p>Avoid statements that can be interpreted in multiple ways.</p></li>
+<li><p>Ensure statements are relevant to the psychological object under study.</p></li>
+<li><p>Avoid statements that nearly everyone or no one would endorse.</p></li>
+<li><p>Select statements covering the entire range of the affective scale.</p></li>
+<li><p>Use simple, clear, and direct language.</p></li>
+<li><p>Keep statements short, ideally under 20 words.</p></li>
+<li><p>Each statement should contain a single thought.</p></li>
+<li><p>Avoid universal terms like “all,” “always,” “none,” and “never.”</p></li>
+<li><p>Use words like “only,” “just,” and “merely” sparingly.</p></li>
+<li><p>Prefer simple sentences over compound or complex ones.</p></li>
+<li><p>Avoid complex vocabulary that may not be understood by respondents.</p></li>
+<li><p>Avoid double negatives.</p></li>
+</ol>
+</section>
+<section id="population-and-sampling" class="level2">
+<h2 class="anchored" data-anchor-id="population-and-sampling"><strong>Population and Sampling</strong></h2>
+<p>In research across social, agricultural, and natural sciences, the concepts of population and sample are fundamental for gathering data and drawing conclusions. Understanding the distinction between population and sample is crucial because it influences research design, data collection, and the validity of conclusions. A well-chosen sample allows researchers to make inferences about the population without studying every member, which is often impractical.</p>
+<p><strong>Population</strong>: A population is the entire group of individuals, objects, or phenomena that a researcher aims to study. It encompasses all members that fit the criteria for inclusion in the research.</p>
+<ul>
+<li><p><strong>Social Science</strong>: The population might be all teenagers in a country when studying social media usage.</p></li>
+<li><p><strong>Agricultural Science</strong>: It could be all the corn plants in a specific region when assessing crop yield.</p></li>
+<li><p><strong>Natural Science</strong>: It might include all the lakes in a region when examining water quality.</p></li>
+</ul>
+<p><strong>Example</strong>:</p>
+<ul>
+<li><p><strong>Social Science</strong>: If studying the voting behavior of adults in the United States, the population would be all eligible voters in the country.</p></li>
+<li><p><strong>Agricultural Science</strong>: For a study on pest resistance in wheat, the population would be all wheat plants in the area of interest.</p></li>
+<li><p><strong>Natural Science</strong>: In researching the migration patterns of monarch butterflies, the population would be all monarch butterflies across North America.</p></li>
+</ul>
+<p><strong>Sample</strong>: A sample is a subset of the population selected for actual study. It is meant to be representative of the population to ensure that the results can be generalized.</p>
+<ul>
+<li><p><strong>Social Science</strong>: Researchers might select a sample using random or stratified sampling to ensure diversity and representativeness.</p></li>
+<li><p><strong>Agricultural Science</strong>: Sampling might involve selecting specific plots of land or groups of plants to study soil health or crop yields.</p></li>
+<li><p><strong>Natural Science</strong>: Researchers might sample a specific number of lakes or animal individuals to study broader environmental patterns.</p></li>
+</ul>
+<p><strong>Example</strong>:</p>
+<ul>
+<li><p><strong>Social Science</strong>: To study voting behavior, researchers might survey 1,000 voters from various demographics and regions.</p></li>
+<li><p><strong>Agricultural Science</strong>: For a study on wheat pest resistance, a sample could be 50 wheat fields randomly selected across the region.</p></li>
+<li><p><strong>Natural Science</strong>: In a study of water quality, the sample might include 30 lakes from different parts of the region.</p></li>
+</ul>
+</section>
+<section id="sampling-techniques" class="level2">
+<h2 class="anchored" data-anchor-id="sampling-techniques"><strong>Sampling Techniques</strong></h2>
+<p>The process of obtaining representative samples from a population (sampling frame) is called sampling. Without proper sampling, conclusions will not be valid for the population. In a research report, the population and sample size must be mentioned along with their formula, confidence interval, margin of error and reference. For more details on sample size, you can read this article – <a href="https://www.banglajol.info/index.php/JBAU/article/view/74547/49218">Determining Adequate Sample Size for Social Survey Research</a>. For determining the required sample size you can use this web applet – <a href="https://kamrulext.shinyapps.io/sample/" class="uri">https://kamrulext.shinyapps.io/sample/</a>. However, sample size is seen smaller than the required number due to limited time and resources. In this case, the confidence interval and margin of error will tell the reader about the strength of the conclusion.</p>
+<p>Broadly sampling techniques are of two types: probabilistic and non-probabilistic sampling. Different types of sampling techniques are discussed here.</p>
+<p><strong>Probability/Probabilistic sampling:</strong> It is based on the randomization or random selection where every unit of a population has the same chance of being selected as a sample. Randomization can be ensured in five ways:</p>
+<ul>
+<li><p><strong>Simple random sampling:</strong> Select randomly (using lottery or computer software) required number of samples from a population.</p></li>
+<li><p><strong>Systematic random sampling:</strong> Select every 5th, 10th or any other systematic unit as sample from an ordered list of population.</p></li>
+<li><p><strong>Stratified sampling:</strong> The population is divided into homogeneous strata and samples are then drawn from each of the strata proportionately to the sizes of the different strata or disproportionately. Randomization can be done using simple or systematic way. Thus, it can be stratified proportionate/disproportionate simple random/systematic random sampling.</p></li>
+<li><p><strong>Multi-stage or double sampling:</strong> The population is divided into primary sampling units from where required number of units are selected. Each of the selected primary units are again divided into secondary sampling units from where required number of units are again selected. This can go even tertiary or further levels. In this way, we can select divisions, districts, sub-districts, unions, villages and households. In one or more of these stages, there may have several strata. In this way, we can form several types of sampling techniques:</p>
+<ul>
+<li><p>Multi-stage stratified proportionate</p>
+<ul>
+<li><p>simple random sampling</p></li>
+<li><p>systematic random sampling</p></li>
+</ul></li>
+<li><p>Multi-stage stratified disproportionate</p>
+<ul>
+<li><p>simple random sampling</p></li>
+<li><p>systematic random sampling</p></li>
+</ul></li>
+</ul></li>
+<li><p><strong>Cluster or area sampling:</strong> Cluster sampling is a probability sampling method used to improve efficiency when dealing with large, dispersed populations. In this approach, the population is divided into clusters, often based on geographical areas or other natural groupings (e.g.&nbsp;fishermen, crop farmers, and dairy farmers). Some entire clusters are then randomly selected, and all individuals within these chosen clusters are included in the sample. This method reduces costs and simplifies data collection, as it focuses on specific locations or groups rather than individuals scattered across a wide area. However, cluster sampling can introduce cluster bias if the selected clusters do not accurately represent the diversity of the entire population.</p></li>
+</ul>
+<p><strong>Non-probability/non-probabilistic sampling:</strong> Randomization may not be suitable in many cases, for example, in psychological or medical studies. We cannot willingly put a school-going kid as a drop out or we cannot inoculate a pathogen in a healthy body that will be a violation of research ethics. Therefore, non-probability sampling is suitable in this case where each of the units does not have the same opportunity for being selected as a sample. This type of sampling helps exploration of a subject matter but lacks generalization ability.</p>
+<ul>
+<li><p><strong>Accidental/convenience/haphazard sampling:</strong> Sample is taken based on the who-comes-first basis. For example, interviewing some people from a tea stall, interviewing households located near the roadside.</p></li>
+<li><p><strong>Purposive sampling:</strong> A case is selected based on the judgment of the researcher that the case is assumed to serve as a useful sample.</p></li>
+<li><p><strong>Snowball/network/chain/reputational sampling:</strong> First arbitrarily a sample is chosen and subsequent samples are drawn by requesting the first sample about potential further samples. This process goes until sufficient samples are selected. This process mimics the snowball that increases in size when rolling.</p></li>
+<li><p><strong>Quota sampling:</strong> Quota sampling is a non-probability sampling method used in research to ensure that specific subgroups are adequately represented within the sample. Researchers divide the population into exclusive subgroups (e.g., age, gender, income level) and then determine a target quota for each subgroup. Participants are selected non-randomly until these quotas are met. This method helps in reflecting the characteristics of the overall population within the sample. Although it ensures diversity and can be more practical and cost-effective than random sampling, quota sampling may introduce selection bias as the sample might not be truly representative of the population.</p></li>
+</ul>
+<p><strong>Difference between quota and cluster sampling</strong></p>
+<table class="table">
+<colgroup>
+<col style="width: 7%">
+<col style="width: 47%">
+<col style="width: 44%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Aspect</th>
+<th>Quota Sampling</th>
+<th>Cluster Sampling</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Type</strong></td>
+<td>Non-probability sampling</td>
+<td>Probability sampling</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Purpose</strong></td>
+<td>Ensure representation of specific subgroups</td>
+<td>Improve efficiency and cost-effectiveness for large, dispersed populations</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Method</strong></td>
+<td>Population divided into subgroups based on certain characteristics; non-random selection until quotas (specific number of samples) are met</td>
+<td>Population divided into clusters; entire clusters are randomly selected and all individuals within selected clusters are included</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Selection Basis</strong></td>
+<td>Non-random</td>
+<td>Random</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Advantage</strong></td>
+<td>Ensures diversity and representation of key subgroups</td>
+<td>More practical and cost-effective for large populations</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Disadvantage</strong></td>
+<td>Can introduce selection bias and may not be truly representative of the population</td>
+<td>May introduce cluster bias if selected clusters are not representative of the population</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="data-collection-tools" class="level2">
+<h2 class="anchored" data-anchor-id="data-collection-tools"><strong>Data Collection Tools</strong></h2>
+<p>Interview schedule and questionnaire are widely used for collecting social data. Many people unknowingly use these two terms interchangeably, but they are not the same although the both are printed set of questions. These can be structured (all questions are set in advance), non-structured (questions are framed during interview by expert interviewers), or semi-structured (some questions are prepared in advance and some are not). The differences are given here.</p>
+<ul>
+<li><p><strong>Interview Schedule:</strong> Used in qualitative research or in-depth studies where understanding context, emotions, and detailed responses are important. For instance, a researcher studying job satisfaction might use an interview schedule to gather detailed insights from employees.</p></li>
+<li><p><strong>Questionnaire:</strong> Used in large-scale surveys or quantitative research where standardized data is needed. For example, a market research firm might use a questionnaire to gather feedback from thousands of customers about a new product. When a questionnaire is sent by mail, it is called mailed questionnaire. The examination question is also an example of questionnaire.</p></li>
+</ul>
+<table class="table">
+<colgroup>
+<col style="width: 10%">
+<col style="width: 51%">
+<col style="width: 37%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Aspect</th>
+<th>Interview Schedule</th>
+<th>Questionnaire</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Definition</strong></td>
+<td><p>A structured set of questions used by an interviewer to guide a face-to-face or telephone interview.</p>
+<p>To be structured, the interview schedule should be self-directed, i.e.&nbsp;instructions to fill the schedule should be clearly included. This also applies for the questionnaire.</p></td>
+<td>A written set of questions provided to respondents to fill out on their own</td>
+</tr>
+<tr class="even">
+<td><strong>Method of Data Collection</strong></td>
+<td>Administered by an interviewer</td>
+<td>Self-administered by the respondent</td>
+</tr>
+<tr class="odd">
+<td><strong>Question type</strong></td>
+<td>Open type can be included.</td>
+<td>Mostly closed form questions, i.e., answers are mentioned in the questionnaire in different forms (MCQ, or rating statements).</td>
+</tr>
+<tr class="even">
+<td><strong>Pronouns used in the questions</strong></td>
+<td>I, we, us, our</td>
+<td>You, your, yours</td>
+</tr>
+<tr class="odd">
+<td><strong>Interaction Level</strong></td>
+<td>High interaction between interviewer and respondent</td>
+<td>No interaction; respondent completes it independently</td>
+</tr>
+<tr class="even">
+<td><strong>Flexibility</strong></td>
+<td>Allows for probing and follow-up questions</td>
+<td>Limited to predefined questions; no room for probing</td>
+</tr>
+<tr class="odd">
+<td><strong>Clarification</strong></td>
+<td>Interviewer can clarify questions if needed</td>
+<td>No immediate clarification; instructions must be clear</td>
+</tr>
+<tr class="even">
+<td><strong>Response Rate</strong></td>
+<td>Generally higher due to personal interaction</td>
+<td>Can vary; often lower due to lack of personal engagement</td>
+</tr>
+<tr class="odd">
+<td><strong>Cost</strong></td>
+<td>Higher, due to interviewer training and time</td>
+<td>Lower, as it doesn’t require interviewer involvement</td>
+</tr>
+<tr class="even">
+<td><strong>Anonymity</strong></td>
+<td>Less anonymity, as interaction is personal</td>
+<td>Greater anonymity, which may encourage honest responses</td>
+</tr>
+<tr class="odd">
+<td><strong>Bias</strong></td>
+<td>Potential for interviewer bias</td>
+<td>Reduced bias, as there is no interviewer influence</td>
+</tr>
+<tr class="even">
+<td><strong>Data Consistency</strong></td>
+<td>May vary due to different interviewers’ styles</td>
+<td>More consistent, as all respondents receive the same questions in the same format</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Steps in preparing a questionnaire or interview schedule</strong></p>
+<p>Preparing a good questionnaire or interview schedule involves several key steps to ensure that it effectively gathers the necessary information while being clear and easy for respondents to complete. Here are the steps:</p>
+<ol type="1">
+<li><p><strong>Define the Objectives:</strong> Clearly articulate the purpose of the questionnaire and what you hope to achieve. Define the specific information you need to collect.</p></li>
+<li><p><strong>Identify the Target Audience:</strong> Determine who will be responding to the questionnaire. Understand their background, language, and any specific characteristics relevant to the study.</p></li>
+<li><p><strong>Choose the Mode of Administration:</strong> Decide whether the questionnaire will be administered online, by mail, in person, or over the phone. Each mode has its own implications for design and delivery.</p></li>
+<li><p><strong>Develop a List of Information Needed:</strong> Break down your objectives into specific information requirements. This will guide the content and structure of your questions.</p></li>
+<li><p><strong>Draft Questions:</strong> Write clear, concise questions. Avoid leading, ambiguous, or complex questions. Use simple language and be specific.</p></li>
+<li><p><strong>Choose the Question Type:</strong> Decide on the types of questions to use (e.g., multiple-choice, Likert scale, open-ended, dichotomous). Mix question types as appropriate to gather a range of data.</p></li>
+<li><p><strong>Sequence the Questions:</strong> Organize questions logically, starting with easy, engaging questions to build interest. Group similar topics together and place sensitive or difficult questions towards the end.</p></li>
+<li><p><strong>Use Clear Instructions:</strong> Provide clear instructions on how to answer the questions, especially if the format changes (e.g., from multiple-choice to open-ended).</p></li>
+<li><p><strong>Pilot Test the Questionnaire:</strong> Test the questionnaire with a small, representative sample of your target audience. Gather feedback on question clarity, length, and overall usability.</p></li>
+<li><p><strong>Revise and Refine:</strong> Use the feedback from the pilot test to make necessary adjustments. Clarify any confusing questions, remove redundant ones, and ensure that the questionnaire flows smoothly.</p></li>
+<li><p><strong>Pre-Test Again (if necessary):</strong> Conduct another round of testing if significant changes were made after the initial pilot test. This ensures that the revised questionnaire is effective.</p></li>
+<li><p><strong>Finalize the Questionnaire:</strong> Review the final version to ensure it meets all objectives, is free of errors, and is ready for distribution.</p></li>
+</ol>
+<p><strong>Principles of question phrasing and wording</strong></p>
+<p>Effective question phrasing and wording are crucial for gathering accurate and meaningful responses in a questionnaire. Here are the key principles to consider:</p>
+<ol type="1">
+<li><p><strong>Clarity and Simplicity:</strong> Use simple, clear language that is easy to understand. Avoid <strong>jargon</strong>, technical terms, and complex sentence structures.</p></li>
+<li><p><strong>Specificity:</strong> Be specific in your questions to avoid ambiguity. Make sure respondents know exactly what is being asked.</p></li>
+<li><p><strong>Relevance:</strong> Ensure that every question is relevant to the research objectives. Avoid asking unnecessary or irrelevant questions.</p></li>
+<li><p><strong>Neutrality:</strong> Phrase questions in a neutral manner to avoid leading or biasing respondents. Ensure that questions do not suggest a “correct” answer.</p></li>
+<li><p><strong>Single-Concept:</strong> Each question should address only one concept or issue at a time to avoid confusion (avoid double-barreled questions).</p></li>
+<li><p><strong>Balanced Response Options:</strong> Provide balanced response options for closed-ended questions, including a range of choices that cover all possible answers (e.g., agree/disagree scales).</p></li>
+<li><p><strong>Avoid Negative Wording:</strong> Avoid using negative wording, which can be confusing. Instead of asking “Don’t you think…?” ask “Do you think…?” .</p></li>
+<li><p><strong>Avoid Double Negatives:</strong> Double negatives can confuse respondents. For example, “Do you not agree that…?” should be rephrased for clarity.</p></li>
+<li><p><strong>Consistent Terminology:</strong> Use consistent terminology throughout the questionnaire to avoid confusion.</p></li>
+<li><p><strong>Cultural Sensitivity:</strong> Be mindful of cultural differences and avoid terms or phrases that might be offensive or misunderstood by different demographic groups.</p></li>
+<li><p><strong>Pre-test Questions:</strong> Pre-test questions with a small, representative sample to identify any issues with phrasing or wording before full deployment.</p></li>
+<li><p><strong>Logical Flow:</strong> Arrange questions in a logical order that flows naturally from one topic to the next.</p></li>
+</ol>
+<p><strong>Examples</strong></p>
+<ul>
+<li><p><strong>Unclear:</strong> “How often do you exercise?”</p></li>
+<li><p><strong>Clear:</strong> “How many days per week do you exercise for at least 30 minutes?”</p></li>
+<li><p><strong>Ambiguous:</strong> “Do you support government programs?”</p></li>
+<li><p><strong>Specific:</strong> “Do you support the government providing free healthcare to all citizens?”</p></li>
+<li><p><strong>Leading:</strong> “Don’t you agree that reducing taxes is beneficial?”</p></li>
+<li><p><strong>Neutral:</strong> “What is your opinion on reducing taxes?”</p></li>
+<li><p><strong>Double-barreled:</strong> “How satisfied are you with your job and salary?”</p></li>
+<li><p><strong>Single-concept:</strong> “How satisfied are you with your job?” and “How satisfied are you with your salary?”</p></li>
+</ul>
+<p>By adhering to these principles, you can create questions that are clear, precise, and unbiased, leading to more reliable and valid data collection.</p>
+<p><strong>Steps of Interview</strong></p>
+<p>Before starting the interview the date, time and place of meeting should be agreed by both the interviewer and interviewee. While meeting, the following steps should be properly maintained. <strong>Remember: Never guess any answer and never miss any questions.</strong></p>
+<ol type="1">
+<li><p><strong>Build Rapport:</strong> Start with a brief introduction and small talk to make the participant comfortable.</p></li>
+<li><p><strong>Explain Purpose and Confidentiality:</strong> Reiterate the interview’s purpose, how the data will be used, and assure confidentiality.</p></li>
+<li><p><strong>Informed Consent:</strong> Ensure participants provide informed consent before the interview.</p></li>
+<li><p><strong>Cultural Sensitivity:</strong> Be aware of and respect cultural differences and sensitivities during the interview.</p></li>
+<li><p><strong>Use Open-Ended Questions:</strong> Begin with broad questions and gradually narrow down to more specific topics.</p></li>
+<li><p><strong>Active Listening:</strong> Listen attentively, show interest, and avoid interrupting the participant.</p></li>
+<li><p><strong>Probing:</strong> Use follow-up questions and probes to elicit more detailed responses (e.g., “Can you tell me more about that?”).</p></li>
+<li><p><strong>Neutrality:</strong> Maintain a neutral demeanor, avoiding any reactions that might influence the participant’s responses.</p></li>
+<li><p><strong>Record Responses:</strong> Use audio recording (with permission) and take notes to capture the interview accurately.</p></li>
+<li><p><strong>Summarize:</strong> Briefly summarize key points discussed to ensure understanding and accuracy.</p></li>
+<li><p><strong>Final Questions:</strong> Ask if the participant has anything else to add or if they have any questions for you.</p></li>
+<li><p><strong>Thank the Participant:</strong> Express gratitude for their time and insights.</p></li>
+</ol>
+<section id="pra-and-rra" class="level3">
+<h3 class="anchored" data-anchor-id="pra-and-rra"><strong>PRA and RRA</strong></h3>
+<p>A comparison between Rapid Rural Appraisal (RRA) and Participatory Rural Appraisal (PRA):</p>
+<table class="table">
+<colgroup>
+<col style="width: 9%">
+<col style="width: 39%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Aspect</th>
+<th>Rapid Rural Appraisal (RRA)</th>
+<th>Participatory Rural Appraisal (PRA)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Definition</strong></td>
+<td>RRA is a set of techniques for quickly and systematically collecting data and gaining insights from rural communities.</td>
+<td>PRA is an approach that involves local people in the analysis and planning of their own development activities.</td>
+</tr>
+<tr class="even">
+<td><strong>Purpose</strong></td>
+<td>To gather quick, reliable data for decision-making by outsiders (researchers, development practitioners).</td>
+<td>To empower local communities to analyze their own situation and make informed decisions about their development.</td>
+</tr>
+<tr class="odd">
+<td><strong>Approach</strong></td>
+<td>Extractive – information is gathered by outsiders.</td>
+<td>Participatory – information is generated and analyzed by the community members themselves.</td>
+</tr>
+<tr class="even">
+<td><strong>Duration</strong></td>
+<td>Short-term, often a few days to a couple of weeks.</td>
+<td>Longer-term, often several weeks to months, depending on the scope of participation and activities.</td>
+</tr>
+<tr class="odd">
+<td><strong>Role of Outsiders</strong></td>
+<td>Outsiders are the main analysts and decision-makers.</td>
+<td>Outsiders act as facilitators, guiding the process but not leading it.</td>
+</tr>
+<tr class="even">
+<td><strong>Community Involvement</strong></td>
+<td>Limited to providing information.</td>
+<td>Extensive, with community members actively participating in the entire process.</td>
+</tr>
+<tr class="odd">
+<td><strong>Techniques Used</strong></td>
+<td>Semi-structured interviews, transect walks, direct observation, secondary data review, focus group discussions.</td>
+<td>Mapping, modeling, ranking, scoring, seasonal calendars, Venn diagrams, participatory mapping, and other visual tools.</td>
+</tr>
+<tr class="even">
+<td><strong>Data Collection</strong></td>
+<td>Rapid, relying on a mix of qualitative and quantitative methods.</td>
+<td>In-depth, primarily qualitative, using visual and interactive methods.</td>
+</tr>
+<tr class="odd">
+<td><strong>Analysis</strong></td>
+<td>Conducted primarily by outsiders.</td>
+<td>Conducted jointly by community members and facilitators.</td>
+</tr>
+<tr class="even">
+<td><strong>Focus</strong></td>
+<td>Often problem-oriented, focusing on specific issues or areas.</td>
+<td>Holistic, encompassing a wide range of community issues and perspectives.</td>
+</tr>
+<tr class="odd">
+<td><strong>Outcome</strong></td>
+<td>Reports and recommendations for development projects.</td>
+<td>Community-driven plans and actions for local development.</td>
+</tr>
+<tr class="even">
+<td><strong>Empowerment</strong></td>
+<td>Limited, as the focus is on data extraction.</td>
+<td>High, as the process enhances local capacity and self-reliance.</td>
+</tr>
+<tr class="odd">
+<td><strong>Sustainability</strong></td>
+<td>Often project-based with limited long-term sustainability.</td>
+<td>Aims for sustainable development through local ownership and capacity building.</td>
+</tr>
+<tr class="even">
+<td><strong>Example</strong></td>
+<td>An NGO conducts an RRA to quickly assess the agricultural needs of a village to design an intervention program.</td>
+<td>A development agency facilitates a PRA process in a village where community members create detailed maps and plans for managing their natural resources.</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="reliability-and-validity-of-research-instruments" class="level2">
+<h2 class="anchored" data-anchor-id="reliability-and-validity-of-research-instruments"><strong>Reliability and Validity of Research Instruments</strong></h2>
+<p>A researcher needs to answer two questions:</p>
+<ol type="1">
+<li><p>Is the research data reliable? Or will the instrument consistently produce similar scores on repeated measurements?</p></li>
+<li><p>Does the instrument accurately reflect the research objective? Or does the instrument measure what it is designed to measure?</p></li>
+</ol>
+<p>To answer these questions, the researcher must first ensure that the research instrument is reliable and valid. It is important to remember that a test can be reliable but not valid and vice versa.</p>
+<p><strong>The reliability</strong> refers to the degree to which a research instrument or procedure measures consistently over time. It refers to the consistency or reproducibility of scores. The reliability of a test can be improved by including more items of equal quality as the other items. Carefully designed test directions will also improve the testing instrument’s reliability.</p>
+<p><strong>The validity</strong> of a research instrument refers to the degree to which it accurately measures what it is intended to measure. It indicates the extent to which the instrument’s results are truthful and reflect the real characteristics or phenomena under study.</p>
+<p><img src="images/clipboard-3885768312.png" class="img-fluid"></p>
+<p><strong>High bias, high variance:</strong> neither reliable nor valid</p>
+<p><strong>High variance, low bias:</strong> not reliable but valid</p>
+<p><strong>Low variance, high bias:</strong> reliable but not valid</p>
+<p><strong>Low variance, low bias:</strong> reliable and valid</p>
+<p><strong>Estimation of reliability</strong></p>
+<p>Estimating the reliability of a research instrument involves several methods, each with its own formula. Here are some common methods:</p>
+<p><strong>1. Test-retest reliability (temporal stability)</strong>: This method measures the stability of the instrument over time (typically 15 days gap) by administering the same test to the same group of respondents at two different points in time. The reliability coefficient is the correlation between the two sets of scores. Reliability is satisfied if r &gt; 0.7.</p>
+<p><strong>2. Parallel-forms reliability (equivalent or stability over item samples)</strong>: This method involves creating two different forms of the same test that are equivalent in content and difficulty. Both forms are administered to the same group, and the scores are used to calculate the correlation coefficient to express the reliability. Reliability is satisfied if r &gt; 0.7.</p>
+<p><strong>3. Inter-rater reliability (stability over scores)</strong>: This method assesses the consistency of scores assigned by different raters. It is often used in qualitative research or subjective assessments. The reliability is calculated by correlating the scores given by different raters. Cohen’s Kappa values less than or equal to 0 indicate no agreement, 0.01–0.20 denote none to slight agreement, 0.21–0.40 indicate fair agreement, 0.41–0.60 signify moderate agreement, 0.61–0.80 represent substantial agreement, and 0.81–1.00 denote almost perfect agreement.</p>
+<p><img src="images/clipboard-3194185807.png" class="img-fluid"></p>
+<p><strong>4. Split-half or Internal consistency reliability (stability of items)</strong>:</p>
+<p>This method evaluates the homogeneity or consistency of results across items within a test. In this method, the test items are divided into two (odd numbered and even numbered). If the correlation coefficient between these two sets &gt; 0.7, the scale is said to be reliable. Besides, we can measure the internal consistency of the scale is measured using Cronbach’s alpha, which assesses the average correlation among all items. However, split-half reliability is measured by correlation coefficient, Spearman-Brown Prophecy or Kudar-Richardson formula where at least 0.7 value is considered as reliable.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-730078641.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption"><img src="images/clipboard-1089523881.png" class="img-fluid figure-img"></figcaption>
+</figure>
+</div>
+<p><img src="images/clipboard-2129058495.png" class="img-fluid"></p>
+<p><img src="images/clipboard-1873221417.png" class="img-fluid"></p>
+<p><img src="images/clipboard-717815910.png" class="img-fluid"></p>
+<p><img src="images/clipboard-2715972696.png" class="img-fluid"></p>
+<p><strong>Estimation of Validity</strong></p>
+<p><strong>Content validity:</strong> Content validity ensures the instrument covers the entire range of the concept being measured. It is usually evaluated qualitatively by experts in the field, who review the instrument’s items for relevance and completeness. There is no specific formula for content validity, as it relies on expert judgment rather than statistical analysis.</p>
+<p><strong>Face validity:</strong> Face validity refers to the extent to which an instrument appears to measure what it is supposed to measure, based on subjective judgment by a colleague or expert in the field. Like content validity, it does not have a specific formula and relies on expert or user feedback.</p>
+<p><strong>Criterion-related validity:</strong> Criterion validity evaluates how well one measure predicts an outcome based on another measure (the criterion). It includes predictive validity and concurrent validity. <strong>Predictive validity</strong> correlates actual job success (job performance) with previous activities (exam performance). <strong>Concurrent validity</strong> correlates new test scores (viva-voce) with previous standard test scores (paper-based exam). Pearson correlation coefficient is calculated to measure the validity.</p>
+<p><strong>Construct validity: A construct</strong> is a theoretical concept that is being measured or assessed. It represents an abstract idea or characteristic that cannot be directly observed but can be inferred from observable behaviors, responses, or indicators. Examples of constructs include intelligence, satisfaction, anxiety, and motivation. Construct validity assesses whether the instrument truly measures the theoretical construct it is intended to measure. It involves both convergent and discriminant validity, often evaluated through factor analysis. <strong>Convergent validity</strong> assesses whether two measures that are supposed to be related are actually related. <strong>Discriminant validity</strong> checks that measures supposed to be unrelated are indeed unrelated.</p>
+<ul>
+<li><p><strong>Eigenvalues and eigenvectors:</strong> These are computed to determine the principal components.</p></li>
+<li><p><strong>Factor loadings:</strong> Represent the correlations between observed variables and the latent factors.</p></li>
+</ul>
+<p>Average variance extracted (AVE) is calculated to estimate the convergent and discriminant validity with the following formula:</p>
+<p><img src="images/clipboard-2111641803.png" class="img-fluid"></p>
+<p>An Average Variance Extracted (AVE) value of 0.50 or higher is generally considered acceptable for demonstrating the validity of a research instrument. This threshold indicates that the construct explains at least 50% of the variance in its indicators, suggesting adequate convergent validity. For discriminant validity, the AVE of a construct (e.g.&nbsp;customer satisfaction) should be greater than the highest squared correlation with any other construct (e.g.&nbsp;customer loyalty) in the model. This means that the AVE for each construct should exceed the squared inter-construct correlations, indicating that the construct shares more variance with its own indicators than with other constructs. The goal is to demonstrate that each construct measures a unique aspect of the theoretical framework, therefore, they should not be closely related.</p>
+</section>
+<section id="data-and-its-types" class="level2">
+<h2 class="anchored" data-anchor-id="data-and-its-types"><strong>Data and its Types</strong></h2>
+<p><strong>Data</strong> refers to raw, unprocessed facts and figures without context, such as numbers, text, or images. It is the basic input that can be collected and stored but lacks meaning on its own. <strong>Information</strong>, on the other hand, is data that has been processed, organized, or structured to provide context and meaning. It is useful for decision-making, understanding, and knowledge creation. For instance, a list of numbers is data, but when these numbers are analyzed and interpreted as sales figures over a month, they become information that can inform business strategies. <strong>Research data</strong> refers to the collected observations or measurements gathered during a research study. It serves as the foundation for analysis and conclusions, supporting the validation of hypotheses, theories, or findings.</p>
+<p><strong>Types of data</strong></p>
+<ul>
+<li><p>Qualitative data – express description. Example: It is beneficial, the flower color is red, the family is a large family.</p></li>
+<li><p>Quantitative data – numerical information</p>
+<ul>
+<li><p>Discrete data – It is counted, can take only full integers. Example: Number of farmers, family size, number of crops.</p></li>
+<li><p>Continuous data – It is measured, can take any values including decimals). Example: Height, weight, distance.</p></li>
+</ul></li>
+</ul>
+<p><img src="images/clipboard-2053556229.png" class="img-fluid"></p>
+<ul>
+<li><p><strong>Qualitative data</strong></p>
+<ul>
+<li><p>It’s color is black.</p></li>
+<li><p>It has long hair.</p></li>
+<li><p>It has lots of energy.</p></li>
+</ul></li>
+</ul>
+<!-- -->
+<ul>
+<li><p><strong>Quantitative data</strong></p>
+<ul>
+<li><p>Discrete:</p>
+<ul>
+<li><p>It has 4 legs.</p></li>
+<li><p>It has 2 eyes.</p></li>
+</ul></li>
+<li><p>Continuous:</p>
+<ul>
+<li><p>It weighs 7 kg.</p></li>
+<li><p>It is 30 cm tall.</p></li>
+</ul></li>
+</ul></li>
+</ul>
+</section>
+<section id="variables" class="level2">
+<h2 class="anchored" data-anchor-id="variables"><strong>Variables</strong></h2>
+<p><strong>Features</strong> refer to the distinctive characteristics or properties of the subjects under study. In social science, a feature could be the educational level of individuals in a population. In agricultural science, it might be the soil type in different farming regions. In natural science, a feature could be the temperature range of a habitat.</p>
+<p><strong>Variables</strong> are elements that can change or be changed within an experiment or study. A variable in a research study is any factor, trait, or condition that can exist in differing amounts or types. They are often categorized as independent, dependent, or controlled. In social science, an independent variable could be the teaching method used in schools, while the dependent variable might be student performance. In agricultural science, the amount of fertilizer applied (independent variable) could affect crop yield (dependent variable). In natural science, sunlight exposure (independent variable) might impact plant growth (dependent variable).</p>
+<p>Controlled variables, also known as <strong>constants</strong>, are kept unchanged to ensure that the effect on the dependent variable is due to the manipulation of the independent variable. For example, in a study on the effect of fertilizer on plant growth, the fertilizer amount is the independent variable, plant growth is the dependent variable, and factors like soil type and watering frequency are controlled variables.</p>
+<p><strong>Types of variables</strong></p>
+<p>Variables that can only exist in two opposite states are known as attributes. Variables refer to the quantifiable traits or properties of the subjects being examined. Besides dependent and independent variables, there are some other types of variables. Similar to the types of data, variables are classified as qualitative, quantitative (discrete or continuous). The variables having only two values, e.g.&nbsp;male/female, yes/no, are termed as dichotomous or binary variable. The major jargon of variables are listed here:</p>
+<ul>
+<li><p><strong>Dependent/target/response/criterion/predicted variable:</strong> the phenomenon hypothesized to be the outcome, effect, consequence or output of some input variables. e.g.&nbsp;knowledge on IPM</p></li>
+<li><p><strong>Independent/regressor/input/stimulus/determinant/predictor variable:</strong> the phenomenon hypothesized to be the input or antecedent of the effect or outcome. e.g.&nbsp;educational status</p></li>
+<li><p><strong>Intervening/ hidden variable:</strong> immeasurable variable which is hypothesized to exist and can help to explain the relationship between the dependent and independent variables. e.g.&nbsp;intelligence</p></li>
+<li><p><strong>Extraneous variable:</strong> those measurable independent variables that are not related to the purpose of the study but may affect the dependent variable. e.g.&nbsp;cosmopolitanism</p></li>
+<li><p><strong>Endogenous variable:</strong> An independent variable is called an endogenous variable when it can be be affected by the dependent variable. In this case, the endogenous variable shows correlation with the residuals.</p></li>
+<li><p><strong>Instrumental variable:</strong> an alternative variable used instead of another variable that shows endogeneity issues with the dependent variable in a regression analysis.</p></li>
+</ul>
+</section>
+<section id="hypothesis" class="level2">
+<h2 class="anchored" data-anchor-id="hypothesis"><strong>Hypothesis</strong></h2>
+<p>A hypothesis is a intelligent guess or testable statement predicting the relationship between variables. It proposes a potential outcome based on prior knowledge or theories.</p>
+<p>For example, a researcher might hypothesize that “Applying nitrogen fertilizer will increase the yield of maize crops.” This hypothesis can be tested through experiments by applying nitrogen fertilizer to some maize crops (the experimental group) and not to others (the control group), and then measuring the yield differences. The results will either support or refute the hypothesis, contributing to the understanding of the effects of nitrogen fertilizer on maize production.</p>
+<p>In social science, a researcher might hypothesize that “Students who participate in extracurricular activities have higher academic performance than those who do not.” This hypothesis can be tested by collecting data on students’ involvement in extracurricular activities and their academic grades, then analyzing the correlation between these variables. The findings will either support or refute the hypothesis, thereby contributing to the understanding of the impact of extracurricular activities on academic success.</p>
+<section id="criteria-of-hypothesis" class="level3">
+<h3 class="anchored" data-anchor-id="criteria-of-hypothesis"><strong>Criteria of hypothesis</strong></h3>
+<ul>
+<li><p><strong>States the Expected Relationship Between Variables:</strong> Clearly defines the interaction or association between the variables involved.</p></li>
+<li><p><strong>Testable with Operationally Defined Variables:</strong> Specifies variables in measurable terms, ensuring they can be empirically tested.</p></li>
+<li><p><strong>Clear Implications for Testing Stated Relations:</strong> Provides explicit directions for how the relationship between variables can be examined and tested.</p></li>
+<li><p><strong>Explanatory Power:</strong> Offers insights or explanations about the phenomena, contributing to the understanding of the subject matter.</p></li>
+<li><p><strong>Consistency with Existing Knowledge:</strong> Aligns with and builds upon the current body of knowledge and theories in the field.</p></li>
+<li><p><strong>Simplicity and Conciseness:</strong> Articulates the hypothesis in a straightforward and succinct manner.</p></li>
+<li><p><strong>Appropriate Scope:</strong> Balances specificity and generality; not too broad to be untestable nor too narrow to be insignificant.</p></li>
+</ul>
+</section>
+<section id="importance-of-hypothesis" class="level3">
+<h3 class="anchored" data-anchor-id="importance-of-hypothesis"><strong>Importance of hypothesis</strong></h3>
+<ol type="1">
+<li><p><strong>Provides a Tentative Explanation of Phenomena:</strong> A hypothesis offers an initial explanation for observed phenomena, serving as a starting point for further investigation. By proposing potential relationships or effects, it facilitates the extension of knowledge in a specific area.</p></li>
+<li><p><strong>Offers a Directly Testable Relational Statement:</strong> A hypothesis presents a clear, testable statement that defines the relationship between variables. This allows researchers to design experiments and studies that can empirically test these relationships, providing concrete evidence for or against the hypothesis.</p></li>
+<li><p><strong>Guides the Research:</strong> Hypotheses give direction to the research process by focusing on specific variables and their potential interactions. This helps in formulating research questions, selecting methodologies, and determining the scope of the study.</p></li>
+<li><p><strong>Framework for Reporting Conclusions:</strong> Hypotheses provide a structured framework for interpreting and reporting the results of a study. Researchers can compare their findings against the hypothesis to draw conclusions, making the research process more systematic and coherent.</p></li>
+<li><p><strong>First Level of Theory Development:</strong> Hypothesis formulation is a crucial step in theory development. By proposing testable statements, hypotheses lay the groundwork for building broader theoretical frameworks that explain and predict phenomena in a given field.</p></li>
+<li><p><strong>Objectivity in Testing:</strong> Hypotheses allow for objective testing that is independent of personal values and opinions. They can be empirically evaluated and shown to be supported or not supported based on evidence, ensuring that conclusions are based on data rather than subjective beliefs.</p></li>
+<li><p><strong>Enhances Critical Thinking and Innovation:</strong> Formulating and testing hypotheses encourage critical thinking and innovation. Researchers must think creatively and analytically to develop plausible hypotheses and design experiments to test them, fostering scientific advancement.</p></li>
+</ol>
+</section>
+<section id="types-of-hypothesis" class="level3">
+<h3 class="anchored" data-anchor-id="types-of-hypothesis"><strong>Types of hypothesis</strong></h3>
+<p>Hypotheses can be classified into two main types:</p>
+<ol type="1">
+<li><p>Null Hypothesis</p></li>
+<li><p>Research Hypothesis</p></li>
+</ol>
+<p><strong>Null Hypothesis:</strong> A null hypothesis is a formal negative statement predicting no relationship between two or more variables, typically denoted by H<sub>0</sub>​ or H<sub>N</sub>​. For example, H<sub>0</sub>​​: There is no relationship between anxiety and IQ levels of children. The null hypothesis states the opposite of what the researcher expects or predicts. The final conclusion of the study will either retain the null hypothesis or reject it in favor of an alternative hypothesis. Not rejecting H<sub>0</sub>​​ does not necessarily mean that H<sub>0</sub>​​ is true; it may simply indicate insufficient evidence against it.</p>
+<p><strong>Research Hypothesis:</strong> A research hypothesis is a formal affirmative statement predicting a relationship between two or more variables, also known as the scientific or alternative hypothesis, denoted by H<sub>a</sub>​. For example, H<sub>a</sub>: There is a relationship between anxiety and IQ levels of children. This hypothesis often arises from prior literature or studies and is established when the null hypothesis is rejected. The research hypothesis is usually the desired conclusion of the investigator.</p>
+<p>Hypotheses can further be categorized as directional or non-directional.</p>
+<p><strong>Directional Hypothesis:</strong></p>
+<ul>
+<li><p>Specifies the expected direction of the findings.</p></li>
+<li><p>Often used to examine relationships among variables rather than comparing groups.</p></li>
+<li><p>Example: “Children with high IQ will exhibit more anxiety than children with low IQ.”</p></li>
+</ul>
+<p><strong>Non-directional Hypothesis:</strong></p>
+<ul>
+<li><p>Does not specify the expected direction of the findings.</p></li>
+<li><p>Used when the researcher is unsure of what to predict based on past literature.</p></li>
+<li><p>Example: “There is a difference in the anxiety levels of children with high IQ and those with low IQ.”</p></li>
+</ul>
+</section>
+<section id="testing-of-hypothesis" class="level3">
+<h3 class="anchored" data-anchor-id="testing-of-hypothesis"><strong>Testing of Hypothesis</strong></h3>
+<p>Hypothesis testing is a method for making rational decisions about the presence of effects based on empirical data. Hypotheses are tested using observed facts. When the test statistic falls within the acceptance region, the hypothesis is accepted; if it falls within the rejection region, the hypothesis is rejected. Before testing a hypothesis, we must select a significance level based on which we will reject the null hypothesis. Then we have select appropriate statistical tests based on the distribution and nature of the variables of interest.</p>
+<p>The decision regarding hypothesis testing is based on the calculated value of the statistic in relation to the null hypothesis. The strength of the sample data is evaluated to determine if the null hypothesis should be rejected. If the calculated value exceeds the critical table value, the result is significant, and the null hypothesis is rejected. Conversely, if the calculated value is less than the table value, the result is non-significant, and the null hypothesis is not rejected.</p>
+<p>Even if hypotheses are not confirmed, they hold value (Kerlinger, 1956). Negative findings are as significant as positive ones, as they reduce ignorance and can highlight new hypotheses and avenues for research. Hypotheses cannot be conclusively proved or disproved but can be supported or not supported.</p>
+<p><strong>Errors in Hypothesis Testing</strong></p>
+<p>At the conclusion of hypothesis testing, decisions can be correct or erroneous. Errors in hypothesis testing are categorized into two types:</p>
+<ul>
+<li><p><strong>Type I Error:</strong> Rejecting a null hypothesis when it is true.</p></li>
+<li><p><strong>Type II Error:</strong> Not rejecting a null hypothesis when it is false.</p></li>
+</ul>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Decision</th>
+<th>H<sub>0</sub>​ is True</th>
+<th>H<sub>0</sub>​ is False</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Reject</strong></td>
+<td>Type I Error</td>
+<td>Correct Decision</td>
+</tr>
+<tr class="even">
+<td><strong>Accept</strong></td>
+<td>Correct Decision</td>
+<td>Type II Error</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Significance Levels and Sample Size</strong></p>
+<p>Setting a higher level of significance reduces the risk of Type I error but increases the risk of Type II error. The researcher must set the level of significance based on the relative severity of making a Type I or Type II error. Increasing the sample size can reduce the probability of both types of errors.</p>
+<table class="table">
+<colgroup>
+<col style="width: 12%">
+<col style="width: 39%">
+<col style="width: 47%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><strong>Aspect</strong></td>
+<td><strong>Type I Error</strong></td>
+<td><strong>Type II Error</strong></td>
+</tr>
+<tr class="even">
+<td><strong>Definition</strong></td>
+<td>Rejecting a true null hypothesis (false positive).</td>
+<td>Failing to reject a false null hypothesis (false negative).</td>
+</tr>
+<tr class="odd">
+<td><strong>Example</strong></td>
+<td>Concluding a new drug is effective when it is not.</td>
+<td>Concluding a new drug is ineffective when it is effective.</td>
+</tr>
+<tr class="even">
+<td><strong>Symbol</strong></td>
+<td>α (alpha)</td>
+<td>β (beta)</td>
+</tr>
+<tr class="odd">
+<td><strong>Consequence</strong></td>
+<td>Taking action based on incorrect assumptions.</td>
+<td>Missing out on a potentially beneficial action or intervention.</td>
+</tr>
+<tr class="even">
+<td><strong>Risk Perception</strong></td>
+<td>Often seen as less dangerous because it leads to further scrutiny and testing.</td>
+<td>Often seen as more dangerous because it can result in missed opportunities and prolonged issues.</td>
+</tr>
+<tr class="odd">
+<td><strong>Real-world Impact</strong></td>
+<td>Approving a harmful or ineffective treatment.</td>
+<td>Not approving a beneficial treatment, leading to continued suffering.</td>
+</tr>
+<tr class="even">
+<td><strong>Danger Comparison</strong></td>
+<td>Type I errors can be mitigated by further research and validation.</td>
+<td>Type II errors can prolong the problem, leading to significant negative consequences.</td>
+</tr>
+<tr class="odd">
+<td><strong>Minimization option</strong></td>
+<td>By increasing alpha level.</td>
+<td>By increasing sample size.</td>
+</tr>
+</tbody>
+</table>
+<p>Type II error is often more dangerous. This type of error occurs when a researcher fails to reject a false null hypothesis, meaning that a potentially effective agricultural practice or intervention is dismissed as ineffective. Imagine a study evaluating the effectiveness of a new drought-resistant crop variety. The null hypothesis (H0) is that the new crop variety is no more effective than the existing varieties in terms of drought resistance. A Type II error in this context would mean concluding that the new crop variety is not more effective in resisting drought when it actually is. Farmers continue using the less effective existing varieties, leading to lower yields and higher susceptibility to drought conditions. This results in economic losses due to reduced productivity. The broader agricultural sector might miss out on improvements in crop yields and resilience, which could have strengthened food security and reduced economic losses during drought periods. Lower crop yields during droughts can lead to food shortages, impacting food security for communities that rely heavily on agriculture.</p>
+<p><strong>One-tailed vs two-tailed test</strong></p>
+<p>In hypothesis testing, the concepts of one-tailed and two-tailed tests are crucial. A one-tailed test is used when the rejection area is located in only one tail of the distribution, either on the left or right side. Conversely, a two-tailed test is used when the rejection areas are on both tails of the distribution. The choice between a one-tailed and a two-tailed test depends on how the null hypothesis is formulated. A one-tailed test is appropriate for testing a directional hypothesis, which indicates a specific direction of difference, such as superiority or inferiority between two groups. For example, a one-tailed hypothesis could be: H<sub>0</sub>​: Athletes do not have higher IQs than non-athletes. You can see the dynamics of probability (p-value: area below the quantile) and quantile (x) from this link <a href="https://homepage.divms.uiowa.edu/~mbognar/applets/normal.html" class="uri">https://homepage.divms.uiowa.edu/~mbognar/applets/normal.html</a>.</p>
+<p><img src="images/clipboard-1291862859.png" class="img-fluid"></p>
+<table class="table">
+<colgroup>
+<col style="width: 12%">
+<col style="width: 39%">
+<col style="width: 47%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><strong>Feature</strong></td>
+<td><strong>One-Tailed Test</strong></td>
+<td><strong>Two-Tailed Test</strong></td>
+</tr>
+<tr class="even">
+<td><strong>Definition</strong></td>
+<td>Examines the direction of an effect</td>
+<td>Examines if there is any significant difference in either direction</td>
+</tr>
+<tr class="odd">
+<td><strong>Use</strong></td>
+<td>Applied when the hypothesis predicts a specific direction of the effect</td>
+<td>Applied when the hypothesis does not predict the direction of the effect</td>
+</tr>
+<tr class="even">
+<td><strong>Hypotheses Example</strong></td>
+<td>H<sub>0</sub>​: The new fertilizer does not increase yield (yield ≤ current yield)<br>
+H<sub>a</sub>​: The new fertilizer increases yield (yield &gt; current yield)</td>
+<td>H<sub>0</sub>​​: The new teaching method does not affect performance (performance = current method)<br>
+H<sub>a</sub>​​: The new teaching method affects performance (performance ≠ current method)</td>
+</tr>
+<tr class="odd">
+<td><strong>Testing Direction</strong></td>
+<td>Only one direction (greater than or less than)</td>
+<td>Both directions (either greater or less)</td>
+</tr>
+<tr class="even">
+<td><strong>Power</strong></td>
+<td>More powerful for detecting an effect in a specific direction</td>
+<td>More conservative, allows for detection of effects in both directions</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="data-processing-and-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="data-processing-and-analysis"><strong>Data Processing and Analysis</strong></h2>
+<section id="editing-coding-and-categorization" class="level3">
+<h3 class="anchored" data-anchor-id="editing-coding-and-categorization"><strong>Editing, Coding and Categorization</strong></h3>
+<p>Data editing is done in two steps: field editing and central editing. <strong>Field editing</strong> is done at the field immediately after interviews to clarify any queries, complete answers, input missed answers, or correct wrongly written notes if necessary. <strong>Central editing</strong> is done after completing all the data collection during data entry and compilation if any inconsistency is noticed. The collected data is entered in an Excel sheet or in a paper-based master sheet. This process is called <strong>data tabulation</strong>. During data tabulation numerical values are assigned to qualitative data, which is called <strong>coding</strong>. The coding helps apply mathematical operations and counting easier. For example, 1 for yes, 2 for no; 1 for male, 2 for female; 1 for low, 2 for medium, 3 for high.</p>
+<p><strong>Categorization</strong> means classification of data based on their class intervals. This reduces the number of levels in discrete or continuous data. Categorization must fulfill two conditions: mutually exclusive and completely exhaustive. <strong>Mutually exclusive</strong> means an observation will fall one and only once category. <strong>Completely exhaustive</strong> means all the categories will accommodate all the data and no observations will remain unclassified.</p>
+<p>Example of categorization: Data was collected on a group of 50 farmers’ age in years. The 50 observations are classified as follows where each farmer falls in only one of the category (mutually exclusive) and all 50 farmers are classified (completely exhaustive).</p>
+<table class="table">
+<tbody>
+<tr class="odd">
+<td>Category</td>
+<td>Range (years)</td>
+<td>Frequency</td>
+</tr>
+<tr class="even">
+<td>Young</td>
+<td>Up to 35</td>
+<td>15</td>
+</tr>
+<tr class="odd">
+<td>Middle-aged</td>
+<td>&gt; 35 to 50</td>
+<td>25</td>
+</tr>
+<tr class="even">
+<td>Old</td>
+<td>&gt; 50</td>
+<td>10</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="selection-of-statistical-tests" class="level3">
+<h3 class="anchored" data-anchor-id="selection-of-statistical-tests"><strong>Selection of Statistical Tests</strong></h3>
+<p>Selection of suitable statistical tests and analyses depends on the purpose, data types and distribution properties. A brief overview of the selection criteria and related assumptions are stated here.</p>
+<p><strong>Purpose 1: Exploration of data</strong> or cases or respondents is done using descriptive statistics, e.g.&nbsp;mean, standard deviation, standard error, coefficient of variation, frequency or percentage distribution, bar graph, line graph, boxplot, and group boxplot.</p>
+<p><strong>Purpose 2: Difference testing between groups:</strong></p>
+<p><strong>Dependent variable ——&gt; continuous</strong></p>
+<ul>
+<li><p>group = 2: t-test (data normal, equal variance)</p></li>
+<li><p>group = 2: Welch test (data normal, unequal variance)</p></li>
+<li><p>group = 2: Wilcoxon test (non-parametric test, data not normal, n&lt;10)</p></li>
+<li><p>group &gt; 2: ANOVA (data normal, equal variance)</p></li>
+<li><p>group &gt; 2: Kruskal-Wallis test (data not normal</p></li>
+</ul>
+<p><strong>Dependent variable ——&gt; categorical</strong></p>
+<ul>
+<li><p>Chi-square test: cell frequency &gt; 5 for &gt; 20% cells</p></li>
+<li><p>Fisher’s exact test: cell frequency assumptions not required</p></li>
+</ul>
+<p><strong>Purpose 3: Testing relationship</strong> between variables is can be done by either parametric or non-parametric tests. Parametric analysis requires the data follows specific distribution otherwise the result will not be reliable. Non-parametric tests do not require such assumptions.</p>
+<p><strong>Pearson correlation coefficient (r)</strong> is calculated as a parametric test. In this case, the assumptions are: data should be normally distributed and both variables are continuous or equal interval (not ordinal, not nominal). If the data does not meet these criteria or the data is rank data, <strong>Spearman rank correlation (ρ)</strong> is calculated. However, for categorical variables Chi-square or Fisher’s exact test is used.</p>
+<ul>
+<li><p>Chi-square test: data categorical, cell frequency &gt;5 for &gt;20% cells</p></li>
+<li><p>Fisher’s exact test: data categorical, cell frequency &lt;5 for &gt;20% cells</p></li>
+<li><p>Cramer’s V is calculated to understand the strength of association in Chi-square or Fisher’s exact test</p></li>
+<li><p>Cramer’s V is a scaled version (values ranges 0 – 1) similar to r values</p></li>
+</ul>
+<p><strong>Purpose 4: Causal factor identification</strong>:</p>
+<ul>
+<li><p>Simple regression: one independent variable</p></li>
+<li><p>Multiple regression: multiple independent variable</p></li>
+<li><p>Poisson regression: dependent variable is frequency</p></li>
+<li><p>Censored dependent variable: Tobit regression, censored Poisson regression</p></li>
+<li><p>Stepwise regression: variable selection</p></li>
+<li><p>Logistic regression (logit/probit): dependent variable binary</p></li>
+<li><p>Multinomial logit: dependent variable has &gt; 2 categories</p></li>
+<li><p>Polynomial regression: relationship is not linear</p></li>
+<li><p>Machine learning: decision making for mainly categorical variables</p></li>
+</ul>
+<p><img src="images/clipboard-1466642367.png" class="img-fluid"></p>
+</section>
+<section id="statistical-software-comparative-notes-on-r-python-spss-stata-and-sas-as-statistical-software" class="level3">
+<h3 class="anchored" data-anchor-id="statistical-software-comparative-notes-on-r-python-spss-stata-and-sas-as-statistical-software"><strong>Statistical Software: Comparative Notes on R, Python, SPSS, STATA, and SAS as Statistical Software</strong></h3>
+<p><strong>1. R</strong></p>
+<ul>
+<li><p><strong>Overview</strong>: R is a free, open-source programming language and software environment used for statistical computing and graphics. It is highly extensible, with a vast repository of packages available via CRAN (Comprehensive R Archive Network).</p></li>
+<li><p><strong>Strengths</strong>:</p>
+<ul>
+<li><p><strong>Flexibility</strong>: R excels in statistical analysis and graphical models. Users can perform a wide range of statistical tests and create publication-quality plots with packages like ggplot2.</p></li>
+<li><p><strong>Community Support</strong>: Being open-source, R benefits from a large, active community of users and developers, constantly contributing new packages and updates.</p></li>
+<li><p><strong>Reproducibility</strong>: Scripts and markdown documents ensure that analyses can be replicated and shared easily.</p></li>
+</ul></li>
+<li><p><strong>Weaknesses</strong>:</p>
+<ul>
+<li><p><strong>Learning Curve</strong>: R can be challenging for beginners due to its steep learning curve and the necessity of understanding programming concepts.</p></li>
+<li><p><strong>Performance</strong>: For very large datasets, R can be slower compared to some other statistical software.</p></li>
+</ul></li>
+</ul>
+<p><strong>2. Python</strong></p>
+<ul>
+<li><p><strong>Overview</strong>: Python is a versatile, high-level programming language known for its simplicity and readability. In the context of statistics, libraries like Pandas, NumPy, SciPy, and statsmodels, along with visualization tools like Matplotlib and Seaborn, make Python a powerful tool.</p></li>
+<li><p><strong>Strengths</strong>:</p>
+<ul>
+<li><p><strong>Ease of Use</strong>: Python’s syntax is intuitive and user-friendly, making it accessible for beginners and those familiar with programming.</p></li>
+<li><p><strong>Integration</strong>: Python integrates well with other programming languages and software, making it suitable for a wide range of applications beyond statistics, such as machine learning (via scikit-learn) and data science.</p></li>
+<li><p><strong>Community and Resources</strong>: Python has a robust community and extensive documentation, tutorials, and forums to support users.</p></li>
+</ul></li>
+<li><p><strong>Weaknesses</strong>:</p>
+<ul>
+<li><p><strong>Statistical Packages</strong>: While Python is strong overall, its statistical libraries are not as specialized or comprehensive as those available in R.</p></li>
+<li><p><strong>Performance</strong>: Like R, Python can struggle with performance issues when handling extremely large datasets without the use of specialized libraries or frameworks.</p></li>
+</ul></li>
+</ul>
+<p><strong>3. SPSS (Statistical Package for the Social Sciences)</strong></p>
+<ul>
+<li><p><strong>Overview</strong>: SPSS is a software package used for interactive, or batched, statistical analysis. It is widely used in social sciences, health sciences, and market research.</p></li>
+<li><p><strong>Strengths</strong>:</p>
+<ul>
+<li><p><strong>User-Friendly Interface</strong>: SPSS is known for its easy-to-use, menu-driven interface, which is ideal for users without a programming background.</p></li>
+<li><p><strong>Comprehensive Features</strong>: SPSS offers a wide range of statistical procedures, from basic descriptive statistics to complex multivariate analyses.</p></li>
+<li><p><strong>Integration</strong>: It integrates well with other IBM products and can handle large datasets efficiently.</p></li>
+</ul></li>
+<li><p><strong>Weaknesses</strong>:</p>
+<ul>
+<li><p><strong>Cost</strong>: SPSS is a commercial product with a significant cost, which can be a barrier for some users.</p></li>
+<li><p><strong>Flexibility</strong>: While powerful, SPSS is less flexible than programming languages like R and Python, particularly for custom analyses.</p></li>
+</ul></li>
+</ul>
+<p><strong>4. STATA</strong></p>
+<ul>
+<li><p><strong>Overview</strong>: STATA is a powerful statistical software used for data management, statistical analysis, and graphical representation. It is popular in economics, sociology, and political science.</p></li>
+<li><p><strong>Strengths</strong>:</p>
+<ul>
+<li><p><strong>Ease of Learning</strong>: STATA’s command syntax is straightforward and easier to learn for those new to programming.</p></li>
+<li><p><strong>Comprehensive Data Management</strong>: STATA excels in handling large datasets and complex data management tasks.</p></li>
+<li><p><strong>Advanced Statistical Procedures</strong>: It offers advanced statistical techniques, particularly in econometrics.</p></li>
+</ul></li>
+<li><p><strong>Weaknesses</strong>:</p>
+<ul>
+<li><p><strong>Cost</strong>: Like SPSS, STATA is a commercial software with substantial licensing fees.</p></li>
+<li><p><strong>Less Community Support</strong>: While it has a dedicated user base, STATA’s community is smaller compared to R and Python.</p></li>
+</ul></li>
+</ul>
+<p><strong>5. SAS (Statistical Analysis System)</strong></p>
+<ul>
+<li><p><strong>Overview</strong>: SAS is a software suite developed for advanced analytics, multivariate analyses, business intelligence, data management, and predictive analytics.</p></li>
+<li><p><strong>Strengths</strong>:</p>
+<ul>
+<li><p><strong>Industry Standard</strong>: Widely used in corporate and governmental settings for its reliability and robustness in handling complex analyses.</p></li>
+<li><p><strong>Comprehensive Capabilities</strong>: SAS provides a broad range of statistical procedures and has strong data handling capabilities.</p></li>
+<li><p><strong>Support and Documentation</strong>: SAS offers extensive support and thorough documentation, which is beneficial for enterprise environments.</p></li>
+</ul></li>
+<li><p><strong>Weaknesses</strong>:</p>
+<ul>
+<li><p><strong>Cost</strong>: SAS is one of the most expensive statistical software packages, limiting its accessibility to larger organizations.</p></li>
+<li><p><strong>Steep Learning Curve</strong>: Despite its power, SAS can be difficult to learn, especially for users without a strong background in statistics or programming.</p></li>
+</ul></li>
+</ul>
+<p>Each of these statistical software tools has its unique strengths and weaknesses. R and Python offer flexibility and powerful community support, making them ideal for academic and research settings. SPSS and STATA are user-friendly and highly efficient for social sciences and econometrics, respectively, though their cost can be prohibitive. SAS, while expensive and complex, is a powerhouse in enterprise environments for handling large-scale, complex analyses. The choice of software often depends on the specific needs, budget, and expertise of the user.</p>
+</section>
+<section id="forms-of-presenting-results" class="level3">
+<h3 class="anchored" data-anchor-id="forms-of-presenting-results"><strong>Forms of Presenting Results</strong></h3>
+<p>After analyzing the data, results are presented using texts, tables and figures without repetition. It means that if any information is presented in a table that should not be presented in a figure in the same report. However, in the texts can repeat the information for the sake of interpretation. <strong>Results</strong> include texts, tables, figures and their related interpretation. In the <strong>discussion</strong> step, the results are explained as why they are so (reasons) and how they are related to other studies and real word. When we ask the question ‘SO WHAT?’ to the results and discussion, we get <strong>conclusions</strong>. Conclusion includes implications of the results to the study areas and population. Finally, suggestions are included in a report in the form of <strong>recommendations</strong>. One golden rule is that all the sections in a report – introduction, methods, results, discussion and conclusions – are closely linked and consistent. Never add conclusions and recommendations those are not part of your research. In other words, never add any conclusions and recommendations those are not backed up by your data.</p>
+<p><strong>Guidelines of including tables in a report</strong>: Table title should be placed on the top of the table. A table must be referred in the text before the table.</p>
+<ol type="1">
+<li><p><strong>Numbering and Titles</strong>: Number tables sequentially (e.g., Table 1, Table 2) and provide a clear, descriptive title for each table.</p></li>
+<li><p><strong>Self-Contained</strong>: Ensure tables are self-explanatory, containing all necessary information to understand the data without referring to the text.</p></li>
+<li><p><strong>Headers</strong>: Label all columns (caption) and rows (stub) clearly with descriptive headers and indicate units of measurement.</p></li>
+<li><p><strong>Footnotes</strong>: Use footnotes to explain abbreviations, symbols, and any additional information necessary for understanding the table.</p></li>
+<li><p><strong>Consistency</strong>: Maintain a consistent format and style throughout all tables, including font size and type, borders, and alignment.</p></li>
+<li><p><strong>Data Presentation</strong>: Present data accurately and succinctly, avoiding unnecessary details. Align numerical data to the right for readability.</p></li>
+<li><p><strong>Referencing</strong>: Reference all tables in the text and discuss key findings presented in the tables within the report.</p></li>
+<li><p><strong>Journal Guidelines</strong>: Adhere to specific guidelines provided by the journal or institution, which may include formatting rules, size limits, and submission requirements.</p></li>
+<li><p><strong>Simplicity</strong>: Keep tables simple and uncluttered, avoiding excessive use of lines and shading.</p></li>
+<li><p><strong>Software Tools</strong>: Use appropriate software tools to create tables, ensuring they are professionally formatted and easy to read.</p></li>
+<li><p>Avoid ditto marks for the identical texts in the next rows.</p></li>
+<li><p>Keep contrasting columns side by side.</p></li>
+<li><p>Add the sum/total column at the right-most column or bottom-most row.</p></li>
+<li><p>Keep the table in a single page, if not possible repeat the header row in the following pages.</p></li>
+</ol>
+<p><strong>Guidelines of including figures in a report</strong>: Figure title should be placed at the bottom of the figure. A figure must be referred in the text before the figure.</p>
+<ol type="1">
+<li><p><strong>Numbering and Titles</strong>: Number figures sequentially (e.g., Figure 1, Figure 2) and provide a concise, descriptive caption beneath each figure.</p></li>
+<li><p><strong>Referencing</strong>: Refer to all figures in the main text, and ensure the discussion highlights the key information each figure presents.</p></li>
+<li><p><strong>Clarity and Quality</strong>: Ensure figures are of high resolution and clarity. Avoid unnecessary details that may clutter the figure. Use standard fonts and sizes.</p></li>
+<li><p><strong>Self-Contained</strong>: Each figure should be self-explanatory. Include legends and labels to explain symbols, lines, or colors used in the figure.</p></li>
+<li><p><strong>Units and Scales</strong>: Clearly indicate units of measurement and scales on axes. Use appropriate and consistent scales.</p></li>
+<li><p><strong>Consistency</strong>: Maintain a consistent style and format across all figures. This includes color schemes, font sizes, and line thicknesses.</p></li>
+<li><p><strong>Relevance</strong>: Only include figures that are relevant and add value to the report. Each figure should contribute to the understanding of the data and support the main findings.</p></li>
+<li><p><strong>Placement</strong>: Place figures close to where they are referenced in the text to aid readability and flow.</p></li>
+<li><p><strong>Ethical Considerations</strong>: Ensure figures are not manipulated in a way that misrepresents the data. Credit the source if you use figures from other works.</p></li>
+<li><p><strong>Supplementary Material</strong>: If figures are complex or numerous, consider placing detailed versions in supplementary material while keeping simplified versions in the main report.</p></li>
+</ol>
+<p><strong>Types of charts, graphs and diagrams used as figures in a report</strong></p>
+<p>In a thesis or scientific article, various types of figures are used to present data and illustrate key concepts. Here are some common types:</p>
+<ol type="1">
+<li><p><strong>Graphs and Charts</strong>:</p>
+<ul>
+<li><p><strong>Line Graphs</strong>: Show trends over time or continuous data.</p></li>
+<li><p><strong>Bar Charts</strong>: Compare quantities across different categories.</p></li>
+<li><p><strong>Pie Charts</strong>: Display proportions of a whole.</p></li>
+<li><p><strong>Scatter Plots</strong>: Illustrate relationships between two variables.</p></li>
+<li><p><strong>Histograms</strong>: Show frequency distributions of continuous data.</p></li>
+</ul></li>
+<li><p><strong>Diagrams and Schematics</strong>:</p>
+<ul>
+<li><p><strong>Flowcharts</strong>: Outline processes or workflows.</p></li>
+<li><p><strong>Circuit Diagrams</strong>: Represent electrical circuits.</p></li>
+<li><p><strong>Block Diagrams</strong>: Illustrate system structures or processes.</p></li>
+</ul></li>
+<li><p><strong>Photographs</strong>:</p>
+<ul>
+<li>Show real-life images of specimens, equipment, or experimental setups.</li>
+</ul></li>
+<li><p><strong>Maps</strong>:</p>
+<ul>
+<li>Provide geographical context or spatial distribution of data.</li>
+</ul></li>
+<li><p><strong>Molecular Structures</strong>:</p>
+<ul>
+<li>Display chemical structures or biological macromolecules.</li>
+</ul></li>
+<li><p><strong>Heatmaps</strong>:</p>
+<ul>
+<li>Show intensity of data points over a two-dimensional space, often used in genomics and other biological data.</li>
+</ul></li>
+<li><p><strong>Box Plots</strong>:</p>
+<ul>
+<li>Summarize a set of data showing its distribution, median, and outliers.</li>
+</ul></li>
+<li><p><strong>3D Plots</strong>:</p>
+<ul>
+<li>Represent three-dimensional data for better spatial understanding.</li>
+</ul></li>
+<li><p><strong>Infographics</strong>:</p>
+<ul>
+<li>Combine images, charts, and minimal text to explain a concept or process in an engaging way.</li>
+</ul></li>
+</ol>
+<p>Each type of figure serves a specific purpose, helping to clarify complex information and support the narrative of the scientific work.</p>
+</section>
+</section>
+<section id="format-of-a-scientific-report" class="level2">
+<h2 class="anchored" data-anchor-id="format-of-a-scientific-report"><strong>Format of a Scientific Report</strong></h2>
+<p>Scientific report is a document that contains the justification, investigation techniques and implications of a scientific inquiry. Examples: thesis, scientific articles/notes/commentary in journals. Scientific reports are reviewed by experts before publication to ensure that the policy makers and users will get reliable information about the topic of interest. Style and format of a scientific report can widely vary depending on the academic degrees, institutions, publishers and disciplines. The general format of a scientific reports contains the following five chapters (body of the report) and a few extra sections without sections numbers (abstract, acknowledgments and references, appendix/annex for interview schedule, additional related information):</p>
+<ol type="1">
+<li><p>&nbsp;Abstract</p></li>
+<li><p>Introduction</p></li>
+<li><p>Methodology</p></li>
+<li><p>Results</p></li>
+<li><p>Discussion</p></li>
+<li><p>Conclusions</p></li>
+<li><p>Acknowledgments</p></li>
+<li><p>References</p></li>
+<li><p>Appendix (if any)</p></li>
+</ol>
+<p>In a thesis there is a section called preliminaries that contain</p>
+<ul>
+<li><p>Cover page (Research title, name of the researcher, degree and institution, submission date)</p></li>
+<li><p>Declaration (The thesis contents and supervisors’ approval)</p></li>
+<li><p>Acknowledgments (Thanks to those who are not author but helped in the research work)</p></li>
+<li><p>Contents (List of chapters, sections, subsections; List of tables; List of figures)</p></li>
+<li><p>Abstract (Summary of the study, 200 – 300 words)</p></li>
+</ul>
+<p>There is a separate chapter in <u><strong>thesis</strong></u> after the introduction, which is <u><strong>‘Review of Literature’</strong></u>. This is embedded in the introduction of other types of scientific reports.</p>
+<p><strong>Introduction of a scientific report</strong></p>
+<p>Introduction means introducing the research problem and objectives. There are some well accepted and widely practices principles of writing an introduction. In a thesis, subheadings of the introduction are mentioned but in scientific journals those are implicit (hidden). Contents of a good introduction are:</p>
+<p><strong>1. General background or context</strong></p>
+<ul>
+<li>Start with general or international perspectives and end with specific or local perspectives towards your research topic.</li>
+</ul>
+<p><strong>2. Research problem</strong></p>
+<ul>
+<li><p>&nbsp;&nbsp; Importance of the topic</p></li>
+<li><p>&nbsp;&nbsp; Existing research/literature about the topic</p></li>
+<li><p>&nbsp;&nbsp; Research gap</p></li>
+<li><p>&nbsp;&nbsp; Conceptual framework</p></li>
+</ul>
+<p><strong>3. Research objectives</strong></p>
+<ul>
+<li>Research questions or objectives specific to the study. These must be SMART (specific, measurable, achievable, rational and timely) and sufficient to fill the research gap.</li>
+</ul>
+<p><strong>4. Research contributions</strong></p>
+<ul>
+<li>Anticipated research contribution to the community, policymakers, science and existing body of knowledge.</li>
+</ul>
+<p><strong>Review of literature of a thesis</strong></p>
+<p>Output of review of literature is to design a conceptual framework of a research work. It contains related theories and existing research outputs in relation to the study variables.</p>
+<p><strong>Methodology</strong></p>
+<ul>
+<li><p>Location of the study where the respondents and problems are located.</p></li>
+<li><p>Methodological framework</p></li>
+<li><p>Sampling frame (part of population) and techniques</p></li>
+<li><p>Variables and their measurements</p></li>
+<li><p>Data collection methods</p></li>
+<li><p>Data processing and analytical frameworks</p></li>
+<li><p>Software used for the analysis.</p></li>
+</ul>
+<p><strong>Results/findings and discussions</strong></p>
+<p>Results/findings are the output of research. This section objectively present results/findings using text, figures and tables. What has been found is the result and why this has been found is the discussion.</p>
+<p><strong>Conclusions</strong></p>
+<p>Conclusions are the implications of the results. So what is explained in this section with a generalization over the population based on the sample study. What could be the impact of the findings are concisely written in conclusion without any references. Recommendations are merged with conclusions. Recommendations include what to do to overcome the problems and what should be included in further research.</p>
+</section>
+<section id="citations-references-and-footnotes" class="level2">
+<h2 class="anchored" data-anchor-id="citations-references-and-footnotes"><strong>Citations, References and Footnotes</strong></h2>
+<p>There are numerous styles of citations, footnotes, references and bibliography. Examples</p>
+<p><strong>APA:</strong> American Psychological Association (APA), mostly followed by social sciences. Please <a href="https://libguides.csudh.edu/citation/apa-7">visit the link</a>for detail APA updates and <a href="https://libguides.csudh.edu/ld.php?content_id=52097964">quick guides</a>.</p>
+<p><strong>Harvard:</strong> Author-date style, mostly followed by Elsevier, Springer and many other journals.</p>
+<p><strong>EEE:</strong> Electronic and Electrical Engineering and computer science (EEE), numbered citations</p>
+<p><strong>Citations</strong> are placed in the texts (body of the article). Example: Climatic impacts on agriculture are inevitable. El Niño Southern Oscillation itself, through droughts and floods, can cause 15 to 35% variation in global yield in wheat, oilseeds and coarse grains (Howden et al.&nbsp;2007). Habiba et al.&nbsp;(2012) and Roy et al.&nbsp;(2018) conducted research in the drought-prone areas of Bangladesh.</p>
+<p><strong>References</strong> are the detailed sources placed at the end of the report. These are alphabetically arranged, except EEE where references are arranged a sequence as they in the text. Example:</p>
+<div class="hanging-indent">
+<p>Habiba, U., Shaw, R., &amp; Takeuchi, Y. (2012). Farmer’s perception and adaptation practices to cope with drought: perspectives from northwestern Bangladesh. <em>International Journal of Disaster Risk Reduction, 1,</em> 72–84. <a href="https://doi.org/10.1016/j.%20ijdrr.2012.05.004">https://doi.org/10.1016/j. ijdrr.2012.05.004</a></p>
+<p>Howden, S.M., Soussana, J.F., Tubiello, F.N., Chhetri, N., Dunlop, M., &amp; Meinke, H. (2007). Adapting agriculture to climate change. <em>PNAS</em> 104, 19691–19696. <a href="https://doi.org/10.1073/pnas.0701890104" class="uri">https://doi.org/10.1073/pnas.0701890104</a></p>
+<p>Roy, D, Kowsari, M.S., Nath, T.D., Taiyebi, K.A., &amp; Rashid, M.M. (2018). Smallholder farmers’ perception to climate change impact on crop production: case from drought prone areas of Bangladesh. <em>International Journal of Agricultural Technology, 14</em>, 1813–1828</p>
+</div>
+<p><strong>Note:</strong> References must contain only those sources that have been used in the text. References must include all the sources used in the text. Bibliography may contain additional related sources.</p>
+<p>Use <a href="https://www.mendeley.com/download-reference-manager/windows"><strong>Mendeley</strong></a>(free), <a href="https://www.zotero.org/download/"><strong>Zotero</strong></a>(free), or <a href="https://endnote.com/downloads/"><strong>Endnote</strong></a>(paid) reference manager for managing and changing styles. Create an account at Mendeley website and watch in YouTube for more information.</p>
+<p><strong>Sources and components of literature and information</strong></p>
+<ul>
+<li><p>Books: author(s), year, title, publisher, place</p></li>
+<li><p>Journal articles: author(s), year, title, journal, volume (issue): page, doi (digital object identifier) number</p></li>
+<li><p>Newspaper articles: author(s), year, title, newspaper, publication date</p></li>
+<li><p>Conference proceedings: authors(s), year, title, conference, date, page</p></li>
+<li><p>Chapter of an edited book: author(s), year, chapter title, editors, book title, page, publisher, place</p></li>
+<li><p>Webpage: authors(s), year, title, access date, web address</p></li>
+<li><p>Anonymous (n.d.) when author and year are unavailable.</p></li>
+<li><p>Anonymous (2021) when only author is unavailable.</p></li>
+<li><p>Hasan et al.&nbsp;(n.d.) when only date is unavailable.</p></li>
+</ul>
+<p>‘et al.’ is a Latin phrase <em>et alia</em> (and others), which is usually used when there are more than two authors.</p>
+<p><strong>A footnote</strong> is a note placed at the bottom of a page in a document that provides additional information or citations related to the text on that page. Footnotes are used to:</p>
+<ol type="1">
+<li><p>Cite sources of information, data, or quotations used in the text.</p></li>
+<li><p>Provide additional context or explanations that would be too lengthy or distracting to include in the main text.</p></li>
+<li><p>Include comments or references that are relevant to the text but do not fit smoothly into the main narrative.</p></li>
+</ol>
+<p>Footnotes are typically indicated by a superscript number or symbol in the text, which corresponds to a matching number or symbol at the bottom of the page where the footnote is provided. Here is an example of how footnotes are used:</p>
+<p>In the main text: “According to recent studies, the population of tigers in the wild has decreased significantly over the past decade.^1”</p>
+<p>At the bottom of the page: “1. Smith, John. <em>The Decline of Tigers in the Wild</em>. Wildlife Conservation Journal, 2023, pp.&nbsp;45-50.”</p>
+<p>Footnotes help keep the main text concise and focused while still providing necessary citations and additional information for readers who want to delve deeper into the topic.</p>
+</section>
+<section id="research-plagiarism-and-ai-artificial-intelligence" class="level2">
+<h2 class="anchored" data-anchor-id="research-plagiarism-and-ai-artificial-intelligence"><strong>Research Plagiarism and AI (Artificial Intelligence)</strong></h2>
+<p>Plagiarism is the inclusion of someone else ideas, text and results without acknowledgment is unethical and punishable academic crime. Use quote or paraphrased statements with proper citations of the original authors (even for your own previous works) to avoid plagiarism. The Turnitin software is used to detect plagiarism. Our PSTU has its subscription and you can use it with the help from the library.</p>
+<p>In the age of the 4th Industrial Revolution, we must be familiar with AI. At the same time we must be aware of its dangerous sides. It is a wolf in sheep’s cloths. So, my suggestion is to use AI cautiously and creatively. Some AI tools include <a href="https://chatgpt.com/">ChatGPT</a>(general purpose tool), <a href="https://elicit.com/">Elicit</a>(review of literature tool), <a href="https://quillbot.com/">Quillbot</a>(paraphrasing tool). If you use AI in your research, you need to acknowledge it by mentioning why you have used it. For example AI tools have been used to improve grammar and paraphrasing.</p>
+<p>We have also to be technologically sound in the academic and research world. Proficiency in MS Word, Excel, PowerPoint, <a href="https://cran.r-project.org/bin/windows/base/">R Program</a>, <a href="https://www.canva.com/">Canva</a>, <a href="https://www.slido.com/">Slido</a>, <a href="https://miro.com/">Miroboard</a>, <a href="https://kahoot.com/">Kahoot</a>, <a href="https://www.zoom.com/">Zoom</a>, <a href="https://meet.google.com/">Google Meet</a>, <a href="https://www.microsoft.com/en-us/microsoft-teams/download-app">Microsoft Team</a>, <a href="https://drive.google.com/">Google Drive</a>, <a href="https://www.researchgate.net/">ResearchGate</a>, <a href="https://scholar.google.com/">Google Scholar</a>, <a href="https://www.elsevier.com/products/scopus/author-profiles">Scopus Researcher ID</a>, <a href="https://mjl.clarivate.com/search-results">Web of Science</a>, <a href="https://orcid.org/0000-0003-3567-2854">ORCID</a>and the similar software and online platforms are some additional capital assets for a researcher.</p>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references"><strong>References</strong></h2>
+<div class="hanging-indent">
+<p>Kothari, C. R. (2013). <em>Research Methodology: Methods and Techniques.</em> New Delhi: New Age International.</p>
+<p>Edwards, A. L. (1957). <em>Techniques of Attitude Scale Construction.</em> Appleton-Century-Crofts.</p>
+<p>Hair, J. F., Black, W. C., Babin, B. J., &amp; Anderson, R. E. (2010). <em>Multivariate Data Analysis.</em> 7th ed. Prentice Hall.</p>
+</div>
+<section id="cite-this-page-as" class="level3">
+<h3 class="anchored" data-anchor-id="cite-this-page-as"><strong>Cite this page as</strong></h3>
+<div class="hanging-indent">
+<p>Hasan, M. K. (2024). <em>Understanding Research Methodology: A Comprehensive Guide.</em> Accessed [date of access] from <a href="">www.ruenresearch.com/courses/research-methodology</a></p>
+</div>
+
+
+</section>
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="../index.html">Copyright © 2024 | RUEN Research</a>
+  </li>  
+</ul>
+    </div>   
+    <div class="nav-footer-center">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1">CC BY-NC-SA 4.0</a>
+  </li>  
+</ul>
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="../privacy-policy.html">Privacy Policy</a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+</body></html>

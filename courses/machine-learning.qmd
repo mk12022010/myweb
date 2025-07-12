@@ -1,0 +1,7 @@
+---
+title: "Machine Learning Using R"
+---
+
+# Machine Learning Using R
+
+This module includes classification, regression, clustering, and more using R.

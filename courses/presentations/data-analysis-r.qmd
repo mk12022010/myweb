@@ -1,0 +1,235 @@
+---
+title: "Data Analysis Using R"
+author: "Professor Dr. Md. Kamrul Hasan"
+format:
+  revealjs:
+    smaller: false
+    scrollable: true
+    incremental: true
+    code-block-height: 650px
+    logo: "/images/logo.png"
+    footer: "RUEN Research"
+    transition: slide
+    slide-number: c/t
+    multiplex: false
+    embed-resources: false
+    chalkboard: true
+---
+
+## Why R?
+- R is a free software environment for statistical computing and graphics.
+- It is widely used among statisticians and data miners for developing statistical software and data analysis.
+- R is highly extensible and has a large number of packages for various statistical techniques.
+- R is command driven, so its potentiality is literally unlimited.
+- Code sharing is easy and reproducibility is ensured.
+
+## Installation
+- Download R and RStudio from [R and RStudio](https://posit.co/download/rstudio-desktop/).
+- Install R and RStudio, which is an integrated development environment (IDE) for R.
+- Open RStudio and set up your working directory using and other options in the Tools > Global Options...
+- Explore and play with RStudio interface, including the console, script editor, environment pane, and plots pane.
+- Instruction [link](https://youtu.be/fnpchOccshE)
+
+## What will we cover?
+- Research design and data collection
+- Data entry and cleaning
+- Basic R syntax and data types
+- Data structures: vectors, matrices, lists, and data frames
+- Importing and exporting data
+- Data manipulation with dplyr and tidyr
+- Data visualization with ggplot2
+- Statistical analysis: chi-square test, t-tests, ANOVA, correlation, regression
+
+## Basic R Syntax
+
+::: {.panel-tabset}
+### Code
+```r
+# This is a comment
+x <- 5  # Assigning a value to a variable x
+3 -> y  # Another way to assign a value to y
+z = 8 # Simple way of assigning a value to z
+x # Print the value of x
+y # Print the value of y
+z # Print the value of z
+x + y  # Perform addition
+x * y  # Perform multiplication
+x / y  # Perform division
+x^2  # Square of x
+sqrt(x)  # Square root of x
+x > y  # Check if x is greater than y
+x == y  # Check if x is equal to y
+x != y  # Check if x is not equal to y
+y %/% x  # Integer division
+y %% x  # Modulus operation
+```
+### Output
+```{r}
+#| echo: false
+x <- 5  # Assigning a value to a variable x
+3 -> y  # Another way to assign a value to y
+z = 8 # Simple way of assigning a value to z
+x # Print the value of x
+y # Print the value of y
+z # Print the value of z
+x + y  # Perform addition
+x * y  # Perform multiplication
+x / y  # Perform division
+x^2  # Square of x
+sqrt(x)  # Square root of x
+x > y  # Check if x is greater than y
+x == y  # Check if x is equal to y
+x != y  # Check if x is not equal to y
+y %/% x  # Integer division
+y %% x  # Modulus operation
+```
+:::
+
+
+## Basic R Syntax
+
+::: {.panel-tabset}
+### Code
+```r
+log(1000) # Natural logarithm of 1000
+log10(1000) # Base 10 logarithm of 1000
+sin(pi/2) # Sine of pi/2
+
+degree = 45
+radian = degree * (pi / 180) # Convert degrees to radians
+tan(radian) # Tangent of the angle in radians
+
+```
+### Output
+```{r}
+#| echo: false
+log(1000) # Natural logarithm of 1000
+log10(1000) # Base 10 logarithm of 1000
+sin(pi/2) # Sine of pi/2
+
+degree = 45
+radian = degree * (pi / 180) # Convert degrees to radians
+tan(radian) # Tangent of the angle in radians
+```
+:::
+
+## Data Structures
+::: {.panel-tabset}
+### Data codes
+```r
+# Vectors
+v = c(1, 2, 3, 4, 5)  # Create a numeric vector
+v_char = c("a", "b", "c")  # Create a character vector
+# Matrices
+m = matrix(1:9, nrow=3, ncol=3)  # Create a 3x3 matrix
+m2 = matrix(1:12, nrow=3, ncol=4)  # Create a 3x4 matrix
+# Lists
+list = list(name="John", age=30, scores=c(90, 85, 88))  # Create a list
+# Data Frames by combing vectors
+name = c("Alice", "Bob", "Charlie")
+age = c(25, 30, 35)
+scores = c(90, 85, 88)
+df = data.frame(name, age, scores)  # Create a data frame
+```
+```{r}
+# Vectors
+v = c(1, 2, 3, 4, 5)  # Create a numeric vector
+v_char = c("a", "b", "c")  # Create a character vector
+# Matrices
+m = matrix(1:9, nrow=3, ncol=3)  # Create a 3x3 matrix
+m2 = matrix(1:12, nrow=3, ncol=4)  # Create a 3x4 matrix
+# Lists
+list = list(name="John", age=30, scores=c(90, 85, 88))  # Create a list
+# Data Frames by combing vectors
+name = c("Alice", "Bob", "Charlie")
+age = c(25, 30, 35)
+scores = c(90, 85, 88)
+df = data.frame(name, age, scores)  # Create a data frame
+```
+
+### Index codes
+```r
+v = c(1, 2, 3, 4, 5) # Accessing elements in vectors
+v[1]  # First element
+v[2:4]  # Elements from index 2 to 4
+
+m = matrix(1:9, nrow=3, ncol=3) # Accessing elements in matrices
+m[1, 2]  # Element in first row, second column
+m[2, ]  # Second row
+m[, 3]  # Third column
+# Accessing elements in lists
+list = list(name="John", age=30, scores=c(90, 85, 88))
+list$name  # Access the 'name' element
+list[[2]]  # Access the second element (age)
+# Accessing elements in data frames
+df = data.frame(name=c("Alice", "Bob", "Charlie"), age=c(25, 30, 35), scores=c(90, 85, 88))
+df$name  # Access the 'name' column
+df[1, ]  # Access the first row
+df[2, "age"]  # Access the 'age' of the second row
+```
+
+### Accessed elements
+```{r}
+# Accessing elements in vectors
+v = c(1, 2, 3, 4, 5) 
+v[1]  # First element
+v[2:4]  # Elements from index 2 to 4
+# Accessing elements in matrices
+m = matrix(1:9, nrow=3, ncol=3)
+m[1, 2]  # Element in first row, second column
+m[2, ]  # Second row
+m[, 3]  # Third column
+# Accessing elements in lists
+list = list(name="John", age=30, scores=c(90, 85, 88))
+list$name  # Access the 'name' element
+list[[2]]  # Access the second element (age)
+# Accessing elements in data frames
+df = data.frame(name=c("Alice", "Bob", "Charlie"), age=c(25, 30, 35), scores=c(90, 85, 88))
+df$name  # Access the 'name' column
+df[1, ]  # Access the first row
+df[2, "age"]  # Access the 'age' of the second row
+```
+:::
+
+
+## Accessing elements in data frames using dplyr {.smaller}
+
+- First you need to install the library by `install.packages("dplyr")`.
+- Then you can load the library using `library(dplyr)`.
+- You can also manage libraries using the Packages options in Tools in RStudio.
+- The easiest way to managme packages using 'pacman' package.
+- Install it using `install.packages("pacman")`.
+- Then you can load other packages using `pacman::p_load(dplyr, ggplot2, tidyr, car, jtools, kableExtra)`.
+
+
+## Accessing elements in data frames using dplyr
+::: {.panel-tabset}
+### Code
+```r
+library(dplyr)
+df = data.frame(name=c("Alice", "Bob", "Charlie"), 
+                age=c(25, 30, 35), 
+                scores=c(90, 85, 88))
+
+df %>% 
+  filter(age > 28)  # Filter rows where age is greater than 28
+
+df %>%
+  select(name, scores)  # Select specific columns
+```
+### Output
+```{r}
+#| output-location: fragment
+library(dplyr)
+df = data.frame(name=c("Alice", "Bob", "Charlie"), 
+                age=c(25, 30, 35), 
+                scores=c(90, 85, 88))
+
+df %>% 
+  filter(age > 28)  # Filter rows where age is greater than 28
+
+df %>%
+  select(name, scores)  # Select specific columns
+```
+:::
+

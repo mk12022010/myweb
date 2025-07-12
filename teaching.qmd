@@ -1,0 +1,19 @@
+---
+title: " "
+---
+
+# Teaching
+
+1.  [Research methodology](/courses/research-methodology.qmd)
+2.  [Basic statistics using R](/courses/data-analysis.qmd)
+3.  [Intermediate statistics using R](/courses/data-analysis.qmd)
+4.  [Advanced statistics using R](/courses/machine-learning.qmd)
+5.  [Machine learning using R](/courses/machine-learning.qmd)
+6.  Data analysis using Python/SPSS/Minitab
+7.  [Research tools Data collection tools and techniques](/courses/research-methodology.qmd)
+8.  Techniques for data processing
+9.  Optimization of data analysis techniques
+10. Use of AI in research
+11. Office program Use of MS Word
+12. Use of MS Excel
+13. Use of MS PowerPoint

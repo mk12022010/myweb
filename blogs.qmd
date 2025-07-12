@@ -1,0 +1,7 @@
+---
+title: "Blog Posts"
+---
+
+# Blogs
+
+Welcome to the blog section! Topics may include research reflections, case studies, or tools and tips.

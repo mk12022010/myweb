@@ -1,0 +1,10 @@
+---
+title: "Custom Sidebar Panel"
+---
+
+### **Extra Message**  
+📢 *"This is a dynamic sidebar panel!"*  
+
+- 🔗 [Important Link](#)  
+- 📅 Latest update: `r Sys.Date()`  
+- 🎨 Custom HTML/CSS allowed too.  

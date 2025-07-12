@@ -1,0 +1,35 @@
+{
+  "about.qmd": {
+    "about.html": "74afe0d9"
+  },
+  "index.qmd": {
+    "index.html": "8c118ad2"
+  },
+  "teaching.qmd": {
+    "teaching.html": "bfb26acb"
+  },
+  "blogs.qmd": {
+    "blogs.html": "7bc5f6a6"
+  },
+  "contact.qmd": {
+    "contact.html": "9db4580a"
+  },
+  "courses/data-analysis.qmd": {
+    "data-analysis.html": "60df9bb3"
+  },
+  "courses/machine-learning.qmd": {
+    "machine-learning.html": "adaa6bd6"
+  },
+  "courses/research-methodology.qmd": {
+    "research-methodology.html": "65f9f6a6"
+  },
+  "custom-panel.qmd": {
+    "custom-panel.html": "cbc43b82"
+  },
+  "privacy-policy.qmd": {
+    "privacy-policy.html": "9aeeecdf"
+  },
+  "courses/presentations/data-analysis-r.qmd": {
+    "data-analysis-r.html": "9a753cd3"
+  }
+}

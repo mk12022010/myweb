@@ -1,0 +1,120 @@
+---
+title: "Data Analysis Using R"
+author: "Professor Dr. Md. Kamrul Hasan"
+---
+
+# Data Analysis Using R
+
+This page briefly introduces with R and guides you through basic to advanced level of data analysis and visualizations.
+It covers data set creation, manipulation, saving, and opening.
+Implementation of descriptive statistics (e.g. mean, standard deviation, standard error, frequency and percentage distribution) and inferential statistics (e.g. chi-square test, independent two sample t-test, paired t-test, Welch test, Wilcoxon test, one-way ANOVA, two-way ANOVA, three-way ANOVA, post-hoc analysis with Tukey and Bonferroni adjustment, Kruskal Wallis test, Pearson and Spearman correlation, and multiple regression with detecting and solving multicollinearity, heteroskedasticity and endogeneity problems).
+Along with these analysis, related visualization techniques are explained in this manual.
+It is strongly advised to practice the R codes mentioned in this manual while reading it.
+
+## References and learning materials
+
+-   Basics of R Programming Language for Data Wrangling and Analysis – \[Class notes, will be supplied\]
+
+-   YouTube video links may be accessed from the course contents.
+
+-   Website for learning: <https://www.geeksforgeeks.org/r-tutorial/?ref=outind>
+
+-   [Learning Statistics with R – Danielle Navarro](https://learningstatisticswithr.com/lsr-0.6.pdf) \[[Datasets](https://learningstatisticswithr.com/data.zip)\]
+
+-   [R Graphics Cookbook – Winston Chang](https://r-graphics.org/) \[[Printed version](https://osctr.ouhsc.edu/sites/default/files/2020-02/rcourse/3/RGraphicsCookbook.pdf)\]
+
+## **Introduction to R and Installation of R and RStudio**
+
+R is usually known as an open source data analysis tool though it can do much more than just data analysis, such as website design, article writing, thesis preparation, book compilation, and web applet creation.
+R is a programming language that uses our personal computer resources to translate R programming language into useful outputs.
+Installation of R is very easy.
+However, the functionality of R is popularly enhanced by RStudio.
+Therefore, you need to download and install both R and RStudio for completing this manual smoothly.
+You can download R and R studio from <https://posit.co/download/rstudio-desktop/>.
+It should be noted that RStudio is a software that enables us to write and execute R script.
+[**You can also integrate R with Jupyter Notebook in visual Studio Code**](https://ruenresearch.com/blog/).
+After writing the codes and markdown in Jupyter Notebook, export as HTML, open in RStudio, publish in RPubs.
+Alternatively, you can convert .ipynb (jupyter notebook) to .Rmd (R Makrdown) in R using `rmarkdown::convert_ipynb(input, output)` function.
+
+In jupyter lab or notebook, you may need additional installation to activate co-pilot (`pip install notebook-intelligence` in command prompt terminal).
+[**Details are here**](https://blog.jupyter.org/introducing-notebook-intelligence-3648c306b91a)**.** Custom shortcut can also be added by editing the .json file.
+[**Details are here**](https://sinlingchan.com/p/jupyter-lab-custom-keyboard-shortcut/)**.** You need to add the following codes in the **User Preference Pane**.
+Be careful for not messing the original file.
+Paste this codes before the last curly bracket and put comma after the \] (square bracket) of the previous line.
+
+```         
+{
+    "shortcuts": [
+         {
+            "command": "notebook:replace-selection",
+            "selector": ".jp-Notebook",
+            "keys": ["Ctrl Shift M"],
+            "args": {"text": '%>% '}
+        }
+    ]
+}
+```
+
+This course has 30 hours of active face-to-face classroom activities and 50 hours of independent study, homework, assignment and presentation.
+
+R is widely used for data science for several reasons, such as:
+
+-   It is a free software.
+
+-   You can do whatever you want to do regarding data analysis.
+
+-   It’s publication ready visualization power is unique.
+
+-   Program script can be saved, shared, and reuse easily for further reference.
+
+-   Highly dedicated, motivated and enthusiastic user forum and helpful online free learning materials provide confidence among users.
+
+## **Course contents [Presentation slides](/courses/presentations/data-analysis-r.qmd)**
+
+**Please double check and ensure your datasets and R script/markdown files are in the same folder/directory. Set the working the directory to the folder containing the script and dataset.**
+
+## **Lesson 1: [R – Installation of R and RStudio, setting the working directory \[YouTube\]](https://youtu.be/fnpchOccshE)**
+
+## **Lesson 2: [R projects, scripts, objects, variables, dataset, list](https://rpubs.com/kamrulext/ms-phd-l1) \[[Supplements](https://rpubs.com/kamrulext/lesson2)\]**
+
+## [**Lesson 3: R markdown, Basic functions, Package (tidyverse) installation, Visualization using ggplot()**](https://rpubs.com/kamrulext/lesson3) **\[[YouTube](https://youtu.be/1SlzQnSiebU)\]**
+
+## [**Lesson 4: Dataset manipulation, Pareto chart, Chi-square test**](https://rpubs.com/kamrulext/lesson4) **\[[YouTube](https://www.youtube.com/watch?v=li085_Ld5vc)\] \[[Supplements](https://rpubs.com/kamrulext/lesson4supplements)\]**
+
+## [**Lesson 5: Descriptive statistics and chi-square test revisit**](https://rpubs.com/kamrulext/lesson5) **\[[YouTube](https://www.youtube.com/watch?v=kAy_wQrqW1E)\]**
+
+## [**Lesson 6: CLT, Standard error, Confidence interval**](https://rpubs.com/kamrulext/lesson6)
+
+## [**Lesson 7: One sample t-test, z-test**](https://rpubs.com/kamrulext/lesson789)
+
+## [**Lesson 8: Two sample t-test (independent and paired)**](https://rpubs.com/kamrulext/lesson789)
+
+For paired t-test, save the data part as csv, change the extension to txt, read the data file using R command for practice.
+
+## [**Lesson 9: Mann-Whitney test (independent) and Wilcoxon test (dependent)**](https://rpubs.com/kamrulext/lesson789)
+
+## **Lesson 10: ANOVA (one-way, two-way, three-way for CRD, RCBD and Factorial design)**
+
+[**ANOVA Link 1**](https://rpubs.com/kamrulext/anova1) **[ANOVA Link 2](https://rpubs.com/kamrulext/anova2)[ANOVA Link 3](https://rpubs.com/kamrulext/anova3)**
+
+## [**Lesson 11: ANOVA (mixed effects for split-plot design)**](https://rpubs.com/kamrulext/anova4) **\[[Supplement](https://rpubs.com/kamrulext/mixed1)\]**
+
+## [**Lesson 12: Residual and Post-hoc analysis**](https://rpubs.com/kamrulext/anova3)
+
+## [**Lesson 13: Kruskal-Wallis test**](https://rpubs.com/kamrulext/kruskal)
+
+## [**Lesson 14: Correlation (Spearman and Pearson)**](https://rpubs.com/kamrulext/correlation)
+
+## [**Lesson 15: Linear simple and multiple regression**](https://rpubs.com/kamrulext/linear_regression)
+
+## [**Lesson 16: Logistic regression**](https://rpubs.com/kamrulext/logit)
+
+## **Class test 1: Lesson 1-6: Bring your calculator for practical task**
+
+## **Class test 2: Lesson 7-10: Bring your calculator for practical task**
+
+## **Assignment: Lesson 11-16: Homework/group project, presentation**
+
+## **Final exam: Lesson 1-16: Concept, selection of test, requirement of assumptions, cleaning the outputs of analysis for report, writing interpretation of given analysis results**
+
+Example questions: Covered in the makeup class.

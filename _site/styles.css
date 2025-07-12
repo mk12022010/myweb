@@ -1,0 +1,47 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  transition: top 0.3s;
+  z-index: 1000;
+}
+
+.sidebar {
+  background-color: #f8f9fa;
+}
+
+.tabs > .tab-content {
+  padding-top: 1rem;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    font-size: 0.9rem;
+  }
+  .tabs > .tab-content {
+    padding: 0.5rem;
+  }
+}
+
+.sidebar-extra {
+  margin-top: 2rem;
+  font-size: 0.9em;
+}
+.sidebar-extra h5 {
+  margin-bottom: 0.5rem;
+}
+.sidebar-extra ul {
+  padding-left: 1.2rem;
+}
+
+.hanging-indent {
+  text-indent: -2.5em;
+  padding-left: 1.5em;
+}
+
+.column-margin {
+  background-color: transparent !important;
+}
