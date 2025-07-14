@@ -219,7 +219,6 @@ df %>%
 ```
 ### Output
 ```{r}
-#| output-location: fragment
 library(dplyr)
 df = data.frame(name=c("Alice", "Bob", "Charlie"), 
                 age=c(25, 30, 35), 
