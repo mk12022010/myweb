@@ -1,7 +1,123 @@
 ---
-title: "Machine Learning Using R"
+title: ""
 ---
 
 # Machine Learning Using R
 
-This module includes classification, regression, clustering, and more using R.
+This course is an advanced course designed by the integration of [Research Methodology](/courses/research-methodology.qmd) and [Applied Statistics Using R](/courses/data-analysis.qmd). Complete the courses on your own to understand this machine learning course to a greater extent.
+
+## Introduction Slides
+
+```{=html}
+<iframe src="/courses/presentations/machine-learning-presentation.pdf" width="100%" height="600px"></iframe>
+```
+
+## **Hypothesis test**
+
+Hypothesis is a scientific guess which has not tested yet.
+Hypothesis test is done to make decision on the nature of a variable or statistics.
+Before performing a test we need to make a null hypothesis (H~0~).
+
+Example:
+
+-   H~0~: Two means are equal (t-test)
+
+-   H~0~: All means are equal (ANOVA)
+
+-   H~0~: Two variances are equal (Levene test)
+
+-   H~0~: Correlation coefficient = 0
+
+-   H~0~: Regression coefficient = 0
+
+-   H~0~: No association between the variables (chi-square test)
+
+-   H~0~: No effects/relationships (correlation, regression, ANOVA)
+
+-   H~0~: Data is normally distributed (Shapiro test)
+
+**Look at this applet <https://kamrulext.shinyapps.io/p-values/>**
+
+-   p-values indicate evidence to support the H~0~.
+
+-   p-value shows level of error (type I: true negative) in repeated trials.
+
+-   FYI, type II error = false positive (fails to reject a false H~0~)
+
+-   p-values remain in the rejection area.
+
+-   p-value is the area under the curve left side of the z-value.
+
+-   Each of the p-values correspond to a z-value.
+
+-   Z-value =\> quartile value, variable value, observed value, x-axis value, test statistics (t, r, F, beta).
+
+-   H~0~ is born to be rejected, so, we can never accept it.
+    We can only reject or not reject it.
+
+-   So, in a simple sense, small p-value (\<= 0.05) means insufficient evidence to support the H0 (rejected).
+
+-   Large p-value (\>0.05) means sufficient evidence to support the H~0~ (cannot be rejected).
+
+-   Here is the twist: H~0~ rejected =\> significant relationship or effect because H~0~ was saying no relationship
+
+-   Further twist: Test statistic (t, r, F, beta) value increases p-value decreases.
+
+-   Higher test statistic gives small p-values =\> significant result.
+
+-   Test statistic equivalent to (Coefficient)/(Standard error)
+
+## **Schedule and data sets**
+
+- [Download CSV Dataset](/courses/datasets/mydata.csv)
+- [Download txt Dataset](/courses/datasets/mydata.txt)
+- [Download xlsx Dataset](/courses/datasets/mydata.xlsx)
+
+
++----------+----------------------------------------------------+-------------+----------------------------------------------------------------------------------------------------------------+
+| Lesson   | Topic                                              | Duration    | Links                                                                                                          |
++==========+====================================================+=============+================================================================================================================+
+| 1        | ### **Installation of R and RStudio**              | 1 hr        | [Instruction](https://ruenresearch.com/statistics-and-data-analysis/), [YouTube](https://youtu.be/fnpchOccshE) |
++----------+----------------------------------------------------+-------------+----------------------------------------------------------------------------------------------------------------+
+| 2        | ### **Introduction to R**                          | 3 hr 30 min | [YouTube](https://youtu.be/1SlzQnSiebU), [R Codes Used in the Class](https://rpubs.com/kamrulext/r_intro)      |
++----------+----------------------------------------------------+-------------+----------------------------------------------------------------------------------------------------------------+
+| 3        | ### **Tidy Thinking in R**                         | 3 hr 30 min | [R Codes Used in the Class](https://rpubs.com/kamrulext/tidy_thinking)                                         |
++----------+----------------------------------------------------+-------------+----------------------------------------------------------------------------------------------------------------+
+| 4        | ### **Linear Regression**                          | 3 hr        | [R Codes Used in the Class](https://rpubs.com/kamrulext/ml_lr)                                                 |
++----------+----------------------------------------------------+-------------+----------------------------------------------------------------------------------------------------------------+
+| 5        | ### **Bias-Variance Trade-Off**                    | 2 hr        | [R Codes Used in the Class](https://rpubs.com/kamrulext/ml_lr)                                                 |
++----------+----------------------------------------------------+-------------+----------------------------------------------------------------------------------------------------------------+
+| 6        | ### **Step-wise regression**                       | 1 hr        | [R Codes Used in the Class](https://rpubs.com/kamrulext/ml_lr)                                                 |
++----------+----------------------------------------------------+-------------+----------------------------------------------------------------------------------------------------------------+
+| 7        | ### **Ridge regression**                           | 1 hr        | [R Codes Used in the Class](https://rpubs.com/kamrulext/ml_lr)                                                 |
++----------+----------------------------------------------------+-------------+----------------------------------------------------------------------------------------------------------------+
+| 8        | ### **Lasso Regression**                           | 0.5 hr      | [R Codes Used in the Class](https://rpubs.com/kamrulext/ml_lr)                                                 |
++----------+----------------------------------------------------+-------------+----------------------------------------------------------------------------------------------------------------+
+| 9        | ### **Validation: Train-Test Split**               | 1 hr        | [R Codes Used in the Class](https://rpubs.com/kamrulext/ml_validation)                                         |
++----------+----------------------------------------------------+-------------+----------------------------------------------------------------------------------------------------------------+
+| 10       | ### **Cross Validation**                           | 1 hr        | [R Codes Used in the Class](https://rpubs.com/kamrulext/ml_validation)                                         |
++----------+----------------------------------------------------+-------------+----------------------------------------------------------------------------------------------------------------+
+| 11       | ### **Bootstrapping**                              | 0.5 hr      | [R Codes Used in the Class](https://rpubs.com/kamrulext/ml_validation)                                         |
++----------+----------------------------------------------------+-------------+----------------------------------------------------------------------------------------------------------------+
+| 12       | ### **Logistic Regression**                        | 2 hr        | [R Codes Used in the Class](https://rpubs.com/kamrulext/ml_logistic)                                           |
++----------+----------------------------------------------------+-------------+----------------------------------------------------------------------------------------------------------------+
+| 13       | ### **Moving Beyond Linearity (Polynomials)**      | 3 hr        | [R Codes Used in the Class](https://rpubs.com/kamrulext/ml_nonlinear)                                          |
++----------+----------------------------------------------------+-------------+----------------------------------------------------------------------------------------------------------------+
+| 14       | ### **K-Nearest Neighbors (KNN)**                  | 3 hr        | [R Codes Used in the Class](https://rpubs.com/kamrulext/ml_knn)                                                |
++----------+----------------------------------------------------+-------------+----------------------------------------------------------------------------------------------------------------+
+| 15       | ### **Linear and Quadratic Discriminant Analysis** | 1 hr        | [R Codes Used in the Class](https://rpubs.com/kamrulext/ml_classification)                                     |
++----------+----------------------------------------------------+-------------+----------------------------------------------------------------------------------------------------------------+
+| 16       | ### **Support Vector Machines**                    | 1 hr        | [R Codes Used in the Class](https://rpubs.com/kamrulext/ml_classification)                                     |
++----------+----------------------------------------------------+-------------+----------------------------------------------------------------------------------------------------------------+
+| 17       | ### **Random Forest**                              | 1 hr        | [R Codes Used in the Class](https://rpubs.com/kamrulext/ml_classification)                                     |
++----------+----------------------------------------------------+-------------+----------------------------------------------------------------------------------------------------------------+
+| 18       | ### **Gradient Boosting**                          | 1 hr        | [R Codes Used in the Class](https://rpubs.com/kamrulext/ml_classification)                                     |
++----------+----------------------------------------------------+-------------+----------------------------------------------------------------------------------------------------------------+
+| 19       | ### **Neural Network**                             | 2 hr        | [R Codes Used in the Class](https://rpubs.com/kamrulext/ml_classification)                                     |
++----------+----------------------------------------------------+-------------+----------------------------------------------------------------------------------------------------------------+
+| 20       | ### **Principal Component Analysis**               | 2 hr        | [R Codes Used in the Class](https://rpubs.com/kamrulext/ml_pca)                                                |
++----------+----------------------------------------------------+-------------+----------------------------------------------------------------------------------------------------------------+
+| 21       | ### **Cluster Analysis**                           | 2 hr        | [R Codes Used in the Class](https://rpubs.com/kamrulext/ml_cluster)                                            |
++----------+----------------------------------------------------+-------------+----------------------------------------------------------------------------------------------------------------+
+| 22       | ### **Time Series Analysis**                       | 2 hr        | [R Codes Used in the Class](https://rpubs.com/kamrulext/ml_time)                                               |
++----------+----------------------------------------------------+-------------+----------------------------------------------------------------------------------------------------------------+

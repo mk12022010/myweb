@@ -65,7 +65,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="floating nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -133,6 +133,11 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
+    <a class="nav-link" href="https://x.com/kamrulext" rel="" target=""><i class="bi bi-twitter" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
     <a class="nav-link" href="https://www.instagram.com/kamrulext/" rel="" target=""><i class="bi bi-instagram" role="img">
 </i> 
  <span class="menu-text"></span></a>
@@ -152,18 +157,26 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
-<!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+    <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#blogs" id="toc-blogs" class="nav-link active" data-scroll-target="#blogs">Blogs</a></li>
+  <li><a href="#why-to-learn-rpython" id="toc-why-to-learn-rpython" class="nav-link active" data-scroll-target="#why-to-learn-rpython">Why to learn R/Python?</a>
+  <ul class="collapse">
+  <li><a href="#installation-of-r-and-integration-with-jupyter-notebook-in-visual-studio-code" id="toc-installation-of-r-and-integration-with-jupyter-notebook-in-visual-studio-code" class="nav-link" data-scroll-target="#installation-of-r-and-integration-with-jupyter-notebook-in-visual-studio-code"><strong>Installation of R and integration with Jupyter Notebook in Visual Studio Code</strong></a></li>
+  <li><a href="#run-jupyter-notebook-in-browser" id="toc-run-jupyter-notebook-in-browser" class="nav-link" data-scroll-target="#run-jupyter-notebook-in-browser"><strong>Run jupyter notebook in browser</strong></a></li>
+  <li><a href="#run-r-with-jupyter-notebook-in-vs-code-visual-studio-code" id="toc-run-r-with-jupyter-notebook-in-vs-code-visual-studio-code" class="nav-link" data-scroll-target="#run-r-with-jupyter-notebook-in-vs-code-visual-studio-code"><strong>Run R with jupyter notebook in VS Code (Visual Studio code)</strong></a></li>
+  </ul></li>
   </ul>
 </nav>
+</nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
     </div>
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<main class="content column-page-right" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -182,11 +195,45 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="blogs" class="level1">
-<h1>Blogs</h1>
-<p>Welcome to the blog section! Topics may include research reflections, case studies, or tools and tips.</p>
+<section id="why-to-learn-rpython" class="level1">
+<h1>Why to learn R/Python?</h1>
+<p>Python or R is an open-source programming language. Python is one of the most widely used general programming language and R is one of the most widely used programming language for research and data analysis.</p>
+<p>Code sharing, customizing, reusability of codes, and literally endless possibility of expansion of data science ideas are some of the benefits of command-driven programs over menu-driven programs.</p>
+<p>R seems to know anything that a data analyst needs to analyze. The code is highly customizable. One problem can be solved in different ways. Output formatting can be styled using tidyverse and <code>kableExtra</code>. However, I think R has attracted many data analyst for its amazing publication ready data-based figures usually done with ggplot2.</p>
+<section id="installation-of-r-and-integration-with-jupyter-notebook-in-visual-studio-code" class="level2">
+<h2 class="anchored" data-anchor-id="installation-of-r-and-integration-with-jupyter-notebook-in-visual-studio-code"><strong>Installation of R and integration with Jupyter Notebook in Visual Studio Code</strong></h2>
+<ul>
+<li><p>Install R <a href="https://cran.r-project.org/bin/windows/base/">Download R</a></p></li>
+<li><p>Install Python <a href="https://www.python.org/downloads/">Download Python</a></p></li>
+<li><p>Install pip (package installer for python) using cmd (command prompt): <code>python -m pip install --upgrade pip</code></p></li>
+<li><p>For python3, update pip if needed: <code>python3 -m pip install --upgrade pip</code></p></li>
+<li><p>Install Jupyter using cmd: <code>python -m pip install jupyter</code></p></li>
+<li><p>You can also install Jupyter Lab using cmd: <code>python -m pip install jupyterlab</code></p></li>
+<li><p>You can launch Jupyter Notebook or Lab using cmd: <code>jupyter notebook</code> or <code>jupyter lab</code></p></li>
+</ul>
+</section>
+<section id="run-jupyter-notebook-in-browser" class="level2">
+<h2 class="anchored" data-anchor-id="run-jupyter-notebook-in-browser"><strong>Run jupyter notebook in browser</strong></h2>
+<ul>
+<li>In cmd: jupyter notebook</li>
+</ul>
+</section>
+<section id="run-r-with-jupyter-notebook-in-vs-code-visual-studio-code" class="level2">
+<h2 class="anchored" data-anchor-id="run-r-with-jupyter-notebook-in-vs-code-visual-studio-code"><strong>Run R with jupyter notebook in VS Code (Visual Studio code)</strong></h2>
+<ul>
+<li><p>Install VS Code <a href="https://code.visualstudio.com/download">Download VS Code</a></p></li>
+<li><p>Install R extension in VS code: R Extension for Visual Studio Code (REditorSupport)</p></li>
+<li><p>Install radian in cmd for syntax highlighting: <code>pip3 install -U radian</code></p></li>
+<li><p>Open R from Start Menu</p></li>
+<li><p>Install packages in R (not RStudio) without compilation: <code>install.packages(c('languageserver', 'httpgd', 'repr', 'IRdisplay', 'evaluate', 'crayon', 'pbdZMQ', 'devtools', 'uuid', 'digest'))</code></p></li>
+<li><p>Install R kernel for jupyter in R (not RStudio): <code>devtools::install_github('IRkernel/IRkernel')</code></p></li>
+<li><p>Link R kernel to jupyter notebook in R (not RStudio): <code>IRkernel::installspec(user = FALSE)</code></p></li>
+<li><p>Open a file in VS code with .ipynb extension and select kernel (jupyer kernel &gt; R kernel)</p></li>
+</ul>
+<p>Now your jupyter notebook is ready for both python and R. You can also create and work with R file with .R extension in vs code. At the end, you can export the .ipynb (jupyter notebook) file as html by pressing ctrl+shift+P and search for ‘jupyter: export to html’. Open this html file in RStudio to publish. In addition, you can read some tips on working with markdown in <a href="https://support.squarespace.com/hc/en-us/articles/206543587-Markdown-cheat-sheet">Markdown cheat sheet</a>.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

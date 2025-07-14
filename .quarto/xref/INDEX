@@ -31,5 +31,17 @@
   },
   "courses/presentations/data-analysis-r.qmd": {
     "data-analysis-r.html": "9a753cd3"
+  },
+  "courses/presentations/data-analysis-presentation.qmd": {
+    "data-analysis-presentation.html": "80117cba"
+  },
+  "courses/presentations/machine-learning-r.qmd": {
+    "machine-learning-r.html": "e1c01437"
+  },
+  "courses/lessons-data-analysis-r/Descriptives-chi-sqaure.qmd": {
+    "Descriptives-chi-sqaure.html": "a14be26b"
+  },
+  "courses/lessons-data-analysis-r/data-visualization.qmd": {
+    "data-visualization.html": "3b2a13d8"
   }
 }

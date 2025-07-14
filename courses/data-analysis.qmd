@@ -69,7 +69,19 @@ R is widely used for data science for several reasons, such as:
 
 -   Highly dedicated, motivated and enthusiastic user forum and helpful online free learning materials provide confidence among users.
 
-## **Course contents [Presentation slides](/courses/presentations/data-analysis-r.qmd)**
+## **Course contents**
+
+- **Presentation**
+
+```{=html}
+<iframe src="/courses/presentations/data-analysis-presentation.html" width="100%" height="600px"></iframe>
+```
+
+- **Data sets**
+  - [Download CSV Dataset](/courses/datasets/mydata.csv)
+  - [Download txt Dataset](/courses/datasets/mydata.txt)
+  - [Download xlsx Dataset](/courses/datasets/mydata.xlsx)
+  - [Download Full Excel Dataset](/courses/datasets/DataSets.xlsx)
 
 **Please double check and ensure your datasets and R script/markdown files are in the same folder/directory. Set the working the directory to the folder containing the script and dataset.**
 
@@ -77,7 +89,7 @@ R is widely used for data science for several reasons, such as:
 
 ## **Lesson 2: [R projects, scripts, objects, variables, dataset, list](https://rpubs.com/kamrulext/ms-phd-l1) \[[Supplements](https://rpubs.com/kamrulext/lesson2)\]**
 
-## [**Lesson 3: R markdown, Basic functions, Package (tidyverse) installation, Visualization using ggplot()**](https://rpubs.com/kamrulext/lesson3) **\[[YouTube](https://youtu.be/1SlzQnSiebU)\]**
+## [**Lesson 3: R markdown, Basic functions, Package (tidyverse) installation, Visualization using ggplot()**](/courses/lessons-data-analysis-r/Descriptives-chi-sqaure.qmd) **\[[YouTube](https://youtu.be/1SlzQnSiebU)\]**
 
 ## [**Lesson 4: Dataset manipulation, Pareto chart, Chi-square test**](https://rpubs.com/kamrulext/lesson4) **\[[YouTube](https://www.youtube.com/watch?v=li085_Ld5vc)\] \[[Supplements](https://rpubs.com/kamrulext/lesson4supplements)\]**
 

@@ -10,7 +10,7 @@ body {
 }
 
 .sidebar {
-  background-color: #f8f9fa;
+  background-color: white;
 }
 
 .tabs > .tab-content {
@@ -44,4 +44,21 @@ body {
 
 .column-margin {
   background-color: transparent !important;
+}
+
+/* Custom TOC styling */
+#TOC {
+  background: #f8f9fa;  /* Light gray */
+  border-left: 3px solid #3498db;  /* Blue accent */
+  padding: 1em;
+  border-radius: 5px;
+}
+
+/* Change TOC links */
+#TOC a {
+  color: #2c3e50;  /* Dark blue-gray */
+}
+
+#TOC a:hover {
+  color: #e74c3c;  /* Red on hover */
 }

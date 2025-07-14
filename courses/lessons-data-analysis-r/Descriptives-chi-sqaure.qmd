@@ -1,0 +1,143 @@
+---
+title: "R markdown, Basic functions, Package (tidyverse) installation, Visualization using ggplot()"
+author: "Professor Dr. Md. Kamrul Hasan"
+format: html 
+---
+
+# Reading data sets
+
+Before reading a dataset from a folder we need to make sure the dataset is in the working directory.
+We can set working directory using different methods:
+
+1.  Session \> Set Working Directory …..
+
+2.  Typing command
+
+3.  Files tab in the Environment Pane
+
+```{r}
+data = readxl::read_excel('DataSets.xlsx', sheet = 'wrangling', range = 'B7:N507')
+head(data)
+```
+
+```{r}
+tail(data)
+```
+
+```{r}
+str(data)
+```
+
+```{r}
+summary(data)
+```
+
+We will subset the dataset by excluding the Sr. variable (1st variable)
+
+```{r}
+data1 = data[ , -1] 
+head(data1)
+```
+
+Calculate the column frequencies (summation) using `colSums()`
+
+```{r}
+colSums(data1)
+```
+
+Create an object to store the value of summation.
+
+```{r}
+sums = as.data.frame(colSums(data1))
+str(sums)
+```
+
+```{r}
+rownames(sums)
+```
+
+Piping operation: %\>% (ctrl+shif+M).
+It uses the previous output as an input for the next calculation.
+
+```{r}
+library(tidyverse)
+```
+
+```{r}
+sums1 = sums %>% rownames_to_column('Months') 
+sums1
+```
+
+```{r}
+sums2 = sums1 %>% rename(Frequency = `colSums(data1)`)
+sums2
+```
+
+Change order of the x-axis items
+
+```{r}
+sums2$Months = factor(sums2$Months, 
+                      levels = c('jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec' ), 
+                      labels = c('Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec' ))
+```
+
+```{r}
+ggplot(sums2)+
+  aes(x = Months, y = Frequency, color = Months, fill = Months)+
+  geom_col()+
+  theme_bw()+
+  labs(title = 'Months of money shortage',
+       x = '',
+       y = 'Number of respondents')+
+  theme(legend.position = '')
+```
+
+```{r}
+ggsave('My plot.png', dpi = 600, height = 4, width = 8, units = 'in')
+```
+
+```{r}
+shortage = as.data.frame(rowSums(data1))
+short = shortage %>% rename(frequency = `rowSums(data1)`)
+str(short)
+```
+
+```{r}
+head(short)
+```
+
+Some descriptives of this frequency variable.
+
+```{r}
+summary(short)
+```
+
+To see the frequency, we need categorical (factor) variable.
+Convert the numeric variable to factor variable.
+
+```{r}
+short$frequency = as.factor(short$frequency)
+summary(short)
+```
+
+-   Categorize the respondents based on their number of months with money shortage:
+-   Two principles: Mutually exclusive, Completely exhaustive
+-   Low = up to 3 months of money shortage
+-   Medium = 4 to 5 months of money shortage
+-   High = \>5 months of money shortage
+-   For categorization we need numeric (continuous or discrete) variables.
+-   Right = TRUE, means right value closed, right value is included in the category
+
+```{r}
+short$frequency = as.numeric(short$frequency)
+category = cut(short$frequency, breaks = c(-Inf, 3, 5, Inf), 
+    labels = c('Low', 'Medium', 'High'),
+    right = TRUE)
+table(category)
+```
+
+calculate the percentage
+
+```{r}
+table(category)*100/500
+```

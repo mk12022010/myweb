@@ -302,7 +302,7 @@ Here’s a step-by-step guide to developing a conceptual framework:
 
 -   Ensure the conceptual framework is clear, coherent, and comprehensive.
 
-### **Research Design**
+## **Research Design**
 
 Research design means the strategy which is planned to answer the research questions.
 It essentially has the theories and models related to the research questions, sampling frame, data collection methods and analytical approaches.
@@ -339,7 +339,7 @@ The information revealed by quantitative method can also be validated using the 
 | Examples                | Measuring effect of a teaching method on performance   | Exploring experiences of farmers with disasters                      |
 +-------------------------+--------------------------------------------------------+----------------------------------------------------------------------+
 
-#### **Experimental Design**
+## **Experimental Design**
 
 Experimental design is a part of a research design.
 In order to establish a cause-and-effect relationship, manipulation of variable(s) is done with specific settings of sample(s) or experimental units.

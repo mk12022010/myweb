@@ -7,6 +7,7 @@ pbulish:
 
 website:
   title: "RUEN Research"
+  #url: "https://ruenresearch.com"
 
   navbar:
     logo: images/logo.png 
@@ -36,6 +37,8 @@ website:
         href: https://www.youtube.com/@RUENResearch
       - icon: facebook
         href: https://www.facebook.com/share/1Zg85wujVJ/?mibextid=wwXIfr
+      - icon: twitter
+        href: https://x.com/kamrulext
       - icon: instagram
         href: https://www.instagram.com/kamrulext/
       - icon: linkedin
@@ -61,7 +64,7 @@ format:
       - text: |
           <script src="script.js"></script>
     toc: true
-    toc-location: right
+    toc-location: left
     page-layout: full
 
 execute:

@@ -66,7 +66,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="floating nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -134,6 +134,11 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
+    <a class="nav-link" href="https://x.com/kamrulext" rel="" target=""><i class="bi bi-twitter" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
     <a class="nav-link" href="https://www.instagram.com/kamrulext/" rel="" target=""><i class="bi bi-instagram" role="img">
 </i> 
  <span class="menu-text"></span></a>
@@ -153,9 +158,8 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
-<!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+    <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
@@ -163,7 +167,7 @@ ul.task-list li input[type="checkbox"] {
   <ul class="collapse">
   <li><a href="#references-and-learning-materials" id="toc-references-and-learning-materials" class="nav-link" data-scroll-target="#references-and-learning-materials">References and learning materials</a></li>
   <li><a href="#introduction-to-r-and-installation-of-r-and-rstudio" id="toc-introduction-to-r-and-installation-of-r-and-rstudio" class="nav-link" data-scroll-target="#introduction-to-r-and-installation-of-r-and-rstudio"><strong>Introduction to R and Installation of R and RStudio</strong></a></li>
-  <li><a href="#course-contents-presentation-slides" id="toc-course-contents-presentation-slides" class="nav-link" data-scroll-target="#course-contents-presentation-slides"><strong>Course contents Presentation slides</strong></a></li>
+  <li><a href="#course-contents" id="toc-course-contents" class="nav-link" data-scroll-target="#course-contents"><strong>Course contents</strong></a></li>
   <li><a href="#lesson-1-r-installation-of-r-and-rstudio-setting-the-working-directory-youtube" id="toc-lesson-1-r-installation-of-r-and-rstudio-setting-the-working-directory-youtube" class="nav-link" data-scroll-target="#lesson-1-r-installation-of-r-and-rstudio-setting-the-working-directory-youtube"><strong>Lesson 1: R – Installation of R and RStudio, setting the working directory [YouTube]</strong></a></li>
   <li><a href="#lesson-2-r-projects-scripts-objects-variables-dataset-list-supplements" id="toc-lesson-2-r-projects-scripts-objects-variables-dataset-list-supplements" class="nav-link" data-scroll-target="#lesson-2-r-projects-scripts-objects-variables-dataset-list-supplements"><strong>Lesson 2: R projects, scripts, objects, variables, dataset, list [Supplements]</strong></a></li>
   <li><a href="#lesson-3-r-markdown-basic-functions-package-tidyverse-installation-visualization-using-ggplot-youtube" id="toc-lesson-3-r-markdown-basic-functions-package-tidyverse-installation-visualization-using-ggplot-youtube" class="nav-link" data-scroll-target="#lesson-3-r-markdown-basic-functions-package-tidyverse-installation-visualization-using-ggplot-youtube"><strong>Lesson 3: R markdown, Basic functions, Package (tidyverse) installation, Visualization using ggplot()</strong> <strong>[YouTube]</strong></a></li>
@@ -187,9 +191,13 @@ ul.task-list li input[type="checkbox"] {
   </ul></li>
   </ul>
 </nav>
+</nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
     </div>
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<main class="content column-page-right" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -251,8 +259,21 @@ ul.task-list li input[type="checkbox"] {
 <li><p>Highly dedicated, motivated and enthusiastic user forum and helpful online free learning materials provide confidence among users.</p></li>
 </ul>
 </section>
-<section id="course-contents-presentation-slides" class="level2">
-<h2 class="anchored" data-anchor-id="course-contents-presentation-slides"><strong>Course contents <a href="../courses/presentations/data-analysis-r.html">Presentation slides</a></strong></h2>
+<section id="course-contents" class="level2">
+<h2 class="anchored" data-anchor-id="course-contents"><strong>Course contents</strong></h2>
+<ul>
+<li><strong>Presentation</strong></li>
+</ul>
+<iframe src="../courses/presentations/data-analysis-presentation.html" width="100%" height="600px"></iframe>
+<ul>
+<li><strong>Data sets</strong>
+<ul>
+<li><a href="../courses/datasets/mydata.csv">Download CSV Dataset</a></li>
+<li><a href="../courses/datasets/mydata.txt">Download txt Dataset</a></li>
+<li><a href="../courses/datasets/mydata.xlsx">Download xlsx Dataset</a></li>
+<li><a href="../courses/datasets/DataSets.xlsx">Download Full Excel Dataset</a></li>
+</ul></li>
+</ul>
 <p><strong>Please double check and ensure your datasets and R script/markdown files are in the same folder/directory. Set the working the directory to the folder containing the script and dataset.</strong></p>
 </section>
 <section id="lesson-1-r-installation-of-r-and-rstudio-setting-the-working-directory-youtube" class="level2">
@@ -262,7 +283,7 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="lesson-2-r-projects-scripts-objects-variables-dataset-list-supplements"><strong>Lesson 2: <a href="https://rpubs.com/kamrulext/ms-phd-l1">R projects, scripts, objects, variables, dataset, list</a> [<a href="https://rpubs.com/kamrulext/lesson2">Supplements</a>]</strong></h2>
 </section>
 <section id="lesson-3-r-markdown-basic-functions-package-tidyverse-installation-visualization-using-ggplot-youtube" class="level2">
-<h2 class="anchored" data-anchor-id="lesson-3-r-markdown-basic-functions-package-tidyverse-installation-visualization-using-ggplot-youtube"><a href="https://rpubs.com/kamrulext/lesson3"><strong>Lesson 3: R markdown, Basic functions, Package (tidyverse) installation, Visualization using ggplot()</strong></a> <strong>[<a href="https://youtu.be/1SlzQnSiebU">YouTube</a>]</strong></h2>
+<h2 class="anchored" data-anchor-id="lesson-3-r-markdown-basic-functions-package-tidyverse-installation-visualization-using-ggplot-youtube"><a href="../courses/lessons-data-analysis-r/Descriptives-chi-sqaure.html"><strong>Lesson 3: R markdown, Basic functions, Package (tidyverse) installation, Visualization using ggplot()</strong></a> <strong>[<a href="https://youtu.be/1SlzQnSiebU">YouTube</a>]</strong></h2>
 </section>
 <section id="lesson-4-dataset-manipulation-pareto-chart-chi-square-test-youtube-supplements" class="level2">
 <h2 class="anchored" data-anchor-id="lesson-4-dataset-manipulation-pareto-chart-chi-square-test-youtube-supplements"><a href="https://rpubs.com/kamrulext/lesson4"><strong>Lesson 4: Dataset manipulation, Pareto chart, Chi-square test</strong></a> <strong>[<a href="https://www.youtube.com/watch?v=li085_Ld5vc">YouTube</a>] [<a href="https://rpubs.com/kamrulext/lesson4supplements">Supplements</a>]</strong></h2>

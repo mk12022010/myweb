@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>RUEN Research - Machine Learning Using R</title>
+<title>RUEN Research -</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -65,7 +65,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="floating nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -133,6 +133,11 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
+    <a class="nav-link" href="https://x.com/kamrulext" rel="" target=""><i class="bi bi-twitter" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
     <a class="nav-link" href="https://www.instagram.com/kamrulext/" rel="" target=""><i class="bi bi-instagram" role="img">
 </i> 
  <span class="menu-text"></span></a>
@@ -152,41 +157,222 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
-<!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+    <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#machine-learning-using-r" id="toc-machine-learning-using-r" class="nav-link active" data-scroll-target="#machine-learning-using-r">Machine Learning Using R</a></li>
+  <li><a href="#machine-learning-using-r" id="toc-machine-learning-using-r" class="nav-link active" data-scroll-target="#machine-learning-using-r">Machine Learning Using R</a>
+  <ul class="collapse">
+  <li><a href="#introduction-slides" id="toc-introduction-slides" class="nav-link" data-scroll-target="#introduction-slides">Introduction Slides</a></li>
+  <li><a href="#hypothesis-test" id="toc-hypothesis-test" class="nav-link" data-scroll-target="#hypothesis-test"><strong>Hypothesis test</strong></a></li>
+  <li><a href="#schedule-and-data-sets" id="toc-schedule-and-data-sets" class="nav-link" data-scroll-target="#schedule-and-data-sets"><strong>Schedule and data sets</strong></a></li>
+  </ul></li>
   </ul>
 </nav>
+</nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
     </div>
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Machine Learning Using R</h1>
-</div>
+<main class="content column-page-right" id="quarto-document-content">
 
 
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-</header>
 
 <section id="machine-learning-using-r" class="level1">
 <h1>Machine Learning Using R</h1>
-<p>This module includes classification, regression, clustering, and more using R.</p>
+<p>This course is an advanced course designed by the integration of <a href="../courses/research-methodology.html">Research Methodology</a> and <a href="../courses/data-analysis.html">Applied Statistics Using R</a>. Complete the courses on your own to understand this machine learning course to a greater extent.</p>
+<section id="introduction-slides" class="level2">
+<h2 class="anchored" data-anchor-id="introduction-slides">Introduction Slides</h2>
+<iframe src="../courses/presentations/machine-learning-presentation.pdf" width="100%" height="600px"></iframe>
+</section>
+<section id="hypothesis-test" class="level2">
+<h2 class="anchored" data-anchor-id="hypothesis-test"><strong>Hypothesis test</strong></h2>
+<p>Hypothesis is a scientific guess which has not tested yet. Hypothesis test is done to make decision on the nature of a variable or statistics. Before performing a test we need to make a null hypothesis (H<sub>0</sub>).</p>
+<p>Example:</p>
+<ul>
+<li><p>H<sub>0</sub>: Two means are equal (t-test)</p></li>
+<li><p>H<sub>0</sub>: All means are equal (ANOVA)</p></li>
+<li><p>H<sub>0</sub>: Two variances are equal (Levene test)</p></li>
+<li><p>H<sub>0</sub>: Correlation coefficient = 0</p></li>
+<li><p>H<sub>0</sub>: Regression coefficient = 0</p></li>
+<li><p>H<sub>0</sub>: No association between the variables (chi-square test)</p></li>
+<li><p>H<sub>0</sub>: No effects/relationships (correlation, regression, ANOVA)</p></li>
+<li><p>H<sub>0</sub>: Data is normally distributed (Shapiro test)</p></li>
+</ul>
+<p><strong>Look at this applet <a href="https://kamrulext.shinyapps.io/p-values/" class="uri">https://kamrulext.shinyapps.io/p-values/</a></strong></p>
+<ul>
+<li><p>p-values indicate evidence to support the H<sub>0</sub>.</p></li>
+<li><p>p-value shows level of error (type I: true negative) in repeated trials.</p></li>
+<li><p>FYI, type II error = false positive (fails to reject a false H<sub>0</sub>)</p></li>
+<li><p>p-values remain in the rejection area.</p></li>
+<li><p>p-value is the area under the curve left side of the z-value.</p></li>
+<li><p>Each of the p-values correspond to a z-value.</p></li>
+<li><p>Z-value =&gt; quartile value, variable value, observed value, x-axis value, test statistics (t, r, F, beta).</p></li>
+<li><p>H<sub>0</sub> is born to be rejected, so, we can never accept it. We can only reject or not reject it.</p></li>
+<li><p>So, in a simple sense, small p-value (&lt;= 0.05) means insufficient evidence to support the H0 (rejected).</p></li>
+<li><p>Large p-value (&gt;0.05) means sufficient evidence to support the H<sub>0</sub> (cannot be rejected).</p></li>
+<li><p>Here is the twist: H<sub>0</sub> rejected =&gt; significant relationship or effect because H<sub>0</sub> was saying no relationship</p></li>
+<li><p>Further twist: Test statistic (t, r, F, beta) value increases p-value decreases.</p></li>
+<li><p>Higher test statistic gives small p-values =&gt; significant result.</p></li>
+<li><p>Test statistic equivalent to (Coefficient)/(Standard error)</p></li>
+</ul>
+</section>
+<section id="schedule-and-data-sets" class="level2">
+<h2 class="anchored" data-anchor-id="schedule-and-data-sets"><strong>Schedule and data sets</strong></h2>
+<ul>
+<li><a href="../courses/datasets/mydata.csv">Download CSV Dataset</a></li>
+<li><a href="../courses/datasets/mydata.txt">Download txt Dataset</a></li>
+<li><a href="../courses/datasets/mydata.xlsx">Download xlsx Dataset</a></li>
+</ul>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Lesson</th>
+<th>Topic</th>
+<th>Duration</th>
+<th>Links</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td><h3 id="installation-of-r-and-rstudio" class="anchored"><strong>Installation of R and RStudio</strong></h3></td>
+<td>1 hr</td>
+<td><a href="https://ruenresearch.com/statistics-and-data-analysis/">Instruction</a>, <a href="https://youtu.be/fnpchOccshE">YouTube</a></td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td><h3 id="introduction-to-r" class="anchored"><strong>Introduction to R</strong></h3></td>
+<td>3 hr 30 min</td>
+<td><a href="https://youtu.be/1SlzQnSiebU">YouTube</a>, <a href="https://rpubs.com/kamrulext/r_intro">R Codes Used in the Class</a></td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td><h3 id="tidy-thinking-in-r" class="anchored"><strong>Tidy Thinking in R</strong></h3></td>
+<td>3 hr 30 min</td>
+<td><a href="https://rpubs.com/kamrulext/tidy_thinking">R Codes Used in the Class</a></td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td><h3 id="linear-regression" class="anchored"><strong>Linear Regression</strong></h3></td>
+<td>3 hr</td>
+<td><a href="https://rpubs.com/kamrulext/ml_lr">R Codes Used in the Class</a></td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td><h3 id="bias-variance-trade-off" class="anchored"><strong>Bias-Variance Trade-Off</strong></h3></td>
+<td>2 hr</td>
+<td><a href="https://rpubs.com/kamrulext/ml_lr">R Codes Used in the Class</a></td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td><h3 id="step-wise-regression" class="anchored"><strong>Step-wise regression</strong></h3></td>
+<td>1 hr</td>
+<td><a href="https://rpubs.com/kamrulext/ml_lr">R Codes Used in the Class</a></td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td><h3 id="ridge-regression" class="anchored"><strong>Ridge regression</strong></h3></td>
+<td>1 hr</td>
+<td><a href="https://rpubs.com/kamrulext/ml_lr">R Codes Used in the Class</a></td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td><h3 id="lasso-regression" class="anchored"><strong>Lasso Regression</strong></h3></td>
+<td>0.5 hr</td>
+<td><a href="https://rpubs.com/kamrulext/ml_lr">R Codes Used in the Class</a></td>
+</tr>
+<tr class="odd">
+<td>9</td>
+<td><h3 id="validation-train-test-split" class="anchored"><strong>Validation: Train-Test Split</strong></h3></td>
+<td>1 hr</td>
+<td><a href="https://rpubs.com/kamrulext/ml_validation">R Codes Used in the Class</a></td>
+</tr>
+<tr class="even">
+<td>10</td>
+<td><h3 id="cross-validation" class="anchored"><strong>Cross Validation</strong></h3></td>
+<td>1 hr</td>
+<td><a href="https://rpubs.com/kamrulext/ml_validation">R Codes Used in the Class</a></td>
+</tr>
+<tr class="odd">
+<td>11</td>
+<td><h3 id="bootstrapping" class="anchored"><strong>Bootstrapping</strong></h3></td>
+<td>0.5 hr</td>
+<td><a href="https://rpubs.com/kamrulext/ml_validation">R Codes Used in the Class</a></td>
+</tr>
+<tr class="even">
+<td>12</td>
+<td><h3 id="logistic-regression" class="anchored"><strong>Logistic Regression</strong></h3></td>
+<td>2 hr</td>
+<td><a href="https://rpubs.com/kamrulext/ml_logistic">R Codes Used in the Class</a></td>
+</tr>
+<tr class="odd">
+<td>13</td>
+<td><h3 id="moving-beyond-linearity-polynomials" class="anchored"><strong>Moving Beyond Linearity (Polynomials)</strong></h3></td>
+<td>3 hr</td>
+<td><a href="https://rpubs.com/kamrulext/ml_nonlinear">R Codes Used in the Class</a></td>
+</tr>
+<tr class="even">
+<td>14</td>
+<td><h3 id="k-nearest-neighbors-knn" class="anchored"><strong>K-Nearest Neighbors (KNN)</strong></h3></td>
+<td>3 hr</td>
+<td><a href="https://rpubs.com/kamrulext/ml_knn">R Codes Used in the Class</a></td>
+</tr>
+<tr class="odd">
+<td>15</td>
+<td><h3 id="linear-and-quadratic-discriminant-analysis" class="anchored"><strong>Linear and Quadratic Discriminant Analysis</strong></h3></td>
+<td>1 hr</td>
+<td><a href="https://rpubs.com/kamrulext/ml_classification">R Codes Used in the Class</a></td>
+</tr>
+<tr class="even">
+<td>16</td>
+<td><h3 id="support-vector-machines" class="anchored"><strong>Support Vector Machines</strong></h3></td>
+<td>1 hr</td>
+<td><a href="https://rpubs.com/kamrulext/ml_classification">R Codes Used in the Class</a></td>
+</tr>
+<tr class="odd">
+<td>17</td>
+<td><h3 id="random-forest" class="anchored"><strong>Random Forest</strong></h3></td>
+<td>1 hr</td>
+<td><a href="https://rpubs.com/kamrulext/ml_classification">R Codes Used in the Class</a></td>
+</tr>
+<tr class="even">
+<td>18</td>
+<td><h3 id="gradient-boosting" class="anchored"><strong>Gradient Boosting</strong></h3></td>
+<td>1 hr</td>
+<td><a href="https://rpubs.com/kamrulext/ml_classification">R Codes Used in the Class</a></td>
+</tr>
+<tr class="odd">
+<td>19</td>
+<td><h3 id="neural-network" class="anchored"><strong>Neural Network</strong></h3></td>
+<td>2 hr</td>
+<td><a href="https://rpubs.com/kamrulext/ml_classification">R Codes Used in the Class</a></td>
+</tr>
+<tr class="even">
+<td>20</td>
+<td><h3 id="principal-component-analysis" class="anchored"><strong>Principal Component Analysis</strong></h3></td>
+<td>2 hr</td>
+<td><a href="https://rpubs.com/kamrulext/ml_pca">R Codes Used in the Class</a></td>
+</tr>
+<tr class="odd">
+<td>21</td>
+<td><h3 id="cluster-analysis" class="anchored"><strong>Cluster Analysis</strong></h3></td>
+<td>2 hr</td>
+<td><a href="https://rpubs.com/kamrulext/ml_cluster">R Codes Used in the Class</a></td>
+</tr>
+<tr class="even">
+<td>22</td>
+<td><h3 id="time-series-analysis" class="anchored"><strong>Time Series Analysis</strong></h3></td>
+<td>2 hr</td>
+<td><a href="https://rpubs.com/kamrulext/ml_time">R Codes Used in the Class</a></td>
+</tr>
+</tbody>
+</table>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
