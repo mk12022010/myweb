@@ -235,7 +235,7 @@
     "href": "courses/data-analysis.html",
     "title": "Data Analysis Using R",
     "section": "",
-    "text": "This page briefly introduces with R and guides you through basic to advanced level of data analysis and visualizations. It covers data set creation, manipulation, saving, and opening. Implementation of descriptive statistics (e.g. mean, standard deviation, standard error, frequency and percentage distribution) and inferential statistics (e.g. chi-square test, independent two sample t-test, paired t-test, Welch test, Wilcoxon test, one-way ANOVA, two-way ANOVA, three-way ANOVA, post-hoc analysis with Tukey and Bonferroni adjustment, Kruskal Wallis test, Pearson and Spearman correlation, and multiple regression with detecting and solving multicollinearity, heteroskedasticity and endogeneity problems). Along with these analysis, related visualization techniques are explained in this manual. It is strongly advised to practice the R codes mentioned in this manual while reading it.\n\n\nR is usually known as an open source data analysis tool though it can do much more than just data analysis, such as website design, article writing, thesis preparation, book compilation, and web applet creation. R is a programming language that uses our personal computer resources to translate R programming language into useful outputs. Installation of R is very easy. However, the functionality of R is popularly enhanced by RStudio. Therefore, you need to download and install both R and RStudio for completing this manual smoothly. You can download R and R studio from https://posit.co/download/rstudio-desktop/. It should be noted that RStudio is a software that enables us to write and execute R script. You can also integrate R with Jupyter Notebook in visual Studio Code. After writing the codes and markdown in Jupyter Notebook, export as HTML, open in RStudio, publish in RPubs. Alternatively, you can convert .ipynb (jupyter notebook) to .Rmd (R Makrdown) in R using rmarkdown::convert_ipynb(input, output) function.\nIn jupyter lab or notebook, you may need additional installation to activate co-pilot (pip install notebook-intelligence in command prompt terminal). Details are here. Custom shortcut can also be added by editing the .json file. Details are here. You need to add the following codes in the User Preference Pane. Be careful for not messing the original file. Paste this codes before the last curly bracket and put comma after the ] (square bracket) of the previous line.\n{\n    \"shortcuts\": [\n         {\n            \"command\": \"notebook:replace-selection\",\n            \"selector\": \".jp-Notebook\",\n            \"keys\": [\"Ctrl Shift M\"],\n            \"args\": {\"text\": '%&gt;% '}\n        }\n    ]\n}\nThis course has 30 hours of active face-to-face classroom activities and 50 hours of independent study, homework, assignment and presentation.\nR is widely used for data science for several reasons, such as:\n\nIt is a free software.\nYou can do whatever you want to do regarding data analysis.\nIt’s publication ready visualization power is unique.\nProgram script can be saved, shared, and reuse easily for further reference.\nHighly dedicated, motivated and enthusiastic user forum and helpful online free learning materials provide confidence among users.\n\n\n\n\n\nPresentation\n\n\n\nData sets\n\nDownload CSV Dataset\nDownload txt Dataset\nDownload xlsx Dataset\nDownload Full Excel Dataset\n\n\nPlease double check and ensure your datasets and R script/markdown files are in the same folder/directory. Set the working the directory to the folder containing the script and dataset.\n\n\n\nLesson\nTopic\nLinks\n\n\n\n\n1\n\nR – Installation of R and RStudio, setting the working directory [YouTube]\n\n\n2\n\nR projects, scripts, objects, variables, dataset, list [Supplements]\n\n\n3\n\nR markdown, Basic functions, Package (tidyverse) installation, Visualization using ggplot() [YouTube]\n\n\n4\n\nDataset manipulation, Pareto chart, Chi-square test [YouTube] [Supplements]\n\n\n5\n\nDescriptive statistics and chi-square test revisit [YouTube]\n\n\n6\n\nCLT, Standard error, Confidence interval\n\n\n7\n\nOne sample t-test, z-test\n\n\n8\n\nTwo sample t-test (independent and paired)\n\n\n9\n\nMann-Whitney test (independent) and Wilcoxon test (dependent)\n\n\n10\n\nANOVA (one-way, two-way, three-way for CRD, RCBD and Factorial design)\n\n\n11\n\nANOVA (mixed effects for split-plot design) [Supplement]\n\n\n12\n\nResidual and Post-hoc analysis\n\n\n13\n\nKruskal-Wallis test\n\n\n14\n\nCorrelation (Spearman and Pearson)\n\n\n15\n\nLinear simple and multiple regression\n\n\n16\n\nLogistic regression\n\n\n\n\n\n\n\nClass test 1: Lesson 1-6: Bring your calculator for practical task\nClass test 2: Lesson 7-10: Bring your calculator for practical task\nAssignment: Lesson 11-16: Homework/group project, presentation\nFinal exam: Lesson 1-16: Concept, selection of test, requirement of assumptions, cleaning the outputs of analysis for report, writing interpretation of given analysis results\nExample questions: To be discussed in the makeup class.\n\n\n\n\n\nBasics of R Programming Language for Data Wrangling and Analysis – [Class notes, will be supplied]\nYouTube video links may be accessed from the course contents.\nWebsite for learning: https://www.geeksforgeeks.org/r-tutorial/?ref=outind\nLearning Statistics with R – Danielle Navarro [Datasets]\nR Graphics Cookbook – Winston Chang [Printed version]"
+    "text": "This page briefly introduces with R and guides you through basic to advanced level of data analysis and visualizations. It covers data set creation, manipulation, saving, and opening. Implementation of descriptive statistics (e.g. mean, standard deviation, standard error, frequency and percentage distribution) and inferential statistics (e.g. chi-square test, independent two sample t-test, paired t-test, Welch test, Wilcoxon test, one-way ANOVA, two-way ANOVA, three-way ANOVA, post-hoc analysis with Tukey and Bonferroni adjustment, Kruskal Wallis test, Pearson and Spearman correlation, and multiple regression with detecting and solving multicollinearity, heteroskedasticity and endogeneity problems). Along with these analysis, related visualization techniques are explained in this manual. It is strongly advised to practice the R codes mentioned in this manual while reading it.\n\n\nR is usually known as an open source data analysis tool though it can do much more than just data analysis, such as website design, article writing, thesis preparation, book compilation, and web applet creation. R is a programming language that uses our personal computer resources to translate R programming language into useful outputs. Installation of R is very easy. However, the functionality of R is popularly enhanced by RStudio. Therefore, you need to download and install both R and RStudio for completing this manual smoothly. You can download R and R studio from https://posit.co/download/rstudio-desktop/. It should be noted that RStudio is a software that enables us to write and execute R script. You can also integrate R with Jupyter Notebook in visual Studio Code. After writing the codes and markdown in Jupyter Notebook, export as HTML, open in RStudio, publish in RPubs. Alternatively, you can convert .ipynb (jupyter notebook) to .Rmd (R Makrdown) in R using rmarkdown::convert_ipynb(input, output) function.\nIn jupyter lab or notebook, you may need additional installation to activate co-pilot (pip install notebook-intelligence in command prompt terminal). Details are here. Custom shortcut can also be added by editing the .json file. Details are here. You need to add the following codes in the User Preference Pane. Be careful for not messing the original file. Paste this codes before the last curly bracket and put comma after the ] (square bracket) of the previous line.\n{\n    \"shortcuts\": [\n         {\n            \"command\": \"notebook:replace-selection\",\n            \"selector\": \".jp-Notebook\",\n            \"keys\": [\"Ctrl Shift M\"],\n            \"args\": {\"text\": '%&gt;% '}\n        }\n    ]\n}\nThis course has 30 hours of active face-to-face classroom activities and 50 hours of independent study, homework, assignment and presentation.\nR is widely used for data science for several reasons, such as:\n\nIt is a free software.\nYou can do whatever you want to do regarding data analysis.\nIt’s publication ready visualization power is unique.\nProgram script can be saved, shared, and reuse easily for further reference.\nHighly dedicated, motivated and enthusiastic user forum and helpful online free learning materials provide confidence among users.\n\n\n\n\n\nPresentation\n\n\n\nData sets\n\nDownload CSV Dataset\nDownload txt Dataset\nDownload xlsx Dataset\nDownload Full Excel Dataset\n\n\nPlease double check and ensure your datasets and R script/markdown files are in the same folder/directory. Set the working the directory to the folder containing the script and dataset.\n\n\n\n\n1\n\n### Lesson 1: Introduction\n\nR – Installation of R and RStudio, setting the working directory [YouTube]\n\n\n\n\n\n\n\n\n\n2\n\nR projects, scripts, objects, variables, dataset, list [Supplements] |\n\n\n\n3\n\nR markdown, Basic functions, Package (tidyverse) installation, Visualization using ggplot() [YouTube]\n\n\n\n4\n\nDataset manipulation, Pareto chart, Chi-square test [YouTube] [Supplements]\n\n\n\n5\n\nDescriptive statistics and chi-square test revisit [YouTube]\n\n\n\n6\n\nCLT, Standard error, Confidence interval\n\n\n\n7\n\nOne sample t-test, z-test\n\n\n\n8\n\nTwo sample t-test (independent and paired)\n\n\n\n9\n\nMann-Whitney test (independent) and Wilcoxon test (dependent)\n\n\n\n10\n\nANOVA (one-way, two-way, three-way for CRD, RCBD and Factorial design)\n\n\n\n11\n\nANOVA (mixed effects for split-plot design) [Supplement]\n\n\n\n12\n\nResidual and Post-hoc analysis\n\n\n\n13\n\nKruskal-Wallis test\n\n\n\n14\n\nCorrelation (Spearman and Pearson)\n\n\n\n15\n\nLinear simple and multiple regression\n\n\n\n16\n\nLogistic regression\n\n\n\n\n\n\n\n\nClass test 1: Lesson 1-6: Bring your calculator for practical task\nClass test 2: Lesson 7-10: Bring your calculator for practical task\nAssignment: Lesson 11-16: Homework/group project, presentation\nFinal exam: Lesson 1-16: Concept, selection of test, requirement of assumptions, cleaning the outputs of analysis for report, writing interpretation of given analysis results\nExample questions: To be discussed in the makeup class.\n\n\n\n\n\nBasics of R Programming Language for Data Wrangling and Analysis – [Class notes, will be supplied]\nYouTube video links may be accessed from the course contents.\nWebsite for learning: https://www.geeksforgeeks.org/r-tutorial/?ref=outind\nLearning Statistics with R – Danielle Navarro [Datasets]\nR Graphics Cookbook – Winston Chang [Printed version]"
   },
   {
     "objectID": "courses/data-analysis.html#installation-of-r-and-rstudio",
@@ -249,7 +249,7 @@
     "href": "courses/data-analysis.html#course-contents",
     "title": "Data Analysis Using R",
     "section": "",
-    "text": "Presentation\n\n\n\nData sets\n\nDownload CSV Dataset\nDownload txt Dataset\nDownload xlsx Dataset\nDownload Full Excel Dataset\n\n\nPlease double check and ensure your datasets and R script/markdown files are in the same folder/directory. Set the working the directory to the folder containing the script and dataset.\n\n\n\nLesson\nTopic\nLinks\n\n\n\n\n1\n\nR – Installation of R and RStudio, setting the working directory [YouTube]\n\n\n2\n\nR projects, scripts, objects, variables, dataset, list [Supplements]\n\n\n3\n\nR markdown, Basic functions, Package (tidyverse) installation, Visualization using ggplot() [YouTube]\n\n\n4\n\nDataset manipulation, Pareto chart, Chi-square test [YouTube] [Supplements]\n\n\n5\n\nDescriptive statistics and chi-square test revisit [YouTube]\n\n\n6\n\nCLT, Standard error, Confidence interval\n\n\n7\n\nOne sample t-test, z-test\n\n\n8\n\nTwo sample t-test (independent and paired)\n\n\n9\n\nMann-Whitney test (independent) and Wilcoxon test (dependent)\n\n\n10\n\nANOVA (one-way, two-way, three-way for CRD, RCBD and Factorial design)\n\n\n11\n\nANOVA (mixed effects for split-plot design) [Supplement]\n\n\n12\n\nResidual and Post-hoc analysis\n\n\n13\n\nKruskal-Wallis test\n\n\n14\n\nCorrelation (Spearman and Pearson)\n\n\n15\n\nLinear simple and multiple regression\n\n\n16\n\nLogistic regression"
+    "text": "Presentation\n\n\n\nData sets\n\nDownload CSV Dataset\nDownload txt Dataset\nDownload xlsx Dataset\nDownload Full Excel Dataset\n\n\nPlease double check and ensure your datasets and R script/markdown files are in the same folder/directory. Set the working the directory to the folder containing the script and dataset.\n\n\n\n\n1\n\n### Lesson 1: Introduction\n\nR – Installation of R and RStudio, setting the working directory [YouTube]\n\n\n\n\n\n\n\n\n\n2\n\nR projects, scripts, objects, variables, dataset, list [Supplements] |\n\n\n\n3\n\nR markdown, Basic functions, Package (tidyverse) installation, Visualization using ggplot() [YouTube]\n\n\n\n4\n\nDataset manipulation, Pareto chart, Chi-square test [YouTube] [Supplements]\n\n\n\n5\n\nDescriptive statistics and chi-square test revisit [YouTube]\n\n\n\n6\n\nCLT, Standard error, Confidence interval\n\n\n\n7\n\nOne sample t-test, z-test\n\n\n\n8\n\nTwo sample t-test (independent and paired)\n\n\n\n9\n\nMann-Whitney test (independent) and Wilcoxon test (dependent)\n\n\n\n10\n\nANOVA (one-way, two-way, three-way for CRD, RCBD and Factorial design)\n\n\n\n11\n\nANOVA (mixed effects for split-plot design) [Supplement]\n\n\n\n12\n\nResidual and Post-hoc analysis\n\n\n\n13\n\nKruskal-Wallis test\n\n\n\n14\n\nCorrelation (Spearman and Pearson)\n\n\n\n15\n\nLinear simple and multiple regression\n\n\n\n16\n\nLogistic regression"
   },
   {
     "objectID": "courses/data-analysis.html#assessment",
@@ -376,5 +376,124 @@
     "title": "Privacy Policy",
     "section": "",
     "text": "If you have any questions about this Privacy Policy, You can contact us: Contact"
+  },
+  {
+    "objectID": "courses/data-analysis.html#lesson-2-r-basics",
+    "href": "courses/data-analysis.html#lesson-2-r-basics",
+    "title": "Data Analysis Using R",
+    "section": "",
+    "text": "R projects, scripts, objects, variables, dataset, list [Supplements]"
+  },
+  {
+    "objectID": "courses/data-analysis.html#lesson-3-visualizations",
+    "href": "courses/data-analysis.html#lesson-3-visualizations",
+    "title": "Data Analysis Using R",
+    "section": "",
+    "text": "R markdown, Basic functions, Package (tidyverse) installation, Visualization using ggplot() [YouTube]"
+  },
+  {
+    "objectID": "courses/data-analysis.html#lesson-4-data-manipulation",
+    "href": "courses/data-analysis.html#lesson-4-data-manipulation",
+    "title": "Data Analysis Using R",
+    "section": "",
+    "text": "Dataset manipulation, Pareto chart, Chi-square test [YouTube] [Supplements]"
+  },
+  {
+    "objectID": "courses/data-analysis.html#lesson-5-descriptives",
+    "href": "courses/data-analysis.html#lesson-5-descriptives",
+    "title": "Data Analysis Using R",
+    "section": "",
+    "text": "Descriptive statistics and chi-square test revisit [YouTube]"
+  },
+  {
+    "objectID": "courses/data-analysis.html#lesson-6-confidence-interval",
+    "href": "courses/data-analysis.html#lesson-6-confidence-interval",
+    "title": "Data Analysis Using R",
+    "section": "",
+    "text": "CLT, Standard error, Confidence interval"
+  },
+  {
+    "objectID": "courses/data-analysis.html#lesson-7-one-sample-t-tests",
+    "href": "courses/data-analysis.html#lesson-7-one-sample-t-tests",
+    "title": "Data Analysis Using R",
+    "section": "",
+    "text": "One sample t-test, z-test"
+  },
+  {
+    "objectID": "courses/data-analysis.html#lesson-8-two-sample-t-test",
+    "href": "courses/data-analysis.html#lesson-8-two-sample-t-test",
+    "title": "Data Analysis Using R",
+    "section": "",
+    "text": "Two sample t-test (independent and paired)"
+  },
+  {
+    "objectID": "courses/data-analysis.html#lesson-9-non-parametric-mean-comparison",
+    "href": "courses/data-analysis.html#lesson-9-non-parametric-mean-comparison",
+    "title": "Data Analysis Using R",
+    "section": "",
+    "text": "Mann-Whitney test (independent) and Wilcoxon test (dependent)"
+  },
+  {
+    "objectID": "courses/data-analysis.html#lesson-10-anova",
+    "href": "courses/data-analysis.html#lesson-10-anova",
+    "title": "Data Analysis Using R",
+    "section": "",
+    "text": "ANOVA (one-way, two-way, three-way for CRD, RCBD and Factorial design)"
+  },
+  {
+    "objectID": "courses/data-analysis.html#lesson-11-anova-for-split-plots",
+    "href": "courses/data-analysis.html#lesson-11-anova-for-split-plots",
+    "title": "Data Analysis Using R",
+    "section": "",
+    "text": "ANOVA (mixed effects for split-plot design) [Supplement]"
+  },
+  {
+    "objectID": "courses/data-analysis.html#lesson-12-anova-post-hoc",
+    "href": "courses/data-analysis.html#lesson-12-anova-post-hoc",
+    "title": "Data Analysis Using R",
+    "section": "",
+    "text": "Residual and Post-hoc analysis"
+  },
+  {
+    "objectID": "courses/data-analysis.html#lesson-13-non-parametric-anova",
+    "href": "courses/data-analysis.html#lesson-13-non-parametric-anova",
+    "title": "Data Analysis Using R",
+    "section": "",
+    "text": "Kruskal-Wallis test"
+  },
+  {
+    "objectID": "courses/data-analysis.html#lesson-14-correlation",
+    "href": "courses/data-analysis.html#lesson-14-correlation",
+    "title": "Data Analysis Using R",
+    "section": "",
+    "text": "Correlation (Spearman and Pearson)"
+  },
+  {
+    "objectID": "courses/data-analysis.html#lesson-15-linear-regression",
+    "href": "courses/data-analysis.html#lesson-15-linear-regression",
+    "title": "Data Analysis Using R",
+    "section": "",
+    "text": "Linear simple and multiple regression"
+  },
+  {
+    "objectID": "courses/data-analysis.html#lesson-16-logistic-regression",
+    "href": "courses/data-analysis.html#lesson-16-logistic-regression",
+    "title": "Data Analysis Using R",
+    "section": "",
+    "text": "Logistic regression"
+  },
+  {
+    "objectID": "courses/data-analysis.html#assessment-1",
+    "href": "courses/data-analysis.html#assessment-1",
+    "title": "Data Analysis Using R",
+    "section": "",
+    "text": "Class test 1: Lesson 1-6: Bring your calculator for practical task\nClass test 2: Lesson 7-10: Bring your calculator for practical task\nAssignment: Lesson 11-16: Homework/group project, presentation\nFinal exam: Lesson 1-16: Concept, selection of test, requirement of assumptions, cleaning the outputs of analysis for report, writing interpretation of given analysis results\nExample questions: To be discussed in the makeup class."
+  },
+  {
+    "objectID": "courses/data-analysis.html#resources-1",
+    "href": "courses/data-analysis.html#resources-1",
+    "title": "Data Analysis Using R",
+    "section": "",
+    "text": "Basics of R Programming Language for Data Wrangling and Analysis – [Class notes, will be supplied]\nYouTube video links may be accessed from the course contents.\nWebsite for learning: https://www.geeksforgeeks.org/r-tutorial/?ref=outind\nLearning Statistics with R – Danielle Navarro [Datasets]\n\n\n\n\n\n\n\n\ncc8cf5e8fb18e23aa48eb1d50ddf8db4f968a2e9 - R Graphics Cookbook – Winston Chang [Printed version]"
   }
 ]
