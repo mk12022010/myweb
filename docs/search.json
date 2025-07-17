@@ -7,6 +7,34 @@
     "text": "Teaching\n\n\n\nCourses\nResearch Tools\nOffice Programs\n\n\n\n\n\nResearch methodology\nBasic statistics using R\nIntermediate statistics using R\nAdvanced statistics using R\nMachine learning using R\nData analysis using Python/SPSS/Minitab\n\n\nData collection tools and techniques\nTechniques for data processing\nOptimization of data analysis techniques\nUse of AI in research\n\n\nOffice program Use of MS Word\nUse of MS Excel\nUse of MS PowerPoint"
   },
   {
+    "objectID": "posts/why-r-python.html",
+    "href": "posts/why-r-python.html",
+    "title": "Why to learn R/Python?",
+    "section": "",
+    "text": "Python or R is an open-source programming language. Python is one of the most widely used general programming language and R is one of the most widely used programming language for research and data analysis.\nCode sharing, customizing, reusability of codes, and literally endless possibility of expansion of data science ideas are some of the benefits of command-driven programs over menu-driven programs.\nR seems to know anything that a data analyst needs to analyze. The code is highly customizable. One problem can be solved in different ways. Output formatting can be styled using tidyverse and kableExtra. However, I think R has attracted many data analyst for its amazing publication ready data-based figures usually done with ggplot2.\n\n\n\nInstall R Download R\nInstall Python Download Python\nInstall pip (package installer for python) using cmd (command prompt): python -m pip install --upgrade pip\nFor python3, update pip if needed: python3 -m pip install --upgrade pip\nInstall Jupyter using cmd: python -m pip install jupyter\nYou can also install Jupyter Lab using cmd: python -m pip install jupyterlab\nYou can launch Jupyter Notebook or Lab using cmd: jupyter notebook or jupyter lab\n\n\n\n\n\nIn cmd: jupyter notebook\n\n\n\n\n\nInstall VS Code Download VS Code\nInstall R extension in VS code: R Extension for Visual Studio Code (REditorSupport)\nInstall radian in cmd for syntax highlighting: pip3 install -U radian\nOpen R from Start Menu\nInstall packages in R (not RStudio) without compilation: install.packages(c('languageserver', 'httpgd', 'repr', 'IRdisplay', 'evaluate', 'crayon', 'pbdZMQ', 'devtools', 'uuid', 'digest'))\nInstall R kernel for jupyter in R (not RStudio): devtools::install_github('IRkernel/IRkernel')\nLink R kernel to jupyter notebook in R (not RStudio): IRkernel::installspec(user = FALSE)\nOpen a file in VS code with .ipynb extension and select kernel (jupyer kernel &gt; R kernel)\n\nNow your jupyter notebook is ready for both python and R. You can also create and work with R file with .R extension in vs code. At the end, you can export the .ipynb (jupyter notebook) file as html by pressing ctrl+shift+P and search for ‘jupyter: export to html’. Open this html file in RStudio to publish. In addition, you can read some tips on working with markdown in Markdown cheat sheet."
+  },
+  {
+    "objectID": "posts/why-r-python.html#installation-of-r-and-integration-with-jupyter-notebook-in-visual-studio-code",
+    "href": "posts/why-r-python.html#installation-of-r-and-integration-with-jupyter-notebook-in-visual-studio-code",
+    "title": "Why to learn R/Python?",
+    "section": "",
+    "text": "Install R Download R\nInstall Python Download Python\nInstall pip (package installer for python) using cmd (command prompt): python -m pip install --upgrade pip\nFor python3, update pip if needed: python3 -m pip install --upgrade pip\nInstall Jupyter using cmd: python -m pip install jupyter\nYou can also install Jupyter Lab using cmd: python -m pip install jupyterlab\nYou can launch Jupyter Notebook or Lab using cmd: jupyter notebook or jupyter lab"
+  },
+  {
+    "objectID": "posts/why-r-python.html#run-jupyter-notebook-in-browser",
+    "href": "posts/why-r-python.html#run-jupyter-notebook-in-browser",
+    "title": "Why to learn R/Python?",
+    "section": "",
+    "text": "In cmd: jupyter notebook"
+  },
+  {
+    "objectID": "posts/why-r-python.html#run-r-with-jupyter-notebook-in-vs-code-visual-studio-code",
+    "href": "posts/why-r-python.html#run-r-with-jupyter-notebook-in-vs-code-visual-studio-code",
+    "title": "Why to learn R/Python?",
+    "section": "",
+    "text": "Install VS Code Download VS Code\nInstall R extension in VS code: R Extension for Visual Studio Code (REditorSupport)\nInstall radian in cmd for syntax highlighting: pip3 install -U radian\nOpen R from Start Menu\nInstall packages in R (not RStudio) without compilation: install.packages(c('languageserver', 'httpgd', 'repr', 'IRdisplay', 'evaluate', 'crayon', 'pbdZMQ', 'devtools', 'uuid', 'digest'))\nInstall R kernel for jupyter in R (not RStudio): devtools::install_github('IRkernel/IRkernel')\nLink R kernel to jupyter notebook in R (not RStudio): IRkernel::installspec(user = FALSE)\nOpen a file in VS code with .ipynb extension and select kernel (jupyer kernel &gt; R kernel)\n\nNow your jupyter notebook is ready for both python and R. You can also create and work with R file with .R extension in vs code. At the end, you can export the .ipynb (jupyter notebook) file as html by pressing ctrl+shift+P and search for ‘jupyter: export to html’. Open this html file in RStudio to publish. In addition, you can read some tips on working with markdown in Markdown cheat sheet."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "RUEN Research",
@@ -270,28 +298,7 @@
     "href": "blogs.html",
     "title": "Blog Posts",
     "section": "",
-    "text": "Python or R is an open-source programming language. Python is one of the most widely used general programming language and R is one of the most widely used programming language for research and data analysis.\nCode sharing, customizing, reusability of codes, and literally endless possibility of expansion of data science ideas are some of the benefits of command-driven programs over menu-driven programs.\nR seems to know anything that a data analyst needs to analyze. The code is highly customizable. One problem can be solved in different ways. Output formatting can be styled using tidyverse and kableExtra. However, I think R has attracted many data analyst for its amazing publication ready data-based figures usually done with ggplot2.\n\n\n\nInstall R Download R\nInstall Python Download Python\nInstall pip (package installer for python) using cmd (command prompt): python -m pip install --upgrade pip\nFor python3, update pip if needed: python3 -m pip install --upgrade pip\nInstall Jupyter using cmd: python -m pip install jupyter\nYou can also install Jupyter Lab using cmd: python -m pip install jupyterlab\nYou can launch Jupyter Notebook or Lab using cmd: jupyter notebook or jupyter lab\n\n\n\n\n\nIn cmd: jupyter notebook\n\n\n\n\n\nInstall VS Code Download VS Code\nInstall R extension in VS code: R Extension for Visual Studio Code (REditorSupport)\nInstall radian in cmd for syntax highlighting: pip3 install -U radian\nOpen R from Start Menu\nInstall packages in R (not RStudio) without compilation: install.packages(c('languageserver', 'httpgd', 'repr', 'IRdisplay', 'evaluate', 'crayon', 'pbdZMQ', 'devtools', 'uuid', 'digest'))\nInstall R kernel for jupyter in R (not RStudio): devtools::install_github('IRkernel/IRkernel')\nLink R kernel to jupyter notebook in R (not RStudio): IRkernel::installspec(user = FALSE)\nOpen a file in VS code with .ipynb extension and select kernel (jupyer kernel &gt; R kernel)\n\nNow your jupyter notebook is ready for both python and R. You can also create and work with R file with .R extension in vs code. At the end, you can export the .ipynb (jupyter notebook) file as html by pressing ctrl+shift+P and search for ‘jupyter: export to html’. Open this html file in RStudio to publish. In addition, you can read some tips on working with markdown in Markdown cheat sheet."
-  },
-  {
-    "objectID": "blogs.html#installation-of-r-and-integration-with-jupyter-notebook-in-visual-studio-code",
-    "href": "blogs.html#installation-of-r-and-integration-with-jupyter-notebook-in-visual-studio-code",
-    "title": "Blog Posts",
-    "section": "",
-    "text": "Install R Download R\nInstall Python Download Python\nInstall pip (package installer for python) using cmd (command prompt): python -m pip install --upgrade pip\nFor python3, update pip if needed: python3 -m pip install --upgrade pip\nInstall Jupyter using cmd: python -m pip install jupyter\nYou can also install Jupyter Lab using cmd: python -m pip install jupyterlab\nYou can launch Jupyter Notebook or Lab using cmd: jupyter notebook or jupyter lab"
-  },
-  {
-    "objectID": "blogs.html#run-jupyter-notebook-in-browser",
-    "href": "blogs.html#run-jupyter-notebook-in-browser",
-    "title": "Blog Posts",
-    "section": "",
-    "text": "In cmd: jupyter notebook"
-  },
-  {
-    "objectID": "blogs.html#run-r-with-jupyter-notebook-in-vs-code-visual-studio-code",
-    "href": "blogs.html#run-r-with-jupyter-notebook-in-vs-code-visual-studio-code",
-    "title": "Blog Posts",
-    "section": "",
-    "text": "Install VS Code Download VS Code\nInstall R extension in VS code: R Extension for Visual Studio Code (REditorSupport)\nInstall radian in cmd for syntax highlighting: pip3 install -U radian\nOpen R from Start Menu\nInstall packages in R (not RStudio) without compilation: install.packages(c('languageserver', 'httpgd', 'repr', 'IRdisplay', 'evaluate', 'crayon', 'pbdZMQ', 'devtools', 'uuid', 'digest'))\nInstall R kernel for jupyter in R (not RStudio): devtools::install_github('IRkernel/IRkernel')\nLink R kernel to jupyter notebook in R (not RStudio): IRkernel::installspec(user = FALSE)\nOpen a file in VS code with .ipynb extension and select kernel (jupyer kernel &gt; R kernel)\n\nNow your jupyter notebook is ready for both python and R. You can also create and work with R file with .R extension in vs code. At the end, you can export the .ipynb (jupyter notebook) file as html by pressing ctrl+shift+P and search for ‘jupyter: export to html’. Open this html file in RStudio to publish. In addition, you can read some tips on working with markdown in Markdown cheat sheet."
+    "text": "Welcome to my blog! Here you can find a collection of my latest posts on various topics. Feel free to explore and engage with the content.\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nCommunication and Human Relation\n\n\n\n\n\n\n\n\n\n\n\n\nJul 18, 2025\n\n\nProfessor Dr. Md. Kamrul Hasan\n\n\n\n\n\n\n  \n\n\n\n\nWhy to learn R/Python?\n\n\n\n\n\n\n\nR\n\n\nPython\n\n\n\n\n\n\n\n\n\n\n\nAug 3, 2024\n\n\nProfessor Dr. Md. Kamrul Hasan\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "contact.html",

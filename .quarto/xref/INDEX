@@ -43,5 +43,20 @@
   },
   "courses/lessons-data-analysis-r/data-visualization.qmd": {
     "data-visualization.html": "3b2a13d8"
+  },
+  "blogs/communication-presentation.qmd": {
+    "communication-presentation.html": "99afc4d7"
+  },
+  "blogs/why-r-python.qmd": {
+    "why-r-python.html": "4c5082ed"
+  },
+  "blogs/communication-presentation-main.qmd": {
+    "communication-presentation-main.html": "ab5689c4"
+  },
+  "posts/why-r-python.qmd": {
+    "why-r-python.html": "e206766c"
+  },
+  "posts/communication-presentation.qmd": {
+    "communication-presentation.html": "a99ecc81"
   }
 }
