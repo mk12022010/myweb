@@ -8,8 +8,9 @@ format:
     scrollable: true
     incremental: false
     code-block-height: 650px
-    logo: "/images/pstu_logo.png"
-    footer: "RUEN Research"
+    logo: ../images/pstu-logo.png
+    footer: |
+      <a href="https://ruenresearch.com" target="_blank">RUEN Research</a>
     transition: slide
     slide-number: c/t
     multiplex: false
