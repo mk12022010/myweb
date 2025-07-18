@@ -1,5 +1,5 @@
 ---
-title: "Communication and Human Relation"
+title: "Journalism and Communication"
 author: "Professor Dr. Md. Kamrul Hasan"
 date: "18 July 2025"
 format: 
@@ -96,9 +96,9 @@ A **dead person** cannot provide feedback — this **ends the communication loop
 
 1.  **Linear Model** – One-way transmission (e.g., TV broadcast)
 
-2.  **Interactive Model** – Sender ↔ Receiver with feedback
+2.  **Interactive Model** – Sender ↔ Receiver with feedback (e.g. News blog)
 
-3.  **Transactional Model** – Both parties simultaneously sender and receiver
+3.  **Transactional Model** – Both parties simultaneously sender and receiver (e.g. Interview)
 
 # Transactional Communication
 
@@ -178,14 +178,22 @@ Builds trust and strengthens understanding.
 -   **Relevance**: Match audience interest
 -   **Respect**: Be polite and culturally sensitive
 
-# Communication for Reporters {#communication-for-reporters}
+# Communication for Journalist {#communication-for-reporters}
 
+::::: columns
+::: {.column width="70%"}
 Reporters deal with **exceptional cases** (outliers).
 They must ensure:
 
 -   Accurate communication of facts
 -   Sensitivity in presentation
 -   Ethical standards
+:::
+
+::: {.column width="30%"}
+![](images/clipboard-1627938534.png){.absolute top=150 right=0 width="250" height="700"}
+:::
+:::::
 
 # Reporting and Unusual Events
 
