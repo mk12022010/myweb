@@ -1,0 +1,148 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  transition: top 0.3s;
+  z-index: 1000;
+}
+
+.sidebar {
+  background-color: white;
+}
+
+.tabs > .tab-content {
+  padding-top: 1rem;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    font-size: 0.9rem;
+  }
+  .tabs > .tab-content {
+    padding: 0.5rem;
+  }
+}
+
+.sidebar-extra {
+  margin-top: 2rem;
+  font-size: 0.9em;
+}
+.sidebar-extra h5 {
+  margin-bottom: 0.5rem;
+}
+.sidebar-extra ul {
+  padding-left: 1.2rem;
+}
+
+.hanging-indent {
+  text-indent: -2.5em;
+  padding-left: 1.5em;
+}
+
+.column-margin {
+  background-color: transparent !important;
+}
+
+/* Custom TOC styling */
+#TOC {
+  background: #f8f9fa;  /* Light gray */
+  border-left: 3px solid #3498db;  /* Blue accent */
+  padding: 1em;
+  border-radius: 5px;
+}
+
+/* Change TOC links */
+#TOC a {
+  color: #2c3e50;  /* Dark blue-gray */
+}
+
+#TOC a:hover {
+  color: #e74c3c;  /* Red on hover */
+}
+
+
+/* style.css */
+
+.reveal h1, .reveal h2, .reveal h3 {
+  color: #2c3e50;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.reveal p, .reveal li {
+  font-size: 1.1rem;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.reveal strong {
+  color: #e67e22;
+}
+
+.reveal section img {
+  border-radius: 12px;
+  max-width: 80%;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.reveal .slide-background {
+  background-color: #f9f9f9;
+}
+
+.reveal .footer {
+  color: #888;
+  font-size: 0.8rem;
+}
+
+#comment-section {
+  margin-top: 3rem;
+  padding: 1rem;
+  border-top: 1px solid #eee;
+}
+
+.comment {
+  margin: 1rem 0;
+  padding: 1rem;
+  background: #f9f9f9;
+  border-radius: 4px;
+}
+
+#comment-form {
+  margin-top: 2rem;
+}
+
+#comment-form input,
+#comment-form textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+
+#comment-form textarea {
+  min-height: 100px;
+}
+
+.custom-header {
+  position: absolute;
+  top: 0.5rem;
+  left: 0;
+  right: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  z-index: 1000;
+}
+
+.logo-left,
+.logo-right {
+  height: 60px;
+}
+
+.reveal .slide-background {
+  background-position: center top;
+  background-repeat: no-repeat;
+}
