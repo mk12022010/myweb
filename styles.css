@@ -38,9 +38,11 @@ body {
 }
 
 .hanging-indent {
-  text-indent: -2.5em;
-  padding-left: 1.5em;
+    padding-left: 2em;
+    text-indent: -2em;
+    margin-bottom: 0.5em;
 }
+
 
 .column-margin {
   background-color: transparent !important;
@@ -95,3 +97,8 @@ body {
   font-size: 0.8rem;
 }
 
+.img-with-border {
+    border: 8px solid white;
+    box-shadow: 0 0 0 1px #ccc; /* subtle outer line */
+    box-sizing: border-box;
+}
