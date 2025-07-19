@@ -70,6 +70,7 @@ R is widely used for data science for several reasons, such as:
     -   [Download txt Dataset](/courses/datasets/mydata.txt)
     -   [Download xlsx Dataset](/courses/datasets/mydata.xlsx)
     -   [Download Full Excel Dataset](/courses/datasets/DataSets.xlsx)
+    -   [Download R codes used in the class](/courses/datasets/RCrushCourseCodes.zip)
 
 **Please double check and ensure your datasets and R script/markdown files are in the same folder/directory. Set the working the directory to the folder containing the script and dataset.**
 
