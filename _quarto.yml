@@ -17,8 +17,6 @@ website:
     left:
       - text: "Home"
         href: index.qmd
-      - text: "Teaching"
-        href: teaching.qmd
       - text: "Courses"
         menu:
           - text: "Research Methodology"
@@ -27,6 +25,8 @@ website:
             href: courses/data-analysis.qmd
           - text: "Machine Learning Using R"
             href: courses/machine-learning.qmd
+      - text: "Enrol"
+        href: enrol.qmd
       - text: "Blogs"
         href: blogs.qmd
       - text: "Contact"

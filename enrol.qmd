@@ -1,8 +1,8 @@
 ---
-title: " "
+title: "Register for Your Course"
 ---
 
-# Teaching
+# This page is under development
 
 +-------------------------------------------------------------------+-------------------------------------------------------------------------------+-----------------------------------+
 | Courses                                                           | Research Tools                                                                | Office Programs                   |
