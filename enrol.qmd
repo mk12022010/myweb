@@ -2,7 +2,7 @@
 title: "Register for Your Course"
 ---
 
-# This page is under development
+# This page is under development. Registration process has not been updated. Thank you for your patience. {style="color: red"}
 
 +-------------------------------------------------------------------+-------------------------------------------------------------------------------+-----------------------------------+
 | Courses                                                           | Research Tools                                                                | Office Programs                   |
