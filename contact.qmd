@@ -1,11 +1,37 @@
 ---
-title: "Contact"
+title: "Contact Research Team"
 format:
   html:
     page-layout: full
     toc: false
     css: styles.css
 ---
+
+<p class="access-note">
+  📚 <strong>Note:</strong> To access restricted course materials, please contact via <a href="mailto:channel.kamrulext@gmail.com">email</a> or form below. Please scroll down for contact details.
+</p>
+
+
+### 📬 Send a Message
+
+<form class="contact-form"  action="https://formspree.io/f/xkgzjpge"
+method="POST" enctype="multipart/form-data">
+  <label for="name">Name</label>
+  <input type="text" id="name" name="name" required>
+
+  <label for="email">Email</label>
+  <input type="email" id="email" name="_replyto" required>
+
+  <label for="subject">Subject</label>
+  <input type="text" id="subject" name="subject" required>
+
+  <label for="message">Message</label>
+  <textarea id="message" name="message" rows="5" required></textarea>
+
+  <button type="submit">Send Message</button>
+</form>
+
+
 
 <div class="contact-container">
 
@@ -37,30 +63,6 @@ format:
 
 <hr>
 
-<p class="access-note">
-  📚 <strong>Note:</strong> To access restricted course materials, please contact via email or form below.
-</p>
-
 </div>
 
 </div>
-
-
-### 📬 Send a Message
-
-<form class="contact-form"  action="https://formspree.io/f/xkgzjpge"
-method="POST" enctype="multipart/form-data">
-  <label for="name">Name</label>
-  <input type="text" id="name" name="name" required>
-
-  <label for="email">Email</label>
-  <input type="email" id="email" name="_replyto" required>
-
-  <label for="subject">Subject</label>
-  <input type="text" id="subject" name="subject" required>
-
-  <label for="message">Message</label>
-  <textarea id="message" name="message" rows="5" required></textarea>
-
-  <button type="submit">Send Message</button>
-</form>

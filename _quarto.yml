@@ -2,11 +2,11 @@ project:
   type: website
   output-dir: docs
 
-pbulish:
+publish:
   dir: .
 
 website:
-  title: "My Research"
+  title: "RUEN Research"
 
   navbar:
     logo: images/logo.png 
@@ -42,15 +42,15 @@ website:
         href: https://www.linkedin.com/in/kamrulext/
         
   page-footer:
-    left:
-      - text: "Copyright © 2024 | RUEN Research | Contact"
-        href: contact.qmd
     center:
-      - text: "CC BY-NC-SA 4.0"
+      - text: "| Copyright © RUEN Research 2024 |"
+        href: index.qmd
+      - text: "| CC BY-NC-SA 4.0 |"
         href: https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1
-    right:
-      - text: "Privacy Policy"
+      - text: "| Privacy Policy |"
         href: privacy-policy.qmd
+      - text: "| Contact |"
+        href: contact.qmd
 
 
 format:
