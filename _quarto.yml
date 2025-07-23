@@ -43,13 +43,13 @@ website:
         
   page-footer:
     center:
-      - text: "| Copyright © RUEN Research 2024 |"
+      - text: "Copyright © RUEN Research 2024"
         href: index.qmd
-      - text: "| CC BY-NC-SA 4.0 |"
+      - text: "CC BY-NC-SA 4.0"
         href: https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1
-      - text: "| Privacy Policy |"
+      - text: "Privacy Policy"
         href: privacy-policy.qmd
-      - text: "| Contact |"
+      - text: "Contact"
         href: contact.qmd
 
 
