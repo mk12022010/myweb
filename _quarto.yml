@@ -42,13 +42,15 @@ website:
         href: https://www.linkedin.com/in/kamrulext/
         
   page-footer:
-    center:
+    left:
       - text: "Copyright © RUEN Research 2024"
         href: index.qmd
+    center:
       - text: "CC BY-NC-SA 4.0"
         href: https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1
       - text: "Privacy Policy"
         href: privacy-policy.qmd
+    right:
       - text: "Contact"
         href: contact.qmd
 
