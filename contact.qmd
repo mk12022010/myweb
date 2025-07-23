@@ -1,17 +1,66 @@
 ---
 title: "Contact"
+format:
+  html:
+    page-layout: full
+    toc: false
+    css: styles.css
 ---
 
-📞 Phone: +8801891565856
+<div class="contact-container">
 
-📧 Email: [Professor Dr. Md. Kamrul Hasan](mailto:kamrulext@pstu.ac.bd)
+<div class="contact-card">
 
-🌐 Website: [www.ruenresearch.com]()
+<h2>📞 Phone</h2>
+<p><strong>+8801891565856</strong></p>
 
-📍 Postal Address:
+<h2>📧 Email</h2>
+<p>
+  <a href="mailto:channel.kamrulext@gmail.com">
+    Professor Dr. Md. Kamrul Hasan
+  </a>
+</p>
 
-Department of Agricultural Extension and Rural Development
+<h2>🌐 Website</h2>
+<p>
+  <a href="https://www.ruenresearch.com" target="_blank">
+    www.ruenresearch.com
+  </a>
+</p>
 
-Patuakhali Science and Technology University
+<h2>📍 Postal Address</h2>
+<p>
+  Department of Agricultural Extension and Rural Development<br>
+  Patuakhali Science and Technology University<br>
+  Dumki, Patuakhali 8660, Bangladesh
+</p>
 
-Dumki, Patuakhali 8660, Bangladesh
+<hr>
+
+<p class="access-note">
+  📚 <strong>Note:</strong> To access restricted course materials, please contact via email or form below.
+</p>
+
+</div>
+
+</div>
+
+
+### 📬 Send a Message
+
+<form class="contact-form"  action="https://formspree.io/f/xkgzjpge"
+method="POST" enctype="multipart/form-data">
+  <label for="name">Name</label>
+  <input type="text" id="name" name="name" required>
+
+  <label for="email">Email</label>
+  <input type="email" id="email" name="_replyto" required>
+
+  <label for="subject">Subject</label>
+  <input type="text" id="subject" name="subject" required>
+
+  <label for="message">Message</label>
+  <textarea id="message" name="message" rows="5" required></textarea>
+
+  <button type="submit">Send Message</button>
+</form>

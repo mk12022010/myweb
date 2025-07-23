@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>RUEN Research - Register for Your Course</title>
+<title>My Research - My Courses</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -76,7 +76,7 @@ ul.task-list li input[type="checkbox"] {
     <img src="./images/logo.png" alt="" class="navbar-logo">
     </a>
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">RUEN Research</span>
+    <span class="navbar-title">My Research</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -113,12 +113,8 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Blogs</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./contact.html" rel="" target="">
- <span class="menu-text">Contact</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link active" href="./enrol.html" rel="" target="" aria-current="page">
- <span class="menu-text">Enrol for Your Courses</span></a>
+ <span class="menu-text">My Courses</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -157,25 +153,17 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
-    <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#this-page-is-under-development.-registration-process-has-not-been-updated.-thank-you-for-your-patience." id="toc-this-page-is-under-development.-registration-process-has-not-been-updated.-thank-you-for-your-patience." class="nav-link active" data-scroll-target="#this-page-is-under-development.-registration-process-has-not-been-updated.-thank-you-for-your-patience.">This page is under development. Registration process has not been updated. Thank you for your patience.</a></li>
-  </ul>
-</nav>
-</nav>
+  
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
     </div>
 <!-- main -->
-<main class="content column-page-right" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Register for Your Course</h1>
+<h1 class="title">My Courses</h1>
 </div>
 
 
@@ -190,43 +178,88 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="this-page-is-under-development.-registration-process-has-not-been-updated.-thank-you-for-your-patience." class="level1" style="color: red">
-<h1 style="color: red">This page is under development. Registration process has not been updated. Thank you for your patience.</h1>
-<table class="table">
-<thead>
-<tr class="header">
-<th>Courses</th>
-<th>Research Tools</th>
-<th>Office Programs</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ol type="1">
-<li><a href="./courses/research-methodology.html">Research methodology</a></li>
-<li><a href="./courses/data-analysis.html">Basic statistics using R</a></li>
-<li><a href="./courses/data-analysis.html">Intermediate statistics using R</a></li>
-<li><a href="./courses/machine-learning.html">Advanced statistics using R</a></li>
-<li><a href="./courses/machine-learning.html">Machine learning using R</a></li>
-<li>Data analysis using Python/SPSS/Minitab</li>
-</ol></td>
-<td><ol type="1">
-<li><a href="./courses/research-methodology.html">Data collection tools and techniques</a></li>
-<li>Techniques for data processing</li>
-<li>Optimization of data analysis techniques</li>
-<li>Use of AI in research</li>
-</ol></td>
-<td><ol type="1">
-<li>Office program Use of MS Word</li>
-<li>Use of MS Excel</li>
-<li>Use of MS PowerPoint</li>
-</ol></td>
-</tr>
-</tbody>
-</table>
+<div class="course-warning">
+<p>⚠️ <strong>This page is under development.</strong> If you do not find what you are looking for, <a href="./contact.html">please click here to contact us</a>.</p>
+</div>
+<div class="search-box">
+<p><input type="text" id="courseSearch" placeholder="Search courses..."></p>
+</div>
+<div class="course-grid">
+<!-- 📚 Courses -->
+<div class="course-category">
+<h2 class="anchored">
+📚 Courses
+</h2>
+<ul>
+<li>
+<a href="./courses/research-methodology.html">Research Methodology</a> <button onclick="openModal('Research Methodology')"><a href="./contact.html">Enrol</a></button>
+</li>
+<li>
+<a href="./courses/data-analysis.html">Basic Statistics Using R</a> <button onclick="openModal('Basic Statistics Using R')"><a href="./contact.html">Enrol</a></button>
+</li>
+<li>
+<a href="./courses/data-analysis.html">Intermediate Statistics Using R</a> <button onclick="openModal('Intermediate Statistics Using R')"><a href="./contact.html">Enrol</a></button>
+</li>
+<li>
+<a href="./courses/machine-learning.html">Advanced Statistics Using R</a> <button onclick="openModal('Advanced Statistics Using R')"><a href="./contact.html">Enrol</a></button>
+</li>
+<li>
+<a href="./courses/machine-learning.html">Machine Learning Using R</a> <button onclick="openModal('Machine Learning Using R')"><a href="./contact.html">Enrol</a></button>
+</li>
+<li>
+Data Analysis Using Python/SPSS/Minitab <span class="badge">Coming Soon</span>
+</li>
+</ul>
+</div>
+<!-- 🛠️ Research Tools -->
+<div class="course-category">
+<h2 class="anchored">
+🛠️ Research Tools
+</h2>
+<ul>
+<li>
+<a href="./courses/research-methodology.html">Data Collection Tools and Techniques</a> <button onclick="openModal('Data Collection Tools and Techniques')"><a href="./contact.html">Enrol</a></button>
+</li>
+<li>
+Techniques for Data Processing <span class="badge">Coming Soon</span>
+</li>
+<li>
+Optimization of Data Analysis Techniques <span class="badge">Coming Soon</span>
+</li>
+<li>
+Use of AI in Research <span class="badge">Coming Soon</span>
+</li>
+</ul>
+</div>
+<!-- 🖥️ Office Programs -->
+<div class="course-category">
+<h2 class="anchored">
+🖥️ Office Programs
+</h2>
+<ul>
+<li>
+Use of MS Word <span class="badge">Coming Soon</span>
+</li>
+<li>
+Use of MS Excel <span class="badge">Coming Soon</span>
+</li>
+<li>
+Use of MS PowerPoint <span class="badge">Coming Soon</span>
+</li>
+</ul>
+</div>
+</div>
+<!-- Modal -->
+<div id="enrollModal" class="modal hidden">
+<div class="modal-content">
+<pre><code>&lt;span class="close" onclick="closeModal()"&gt;&amp;times;&lt;/span&gt;
+&lt;h3 id="modalCourseTitle"&gt;Course Title&lt;/h3&gt;
+&lt;p&gt;To enroll in this course, please &lt;a href="/contact.qmd"&gt;contact us&lt;/a&gt; or stay tuned for the online registration system.&lt;/p&gt;</code></pre>
+</div>
+</div>
+<script src="scripts.js"></script>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -468,7 +501,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-left">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="./index.html">Copyright © 2024 | RUEN Research</a>
+    <a class="nav-link" href="./contact.html">Copyright © 2024 | RUEN Research | Contact</a>
   </li>  
 </ul>
     </div>   

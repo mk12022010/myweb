@@ -6,7 +6,7 @@ pbulish:
   dir: .
 
 website:
-  title: "RUEN Research"
+  title: "My Research"
 
   navbar:
     logo: images/logo.png 
@@ -27,9 +27,7 @@ website:
             href: courses/machine-learning.qmd
       - text: "Blogs"
         href: blogs.qmd
-      - text: "Contact"
-        href: contact.qmd
-      - text: "Enrol for Your Courses"
+      - text: "My Courses"
         href: enrol.qmd
     right:
       - icon: youtube
@@ -45,8 +43,8 @@ website:
         
   page-footer:
     left:
-      - text: "Copyright © 2024 | RUEN Research"
-        href: index.qmd
+      - text: "Copyright © 2024 | RUEN Research | Contact"
+        href: contact.qmd
     center:
       - text: "CC BY-NC-SA 4.0"
         href: https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1
