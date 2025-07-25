@@ -56,6 +56,195 @@
     "text": "⚠️ This page is under development. If you do not find what you are looking for, please click here to contact us.\n\n\n\n\n\n\n\n\n📚 Courses\n\n\n\nResearch Methodology Enrol\n\n\nBasic Statistics Using R Enrol\n\n\nIntermediate Statistics Using R Enrol\n\n\nAdvanced Statistics Using R Enrol\n\n\nMachine Learning Using R Enrol\n\n\nData Analysis Using Python/SPSS/Minitab Coming Soon\n\n\n\n\n\n\n🛠️ Research Tools\n\n\n\nData Collection Tools and Techniques Enrol\n\n\nTechniques for Data Processing Coming Soon\n\n\nOptimization of Data Analysis Techniques Coming Soon\n\n\nUse of AI in Research Coming Soon\n\n\n\n\n\n\n🖥️ Office Programs\n\n\n\nUse of MS Word Coming Soon\n\n\nUse of MS Excel Coming Soon\n\n\nUse of MS PowerPoint Coming Soon\n\n\n\n\n\n\n\n&lt;span class=\"close\" onclick=\"closeModal()\"&gt;&times;&lt;/span&gt;\n&lt;h3 id=\"modalCourseTitle\"&gt;Course Title&lt;/h3&gt;\n&lt;p&gt;To enroll in this course, please &lt;a href=\"/contact.qmd\"&gt;contact us&lt;/a&gt; or stay tuned for the online registration system.&lt;/p&gt;"
   },
   {
+    "objectID": "courses/research-methodology/14-plagiarism-ai.html",
+    "href": "courses/research-methodology/14-plagiarism-ai.html",
+    "title": "Research Plagiarism and AI",
+    "section": "",
+    "text": "Academic crime of using others’ work without acknowledgment. Avoid by: - Proper citations - Quotation marks for direct quotes - Paraphrasing with attribution"
+  },
+  {
+    "objectID": "courses/research-methodology/14-plagiarism-ai.html#plagiarism",
+    "href": "courses/research-methodology/14-plagiarism-ai.html#plagiarism",
+    "title": "Research Plagiarism and AI",
+    "section": "",
+    "text": "Academic crime of using others’ work without acknowledgment. Avoid by: - Proper citations - Quotation marks for direct quotes - Paraphrasing with attribution"
+  },
+  {
+    "objectID": "courses/research-methodology/14-plagiarism-ai.html#ai-in-research",
+    "href": "courses/research-methodology/14-plagiarism-ai.html#ai-in-research",
+    "title": "Research Plagiarism and AI",
+    "section": "AI in Research",
+    "text": "AI in Research\nUseful Tools: 1. ChatGPT: General assistance 2. Elicit: Literature review 3. Quillbot: Paraphrasing\nEthical Considerations: - Always acknowledge AI use - Verify AI-generated content - Never submit AI work as your own"
+  },
+  {
+    "objectID": "courses/research-methodology/14-plagiarism-ai.html#essential-research-technologies",
+    "href": "courses/research-methodology/14-plagiarism-ai.html#essential-research-technologies",
+    "title": "Research Plagiarism and AI",
+    "section": "Essential Research Technologies",
+    "text": "Essential Research Technologies\n\nReference Managers: Mendeley, Zotero\nStatistical Software: R, SPSS\nCollaboration Tools: Google Drive, Zoom\nAcademic Profiles: ORCID, ResearchGate"
+  },
+  {
+    "objectID": "courses/research-methodology/12-hypothesis-testing.html",
+    "href": "courses/research-methodology/12-hypothesis-testing.html",
+    "title": "Hypothesis Testing",
+    "section": "",
+    "text": "States expected relationship between variables\nTestable with operationally defined variables\nClear implications for testing\nConsistent with existing knowledge"
+  },
+  {
+    "objectID": "courses/research-methodology/12-hypothesis-testing.html#hypothesis-characteristics",
+    "href": "courses/research-methodology/12-hypothesis-testing.html#hypothesis-characteristics",
+    "title": "Hypothesis Testing",
+    "section": "",
+    "text": "States expected relationship between variables\nTestable with operationally defined variables\nClear implications for testing\nConsistent with existing knowledge"
+  },
+  {
+    "objectID": "courses/research-methodology/12-hypothesis-testing.html#types-of-hypotheses",
+    "href": "courses/research-methodology/12-hypothesis-testing.html#types-of-hypotheses",
+    "title": "Hypothesis Testing",
+    "section": "Types of Hypotheses",
+    "text": "Types of Hypotheses\n\nNull Hypothesis (H₀): No relationship\nResearch Hypothesis (Hₐ): Expected relationship\n\nDirectional: Specifies direction\nNon-directional: No direction specified"
+  },
+  {
+    "objectID": "courses/research-methodology/12-hypothesis-testing.html#testing-process",
+    "href": "courses/research-methodology/12-hypothesis-testing.html#testing-process",
+    "title": "Hypothesis Testing",
+    "section": "Testing Process",
+    "text": "Testing Process\n\nSet significance level (α, typically 0.05)\nCalculate test statistic\nCompare to critical value\nDecide to reject/retain H₀"
+  },
+  {
+    "objectID": "courses/research-methodology/12-hypothesis-testing.html#errors-in-testing",
+    "href": "courses/research-methodology/12-hypothesis-testing.html#errors-in-testing",
+    "title": "Hypothesis Testing",
+    "section": "Errors in Testing",
+    "text": "Errors in Testing\n\n\n\nDecision\nH₀ True\nH₀ False\n\n\n\n\nReject H₀\nType I Error\nCorrect Decision\n\n\nRetain H₀\nCorrect Decision\nType II Error\n\n\n\n\nType I: False positive (more dangerous in medical tests)\nType II: False negative (more dangerous in agricultural research)"
+  },
+  {
+    "objectID": "courses/research-methodology/10-reliability-validity.html",
+    "href": "courses/research-methodology/10-reliability-validity.html",
+    "title": "Reliability and Validity",
+    "section": "",
+    "text": "Consistency or reproducibility of scores. Estimation methods:\n\nTest-retest: Same test at two time points\nParallel-forms: Equivalent forms of test\nInter-rater: Consistency between raters\nInternal consistency: Cronbach’s alpha (&gt;0.7 acceptable)"
+  },
+  {
+    "objectID": "courses/research-methodology/10-reliability-validity.html#reliability",
+    "href": "courses/research-methodology/10-reliability-validity.html#reliability",
+    "title": "Reliability and Validity",
+    "section": "",
+    "text": "Consistency or reproducibility of scores. Estimation methods:\n\nTest-retest: Same test at two time points\nParallel-forms: Equivalent forms of test\nInter-rater: Consistency between raters\nInternal consistency: Cronbach’s alpha (&gt;0.7 acceptable)"
+  },
+  {
+    "objectID": "courses/research-methodology/10-reliability-validity.html#validity",
+    "href": "courses/research-methodology/10-reliability-validity.html#validity",
+    "title": "Reliability and Validity",
+    "section": "Validity",
+    "text": "Validity\nAccuracy in measuring what it claims to measure. Types:\n\nContent Validity: Expert judgment of coverage\nFace Validity: Superficial appearance\nCriterion Validity: Correlation with criterion\n\nConcurrent: Simultaneous measures\nPredictive: Future outcomes\n\nConstruct Validity: Theoretical constructs\n\nConvergent: Related measures correlate\nDiscriminant: Unrelated measures don’t correlate"
+  },
+  {
+    "objectID": "courses/research-methodology/10-reliability-validity.html#measurement-errors",
+    "href": "courses/research-methodology/10-reliability-validity.html#measurement-errors",
+    "title": "Reliability and Validity",
+    "section": "Measurement Errors",
+    "text": "Measurement Errors\n\n\nHigh bias, high variance: Neither reliable nor valid\nLow variance, low bias: Reliable and valid"
+  },
+  {
+    "objectID": "courses/research-methodology/08-sampling.html",
+    "href": "courses/research-methodology/08-sampling.html",
+    "title": "Population and Sampling",
+    "section": "",
+    "text": "Population: Entire group of interest\nSample: Subset of population selected for study"
+  },
+  {
+    "objectID": "courses/research-methodology/08-sampling.html#key-concepts",
+    "href": "courses/research-methodology/08-sampling.html#key-concepts",
+    "title": "Population and Sampling",
+    "section": "",
+    "text": "Population: Entire group of interest\nSample: Subset of population selected for study"
+  },
+  {
+    "objectID": "courses/research-methodology/08-sampling.html#sampling-techniques",
+    "href": "courses/research-methodology/08-sampling.html#sampling-techniques",
+    "title": "Population and Sampling",
+    "section": "Sampling Techniques",
+    "text": "Sampling Techniques\n\nProbability Sampling:\n\nSimple random sampling\nSystematic random sampling\nStratified sampling\nCluster sampling\nMulti-stage sampling\n\n\n\nNon-probability Sampling:\n\nConvenience sampling\nPurposive sampling\nSnowball sampling\nQuota sampling"
+  },
+  {
+    "objectID": "courses/research-methodology/08-sampling.html#sample-size-determination",
+    "href": "courses/research-methodology/08-sampling.html#sample-size-determination",
+    "title": "Population and Sampling",
+    "section": "Sample Size Determination",
+    "text": "Sample Size Determination\nFactors affecting sample size: - Population variability - Desired precision - Confidence level - Sampling method\nUse formula:\nn = (Z² × p × q) / e²\nWhere:\nZ = Z-score (1.96 for 95% CI)\np = estimated proportion\nq = 1-p\ne = margin of error"
+  },
+  {
+    "objectID": "courses/research-methodology/06-experimental-design.html",
+    "href": "courses/research-methodology/06-experimental-design.html",
+    "title": "Experimental Design",
+    "section": "",
+    "text": "Randomization: Treatments assigned randomly to experimental units\nReplication: Identical treatments applied to multiple units\nLocal Control: Maintaining homogeneity among experimental units"
+  },
+  {
+    "objectID": "courses/research-methodology/06-experimental-design.html#essential-components",
+    "href": "courses/research-methodology/06-experimental-design.html#essential-components",
+    "title": "Experimental Design",
+    "section": "",
+    "text": "Randomization: Treatments assigned randomly to experimental units\nReplication: Identical treatments applied to multiple units\nLocal Control: Maintaining homogeneity among experimental units"
+  },
+  {
+    "objectID": "courses/research-methodology/06-experimental-design.html#types-of-experimental-designs",
+    "href": "courses/research-methodology/06-experimental-design.html#types-of-experimental-designs",
+    "title": "Experimental Design",
+    "section": "Types of Experimental Designs",
+    "text": "Types of Experimental Designs\n\n1. Pre-experimental Designs\n\nOne group post-test design\nOne group pretest-post-test design\nStatic group comparison design\n\n\n\n2. True Experimental Designs\n\nPost-test control group design (RCT)\nPretest-post-test control group design\n\n\n\n3. Quasi-experimental Designs\n\nNon-equivalent control group design\nInterrupted time series design"
+  },
+  {
+    "objectID": "courses/research-methodology/06-experimental-design.html#agricultural-experimental-designs",
+    "href": "courses/research-methodology/06-experimental-design.html#agricultural-experimental-designs",
+    "title": "Experimental Design",
+    "section": "Agricultural Experimental Designs",
+    "text": "Agricultural Experimental Designs\n\nCRD (Completely Randomized Design): Homogeneous field, random treatment assignment\nRCBD (Randomized Complete Block Design): Field heterogeneous in one direction\nLSD (Latin Square Design): Field heterogeneous in both directions\nFactorial Design: Two factors, both easy to manage\nSplit-plot Design: Two factors, one easy and one difficult to manage\n\n\n\n\nExperimental Designs"
+  },
+  {
+    "objectID": "courses/research-methodology/04-research-proposal.html",
+    "href": "courses/research-methodology/04-research-proposal.html",
+    "title": "Research Proposal Development",
+    "section": "",
+    "text": "A research proposal is a detailed plan outlining a proposed study, aiming to communicate the significance, methodology, and anticipated outcomes of the research.\n\nTitle: Clear, specific, and informative (10-15 words).\nAbstract: Brief overview of research problem, objectives, methodology, and expected outcomes.\nIntroduction: Establishes context, background, problem statement, significance, and research questions.\nLiterature Review: Summarizes relevant studies and identifies knowledge gaps.\nResearch Objectives: SMART (Specific, Measurable, Achievable, Relevant, Time-bound).\nResearch Hypotheses: Testable predictions about phenomena.\nResearch Methods:\n\nLocation\nResearch Design\nPopulation and Sample\nData Collection Methods\nData Analysis\nEthical Considerations\n\nWork Plan and Timeline: Gantt chart of research activities.\nBudget: Itemized financial requirements.\nExpected Outcomes: Anticipated results and implications.\nReferences: Properly formatted citations.\nAppendices: Supplementary materials."
+  },
+  {
+    "objectID": "courses/research-methodology/04-research-proposal.html#components-of-a-research-proposal",
+    "href": "courses/research-methodology/04-research-proposal.html#components-of-a-research-proposal",
+    "title": "Research Proposal Development",
+    "section": "",
+    "text": "A research proposal is a detailed plan outlining a proposed study, aiming to communicate the significance, methodology, and anticipated outcomes of the research.\n\nTitle: Clear, specific, and informative (10-15 words).\nAbstract: Brief overview of research problem, objectives, methodology, and expected outcomes.\nIntroduction: Establishes context, background, problem statement, significance, and research questions.\nLiterature Review: Summarizes relevant studies and identifies knowledge gaps.\nResearch Objectives: SMART (Specific, Measurable, Achievable, Relevant, Time-bound).\nResearch Hypotheses: Testable predictions about phenomena.\nResearch Methods:\n\nLocation\nResearch Design\nPopulation and Sample\nData Collection Methods\nData Analysis\nEthical Considerations\n\nWork Plan and Timeline: Gantt chart of research activities.\nBudget: Itemized financial requirements.\nExpected Outcomes: Anticipated results and implications.\nReferences: Properly formatted citations.\nAppendices: Supplementary materials."
+  },
+  {
+    "objectID": "courses/research-methodology/04-research-proposal.html#conceptual-framework-development",
+    "href": "courses/research-methodology/04-research-proposal.html#conceptual-framework-development",
+    "title": "Research Proposal Development",
+    "section": "Conceptual Framework Development",
+    "text": "Conceptual Framework Development\nDeveloping a conceptual framework involves:\n\nIdentifying key concepts from literature\nDefining relationships between concepts\nDeveloping hypotheses/research questions\nOrganizing concepts visually\nRefining the framework\n\nExample hypotheses based on literature: - H1: Higher access to agricultural information positively influences adoption of modern practices. - H2: Perceived risks negatively affect adoption of modern agricultural practices. - H3: Socio-economic factors significantly impact adoption behavior."
+  },
+  {
+    "objectID": "courses/research-methodology/02-research-types.html",
+    "href": "courses/research-methodology/02-research-types.html",
+    "title": "Types of Research",
+    "section": "",
+    "text": "Research can be fundamental/basic, applied, and action research depending on their nature.\n\nFundamental or basic research: This type of research involves experimental and theoretical work aimed at gaining new knowledge without any immediate practical applications, focusing solely on advancing understanding.\nApplied research: This research aims to address practical problems, with the goal of improving products or processes, rather than simply gaining knowledge for its own sake.\nAction research: This methodology combines action and research to explore specific questions, issues, or phenomena through observation, reflection, and intentional interventions, with a focus on immediate application in a local context. This is more participatory than applied research.\nBehavioral research: Behavioral research is a scientific field that investigates the actions and interactions of individuals and groups. It seeks to understand, describe, and predict behavior through systematic observation, experimentation, and analysis."
+  },
+  {
+    "objectID": "courses/research-methodology/02-research-types.html#categories-of-research",
+    "href": "courses/research-methodology/02-research-types.html#categories-of-research",
+    "title": "Types of Research",
+    "section": "",
+    "text": "Research can be fundamental/basic, applied, and action research depending on their nature.\n\nFundamental or basic research: This type of research involves experimental and theoretical work aimed at gaining new knowledge without any immediate practical applications, focusing solely on advancing understanding.\nApplied research: This research aims to address practical problems, with the goal of improving products or processes, rather than simply gaining knowledge for its own sake.\nAction research: This methodology combines action and research to explore specific questions, issues, or phenomena through observation, reflection, and intentional interventions, with a focus on immediate application in a local context. This is more participatory than applied research.\nBehavioral research: Behavioral research is a scientific field that investigates the actions and interactions of individuals and groups. It seeks to understand, describe, and predict behavior through systematic observation, experimentation, and analysis."
+  },
+  {
+    "objectID": "courses/research-methodology/02-research-types.html#other-research-types",
+    "href": "courses/research-methodology/02-research-types.html#other-research-types",
+    "title": "Types of Research",
+    "section": "Other Research Types",
+    "text": "Other Research Types\n\nHistorical research: This type of research aims to describe past events to uncover generalizations that aid in understanding both the past and present and, to some extent, predicting the future.\nDescriptive research: This research focuses on describing the current state of affairs to identify relationships between variables that are not manipulated.\nExperimental research: This research investigates what will happen when specific variables are carefully controlled or manipulated to determine relationships between these manipulated variables and other variables."
+  },
+  {
     "objectID": "courses/machine-learning.html",
     "href": "courses/machine-learning.html",
     "title": "Machine Learning Using R",
@@ -187,6 +376,216 @@
     "title": "Data Analysis Using R",
     "section": "Accessing elements in data frames using dplyr",
     "text": "Accessing elements in data frames using dplyr\n\nCodeOutput\n\n\nlibrary(dplyr)\ndf = data.frame(name=c(\"Alice\", \"Bob\", \"Charlie\"), \n                age=c(25, 30, 35), \n                scores=c(90, 85, 88))\n\ndf %&gt;% \n  filter(age &gt; 28)  # Filter rows where age is greater than 28\n\ndf %&gt;%\n  select(name, scores)  # Select specific columns\n\n\n\n\n     name age scores\n1     Bob  30     85\n2 Charlie  35     88\n\n\n     name scores\n1   Alice     90\n2     Bob     85\n3 Charlie     88\n\n\n\n\n\n\n\n\nRUEN Research"
+  },
+  {
+    "objectID": "courses/research-methodology/01-introduction.html",
+    "href": "courses/research-methodology/01-introduction.html",
+    "title": "Introduction to Research Methodology",
+    "section": "",
+    "text": "Research methodology deals with how to conduct a scientific study. As an academic course, it discusses all the theories, methods and procedures that are required to carry out a research work.\n\n\n\n\n\n\n\n\n\n\nResearch methodology &gt;\n&gt; Research method &gt;\n&gt; Research design &gt;\n&gt; Experimental design\n\n\nResearch methodology deals with how to conduct a scientific study. As an academic course, it discusses all the theories, methods and procedures that are required to carry out a research work.\nResearch methods typically include study location, population, sampling, research design, experimental design, variables, data collection tools, and analytical procedures.\nResearch approach (qualitative, quantitative, mixed) that also includes experimental design.\nThe intended settings of experimental units, treatment application, randomization, data collection period.\n\n\nThis provides necessary explanations of choosing a particular location and methods for a specific research work.\nResearch method is a part of research methodology.\nResearch design is a part of research methods.\nExperimental design is a part of research design."
+  },
+  {
+    "objectID": "courses/research-methodology/01-introduction.html#research-methodology",
+    "href": "courses/research-methodology/01-introduction.html#research-methodology",
+    "title": "Introduction to Research Methodology",
+    "section": "",
+    "text": "Research methodology deals with how to conduct a scientific study. As an academic course, it discusses all the theories, methods and procedures that are required to carry out a research work.\n\n\n\n\n\n\n\n\n\n\nResearch methodology &gt;\n&gt; Research method &gt;\n&gt; Research design &gt;\n&gt; Experimental design\n\n\nResearch methodology deals with how to conduct a scientific study. As an academic course, it discusses all the theories, methods and procedures that are required to carry out a research work.\nResearch methods typically include study location, population, sampling, research design, experimental design, variables, data collection tools, and analytical procedures.\nResearch approach (qualitative, quantitative, mixed) that also includes experimental design.\nThe intended settings of experimental units, treatment application, randomization, data collection period.\n\n\nThis provides necessary explanations of choosing a particular location and methods for a specific research work.\nResearch method is a part of research methodology.\nResearch design is a part of research methods.\nExperimental design is a part of research design."
+  },
+  {
+    "objectID": "courses/research-methodology/01-introduction.html#knowledge-science-technology-research",
+    "href": "courses/research-methodology/01-introduction.html#knowledge-science-technology-research",
+    "title": "Introduction to Research Methodology",
+    "section": "Knowledge, Science, Technology, Research",
+    "text": "Knowledge, Science, Technology, Research\n\nKnowledge is the stored information in our brain, books or internet that can be recalled when needed. If we cannot recall or retrieve the information that is not considered as knowledge. Knowledge can be gathered randomly from anywhere and by any means. However, if the knowledge is generated using systematic process (problem identification, data collection, analysis and interpretation) then this systematic knowledge is called science. Science is seen through its invention (device - pen, idea - planting date, or practice - row planting), which is called technology. When a technology is perceived as being new to an individual, the technology is termed as innovation (new technology).\nResearch is the process of generating the knowledge, i.e. the systematic process by which knowledge or technology is generated, in other words, a problem is solved. This process has to be reproducible. It is a systematic progress from the known to the unknown. Research is a crucial tool for making adjustment to the ever changing situation of our universe."
+  },
+  {
+    "objectID": "courses/research-methodology/03-research-problem.html",
+    "href": "courses/research-methodology/03-research-problem.html",
+    "title": "Research Problem Identification",
+    "section": "",
+    "text": "A research problem is a specific issue, difficulty, contradiction, or gap in knowledge that a researcher aims to address through systematic investigation. It is the foundation of any research project, guiding the direction of study and focusing efforts on finding solutions or answers.\n\n\nA research problem should: - Not be too vague (e.g., “effect of climate change on agriculture”) - Not be too narrow (e.g., “name of the first president of Malaysia”) - Have novelty (has not been done before) - Be consistent with previous research\n\n\n\n\nGuides the Research Process: Provides clear direction for formulating research questions and objectives.\nDetermines Research Design: Influences the choice of research design and methods.\nEnsures Relevance: Addresses real-world issues or gaps in knowledge.\nFacilitates Resource Allocation: Helps optimize time, funding, and other resources.\nEnhances Research Quality: Maintains study rigor and coherence."
+  },
+  {
+    "objectID": "courses/research-methodology/03-research-problem.html#understanding-research-problems",
+    "href": "courses/research-methodology/03-research-problem.html#understanding-research-problems",
+    "title": "Research Problem Identification",
+    "section": "",
+    "text": "A research problem is a specific issue, difficulty, contradiction, or gap in knowledge that a researcher aims to address through systematic investigation. It is the foundation of any research project, guiding the direction of study and focusing efforts on finding solutions or answers.\n\n\nA research problem should: - Not be too vague (e.g., “effect of climate change on agriculture”) - Not be too narrow (e.g., “name of the first president of Malaysia”) - Have novelty (has not been done before) - Be consistent with previous research\n\n\n\n\nGuides the Research Process: Provides clear direction for formulating research questions and objectives.\nDetermines Research Design: Influences the choice of research design and methods.\nEnsures Relevance: Addresses real-world issues or gaps in knowledge.\nFacilitates Resource Allocation: Helps optimize time, funding, and other resources.\nEnhances Research Quality: Maintains study rigor and coherence."
+  },
+  {
+    "objectID": "courses/research-methodology/03-research-problem.html#identifying-research-problems",
+    "href": "courses/research-methodology/03-research-problem.html#identifying-research-problems",
+    "title": "Research Problem Identification",
+    "section": "Identifying Research Problems",
+    "text": "Identifying Research Problems\n\nLiterature Review: Identify gaps, inconsistencies, and unresolved questions.\nPractical Observations: Reveal pressing issues through real-world engagement.\nExpert Consultation: Gain insights from experienced professionals.\nPrevious Research: Analyze findings from earlier studies.\nPolicy Analysis: Review policies to uncover evaluation needs.\n\n\nExample: Agricultural Extension Research Problem\nContext: Agricultural extension services in Bangladesh aim to improve farmer productivity.\nIdentified Problem: “What are the key barriers to the adoption of modern agricultural practices among smallholder farmers in Bangladesh, and how can agricultural extension services be improved to address these barriers?”"
+  },
+  {
+    "objectID": "courses/research-methodology/05-research-design.html",
+    "href": "courses/research-methodology/05-research-design.html",
+    "title": "Research Design",
+    "section": "",
+    "text": "Research design means the strategy planned to answer research questions. There are two broad types:\n\nQuantitative Research:\n\nObjective: Quantify data, generalize results\nData: Numerical, structured\nAnalysis: Statistical methods\nExample: Measuring effect of teaching methods on performance\n\nQualitative Research:\n\nObjective: Understand concepts, experiences\nData: Non-numerical, unstructured\nAnalysis: Thematic, content analysis\nExample: Exploring farmer experiences with disasters\n\n\n\n\nCombines both quantitative and qualitative approaches where one complements another (triangulation)."
+  },
+  {
+    "objectID": "courses/research-methodology/05-research-design.html#research-design-approaches",
+    "href": "courses/research-methodology/05-research-design.html#research-design-approaches",
+    "title": "Research Design",
+    "section": "",
+    "text": "Research design means the strategy planned to answer research questions. There are two broad types:\n\nQuantitative Research:\n\nObjective: Quantify data, generalize results\nData: Numerical, structured\nAnalysis: Statistical methods\nExample: Measuring effect of teaching methods on performance\n\nQualitative Research:\n\nObjective: Understand concepts, experiences\nData: Non-numerical, unstructured\nAnalysis: Thematic, content analysis\nExample: Exploring farmer experiences with disasters\n\n\n\n\nCombines both quantitative and qualitative approaches where one complements another (triangulation)."
+  },
+  {
+    "objectID": "courses/research-methodology/05-research-design.html#philosophical-approaches",
+    "href": "courses/research-methodology/05-research-design.html#philosophical-approaches",
+    "title": "Research Design",
+    "section": "Philosophical Approaches",
+    "text": "Philosophical Approaches\n\nInductive Approach: Formulates theory from observations\nDeductive Approach: Tests hypothesis based on theoretical framework"
+  },
+  {
+    "objectID": "courses/research-methodology/05-research-design.html#comparison-of-research-designs",
+    "href": "courses/research-methodology/05-research-design.html#comparison-of-research-designs",
+    "title": "Research Design",
+    "section": "Comparison of Research Designs",
+    "text": "Comparison of Research Designs\n\n\n\n\n\n\n\n\nAspect\nQuantitative\nQualitative\n\n\nObjective\nQuantify data, generalize results\nUnderstand concepts, thoughts, or experiences\n\n\nData Collection\nSurveys, experiments\nInterviews, focus groups |\n\n\nData Type\nNumerical\nText, audio, video |\n\n\nAnalysis\nStatistical (regression, ANOVA)\nThematic, narrative analysis |\n\n\nGeneralizability\nHigh\nLow"
+  },
+  {
+    "objectID": "courses/research-methodology/07-measurement-scales.html",
+    "href": "courses/research-methodology/07-measurement-scales.html",
+    "title": "Measurement and Scales",
+    "section": "",
+    "text": "Nominal: Categories without order (e.g., gender)\nOrdinal: Ordered categories without equal intervals (e.g., Likert scale)\nInterval: Equal intervals, no true zero (e.g., temperature in °C)\nRatio: Equal intervals with true zero (e.g., age, weight)"
+  },
+  {
+    "objectID": "courses/research-methodology/07-measurement-scales.html#levels-of-measurement",
+    "href": "courses/research-methodology/07-measurement-scales.html#levels-of-measurement",
+    "title": "Measurement and Scales",
+    "section": "",
+    "text": "Nominal: Categories without order (e.g., gender)\nOrdinal: Ordered categories without equal intervals (e.g., Likert scale)\nInterval: Equal intervals, no true zero (e.g., temperature in °C)\nRatio: Equal intervals with true zero (e.g., age, weight)"
+  },
+  {
+    "objectID": "courses/research-methodology/07-measurement-scales.html#scale-development",
+    "href": "courses/research-methodology/07-measurement-scales.html#scale-development",
+    "title": "Measurement and Scales",
+    "section": "Scale Development",
+    "text": "Scale Development\n\nLikert Scales: Measure attitudes (Strongly Agree to Strongly Disagree)\nThurstone Scales: Equal-appearing interval scales\nGuttman Scales: Cumulative scales\nSemantic Differential: Bipolar adjective scales"
+  },
+  {
+    "objectID": "courses/research-methodology/07-measurement-scales.html#test-development",
+    "href": "courses/research-methodology/07-measurement-scales.html#test-development",
+    "title": "Measurement and Scales",
+    "section": "Test Development",
+    "text": "Test Development\n\nMultiple Choice Questions: With distractors\nAlternate Response Items: Yes/No options\nOpen-ended Questions: Free responses\nRanking Items: Prioritize options\nProjective Techniques: Unconscious attitude revelation\n\n\nCriteria for Good Statements:\n\nAvoid past tense, factual statements, multiple interpretations\nKeep language simple and direct\nEach statement should contain a single thought"
+  },
+  {
+    "objectID": "courses/research-methodology/09-data-collection.html",
+    "href": "courses/research-methodology/09-data-collection.html",
+    "title": "Data Collection Tools",
+    "section": "",
+    "text": "Aspect\nInterview Schedule\nQuestionnaire\n\n\nAdministration\nBy interviewer\nSelf-administered\n\n\nQuestion Type\nOpen-ended\nMostly closed-ended\n\n\nFlexibility\nHigh (probing possible)\nLow (fixed questions)"
+  },
+  {
+    "objectID": "courses/research-methodology/09-data-collection.html#interview-schedule-vs-questionnaire",
+    "href": "courses/research-methodology/09-data-collection.html#interview-schedule-vs-questionnaire",
+    "title": "Data Collection Tools",
+    "section": "",
+    "text": "Aspect\nInterview Schedule\nQuestionnaire\n\n\nAdministration\nBy interviewer\nSelf-administered\n\n\nQuestion Type\nOpen-ended\nMostly closed-ended\n\n\nFlexibility\nHigh (probing possible)\nLow (fixed questions)"
+  },
+  {
+    "objectID": "courses/research-methodology/09-data-collection.html#pra-participatory-rural-appraisal-techniques",
+    "href": "courses/research-methodology/09-data-collection.html#pra-participatory-rural-appraisal-techniques",
+    "title": "Data Collection Tools",
+    "section": "PRA (Participatory Rural Appraisal) Techniques",
+    "text": "PRA (Participatory Rural Appraisal) Techniques\n\nMapping: Village resource mapping\nTransect Walks: Systematic walks across areas\nSeasonal Calendars: Seasonal variations in activities\nVenn Diagrams: Institutional relationships\nMatrix Ranking: Prioritizing problems/solutions"
+  },
+  {
+    "objectID": "courses/research-methodology/09-data-collection.html#principles-of-good-questions",
+    "href": "courses/research-methodology/09-data-collection.html#principles-of-good-questions",
+    "title": "Data Collection Tools",
+    "section": "Principles of Good Questions",
+    "text": "Principles of Good Questions\n\nClear and simple language\nSpecific and unambiguous\nNeutral (no leading questions)\nSingle concept per question\nAvoid double negatives"
+  },
+  {
+    "objectID": "courses/research-methodology/11-data-analysis.html",
+    "href": "courses/research-methodology/11-data-analysis.html",
+    "title": "Data Processing and Analysis",
+    "section": "",
+    "text": "Editing: Field and central editing\nCoding: Assigning numerical values\nCategorization: Must be:\n\nMutually exclusive\nCompletely exhaustive"
+  },
+  {
+    "objectID": "courses/research-methodology/11-data-analysis.html#data-preparation",
+    "href": "courses/research-methodology/11-data-analysis.html#data-preparation",
+    "title": "Data Processing and Analysis",
+    "section": "",
+    "text": "Editing: Field and central editing\nCoding: Assigning numerical values\nCategorization: Must be:\n\nMutually exclusive\nCompletely exhaustive"
+  },
+  {
+    "objectID": "courses/research-methodology/11-data-analysis.html#statistical-tests-selection",
+    "href": "courses/research-methodology/11-data-analysis.html#statistical-tests-selection",
+    "title": "Data Processing and Analysis",
+    "section": "Statistical Tests Selection",
+    "text": "Statistical Tests Selection\n\nDifference Testing:\n\n2 groups: t-test/Wilcoxon\n\n2 groups: ANOVA/Kruskal-Wallis\n\nCategorical: Chi-square/Fisher’s exact\n\n\n\nRelationship Testing:\n\nContinuous: Pearson/Spearman correlation\nCategorical: Chi-square/Cramer’s V\n\n\n\nCausal Analysis:\n\nRegression analysis\nLogistic regression (binary outcomes)\nMachine learning approaches"
+  },
+  {
+    "objectID": "courses/research-methodology/11-data-analysis.html#software-comparison",
+    "href": "courses/research-methodology/11-data-analysis.html#software-comparison",
+    "title": "Data Processing and Analysis",
+    "section": "Software Comparison",
+    "text": "Software Comparison\n\n\n\n\n\n\n\n\n\nFeature\nR\nPython\nSPSS\n\n\nCost\nFree\nFree\nPaid\n\n\nFlexibility\nHigh\nHigh\nLow\n\n\nLearning Curve\nSteep\nModerate\nEasy"
+  },
+  {
+    "objectID": "courses/research-methodology/13-report-writing.html",
+    "href": "courses/research-methodology/13-report-writing.html",
+    "title": "Scientific Report Writing",
+    "section": "",
+    "text": "Title: Concise and informative\nAbstract: Summary (200-300 words)\nIntroduction:\n\nBackground\nResearch problem\nObjectives\n\nMethods:\n\nStudy design\nData collection\nAnalysis\n\nResults:\n\nText, tables, figures\n\nDiscussion:\n\nInterpretation\nComparison with literature\n\nConclusions:\n\nImplications\nRecommendations"
+  },
+  {
+    "objectID": "courses/research-methodology/13-report-writing.html#report-structure",
+    "href": "courses/research-methodology/13-report-writing.html#report-structure",
+    "title": "Scientific Report Writing",
+    "section": "",
+    "text": "Title: Concise and informative\nAbstract: Summary (200-300 words)\nIntroduction:\n\nBackground\nResearch problem\nObjectives\n\nMethods:\n\nStudy design\nData collection\nAnalysis\n\nResults:\n\nText, tables, figures\n\nDiscussion:\n\nInterpretation\nComparison with literature\n\nConclusions:\n\nImplications\nRecommendations"
+  },
+  {
+    "objectID": "courses/research-methodology/13-report-writing.html#presentation-guidelines",
+    "href": "courses/research-methodology/13-report-writing.html#presentation-guidelines",
+    "title": "Scientific Report Writing",
+    "section": "Presentation Guidelines",
+    "text": "Presentation Guidelines\nTables: - Title above table - Clear column headers - Footnotes for explanations\nFigures: - Title below figure - High resolution - Proper labeling\nReferences: - Consistent citation style (APA, Harvard, etc.) - Only cited sources included"
+  },
+  {
+    "objectID": "courses/research-methodology/index.html",
+    "href": "courses/research-methodology/index.html",
+    "title": "Understanding Research Methodology",
+    "section": "",
+    "text": "“To ensure the validity and reproducibility of any research work, all actions must be justified with appropriate reasoning, for which Research Methodology serves as the only acceptable foundation.”\n— M. K. Hasan"
+  },
+  {
+    "objectID": "courses/research-methodology/index.html#about-this-book",
+    "href": "courses/research-methodology/index.html#about-this-book",
+    "title": "Understanding Research Methodology",
+    "section": "About This Book",
+    "text": "About This Book\nThis comprehensive guide covers all aspects of research methodology, from foundational concepts to advanced techniques. It serves as an essential resource for students, researchers, and academics across all disciplines."
+  },
+  {
+    "objectID": "courses/research-methodology/index.html#how-to-use-this-book",
+    "href": "courses/research-methodology/index.html#how-to-use-this-book",
+    "title": "Understanding Research Methodology",
+    "section": "How to Use This Book",
+    "text": "How to Use This Book\nThis book is designed to be used both as a textbook for research methodology courses and as a reference guide for researchers. Each chapter builds upon previous concepts while remaining accessible as a standalone reference."
+  },
+  {
+    "objectID": "courses/research-methodology/index.html#table-of-contents",
+    "href": "courses/research-methodology/index.html#table-of-contents",
+    "title": "Understanding Research Methodology",
+    "section": "Table of Contents",
+    "text": "Table of Contents"
+  },
+  {
+    "objectID": "courses/research-methodology/index.html#book-chapters-overview",
+    "href": "courses/research-methodology/index.html#book-chapters-overview",
+    "title": "Understanding Research Methodology",
+    "section": "Book Chapters Overview",
+    "text": "Book Chapters Overview\n\n\n\n\n\n\nChapter\n\n\nDescription\n\n\n\n\n\n\n1. Introduction to Research Methodology\n\n\nFundamental concepts of research methodology\n\n\n\n\n2. Types of Research\n\n\nDifferent approaches to conducting research\n\n\n\n\n3. Research Problem Identification\n\n\nHow to identify and prioritize research problems\n\n\n\n\n4. Research Proposal Development\n\n\nComponents and structure of research proposals\n\n\n\n\n5. Research Design\n\n\nQuantitative, qualitative and mixed methods approaches\n\n\n\n\n6. Experimental Design\n\n\nDesigning controlled experiments\n\n\n\n\n7. Measurement and Scales\n\n\nDeveloping measurement instruments\n\n\n\n\n8. Population and Sampling\n\n\nSampling techniques and sample size determination\n\n\n\n\n9. Data Collection Tools\n\n\nQuestionnaires, interviews and PRA techniques\n\n\n\n\n10. Reliability and Validity\n\n\nEnsuring quality in research instruments\n\n\n\n\n11. Data Processing and Analysis\n\n\nStatistical methods for data analysis\n\n\n\n\n12. Hypothesis Testing\n\n\nFormulating and testing research hypotheses\n\n\n\n\n13. Scientific Report Writing\n\n\nStructure and format of academic reports\n\n\n\n\n14. Research Plagiarism and AI\n\n\nEthical considerations and AI tools in research"
   },
   {
     "objectID": "courses/research-methodology.html",

@@ -1,0 +1,34 @@
+---
+title: "Hypothesis Testing"
+---
+
+## Hypothesis Characteristics
+
+- States expected relationship between variables
+- Testable with operationally defined variables
+- Clear implications for testing
+- Consistent with existing knowledge
+
+## Types of Hypotheses
+
+1. **Null Hypothesis (H₀)**: No relationship
+2. **Research Hypothesis (Hₐ)**: Expected relationship
+   - Directional: Specifies direction
+   - Non-directional: No direction specified
+
+## Testing Process
+
+1. Set significance level (α, typically 0.05)
+2. Calculate test statistic
+3. Compare to critical value
+4. Decide to reject/retain H₀
+
+## Errors in Testing
+
+| Decision   | H₀ True          | H₀ False         |
+|------------|------------------|------------------|
+| Reject H₀  | Type I Error     | Correct Decision |
+| Retain H₀  | Correct Decision | Type II Error    |
+
+- Type I: False positive (more dangerous in medical tests)
+- Type II: False negative (more dangerous in agricultural research)

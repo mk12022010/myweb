@@ -1,0 +1,90 @@
+---
+title: "My Courses"
+format:
+  html:
+    page-layout: full
+    css: styles.css
+---
+
+::: course-warning
+⚠️ **This page is under development.** If you do not find what you are looking for, [please click here to contact us](/contact.qmd).
+:::
+
+::: search-box
+<input type="text" id="courseSearch" placeholder="Search courses...">
+:::
+
+:::::: course-grid
+<!-- 📚 Courses -->
+
+::: course-category
+<h2>📚 Courses</h2>
+
+<ul>
+
+<li><a href="/courses/research-methodology.qmd">Research Methodology</a> <button onclick="openModal('Research Methodology')">[Enrol](contact.qmd)</button></li>
+
+<li><a href="/courses/data-analysis.qmd">Basic Statistics Using R</a> <button onclick="openModal('Basic Statistics Using R')">[Enrol](contact.qmd)</button></li>
+
+<li><a href="/courses/data-analysis.qmd">Intermediate Statistics Using R</a> <button onclick="openModal('Intermediate Statistics Using R')">[Enrol](contact.qmd)</button></li>
+
+<li><a href="/courses/machine-learning.qmd">Advanced Statistics Using R</a> <button onclick="openModal('Advanced Statistics Using R')">[Enrol](contact.qmd)</button></li>
+
+<li><a href="/courses/machine-learning.qmd">Machine Learning Using R</a> <button onclick="openModal('Machine Learning Using R')">[Enrol](contact.qmd)</button></li>
+
+<li>Data Analysis Using Python/SPSS/Minitab [Coming Soon]{.badge}</li>
+
+</ul>
+:::
+
+<!-- 🛠️ Research Tools -->
+
+::: course-category
+<h2>🛠️ Research Tools</h2>
+
+<ul>
+
+<li><a href="/courses/research-methodology.qmd">Data Collection Tools and Techniques</a> <button onclick="openModal('Data Collection Tools and Techniques')">[Enrol](contact.qmd)</button></li>
+
+<li>Techniques for Data Processing [Coming Soon]{.badge}</li>
+
+<li>Optimization of Data Analysis Techniques [Coming Soon]{.badge}</li>
+
+<li>Use of AI in Research [Coming Soon]{.badge}</li>
+
+</ul>
+:::
+
+<!-- 🖥️ Office Programs -->
+
+::: course-category
+<h2>🖥️ Office Programs</h2>
+
+<ul>
+
+<li>Use of MS Word [Coming Soon]{.badge}</li>
+
+<li>Use of MS Excel [Coming Soon]{.badge}</li>
+
+<li>Use of MS PowerPoint [Coming Soon]{.badge}</li>
+
+</ul>
+:::
+::::::
+
+<!-- Modal -->
+
+:::: {#enrollModal .modal .hidden}
+::: modal-content
+```         
+<span class="close" onclick="closeModal()">&times;</span>
+<h3 id="modalCourseTitle">Course Title</h3>
+<p>To enroll in this course, please <a href="/contact.qmd">contact us</a> or stay tuned for the online registration system.</p>
+```
+:::
+::::
+
+
+```{=html}
+<script src="scripts.js"></script>
+```

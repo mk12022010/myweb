@@ -21,6 +21,8 @@ website:
         menu:
           - text: "Research Methodology"
             href: courses/research-methodology.qmd
+          - text: "Research Methodology Book Draft"
+            href: courses/research-methodology/index.qmd
           - text: "Data Analysis Using R"
             href: courses/data-analysis.qmd
           - text: "Machine Learning Using R"
@@ -43,7 +45,7 @@ website:
         
   page-footer:
     left:
-      - text: "Copyright © RUEN Research 2024"
+      - text: "© RUEN Research. All rights reserved."
         href: index.qmd
     center:
       - text: "CC BY-NC-SA 4.0"

@@ -1,0 +1,107 @@
+[
+  {
+    "objectID": "index.html#about-this-book",
+    "href": "index.html#about-this-book",
+    "title": "A Comprehensive Research Methodology Guide",
+    "section": "0.1 About This Book",
+    "text": "0.1 About This Book\nThis comprehensive guide covers all aspects of research methodology, from foundational concepts to advanced techniques. It serves as an essential resource for students, researchers, and academics across all disciplines."
+  },
+  {
+    "objectID": "index.html#table-of-contents",
+    "href": "index.html#table-of-contents",
+    "title": "A Comprehensive Research Methodology Guide",
+    "section": "0.3 Table of Contents",
+    "text": "0.3 Table of Contents"
+  },
+  {
+    "objectID": "index.html#how-to-use-this-book",
+    "href": "index.html#how-to-use-this-book",
+    "title": "A Comprehensive Research Methodology Guide",
+    "section": "0.2 How to Use This Book",
+    "text": "0.2 How to Use This Book\nThis book is designed to be used both as a textbook for research methodology courses and as a reference guide for researchers. Each chapter builds upon previous concepts while remaining accessible as a standalone reference."
+  },
+  {
+    "objectID": "01-introduction.html#research-methodology",
+    "href": "01-introduction.html#research-methodology",
+    "title": "2  Introduction to Research Methodology",
+    "section": "2.1 Research Methodology",
+    "text": "2.1 Research Methodology\n\nResearch methodology deals with how to conduct a scientific study. As an academic course, it discusses all the theories, methods and procedures that are required to carry out a research work.\n\n\n\n\n\n\n\n\n\n\nResearch methodology &gt;\n&gt; Research method &gt;\n&gt; Research design &gt;\n&gt; Experimental design\n\n\nResearch methodology deals with how to conduct a scientific study. As an academic course, it discusses all the theories, methods and procedures that are required to carry out a research work.\nResearch methods typically include study location, population, sampling, research design, experimental design, variables, data collection tools, and analytical procedures.\nResearch approach (qualitative, quantitative, mixed) that also includes experimental design.\nThe intended settings of experimental units, treatment application, randomization, data collection period.\n\n\nThis provides necessary explanations of choosing a particular location and methods for a specific research work.\nResearch method is a part of research methodology.\nResearch design is a part of research methods.\nExperimental design is a part of research design."
+  },
+  {
+    "objectID": "01-introduction.html#knowledge-science-technology-research",
+    "href": "01-introduction.html#knowledge-science-technology-research",
+    "title": "2  Introduction to Research Methodology",
+    "section": "2.2 Knowledge, Science, Technology, Research",
+    "text": "2.2 Knowledge, Science, Technology, Research\n\nKnowledge is the stored information in our brain, books or internet that can be recalled when needed. If we cannot recall or retrieve the information that is not considered as knowledge. Knowledge can be gathered randomly from anywhere and by any means. However, if the knowledge is generated using systematic process (problem identification, data collection, analysis and interpretation) then this systematic knowledge is called science. Science is seen through its invention (device - pen, idea - planting date, or practice - row planting), which is called technology. When a technology is perceived as being new to an individual, the technology is termed as innovation (new technology).\nResearch is the process of generating the knowledge, i.e. the systematic process by which knowledge or technology is generated, in other words, a problem is solved. This process has to be reproducible. It is a systematic progress from the known to the unknown. Research is a crucial tool for making adjustment to the ever changing situation of our universe."
+  },
+  {
+    "objectID": "index.html#book-chapters-overview",
+    "href": "index.html#book-chapters-overview",
+    "title": "A Comprehensive Research Methodology Guide",
+    "section": "Book Chapters Overview",
+    "text": "Book Chapters Overview\n\n\n\n\n\n\nChapter\n\n\nDescription\n\n\n\n\n\n\n1. Introduction to Research Methodology\n\n\nFundamental concepts of research methodology\n\n\n\n\n2. Types of Research\n\n\nDifferent approaches to conducting research\n\n\n\n\n3. Research Problem Identification\n\n\nHow to identify and prioritize research problems\n\n\n\n\n4. Research Proposal Development\n\n\nComponents and structure of research proposals\n\n\n\n\n5. Research Design\n\n\nQuantitative, qualitative and mixed methods approaches\n\n\n\n\n6. Experimental Design\n\n\nDesigning controlled experiments\n\n\n\n\n7. Measurement and Scales\n\n\nDeveloping measurement instruments\n\n\n\n\n8. Population and Sampling\n\n\nSampling techniques and sample size determination\n\n\n\n\n9. Data Collection Tools\n\n\nQuestionnaires, interviews and PRA techniques\n\n\n\n\n10. Reliability and Validity\n\n\nEnsuring quality in research instruments\n\n\n\n\n11. Data Processing and Analysis\n\n\nStatistical methods for data analysis\n\n\n\n\n12. Hypothesis Testing\n\n\nFormulating and testing research hypotheses\n\n\n\n\n13. Scientific Report Writing\n\n\nStructure and format of academic reports\n\n\n\n\n14. Research Plagiarism and AI\n\n\nEthical considerations and AI tools in research"
+  },
+  {
+    "objectID": "02-research-types.html#categories-of-research",
+    "href": "02-research-types.html#categories-of-research",
+    "title": "3  Types of Research",
+    "section": "3.1 Categories of Research",
+    "text": "3.1 Categories of Research\nResearch can be fundamental/basic, applied, and action research depending on their nature.\n\nFundamental or basic research: This type of research involves experimental and theoretical work aimed at gaining new knowledge without any immediate practical applications, focusing solely on advancing understanding.\nApplied research: This research aims to address practical problems, with the goal of improving products or processes, rather than simply gaining knowledge for its own sake.\nAction research: This methodology combines action and research to explore specific questions, issues, or phenomena through observation, reflection, and intentional interventions, with a focus on immediate application in a local context. This is more participatory than applied research.\nBehavioral research: Behavioral research is a scientific field that investigates the actions and interactions of individuals and groups. It seeks to understand, describe, and predict behavior through systematic observation, experimentation, and analysis."
+  },
+  {
+    "objectID": "02-research-types.html#other-research-types",
+    "href": "02-research-types.html#other-research-types",
+    "title": "3  Types of Research",
+    "section": "3.2 Other Research Types",
+    "text": "3.2 Other Research Types\n\nHistorical research: This type of research aims to describe past events to uncover generalizations that aid in understanding both the past and present and, to some extent, predicting the future.\nDescriptive research: This research focuses on describing the current state of affairs to identify relationships between variables that are not manipulated.\nExperimental research: This research investigates what will happen when specific variables are carefully controlled or manipulated to determine relationships between these manipulated variables and other variables."
+  },
+  {
+    "objectID": "03-research-problem.html#understanding-research-problems",
+    "href": "03-research-problem.html#understanding-research-problems",
+    "title": "4  Research Problem Identification",
+    "section": "4.1 Understanding Research Problems",
+    "text": "4.1 Understanding Research Problems\nA research problem is a specific issue, difficulty, contradiction, or gap in knowledge that a researcher aims to address through systematic investigation. It is the foundation of any research project, guiding the direction of study and focusing efforts on finding solutions or answers.\n\n4.1.1 Characteristics of a Good Research Problem\nA research problem should: - Not be too vague (e.g., “effect of climate change on agriculture”) - Not be too narrow (e.g., “name of the first president of Malaysia”) - Have novelty (has not been done before) - Be consistent with previous research\n\n\n4.1.2 Importance of Research Problems\n\nGuides the Research Process: Provides clear direction for formulating research questions and objectives.\nDetermines Research Design: Influences the choice of research design and methods.\nEnsures Relevance: Addresses real-world issues or gaps in knowledge.\nFacilitates Resource Allocation: Helps optimize time, funding, and other resources.\nEnhances Research Quality: Maintains study rigor and coherence."
+  },
+  {
+    "objectID": "03-research-problem.html#identifying-research-problems",
+    "href": "03-research-problem.html#identifying-research-problems",
+    "title": "4  Research Problem Identification",
+    "section": "4.2 Identifying Research Problems",
+    "text": "4.2 Identifying Research Problems\n\nLiterature Review: Identify gaps, inconsistencies, and unresolved questions.\nPractical Observations: Reveal pressing issues through real-world engagement.\nExpert Consultation: Gain insights from experienced professionals.\nPrevious Research: Analyze findings from earlier studies.\nPolicy Analysis: Review policies to uncover evaluation needs.\n\n\n4.2.1 Example: Agricultural Extension Research Problem\nContext: Agricultural extension services in Bangladesh aim to improve farmer productivity.\nIdentified Problem: “What are the key barriers to the adoption of modern agricultural practices among smallholder farmers in Bangladesh, and how can agricultural extension services be improved to address these barriers?”"
+  },
+  {
+    "objectID": "04-research-proposal.html#components-of-a-research-proposal",
+    "href": "04-research-proposal.html#components-of-a-research-proposal",
+    "title": "5  Research Proposal Development",
+    "section": "5.1 Components of a Research Proposal",
+    "text": "5.1 Components of a Research Proposal\nA research proposal is a detailed plan outlining a proposed study, aiming to communicate the significance, methodology, and anticipated outcomes of the research.\n\nTitle: Clear, specific, and informative (10-15 words).\nAbstract: Brief overview of research problem, objectives, methodology, and expected outcomes.\nIntroduction: Establishes context, background, problem statement, significance, and research questions.\nLiterature Review: Summarizes relevant studies and identifies knowledge gaps.\nResearch Objectives: SMART (Specific, Measurable, Achievable, Relevant, Time-bound).\nResearch Hypotheses: Testable predictions about phenomena.\nResearch Methods:\n\nLocation\nResearch Design\nPopulation and Sample\nData Collection Methods\nData Analysis\nEthical Considerations\n\nWork Plan and Timeline: Gantt chart of research activities.\nBudget: Itemized financial requirements.\nExpected Outcomes: Anticipated results and implications.\nReferences: Properly formatted citations.\nAppendices: Supplementary materials."
+  },
+  {
+    "objectID": "04-research-proposal.html#conceptual-framework-development",
+    "href": "04-research-proposal.html#conceptual-framework-development",
+    "title": "5  Research Proposal Development",
+    "section": "5.2 Conceptual Framework Development",
+    "text": "5.2 Conceptual Framework Development\nDeveloping a conceptual framework involves:\n\nIdentifying key concepts from literature\nDefining relationships between concepts\nDeveloping hypotheses/research questions\nOrganizing concepts visually\nRefining the framework\n\nExample hypotheses based on literature: - H1: Higher access to agricultural information positively influences adoption of modern practices. - H2: Perceived risks negatively affect adoption of modern agricultural practices. - H3: Socio-economic factors significantly impact adoption behavior."
+  },
+  {
+    "objectID": "08-sampling.html#key-concepts",
+    "href": "08-sampling.html#key-concepts",
+    "title": "9  Population and Sampling",
+    "section": "9.1 Key Concepts",
+    "text": "9.1 Key Concepts\n\nPopulation: Entire group of interest\nSample: Subset of population selected for study"
+  },
+  {
+    "objectID": "08-sampling.html#sampling-techniques",
+    "href": "08-sampling.html#sampling-techniques",
+    "title": "9  Population and Sampling",
+    "section": "9.2 Sampling Techniques",
+    "text": "9.2 Sampling Techniques\n\n9.2.1 Probability Sampling:\n\nSimple random sampling\nSystematic random sampling\nStratified sampling\nCluster sampling\nMulti-stage sampling\n\n\n\n9.2.2 Non-probability Sampling:\n\nConvenience sampling\nPurposive sampling\nSnowball sampling\nQuota sampling"
+  },
+  {
+    "objectID": "08-sampling.html#sample-size-determination",
+    "href": "08-sampling.html#sample-size-determination",
+    "title": "9  Population and Sampling",
+    "section": "9.3 Sample Size Determination",
+    "text": "9.3 Sample Size Determination\nFactors affecting sample size: - Population variability - Desired precision - Confidence level - Sampling method\nUse formula:\nn = (Z² × p × q) / e²\nWhere:\nZ = Z-score (1.96 for 95% CI)\np = estimated proportion\nq = 1-p\ne = margin of error"
+  }
+]

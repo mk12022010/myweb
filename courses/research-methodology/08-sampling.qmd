@@ -1,0 +1,39 @@
+---
+title: "Population and Sampling"
+---
+
+## Key Concepts
+
+- **Population**: Entire group of interest
+- **Sample**: Subset of population selected for study
+
+## Sampling Techniques
+
+### Probability Sampling:
+1. Simple random sampling
+2. Systematic random sampling
+3. Stratified sampling
+4. Cluster sampling
+5. Multi-stage sampling
+
+### Non-probability Sampling:
+1. Convenience sampling
+2. Purposive sampling
+3. Snowball sampling
+4. Quota sampling
+
+## Sample Size Determination
+
+Factors affecting sample size:
+- Population variability
+- Desired precision
+- Confidence level
+- Sampling method
+
+Use formula:  
+`n = (Z² × p × q) / e²`  
+Where:  
+Z = Z-score (1.96 for 95% CI)  
+p = estimated proportion  
+q = 1-p  
+e = margin of error

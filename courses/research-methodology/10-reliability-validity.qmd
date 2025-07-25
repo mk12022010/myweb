@@ -1,0 +1,32 @@
+---
+title: "Reliability and Validity"
+---
+
+## Reliability
+
+Consistency or reproducibility of scores. Estimation methods:
+
+1. **Test-retest**: Same test at two time points
+2. **Parallel-forms**: Equivalent forms of test
+3. **Inter-rater**: Consistency between raters
+4. **Internal consistency**: Cronbach's alpha (>0.7 acceptable)
+
+## Validity
+
+Accuracy in measuring what it claims to measure. Types:
+
+1. **Content Validity**: Expert judgment of coverage
+2. **Face Validity**: Superficial appearance
+3. **Criterion Validity**: Correlation with criterion
+   - Concurrent: Simultaneous measures
+   - Predictive: Future outcomes
+4. **Construct Validity**: Theoretical constructs
+   - Convergent: Related measures correlate
+   - Discriminant: Unrelated measures don't correlate
+
+## Measurement Errors
+
+![](images/clipboard-3885768312.png)
+
+- High bias, high variance: Neither reliable nor valid
+- Low variance, low bias: Reliable and valid

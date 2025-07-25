@@ -8,11 +8,11 @@ title: ""
 
 :::: columns
 ::: {.column width="50%"}
-![](images/clipboard-1811669502.png){.img-with-border .responsive-img width="100%" style="width: auto; height: auto;"}
+![](images/web-cover-left.png){.img-with-border .responsive-img width="100%" style="width: auto; height: auto;"}
 :::
 
 ::: {.column width="50%"}
-![](images/clipboard-2948779210.png){.img-with-border .responsive-img width="100%" style="width: auto; height: auto;"}
+![](images/web-cover-right.png){.img-with-border .responsive-img width="100%" style="width: auto; height: auto;"}
 :::
 ::::
 
@@ -24,7 +24,7 @@ This platform is initiated by Professor Dr. Md. Kamrul Hasan. At the moment, Pro
 
 Professor Hasan has a PhD in Ecosystem Management from the School of Environmental and Rural Science, University of New England, Australia. After graduation from Bangladesh Agricultural University in Bachelor of Science in Agriculture and Master of Science in Agricultural Extension Education, he completed an International Master of Science in Rural Development (IMRD) from Bioscience Engineering in Ghent University, Belgium. He studied human-environment interactions and climate science in Humboldt University, Germany followed by a case study in Slovakia to understand the community-led development activities under common agricultural policy of European Union. Economics, Econometrics, Advanced Statistics, and Policy Analysis were some of the major focus of his IMRD program.
 
-![](images/clipboard-1305442893.png){width="200"}
+![](images/profile-kamrul.png){width="200"}
 
 [Details at PSTU Website](https://www.pstu.ac.bd/user-profile/129)
 

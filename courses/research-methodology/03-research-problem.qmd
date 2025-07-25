@@ -1,0 +1,37 @@
+---
+title: "Research Problem Identification"
+---
+
+## Understanding Research Problems
+
+A research problem is a specific issue, difficulty, contradiction, or gap in knowledge that a researcher aims to address through systematic investigation. It is the foundation of any research project, guiding the direction of study and focusing efforts on finding solutions or answers.
+
+### Characteristics of a Good Research Problem
+
+A research problem should:
+- Not be too vague (e.g., "effect of climate change on agriculture")
+- Not be too narrow (e.g., "name of the first president of Malaysia")
+- Have novelty (has not been done before)
+- Be consistent with previous research
+
+### Importance of Research Problems
+
+1. **Guides the Research Process**: Provides clear direction for formulating research questions and objectives.
+2. **Determines Research Design**: Influences the choice of research design and methods.
+3. **Ensures Relevance**: Addresses real-world issues or gaps in knowledge.
+4. **Facilitates Resource Allocation**: Helps optimize time, funding, and other resources.
+5. **Enhances Research Quality**: Maintains study rigor and coherence.
+
+## Identifying Research Problems
+
+1. **Literature Review**: Identify gaps, inconsistencies, and unresolved questions.
+2. **Practical Observations**: Reveal pressing issues through real-world engagement.
+3. **Expert Consultation**: Gain insights from experienced professionals.
+4. **Previous Research**: Analyze findings from earlier studies.
+5. **Policy Analysis**: Review policies to uncover evaluation needs.
+
+### Example: Agricultural Extension Research Problem
+
+**Context**: Agricultural extension services in Bangladesh aim to improve farmer productivity.
+
+**Identified Problem**: "What are the key barriers to the adoption of modern agricultural practices among smallholder farmers in Bangladesh, and how can agricultural extension services be improved to address these barriers?"

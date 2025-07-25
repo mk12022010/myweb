@@ -1,0 +1,121 @@
+---
+title: "Understanding Research Methodology"
+subtitle: "A Comprehensive Guide"
+author: "Professor Dr. Md. Kamrul Hasan"
+---
+
+<script>
+const password = "dv@1";
+let entered = prompt("Enter your password for this course");
+if (entered !== password) {
+  window.location.href = "access-denied.html";
+}
+</script>
+
+> ***"To ensure the validity and reproducibility of any research work, all actions must be justified with appropriate reasoning, for which Research Methodology serves as the only acceptable foundation."***  
+> — M. K. Hasan
+
+## About This Book
+
+This comprehensive guide covers all aspects of research methodology, from foundational concepts to advanced techniques. It serves as an essential resource for students, researchers, and academics across all disciplines.
+
+## How to Use This Book
+This book is designed to be used both as a textbook for research methodology courses and as a reference guide for researchers. Each chapter builds upon previous concepts while remaining accessible as a standalone reference.
+
+
+## Table of Contents
+## Book Chapters Overview {.unnumbered}
+
+```{=html}
+<style>
+  .toc-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1em 0;
+  }
+  .toc-table td, .toc-table th {
+    padding: 8px 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+  }
+  .toc-table tr:hover {
+    background-color: #f5f5f5;
+  }
+  .chapter-link {
+    font-weight: 600;
+    color: #2c3e50;
+    text-decoration: none;
+  }
+  .chapter-link:hover {
+    color: #1a5276;
+    text-decoration: underline;
+  }
+</style>
+```
+
+<table class="toc-table">
+  <thead>
+    <tr>
+      <th>Chapter</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="01-introduction.qmd" class="chapter-link">1. Introduction to Research Methodology</a></td>
+      <td>Fundamental concepts of research methodology</td>
+    </tr>
+    <tr>
+      <td><a href="02-research-types.qmd" class="chapter-link">2. Types of Research</a></td>
+      <td>Different approaches to conducting research</td>
+    </tr>
+    <tr>
+      <td><a href="03-research-problem.qmd" class="chapter-link">3. Research Problem Identification</a></td>
+      <td>How to identify and prioritize research problems</td>
+    </tr>
+    <tr>
+      <td><a href="04-research-proposal.qmd" class="chapter-link">4. Research Proposal Development</a></td>
+      <td>Components and structure of research proposals</td>
+    </tr>
+    <tr>
+      <td><a href="05-research-design.qmd" class="chapter-link">5. Research Design</a></td>
+      <td>Quantitative, qualitative and mixed methods approaches</td>
+    </tr>
+    <tr>
+      <td><a href="06-experimental-design.qmd" class="chapter-link">6. Experimental Design</a></td>
+      <td>Designing controlled experiments</td>
+    </tr>
+    <tr>
+      <td><a href="07-measurement-scales.qmd" class="chapter-link">7. Measurement and Scales</a></td>
+      <td>Developing measurement instruments</td>
+    </tr>
+    <tr>
+      <td><a href="08-sampling.qmd" class="chapter-link">8. Population and Sampling</a></td>
+      <td>Sampling techniques and sample size determination</td>
+    </tr>
+    <tr>
+      <td><a href="09-data-collection.qmd" class="chapter-link">9. Data Collection Tools</a></td>
+      <td>Questionnaires, interviews and PRA techniques</td>
+    </tr>
+    <tr>
+      <td><a href="10-reliability-validity.qmd" class="chapter-link">10. Reliability and Validity</a></td>
+      <td>Ensuring quality in research instruments</td>
+    </tr>
+    <tr>
+      <td><a href="11-data-analysis.qmd" class="chapter-link">11. Data Processing and Analysis</a></td>
+      <td>Statistical methods for data analysis</td>
+    </tr>
+    <tr>
+      <td><a href="12-hypothesis-testing.qmd" class="chapter-link">12. Hypothesis Testing</a></td>
+      <td>Formulating and testing research hypotheses</td>
+    </tr>
+    <tr>
+      <td><a href="13-report-writing.qmd" class="chapter-link">13. Scientific Report Writing</a></td>
+      <td>Structure and format of academic reports</td>
+    </tr>
+    <tr>
+      <td><a href="14-plagiarism-ai.qmd" class="chapter-link">14. Research Plagiarism and AI</a></td>
+      <td>Ethical considerations and AI tools in research</td>
+    </tr>
+  </tbody>
+</table>

@@ -1,0 +1,39 @@
+---
+title: "Data Processing and Analysis"
+---
+
+## Data Preparation
+
+1. **Editing**: Field and central editing
+2. **Coding**: Assigning numerical values
+3. **Categorization**: Must be:
+   - Mutually exclusive
+   - Completely exhaustive
+
+## Statistical Tests Selection
+
+### Difference Testing:
+- 2 groups: t-test/Wilcoxon
+- >2 groups: ANOVA/Kruskal-Wallis
+- Categorical: Chi-square/Fisher's exact
+
+### Relationship Testing:
+- Continuous: Pearson/Spearman correlation
+- Categorical: Chi-square/Cramer's V
+
+### Causal Analysis:
+- Regression analysis
+- Logistic regression (binary outcomes)
+- Machine learning approaches
+
+## Software Comparison
+
++---------------+-------------------+-------------------+-------------------+
+| Feature       | R                 | Python            | SPSS              |
++---------------+-------------------+-------------------+-------------------+
+| Cost          | Free              | Free              | Paid              |
++---------------+-------------------+-------------------+-------------------+
+| Flexibility   | High              | High              | Low               |
++---------------+-------------------+-------------------+-------------------+
+| Learning Curve| Steep             | Moderate          | Easy              |
++---------------+-------------------+-------------------+-------------------+

@@ -1,0 +1,30 @@
+---
+title: "Measurement and Scales"
+---
+
+## Levels of Measurement
+
+1. **Nominal**: Categories without order (e.g., gender)
+2. **Ordinal**: Ordered categories without equal intervals (e.g., Likert scale)
+3. **Interval**: Equal intervals, no true zero (e.g., temperature in °C)
+4. **Ratio**: Equal intervals with true zero (e.g., age, weight)
+
+## Scale Development
+
+1. **Likert Scales**: Measure attitudes (Strongly Agree to Strongly Disagree)
+2. **Thurstone Scales**: Equal-appearing interval scales
+3. **Guttman Scales**: Cumulative scales
+4. **Semantic Differential**: Bipolar adjective scales
+
+## Test Development
+
+1. **Multiple Choice Questions**: With distractors
+2. **Alternate Response Items**: Yes/No options
+3. **Open-ended Questions**: Free responses
+4. **Ranking Items**: Prioritize options
+5. **Projective Techniques**: Unconscious attitude revelation
+
+### Criteria for Good Statements:
+- Avoid past tense, factual statements, multiple interpretations
+- Keep language simple and direct
+- Each statement should contain a single thought

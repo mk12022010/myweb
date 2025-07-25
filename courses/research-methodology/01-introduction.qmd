@@ -1,0 +1,31 @@
+---
+title: "Introduction to Research Methodology"
+---
+
+## Research Methodology
+
+> ***Research methodology*** deals with how to conduct a scientific study. As an academic course, it discusses all the theories, methods and procedures that are required to carry out a research work.
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------+
+| **Research methodology** \>                                                                                                                                                                     | \> **Research method** \>                                                                                                                                                   | \> **Research design** \>                                                                    | \> **Experimental design**                                                                                 |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------+
+| Research methodology deals with how to conduct a scientific study. As an academic course, it discusses all the theories, methods and procedures that are required to carry out a research work. | Research methods typically include study location, population, sampling, research design, experimental design, variables, data collection tools, and analytical procedures. | Research approach (qualitative, quantitative, mixed) that also includes experimental design. | The intended settings of experimental units, treatment application, randomization, data collection period. |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------+
+| This provides necessary explanations of choosing a particular location and methods for a specific research work.                                                                                | Research method is a part of research methodology.                                                                                                                          | Research design is a part of research methods.                                               | Experimental design is a part of research design.                                                          |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------+
+
+## Knowledge, Science, Technology, Research
+
+![](images/fuller-quote.png)
+
+Knowledge is the stored information in our brain, books or internet that can be recalled when needed.
+If we cannot recall or retrieve the information that is not considered as knowledge.
+Knowledge can be gathered randomly from anywhere and by any means.
+However, if the knowledge is generated using systematic process (problem identification, data collection, analysis and interpretation) then this systematic knowledge is called science.
+Science is seen through its invention (device - pen, idea - planting date, or practice - row planting), which is called technology.
+When a technology is perceived as being new to an individual, the technology is termed as innovation (new technology).
+
+**Research** is the process of generating the knowledge, i.e. the systematic process by which knowledge or technology is generated, in other words, a problem is solved.
+This process has to be reproducible.
+It is a systematic progress from the known to the unknown.
+Research is a crucial tool for making adjustment to the ever changing situation of our universe.

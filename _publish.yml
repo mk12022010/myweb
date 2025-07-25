@@ -1,6 +1,0 @@
-- source: project
-  quarto-pub:
-    - id: fc9a236f-cc32-4606-bee5-f92a2d076f99
-      url: 'https://kamrulext.quarto.pub/data-analysis-using-r'
-    - id: dbaaff8f-6bb6-4d94-9dc8-b91b7ebf9942
-      url: 'https://kamrulext.quarto.pub/ruenresearch'

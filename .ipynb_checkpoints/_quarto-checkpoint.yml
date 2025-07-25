@@ -1,0 +1,70 @@
+project:
+  type: website
+  output-dir: docs
+
+publish:
+  dir: .
+
+website:
+  title: "RUEN Research"
+
+  navbar:
+    logo: images/logo.png 
+    pinned: false
+    background: light
+    foreground: dark
+    search: true
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Courses"
+        menu:
+          - text: "Research Methodology"
+            href: courses/research-methodology.qmd
+          - text: "Data Analysis Using R"
+            href: courses/data-analysis.qmd
+          - text: "Machine Learning Using R"
+            href: courses/machine-learning.qmd
+      - text: "Blogs"
+        href: blogs.qmd
+      - text: "My Courses"
+        href: enrol.qmd
+    right:
+      - icon: youtube
+        href: https://www.youtube.com/@RUENResearch
+      - icon: facebook
+        href: https://www.facebook.com/share/1Zg85wujVJ/?mibextid=wwXIfr
+      - icon: twitter
+        href: https://x.com/kamrulext
+      - icon: instagram
+        href: https://www.instagram.com/kamrulext/
+      - icon: linkedin
+        href: https://www.linkedin.com/in/kamrulext/
+        
+  page-footer:
+    left:
+      - text: "Copyright © RUEN Research 2024"
+        href: index.qmd
+    center:
+      - text: "CC BY-NC-SA 4.0"
+        href: https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1
+      - text: "Privacy Policy"
+        href: privacy-policy.qmd
+    right:
+      - text: "Contact"
+        href: contact.qmd
+
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    include-in-header:
+      - text: |
+          <script src="script.js"></script>
+    toc: true
+    toc-location: left
+    page-layout: full
+    
+execute:
+  freeze: auto
