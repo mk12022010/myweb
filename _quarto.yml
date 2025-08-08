@@ -21,8 +21,6 @@ website:
         menu:
           - text: "Research Methodology"
             href: courses/research-methodology.qmd
-          - text: "Research Methodology Book Draft"
-            href: courses/research-methodology/index.qmd
           - text: "Data Analysis Using R"
             href: courses/data-analysis.qmd
           - text: "Machine Learning Using R"
