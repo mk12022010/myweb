@@ -53,7 +53,7 @@
     "href": "posts/field-trip-ag-2025.html#extension-field-trip-2025",
     "title": "Extension Field Trip 2025",
     "section": "Extension Field Trip 2025",
-    "text": "Extension Field Trip 2025\n\nB.Sc.Ag. (Hons.), Session 2019–2020\nDepartment of Agricultural Extension and Rural Development\nPatuakhali Science and Technology University\nDumki, Patuakhali 8660\nDate: 10-15 August 2025\nPlace: Digholia, Fultola, and Jasore Sadar"
+    "text": "Extension Field Trip 2025\n\nB.Sc.Ag. (Hons.), Session 2019–2020\nDepartment of Agricultural Extension and Rural Development\nPatuakhali Science and Technology University\nDumki, Patuakhali 8660\nDate: 10-15 August 2025\nPlace: Digholia, Fultola, and Jashore Sadar"
   },
   {
     "objectID": "posts/field-trip-ag-2025.html#outline",
@@ -81,7 +81,7 @@
     "href": "posts/field-trip-ag-2025.html#preparation",
     "title": "Extension Field Trip 2025",
     "section": "Preparation",
-    "text": "Preparation\n\nPlan for possible places\nApproval from university authority\nReceiving funds\nAccommodation and transport\nCommunicating with the hosts"
+    "text": "Preparation\n\nPlan for possible places\nApproval from university authority\nReceiving funds\nAccommodation and transport\nCommunicating with the hosts\nTake some money for meals\nTake 4-"
   },
   {
     "objectID": "posts/field-trip-ag-2025.html#schedule-2025",
@@ -102,7 +102,7 @@
     "href": "posts/field-trip-ag-2025.html#day-1-starting",
     "title": "Extension Field Trip 2025",
     "section": "Day 1: Starting",
-    "text": "Day 1: Starting\n\n10 August @ 9.00–9.30 am:\n\n4 buses in front of Admin Building at PSTU\n1 for Daulatpur, Khulna [ID 1901001–1901057, Serial 1–47]\n1 for RRF, Jashore [ID 1901058–1901118, Serial 48–94]\n1 for Fultola, Banchte Shekha, and RARS [ID 1901120–1901163, Serial 95–141]\n1 for Fultola, Khulna [ID 1901164–1801177, Serial 142–188]\nUse the bus according to the serial, otherwise you will be marked absent during roll call.\n\n10 August @ 1.00 pm: Lunch and prayer break\n10 August @ 3.00–5.00 pm: Exploring the staying places"
+    "text": "Day 1: Starting\n\n10 August @ 9.00–9.30 am:\n10.30 am from Rupatoli, Barishal\n\n4 buses in front of Admin Building at PSTU\n1 for Daulatpur, Khulna [ID 1901001–1901057, Serial 1–47]\n1 for Fultola, Khulna [ID 1901164–1801177, Serial 142–188]\n1 for RRF, Jashore [ID 1901058–1901118, Serial 48–94]\n1 (mixed) for Fultola, Banchte Shekha, and RARS [ID 1901120–1901163, Serial 95–141]\nUse the bus according to the serial, otherwise you will be marked absent during roll call.\n\n10 August @ 1.00 pm: Lunch and prayer break\n10 August @ 3.00–5.00 pm: Exploring the staying places"
   },
   {
     "objectID": "posts/field-trip-ag-2025.html#day-2-to-6",
@@ -165,7 +165,7 @@
     "href": "posts/field-trip-ag-2025.html#final-touch",
     "title": "Extension Field Trip 2025",
     "section": "Final Touch",
-    "text": "Final Touch\n\nYou can arrange a feedback with fun session (consult your guide teacher)\nSubmit your completed report and take certificate\nTake the bus waiting outside (jashore 9.30 am, Fultola 10.15 am, and Digholia 10.30 am).\nLunch break at Khulna Zero point.\nArrive at PSTU at around 6.00 pm"
+    "text": "Final Touch\n\nYou can arrange a feedback with fun session (consult your guide teacher)\nSubmit your completed report and take certificate\nTake the bus waiting outside (jashore 9.30 am, Fultola 10.15 am, and Digholia 10.30 am).\nLunch break at Khulna Zero point (may not be possible due to Friday prayer).\nArrive at PSTU at around 6.00 pm"
   },
   {
     "objectID": "posts/field-trip-ag-2025.html#nostalgia",
@@ -502,5 +502,33 @@
     "title": "Why to learn R/Python?",
     "section": "",
     "text": "Install VS Code Download VS Code\nInstall R extension in VS code: R Extension for Visual Studio Code (REditorSupport)\nInstall radian in cmd for syntax highlighting: pip3 install -U radian\nOpen R from Start Menu\nInstall packages in R (not RStudio) without compilation: install.packages(c('languageserver', 'httpgd', 'repr', 'IRdisplay', 'evaluate', 'crayon', 'pbdZMQ', 'devtools', 'uuid', 'digest'))\nInstall R kernel for jupyter in R (not RStudio): devtools::install_github('IRkernel/IRkernel')\nLink R kernel to jupyter notebook in R (not RStudio): IRkernel::installspec(user = FALSE)\nOpen a file in VS code with .ipynb extension and select kernel (jupyer kernel &gt; R kernel)\n\nNow your jupyter notebook is ready for both python and R. You can also create and work with R file with .R extension in vs code. At the end, you can export the .ipynb (jupyter notebook) file as html by pressing ctrl+shift+P and search for ‘jupyter: export to html’. Open this html file in RStudio to publish. In addition, you can read some tips on working with markdown in Markdown cheat sheet."
+  },
+  {
+    "objectID": "posts/field-trip-ag-2025.html#day-1-starting-smaller-text1",
+    "href": "posts/field-trip-ag-2025.html#day-1-starting-smaller-text1",
+    "title": "Extension Field Trip 2025",
+    "section": "Day 1: Starting {smaller-text1}",
+    "text": "Day 1: Starting {smaller-text1}\n\n10 August @ 9.00–9.30 am: 10.30 am from Rupatoli, Barishal\n\n4 buses in front of Admin Building at PSTU\n1 for Daulatpur, Khulna [ID 1901001–1901057, Serial 1–47]\n1 for Fultola, Khulna [ID 1901164–1801177, Serial 142–188]\n1 for RRF, Jashore [ID 1901058–1901118, Serial 48–94]\n1 (mixed) for Fultola, Banchte Shekha, and RARS [ID 1901120–1901163, Serial 95–141]\nUse the bus according to the serial, otherwise you will be marked absent during roll call.\n\n10 August @ 1.00 pm: Lunch and prayer break\n10 August @ 3.00–5.00 pm: Exploring the staying places"
+  },
+  {
+    "objectID": "posts/field-trip-ag-2025.html#responsibility",
+    "href": "posts/field-trip-ag-2025.html#responsibility",
+    "title": "Extension Field Trip 2025",
+    "section": "Responsibility",
+    "text": "Responsibility\n\nThis is not a pleasure trip.\nConsider adjustment and adaptation to the local situation.\nAccept temporary discomfort in the dormatory.\nRespect local culture and customs.\nBehave well, show pleasant attitude.\nYou will only show classmate-like relationships.\nNo other relationships such as spouse and enemey must not be demonstrated."
+  },
+  {
+    "objectID": "posts/field-trip-ag-2025.html#day-1-starting-small-text1",
+    "href": "posts/field-trip-ag-2025.html#day-1-starting-small-text1",
+    "title": "Extension Field Trip 2025",
+    "section": "Day 1: Starting {small-text1}",
+    "text": "Day 1: Starting {small-text1}\n\n10 August @ 9.00–9.30 am: 10.30 am from Rupatoli, Barishal\n\n4 buses in front of Admin Building at PSTU\n1 for Daulatpur, Khulna [ID 1901001–1901057, Serial 1–47]\n1 for Fultola, Khulna [ID 1901164–1801177, Serial 142–188]\n1 for RRF, Jashore [ID 1901058–1901118, Serial 48–94]\n1 (mixed) for Fultola, Banchte Shekha, and RARS [ID 1901120–1901163, Serial 95–141]\nUse the bus according to the serial, otherwise you will be marked absent during roll call.\n\n10 August @ 1.00 pm: Lunch and prayer break\n10 August @ 3.00–5.00 pm: Exploring the staying places"
+  },
+  {
+    "objectID": "posts/field-trip-ag-2025.html#day-1-starting-10-august-2025",
+    "href": "posts/field-trip-ag-2025.html#day-1-starting-10-august-2025",
+    "title": "Extension Field Trip 2025",
+    "section": "Day 1: Starting 10 August 2025",
+    "text": "Day 1: Starting 10 August 2025\n\n@ 9.00–9.30 am from PSTU:\n@ 10.30 am from Rupatoli, Barishal\n\n4 buses in front of Admin Building at PSTU\n1 for Daulatpur, Khulna [ID 1901001–1901057, Serial 1–47]\n1 for Fultola, Khulna [ID 1901164–1801177, Serial 142–188]\n1 for RRF, Jashore [ID 1901058–1901118, Serial 48–94]\n1 (mixed) for Fultola, Banchte Shekha, and RARS [ID 1901120–1901163, Serial 95–141]\nUse the bus according to the serial, otherwise you will be marked absent during roll call.\n\n@ 1.00 pm: Lunch and prayer break\n@ 3.00–5.00 pm: Exploring the staying places"
   }
 ]
