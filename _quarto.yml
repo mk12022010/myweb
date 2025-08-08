@@ -65,8 +65,10 @@ format:
       - text: |
           <script src="script.js"></script>
     toc: true
+    toc-title: "Contents"
     toc-location: left
     page-layout: full
     
 execute:
   freeze: auto
+  

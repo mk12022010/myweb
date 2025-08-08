@@ -1,0 +1,219 @@
+---
+title: "Extension Field Trip 2025"
+subtitle: " "
+author: "Professor Dr. Md. Kamrul Hasan"
+date: "2025-08-19"
+categories: ["Field Trip", "Agricultural Extension"]
+format:
+  revealjs:
+    title-slide: true
+    incremental: false
+    code-block-height: 650px
+    logo: ../images/pstu-logo.png
+    footer: |
+      <a href="https://ruenresearch.com" target="_blank">RUEN Research</a>
+    transition: slide
+    slide-number: c/t
+    multiplex: false
+    embed-resources: false
+    chalkboard: true
+    scrollable: true
+    theme: sky
+    css: ../styles.css
+---
+
+## Extension Field Trip 2025
+
+- B.Sc.Ag. (Hons.), Session 2019–2020
+- Department of Agricultural Extension and Rural Development
+- Patuakhali Science and Technology University
+- Dumki, Patuakhali 8660
+- Date: 10-15 August 2025
+- Place: Digholia, Fultola, and Jasore Sadar
+
+
+## Outline
+
+- What is extension field trip?
+- Why is it done?
+- How to do it?
+- What are the expectations?
+- What are your queries?
+
+## Extension Field Trip
+
+- Extension field trip is a part of the course contents of ARD 422 (Extension Program Building and Technology Transfer).
+- This is a capstone program that introduces students with field level activities of various government offices related to agricultural and rural development.
+- This out-of-class visit to the rural areas brings practical experiences, which are complementary to the classroom contents.
+
+## Learning Outcomes 
+
+At the end of the field trip, the participant students will be able to:
+
+- explain the administrative structure of a upazila (sub-district)
+- illustrate the organogram of different government departments
+- describe the services mentioned in the citizen charters
+- summarize the objectives of visited projects in the farmers’ field
+- suggest improvements for rural development projects.
+
+## Preparation
+
+- Plan for possible places
+- Approval from university authority
+- Receiving funds
+- Accommodation and transport
+- Communicating with the hosts
+
+## Schedule 2025
+
+- **10 August:** travelling to the selected upazila
+- **11 August:** attending the conference of upazila level officers
+- **12 August:** visiting various upazila level offices
+- **13 August:** visiting project areas and meeting farmers
+- **14 August:** report preparation
+- **15 August:** receiving certificates and coming back
+
+## Groups and Guides 
+
+::: {.panel-tabset}
+### Digholia
+
+- ID 1901001–1901057 (Serial 1–47) [male 29, female 18 = 47]
+- Stay: [Hort Center, Daulatpur](https://maps.app.goo.gl/NQPmFmqbU7ERyMYm7){target="_blank"}
+- Teacher Guide: Professor Dr. Md. Kamrul Hasan
+- Assistant: Md. Saidul Islam
+
+### Jashore
+
+***ID 1901058–1901163 (Serial 48–127) [male 39, female 41 = 80]***
+
+::: {.panel-tabset}
+#### RRF
+
+- Stay: [RRF](https://maps.app.goo.gl/iX6F11KxsNcYf62V7){target="_blank"}
+  - ID 1901058–1901118 (Serial 48–94) [male 26, female 21 = 47]
+  - Teacher Guide: Professor Dr. Md. Mamun-ur-Rashid
+  - Assistant: Md. Jahidul Islam
+
+#### RARS
+
+- Stay: [RARS](https://maps.app.goo.gl/64fUoqZ7g1aDw2dcA){target="_blank"}
+  - ID 1901120–1901132 (Serial 95–107) [male 5, female 8 = 13]
+  - Teacher Guide: Assistant Professor Shekhar Mondal
+  - Assistant: _(not listed)_
+
+#### Banchte Shekha
+
+- Stay: [Banchte Shekha](https://maps.app.goo.gl/AHVgPCVKESovTsAZ7){target="_blank"}
+  - ID 1901133–1901163 (Serial 108–127) [male 8, female 12 = 20]
+  - Teacher Guide: Assistant Professor Aparajita Badhan
+  - Assistant: _(not listed)_
+
+:::
+
+### Fultola
+
+- ID 1901164–1801177 (Serial 128–188) [male 41, female 20 = 61]
+- Stay: [GSS, Fultola](https://maps.app.goo.gl/ffDykyYKmtnCLDdu7){target="_blank"}
+  - Teacher Guide: Professor Dr. Md. Golam Rabbani Akanda and Associate Professor A.T.M Sanaul Haque
+  - Assistants: Md. Afzal Hossain and Md. Ataur Rahman
+:::
+
+## Day 1: Starting
+
+- **10 August @ 9.00–9.30 am**:
+  - 4 buses in front of Admin Building at PSTU
+  - 1 for Daulatpur, Khulna [ID 1901001–1901057, Serial 1–47]
+  - 1 for RRF, Jashore [ID 1901058–1901118, Serial 48–94]
+  - 1 for Fultola, Banchte Shekha, and RARS [ID 1901120–1901163, Serial 95–141]
+  - 1 for Fultola, Khulna [ID 1901164–1801177, Serial 142–188]
+  - Use the bus according to the serial, otherwise you will be marked absent during roll call.
+- **10 August @ 1.00 pm:** Lunch and prayer break
+- **10 August @ 3.00–5.00 pm:** Exploring the staying places
+
+## Day 2 to 6
+
+- Follow your teacher guide’s instruction.
+- Your attendances may be recorded several times a day.
+- Attend all the sessions and keep notes for reporting.
+- Prepare part of your reports regularly.
+- **Day 5** afternoon and night: Finalize your report in a feedback session.
+- Day 6: Return to PSTU
+
+
+## Your Payment
+
+- Total budget (B)
+- Central expenditure (C): bus fare, banner, certificates, logistics
+- Local expenditure (L): accommodation, water bottles, tissue, snacks for conference, aerosol
+- Individual payment (P): meals, local transport, own expenditure
+- Formula: `P = B - (C + L)`
+- Your guide teacher will pay twice during the tour.
+- Remaining amount will be paid at the end.
+
+## Money Disbursement
+
+- Total bus fare, banner, certificates, logistics cost will be divided by the number of students to calculate per head central expenditure.
+- Upon meeting the local expenditures, the guide teachers will distribute the money to you.
+- Remaining will be given to the guide teachers.
+
+## Seat Distribution
+
+- Have patience, wait at the gate
+- Guide teacher will talk to the host
+- Guide teacher will know the number of rooms with capacity
+- Guide teacher will distribute the keys to each group
+- Do not see the rooms before taking the keys
+- Take the key and go required number of students in a room
+- Take the key .... and repeat the process until end
+
+## Food
+
+- Arrange on your own (guest house or restaurant)
+- Teachers will not arrange your meals
+- Drink only safe water
+- **Vegetarian: **talk to the guest house or explore other options
+  
+## Beware of Pests and Nuisance
+
+- Teachers will buy mosquito coils and aerosol
+- Take extra care for fire hazard
+- Take your own bed sheet for hygiene purpose
+- Take small soap, shampoo and other personal cosmetics
+- Take umbrella, sunglassess, water heater (if needd), medicines
+
+## Emergency Management
+
+- Sick: Immediately inform your guide teacher 
+- Send message to your parents in a soft tone.
+- Your guide teacher will arrange a shift for you with either your classmate or family members
+- Caution: Keep your emergency medicine with you, espcially for asthma, allergic reaction, anaphyllaxis.
+
+## Tentative Marks Distribution
+
+- Attendance and punctuality (15%)
+- Teamwork and cooperation (15%)
+- Ethical values (15%)
+- Extra satisfactory performance (5%)
+- Presentation of report or requested part (20%)
+- Report (30%)
+
+## Final Touch
+
+- You can arrange a feedback with fun session (consult your guide teacher)
+- Submit your completed report and take certificate
+- Take the bus waiting outside (jashore 9.30 am, Fultola 10.15 am, and Digholia 10.30 am).
+- Lunch break at Khulna Zero point.
+- Arrive at PSTU at around 6.00 pm
+
+## Nostalgia
+
+- Don't forget to compile your beautiful photos and memories.
+- Make an album selecting the best ones.
+- Share those with us for uploading in the PSTU website.
+
+## Thank you so much.
+
+Question, Comments, Suggestions
+
+![](images/my-class-s1-2025.jpg){width=60%}

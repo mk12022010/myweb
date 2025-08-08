@@ -1,6 +1,6 @@
 ---
-title: "Understanding Research Methodology"
-subtitle: "A Comprehensive Guide"
+title: "A Comprehensive Research Methodology Guide"
+subtitle: "From Theory to Practice"
 author: "Professor Dr. Md. Kamrul Hasan"
 ---
 
@@ -11,6 +11,7 @@ if (entered !== password) {
   window.location.href = "access-denied.html";
 }
 </script>
+
 
 > ***"To ensure the validity and reproducibility of any research work, all actions must be justified with appropriate reasoning, for which Research Methodology serves as the only acceptable foundation."***  
 > — M. K. Hasan

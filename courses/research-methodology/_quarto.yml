@@ -6,8 +6,9 @@ book:
   subtitle: "From Theory to Practice"
   author: "Professor Dr. Md. Kamrul Hasan"
   date: "2024"
-  chapters:
-    - index.qmd
+  reader-mode: true
+  cover-image: images/research-methodology-cover.png
+  favicon: images/research-methodology-cover.png
     - 01-introduction.qmd
     - 02-research-types.qmd
     - 03-research-problem.qmd
@@ -30,6 +31,15 @@ format:
     css: ../../styles.css
     toc: true
     toc-depth: 3
+    toc-title: "Contents"
+    sidebar:
+      style: floating
+      collapse-level: 2
+      search: true
+      - title: "Research Types"
+        contents: [02-research-types.qmd]
+      - title: "Research Problem"
+        contents: [03-research-problem.qmd]
     number-sections: true
     number-depth: 3
     fig-align: center
@@ -39,12 +49,6 @@ format:
     highlight-style: pygments
     html-math-method: mathjax
     self-contained: true
-
-website:
-  twitter-card: true
-  open-graph: true
-  description: "A comprehensive guide to research methodology covering all aspects from problem identification to report writing"
-  image: images/research-methodology-cover.png
 
 execute:
   echo: false

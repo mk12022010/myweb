@@ -1,0 +1,26 @@
+{
+  "name": "ruenresearchsite",
+  "version": "1.0.0",
+  "main": "script.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk12022010/mk10022010.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mk12022010/mk10022010/issues"
+  },
+  "homepage": "https://github.com/mk12022010/mk10022010#readme",
+  "description": "",
+  "devDependencies": {
+    "vercel": "^44.6.3"
+  }
+}
