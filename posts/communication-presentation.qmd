@@ -17,6 +17,7 @@ format:
     embed-resources: false
     chalkboard: true
     theme: sky
+    css: ../styles.css
 ---
 
 # Outline
@@ -48,7 +49,7 @@ Effective communication builds:
 -   It is not linear — it's **reciprocal and iterative**.
 -   It involves **feed-forward** (message sent) and **feedback** (message received).
 
-# ![](images/clipboard-355934778.png)
+# ![](images/typical-communication-model.png)
 
 # Flow of Communication
 
@@ -192,7 +193,7 @@ They must ensure:
 :::
 
 ::: {.column width="30%"}
-![](images/clipboard-1627938534.png){.absolute top=150 right=0 width="250" height="700"}
+![](images/outlier.png){.absolute top=150 right=0 width="250" height="500"}
 :::
 :::::
 
