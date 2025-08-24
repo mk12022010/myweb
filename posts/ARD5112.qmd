@@ -40,68 +40,64 @@ Source: [ecampusontario.pressbooks.pub](https://ecampusontario.pressbooks.pub/in
 
 ## Introduction to communication
 
+- Information is asset, and communication skill is wealth.
 - Communication and human relations skills are currencies in professional and personal life.
-- Information is wealth.
+- Human is a social being because they communicate with each other not because only they live in a society.
 - Communication controls human's existence and development.
 - By communication one mind affects another.
 - Communication is imperative (it controls action).
 - Your communication abilities shape your personality.
-- Human is a social being because they communicate with each other not because only they live in a society.
 
 
-## Concept of communication
+
+## Concept of Communication
 
 
 ![](images/communication_simple.png)
 
-- Leagans (1961): Communication is a process by which two or more people exchange ideas, facts, feelings or impressions in ways that each gains a common understanding of the meaning, intent and use of message.
+- Communication = transfer of meassage from source to receiver
+- Communication is a process by which message is transferred from source to receiver for common understanding.
 - It is not linear — it’s reciprocal and iterative.
-- It involves feed-forward (message sent) and feedback (message received).
+- It involves feed-forward (message sent) and feed-backward (message received).
 
-## Concept of communication
+## Concept of Communication
 
-- Communication is a process by which message is transferred from source to receiver.
+- Leagans (1961): Communication is a process by which two or more people exchange ideas, facts, feelings or impressions in ways that each gains a common understanding of the meaning, intent and use of message.
 - Communication is a process of sending and receiving messages through channels, which establishes common meanings between a source and a receiver.
 
 
 ## Flow of Communication
 
--   Sender initiates message\
--   Receiver responds with feedback\
--   Shared understanding is the goal
+-   Sender initiates a message.
+-   Receiver responds with a feedback.
+-   Shared understanding is the goal.
 
-Communication is complete only when mutual understanding is achieved.
+>Communication is completed only when mutual understanding is achieved.
 
 ## Communication Cycle Example
 
 ``` text
 Sender: "Hello" (Feed-forward)
-Receiver: "Hi!" (Feedback)
+Receiver: "Hi!" (Feedback = feed-backward)
 ```
 
-Feedback makes the process **interactive** and **meaningful**.
-
-
-## Communication: An Unusual Example
-
-If someone slaps a boy (Feed-forward), and the boy cries (Feedback), **is it communication?**
+- Feedback makes the process **interactive** and **meaningful**.
+- If someone slaps a boy (Feed-forward), and the boy cries (Feedback), **is it communication?**
 
 > **Yes**, this is **non-verbal communication**.
 > Even in negative or chaotic situations, **messages are exchanged and feedback occurs**.
 
 ## Chaotic or Silent Communication
 
-Conflict, violence, or silence can also be forms of communication.
+- Conflict, violence, or silence can also be forms of communication.
 
 > Even **no feedback** is a **form of feedback**.
 
-Example: A phone rings but no one answers — we assume they are unavailable.
+- Example: A phone rings but no one answers — we assume they are unavailable.
 
-## Silence and Feedback
+- Calling someone who doesn’t respond — we interpret that as absence or disinterest.
 
-Calling someone who doesn’t respond — we interpret that as absence or disinterest.\
-A **dead person** cannot provide feedback — this **ends the communication loop**.
-
+> A **dead person** cannot provide feedback — this **ends the communication loop**.
 
 
 
@@ -115,9 +111,9 @@ A **dead person** cannot provide feedback — this **ends the communication loop
 
 - **Non-verbal (~70% by touching, tasting, seeing, smelling)**
   - Posture and gesture
-  - Proximity
+  - Proximity, closeness
   - Eye contact and facial expressions
-  - Voice tone
+  - Voice tone (alas! hurrah! yeaaaa!)
 
 
 
@@ -126,14 +122,16 @@ A **dead person** cannot provide feedback — this **ends the communication loop
 - About 70% of our time is spent for communication.
 - Present age is called information age.
 - Adoption of innovation by farmers
-- Solution of problems of farmers
+- Identification and solution of problems of farmers
 - Create conducive situation for professional development
 - Bring desired behavioural changes among farmers
-- Social development (infrastructure, values, norms, culture)
+- Social development (relations, values, norms, culture)
 - Effective communication improves trust, cooperation, conflict resolution, teamwork and collaboration
 
 
 ## Communication and human behavior
+
+**Functions of communication:** 
 
 Communication builds **human relationships** through:
 
@@ -173,24 +171,22 @@ Five elements of communication:
 - **Faith of the receiver:** More credible source leads to greater acceptance
 - **Interest:** Adequate efforts and devotion to communicate the message
 - **Communication skill:** Efficient message selection and treatment
-
-
-
-
-## Qualities (Continued)
-
 - **Language and culture:** Compatible language helps proper treatment and interpretation
-- **Attitude and presentation:** Positive attitude towards message and receiver
-  - Avoid: Inattention, vocabulary differences, poor pronunciation, poor articulation, plural meanings, improper association
-  
+
+
 
 ## Qualities (Continued)
 
+- **Attitude and presentation:** 
+
+  - Positive attitude towards message and receiver. Inattention, vocabulary differences, poor pronunciation, poor articulation, plural meanings, improper association should be **avoided**.
+  
 - **Message treatment:**
+
   - Handle message to make it clear, understandable and realistic
-  - Organized and logically arranged message gets better reception
+  - logically arranged message gets better reception
   - Understand the audience for proper treatment
-  - Message must be treated for the audience, not for the communicator
+  - Message treated for the audience, not for the communicator
   - Emotional/rational appeals for literate farmers; fear appeal/inductive order for illiterate farmers
 
 
@@ -228,7 +224,7 @@ Five elements of communication:
 
 
 
-## Criteria for Selecting Communication Channel
+## Criteria for Selecting Channel
 
 - **Availability** - Locally available, common and familiar
 - **Cost** - Simple, cheap and easy to obtain and handle
@@ -236,19 +232,19 @@ Five elements of communication:
 - **Suitable content and receiver** - Receiver should understand message and use channels
 - **Frequency of use** - Repetition enhances acceptability; multiple channels in parallel works better
 - **Effectiveness** - Should effectively bring together sender and receiver
-- **Nearly extinct local media** - e.g. roving bards, minstrels, theatres can be used
+> **Nearly extinct local media** - e.g. roving bards, minstrels, theatres can be used
 
 
 
 ## Elements - Audience
 
-Receiver of the message (men, women, village leaders, farmers, etc.)
+- Receiver of the message (men, women, village leaders, farmers, etc.)
 
-Factors affecting desirable response:
+- Factors affecting desirable response:
 
-- **Needs** - Should be studied before initiating communication
-- **Knowledge level** - Deliver message considering receiver's knowledge
-- **Attitude** - Form favorable attitude; message decoding depends on attitude
+  - **Needs** - Should be studied before initiating communication
+  - **Knowledge level** - Deliver message considering receiver's knowledge
+  - **Attitude** - Form favorable attitude; message decoding depends on attitude
 
 
 
@@ -277,27 +273,24 @@ Factors affecting desirable response:
 - Feedback can be: 
   - Intentional (e.g., nodding to show understanding) 
   - Unintentional (e.g., yawning from boredom)
-
-
-## Feedback examples
-
-- A student raising hand = intentional
-- Looking distracted = unintentional
+  - A student raising hand = intentional
+  - Looking distracted = unintentional
 
 
 ## Importance of Feedback
 
-- Clarify message - Feedback helps adjust or clarify the message
-- Removes barriers - source can learn adoption barriers
-- Facilitates proper action - to make message understandable
-- Rectifies transmission errors - identifies channel noise to minimize
-- Increases accuracy - reduces message distortion, improves adoption
+- **Clarify message** - Feedback helps adjust or clarify the message
+- **Removes barriers** - source can learn adoption barriers
+- **Facilitates proper action** - to make message understandable
+- **Rectifies transmission errors** - identifies channel noise to minimize
+- **Increases accuracy** - reduces message distortion, improves adoption
 
 
 ## Importance of Feedback (cont'd)
-- Enhances confidence - improves rapport between source and receiver
-- Improves learning - both active and passive feedback enhances knowledge
-- Improves communication - rewarding feedback results in continued adoption
+
+- **Enhances confidence** - improves rapport between source and receiver
+- **Improves learning** - both active and passive feedback enhances knowledge
+- **Improves communication** - rewarding feedback results in continued adoption
 
 
 
@@ -323,7 +316,7 @@ Factors affecting desirable response:
 - **Models:** Berlo (1960), Shannon-Weaver (1949), Leagans (1963), Rogers and Shoemaker (1971)
 
 
-## Models of Communication
+## Types of Communication Models
 
 - **Action/linear/one-way Model** – One-way transmission (e.g., TV broadcast, Shannon-Weaver's model, Berlo's model)
 
@@ -331,7 +324,7 @@ Factors affecting desirable response:
 
 - **Transactional or interpersonal Model** – Both parties simultaneously sender and receiver (e.g. Interview, Barlund's Model, mindful model)
 
-Modern communication favors transactional, real-time exchange — especially in interpersonal and professional settings.
+> Modern communication favors transactional, real-time exchange — especially in interpersonal and professional settings.
 
 ## Berlo's Model of Communication
 
@@ -379,6 +372,7 @@ Mindless communication: distraction, e.g. scrolling smartphone while listening.
 Communication cycle disrupted by noise due to:
 
 **Internal causes**
+
 - Physiological: Hunger, fatigue, discomfort
 - Psychological: Good or bad emotion or feelings  
 - Semantic: Meanings of words or symbols not matching
@@ -386,6 +380,7 @@ Communication cycle disrupted by noise due to:
 **External causes:** Noisy room, temperature extremes, broken devices, distractions
 
 **Notes:**
+
 - Encode ⇒ organization of information as message
 - Message ⇒ encoded information  
 - Decode ⇒ interpretation of message
@@ -408,13 +403,14 @@ Communication cycle disrupted by noise due to:
 7. **Failure to use enough channels in parallel** - 5-6 channels may be needed for impact
 8. **Use of too many channels in series** - More channels in series increases distortion risk
 
-Good communicator should identify and eliminate sources of communication noise
+> Good communicator should identify and eliminate sources of communication noise
 
 
 
 ## How to Minimize Channel Noise
 
 Use channels based on:
+
 1. Specific objectives of message
 2. Nature of message - direct vs abstract, difficulty, scope, timing
 3. Audience - size, need, interest, knowledge
@@ -451,6 +447,7 @@ Use channels based on:
 In persuasive communication, vital role in message acceptance
 
 **Impacts:**
+
 - Participation in meeting - better/poor
 - Attention of audience - sufficient/inadequate  
 - Message acceptance - low/high
@@ -468,25 +465,26 @@ Personal cosmopolite sources perceived as more credible than mass media
 - Recommendations/contents affecting socioeconomic life
 
 **Characteristics:**
-1. Relevant to objective
-2. Clearly understandable
-3. Aligned with mental, social, economic, physical capabilities
-4. Socially and economically significant
-5. Specific - no irrelevant material
+
+- Relevant to objective
+- Clearly understandable
+- Aligned with mental, social, economic, physical capabilities
+- Socially and economically significant
+- Specific - no irrelevant material
 
 
 
 ## Characteristics (Continued)
 
-6. Simply stated
-7. Accurate and scientifically valid
-8. Timely in relation to practice
-9. Appropriate to channel used
-10. Appealing and attractive
-11. Applicable to user system
-12. Adequate and complete
-13. Manageable by source and receiver
-14. Persuasive - affects affective domain for changes
+- Simply stated
+- Accurate and scientifically valid
+- Timely in relation to practice
+- Appropriate to channel used
+- Appealing and attractive
+- Applicable to user system
+- Adequate and complete
+- Manageable by source and receiver
+- Persuasive - affects affective domain for changes
 
 
 
@@ -498,6 +496,7 @@ Personal cosmopolite sources perceived as more credible than mass media
 - Disorganized message may foil communication functions
 
 For effective persuasion:
+
 - (A) Pattern of organization
 - (B) Ordering of arguments  
 - (C) Nature of arguments
@@ -522,6 +521,7 @@ For effective persuasion:
 ## B. Ordering of Arguments
 
 **Agreeable vs disagreeable parts**
+
 - Agreeable parts at beginning draw attention (pleasant materials help persuasion)
 - Disagreeable parts at beginning can deter audience, causing avoidance
 
@@ -530,6 +530,7 @@ For effective persuasion:
 ### C. Nature of Arguments
 
 **One-sided vs two-sided message**
+
 - Limiting disfavourable parts suitable for illiterate audience
 - Example: Family planning helps welfare (favourable) but may contradict religion (disfavourable)
 - Two-sided message more effective with higher education receivers
@@ -549,6 +550,7 @@ For effective persuasion:
 Psychological features that invoke feelings
 
 **1. Fear appeal**
+
 - Creates threats affecting affective/cognitive domains to motivate behavior change
 - Example: Get vaccinated because cholera epidemic causing 90% death
 - Principle: Uncomfortable drive state motivates action to minimize/remove it
@@ -558,6 +560,7 @@ Psychological features that invoke feelings
 ## Message Appeals (Continued)
 
 **2. Reward appeal**
+
 - Message organized with possible benefits from innovation
 - Blended with relative merits/advantages
 - Example: Binashail vs Nazirshail - taller plants, 20% higher yield, earlier maturity, better recovery, rainfed cultivation, high demand
@@ -566,6 +569,7 @@ Psychological features that invoke feelings
 ## Message Appeals (Continued)
 
 **3. Emotional appeal**
+
 - 'Pathos' appeals creating appropriate feeling using values/emotions
 - Argue for belief by pointing out rewards from holding belief
 - Example: Clean homestead for safe environment for kids/parents
@@ -576,6 +580,7 @@ Psychological features that invoke feelings
 ## Message Appeals (Continued)
 
 **4. Rational appeal**
+
 - 'Logos' appeals presenting empirical/logical evidence
 - Result demonstration is rational appeal
 - Emotional and rational appeals often complementary
@@ -670,6 +675,7 @@ Source: [ecampusontario.pressbooks.pub](https://ecampusontario.pressbooks.pub/in
 ## Non-verbal Guidelines (Continued)
 
 - **Body postures** - Appropriate sitting/walking/standing
+
   - Introvert: Folded hands, crossed legs
   - Tired/lack confidence: Dropping shoulder  
   - Hiding mentality: Hands behind
@@ -734,7 +740,7 @@ Source: [ecampusontario.pressbooks.pub](https://ecampusontario.pressbooks.pub/in
 5.  **Message treatment** – Tailoring the message improves effectiveness.
 
 
-## Persuasive Communication {#persuasive-communication-techniques}
+## Persuasive Communication 
 
 -   **Empathy**: Put yourself in others’ shoes
 -   **Clarity**: Use clear, precise language
@@ -746,6 +752,7 @@ Source: [ecampusontario.pressbooks.pub](https://ecampusontario.pressbooks.pub/in
 
 ::::: columns
 ::: {.column width="70%"}
+
 -   **Objective**: Facts, data, neutrality
 -   **Subjective**: Emotions, experience, opinion
 -   **Important vs Urgent**: Don't miss the important ones becuase of many other urgent issues.
@@ -754,8 +761,11 @@ Source: [ecampusontario.pressbooks.pub](https://ecampusontario.pressbooks.pub/in
 
 > Usual things don’t make headlines — unusual does!
 :::
+
 ::: {.column width="30%"}
+
 ![](images/outlier.png){.absolute top=150 right=0 width="250" height="500"}
+
 :::
 :::::
 
