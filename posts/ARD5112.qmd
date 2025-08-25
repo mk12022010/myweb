@@ -2,6 +2,12 @@
 title: "ARD 5112: Communication and Information Technology"
 author: "Prof. Dr. Md. Kamrul Hasan"
 date: "2025-08-17"
+
+categories:
+  - MS
+  - Communication
+  - ARD 5112
+
 format: 
   revealjs:
     smaller: false
