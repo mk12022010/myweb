@@ -786,13 +786,3 @@ Source: [ecampusontario.pressbooks.pub](https://ecampusontario.pressbooks.pub/in
 
 # Information Technology
 
-
-
-
-
-# Marks distribution
-
-- **Class Test - 1:** ⇒ 20 marks
-- **Class Test - 2:** ⇒ 20 marks  
-- **Assignment:** ⇒ 20 marks
-- **Final Examination:** ⇒ 40 Marks

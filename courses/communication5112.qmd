@@ -1,0 +1,145 @@
+---
+title: "ARD 5112: Communication and Information Technology"
+author: "Professor Dr. Md. Kamrul Hasan"
+date: "25 August 2025"
+---
+
+## Syllabus
+
+::: {style="text-align: center; font-size: 1.2rem;"}
+
+**Patuakhali Science and Technology University** 
+Department of Agricultural Extension and Rural Development  
+M.S. in Agricultural Extension and Rural Development  
+
+Course Code: ARD 5112  
+Course Title: Communication and Information Technology  
+Credit Hours: 2  
+
+:::
+
+
+1.  **Introduction to Communication:** Concept of communication; types of communication: verbal and non-verbal communication; factors affecting verbal and non-verbal communication; guidelines for improving verbal and non-verbal communication; functions of communication; purpose of communication and its importance to extension and development.
+2.  **Analysis of Communication Model:** Major models of communication: Berlo’s model, mathematical model and socio-psychological model, advantages and criticisms of each model, suitability analysis among the models for extension and development communication.
+3.  **Source Credibility:** Concepts of source credibility: dimension of credibility. significance of source credibility in extension communication and research.
+4.  **Message Management:** Message and its characteristics: message organization; pattern of organization; ordering arguments- message sides, message style, message appeals-fear appeal, emotional appeal rational appeal and reward: steps to prepare message with good appealing
+5.  **Level and Pattern of Communication:** Interpersonal. intrapersonal and group and mass communication; relationship and conflicts in interpersonal communication; guidelines for improving interpersonal communication; functions of group communication,
+6.  **Mass Communication:** concept of mass communication: functions of mass communication; models of mass communication; characteristics of mass audience; characteristics of some mass media; control at mass media; problems of mass communication. significance of mass communication in agriculture and extension.
+7.  **Communication Strategy:** Strategy for effective communication in extension; communication fidelity; measurement of communication effectiveness; factors affecting communication effectiveness.
+8.  **System Approach:** Concept of system and sub-system components of system; knowledge system, information system; Agricultural knowledge and information system of Bangladesh.
+9.  **Information Technology (IT):** Telecommunication and its use in technology diffusion; importance of information; information infrastructure: electronic communication infrastructure, information repositories, ICT skilled man power ICT sector of Bangladesh. ICT in agriculture, geographical information system (GIS) for agricultural development; IT for socio-economic development.
+10. **Course assignment** as instructed by the course teacher
+
+## References
+
+::: hanging-indent
+Berlo, D.K.
+1960.
+The Process of Communication: An Introduction to Theory and Practice, Halt Rinehard & Winston Pub., New York.
+:::
+::: hanging-indent
+Bettinghaus, E. P. 1973.
+Persuasive Communication (2^nd^ ed.).
+Halt Rinehard & Winston Pub., New York.
+:::
+::: hanging-indent
+Crouch, B.R.
+and Chamala S.
+1981.
+Extension Education and Rural Development Vol.
+II. John Weley & Sons, Inc.
+:::
+::: hanging-indent
+Department of Develoment Communication 1976.
+Communication-Theory and Practice.
+UPLB, Manila.
+:::
+::: hanging-indent
+Havelock.
+R. G.
+1975.
+Planning for Innovation.
+Institute of Social Research, the University of Michigan, Michigan.
+:::
+::: hanging-indent
+Hopkins, K.D.
+and J.C.
+Stanley.
+1981.
+Education Psychological Measurement and Evaluation (6^th^ ed.).
+N.
+J.: Prentice-Hall Inc.
+:::
+::: hanging-indent
+James F. J.
+1975.
+Reading in Development Communication.
+Dept. of Dev.
+Com.
+UPLB, Manila.
+:::
+::: hanging-indent
+Kamath, M. C.
+(ed.).
+1961.
+Extension Education in Community Development Directorate of Extension, Ministry of Food and Agriculture, Govt.
+of India, New Delhi.
+:::
+::: hanging-indent
+Kashem, M. A.
+2004.
+Fundamentals of Extension Education.
+lima Printing Press, Mymensingh.
+:::
+::: hanging-indent
+Rahman, M. L.
+2003.
+Role of It for Socio-economic Development of Bangladesh.
+The Daily Observer, 4^th^ October 2003.
+:::
+::: hanging-indent
+Hussain and Mahbub, 2003.
+ICT Initiative in Agricultural Research and Extension Systems: Bangladesh.
+Publication SAARC Agricultural Information Center (SAIC), DHAKA, Bangladesh.
+:::
+::: hanging-indent
+Ray.
+G. L.
+2004.
+Extension Communication and Management.
+:::
+::: hanging-indent
+Rogers, E. M.
+1995.
+Diffusion of Innovations (4^th^ ed.).
+The Free Press, New York
+:::
+::: hanging-indent
+Samanta, R.K.
+(ed.).
+1990.
+Development Communication for Agriculture B.R. Publishing Crop., New Delhi.
+:::
+::: hanging-indent
+Sandhu, A. S.
+1993.
+Text Book on Agricultural Communication: Process and Methods.
+Oxford & IBh Publishing Co.
+Pvt.
+Ltd.
+:::
+
+
+## Marks distribution
+
+- **Class Test - 1:** ⇒ 20 marks
+- **Class Test - 2:** ⇒ 20 marks  
+- **Assignment:** ⇒ 20 marks
+- **Final Examination:** ⇒ 40 Marks
+
+
+## Presentation slides
+
+```{=html}
+<iframe src="/posts/ARD5112.html" width="100%" height="600px"></iframe>
+```

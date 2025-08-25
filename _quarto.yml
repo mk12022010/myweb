@@ -22,7 +22,7 @@ website:
           - text: "Research Methodology"
             href: courses/research-methodology.qmd
           - text: "Research Methodology"
-            href: posts/ARD5112.qmd
+            href: courses/communication5112.qmd
           - text: "Communication and Information Technology"
             href: courses/data-analysis.qmd
           - text: "Machine Learning Using R"
