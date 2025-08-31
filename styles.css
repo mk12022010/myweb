@@ -110,6 +110,7 @@ body {
   color: #2c3e50;
   text-transform: none !important;
   font-weight: bold;
+  text-align: center;
 }
 
 .reveal p, .reveal li {

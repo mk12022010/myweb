@@ -35,7 +35,7 @@ format:
     theme: sky
     css: ../styles.css
     toc: true
-    toc-depth: 2
+    toc-depth: 1
     toc-title: Course Contents
 ---
 
@@ -364,12 +364,15 @@ ggplot(data, aes(practice, yield)) + geom_boxplot()
 5.  **Protect Data:** Never input confidential, sensitive, or non-public data into generative AI models.
 
 
-## Wolf in sheep's cloth<br>(created using Midjourney AI)
+##
 
+<div style="height:5%; text-align: center">
 ![](images/wolf-sheep-cloth.png)
+</div>
 
-**AI can be more notorious than we can imagine if used without care.**
-
+<div style="color: red; text-align: center">
+**AI can be more notorious than we can<br>imagine if used without care.** <br><br><br><br><br><br><br><br><br><br><br> Figure: Wolf in sheep's cloth<br>(created using Midjourney AI)
+<div>
 
 ## Q&A and Discussion
 
