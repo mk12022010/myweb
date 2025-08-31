@@ -2,6 +2,12 @@
 title: "Journalism and Communication"
 author: "Professor Dr. Md. Kamrul Hasan"
 date: "18 July 2025"
+
+categories:
+  - Communication
+  - General
+  - Journalism
+
 format: 
   revealjs:
     smaller: false

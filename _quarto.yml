@@ -21,7 +21,7 @@ website:
         menu:
           - text: "Research Methodology"
             href: courses/research-methodology.qmd
-          - text: "Research Methodology"
+          - text: "Data Analysis Using R"
             href: courses/data-analysis.qmd
           - text: "Communication and IT"
             href: courses/communication5112.qmd

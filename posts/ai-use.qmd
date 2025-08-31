@@ -1,0 +1,391 @@
+---
+title: "Responsible Use of Artificial Intelligence in Academic Research"
+subtitle: "From Problem Identification to Publication"
+author: "Professor Dr. Md. Kamrul Hasan"
+institute: "Department of Agricultural Extension and Rural Development<br>Patuakhali Science and Technology University"
+date: today
+title-slide-attributes:
+  data-background-image: https://images.unsplash.com/photo-1677442135135-416f8aa26a5b?auto=format&fit=crop&q=80
+  data-background-size: cover
+  data-background-position: center
+  data-background-opacity: "0.15"
+reference-section-title: References
+csl: apa.csl
+bibliography: references.bib
+
+categories:
+  - Ethical use of AI
+  - Research
+  - Artificial Intelligence
+
+format: 
+  revealjs:
+    smaller: false
+    scrollable: true
+    incremental: false
+    code-block-height: 650px
+    logo: ../images/pstu-logo.png
+    footer: |
+      <a href="https://ruenresearch.com" target="_blank">Resources</a>
+    transition: slide
+    slide-number: c/t
+    multiplex: false
+    embed-resources: false
+    chalkboard: true
+    theme: sky
+    css: ../styles.css
+    toc: true
+    toc-depth: 2
+    toc-title: Course Contents
+---
+
+
+## Overview: AI in research
+
+Using AI in academic writing and research [@khalifa2024]: 
+
+- Idea generation and conceptualization
+- Content structuring
+- Literature review and synthesis
+- Research design and methodology
+- Data management including visualization
+- Editing and grammar corrections
+- Reference management
+
+## Concerns of AI in research
+
+- **Get what you need:** use appropriate prompt.
+- **Responsible use:** you cannot blame AI for the contents.
+- **Ethical compliance:** you have to acknowledge the use of AI.
+- **Making writing plagiarism and AI-free:** use your own thinking; not only other AI tools for paraphrasing.
+
+
+
+## The paradigm shift: AI generation
+
+> "AI cannot replace your critical thinking; it is a powerful assistance for speeding up your prepared mind."
+
+-   **Supportive, not Replacement:** AI enhances researcher capability.
+-   **Speed vs. Depth:** Accelerates tedious tasks, provides time for deep analysis and interpretation.
+-   **New Skill Required:** "Prompt Engineering" is a core AI use competency. **How to prompt?**
+
+
+
+## How Do AI Language Models Work? 
+
+**Critical users should be aware of [@ibm2025]:**
+
+- **AI Models:** Predictive Text Generation using Machine Learning algorithms (e.g., deep neural network, which is a statistical model)
+- **They are not collection** of all facts or knowledge.
+- **They are statistical prediction tools** trained on large amounts of text data.
+- **Fundamental task:** Given a sequence of words or phrase (**the prompt**), predict the next word or phrase based on probability.
+
+
+## AI Training Process (Simplified)
+
+```{mermaid}
+%%| echo: false
+%%{init: {'themeVariables': { 'fontSize': '2rem'}}}%%
+graph TD
+A[Data collection from<br>books, articles, online resources, code] --> B[Pattern learning by<br>statistical relationships]
+B --> C[Proccessing of<br>billions of numerical parameters]
+C --> D[Outputs for users<br>in natural language]
+```
+
+
+## Ethical principles
+
+Most top university and journal guidelines [@oxford2025; @springer2023] are built on:
+
+1. **Authorship:** AI cannot be your co-author!
+2.  **Transparency and disclosure:** Always disclose the use of AI during publication.
+3.  **Accountability:** The researcher is ultimately responsible for all content.
+4.  **Validity and integrity:** Never trust AI output blindly; always verify.
+
+
+## Ethical principles (cont'd)
+
+5.  **Privacy and confidentiality:** Never input sensitive, proprietary, or personal data.
+6.  **Fairness:** Be aware of and mitigate algorithmic biases.
+7.  **Security risk:** Be cuatious about AI bots to minimize security risks and fishing.
+
+> **Your responsibility:** *Always check guidelines and policies of the university or journals of your interest.*
+
+
+
+# Phase 1: Problem Identification and Conceptualization: Practical task
+
+## Tools: ChatGPT-4, Claude, Elicit, Scispace
+
+-   **Brainstorming Research Questions:**
+    -   *Prompt:* "Give me 5 novel research questions on the linkage between climate-smart agriculture adoption and social capital in coastal Bangladesh."
+-   **Identifying Gaps:**
+    -   *Prompt:* "Summarize the major theories used to explain technology adoption in rural sociology. Mention which are least applied in an agricultural context."
+-   **Developing a Conceptual Framework:**
+    -   *Prompt:* "Based on the Theory of Planned Behavior, provide me a draft conceptual framework model for analyzing farmers' intention to use drought-resistant varieties."
+
+
+
+# Phase 2: Research Design and Methodology Selection: Practical task
+
+## Tools: ChatGPT-4, Julius AI, Deepseek
+
+-   **Choosing Statistical Tests:** *Prompt:* "My research question is: 'Does training (yes/no) have effects on knowledge scores (continuous) and adoption levels (ordinal: low, medium, high) among farmers? What are the appropriate statistical tests?'"
+-   **Survey Design:** *Prompt:* "Draft a 5-point Likert scale questionnaire to measure 'perceived behavioural control' from the based on the theory of planned behaviour for farmers using organic fertilizers and manure."
+-   **Sample Size Calculation:** *Example:* Use a tool, such as Julius AI to estimate power and sample size based on the effect size from existing literature.
+
+
+
+# Phase 3: Literature Reviews
+
+## Tools: Elicit, Scite
+
+-   **Elicit:** Uses AI to find and summarize top published articles. **Best for initial search.** 
+    -   *Task:* Find top cited papers on "diffusion of innovations in agriculture."
+<br>
+-   **Scite:** Shows citations of published articles (e.g., as supporting or contradicting findings). 
+    -   *Task:* Check if a key theory paper that has been widely cited.
+  
+
+## Tools: Research Rabbit, Litmaps, Scispace
+
+-   **Research Rabbit and Litmaps:** Creates visualization and maps of the literature based on citation that help find key papers of interest.
+-   **Scispace:** For writing research tasks.
+
+> **Crucial:** These tools assist in *finding* literature. The *synthesis* and *critical analysis* must be done by you.
+
+
+
+# Phase 4: Manuscript Writing & Paraphrasing
+
+## Remember: AI is an Assistant, Not an Author
+
+-   **Overcoming Writer's Limitation:**
+    -   *Prompt:* "Write a paragraph for the 'methodology' chapter of a PhD thesis explaining a multistage random sampling technique for a survey in coastal areas of Bangladesh."
+-   **Improving Clarity:**
+    -   *Prompt:* "Rewrite this sentence for better clarity and brevity: [Paste your haphazard sentences.]"
+-   **Paraphrasing & Grammar:**
+    -   **Tools:** Grammarly, Wordtune, QuillBot.
+    -   **Goal:** To polish *your own writing*, not to generate original content.
+
+
+
+## Responsible Paraphrasing
+
+<br>
+```{mermaid}
+%%| echo: false
+%%{init: {'themeVariables': { 'fontSize': '2rem'}}}%%
+graph LR
+A[Human<br>Sentences] --> B[AI<br>Praphrasing]
+B --> C[Human<br>Editing</editing>]
+C --> D[AI<br>grammar<br>check]
+```
+
+```{mermaid}
+%%| echo: false
+%%{init: {'themeVariables': { 'fontSize': '2rem'}}}%%
+graph LR
+A[AI<br>Generated Texts] --> B[AI<br>Praphrasing]
+B --> C[Human<br>Paraphrasing</editing>]
+C --> D[AI<br>grammar<br>check]
+```
+
+<br>
+**Unethical use**
+
+```{mermaid}
+%%| echo: false
+%%{init: {'themeVariables': { 'fontSize': '2rem'}}}%%
+graph LR
+A[AI<br>Generated Texts] --> B[AI<br>Praphrasing]
+B --> C[Published<br>Article]
+```
+
+
+## Example: Responsible Paraphrasing
+
+**Original (Human-Written) Sentence:**
+
+> "The adoption of new agricultural technologies is contingent upon a complex interplay of socioeconomic factors, extension service accessibility, and perceived risk among the farming community."
+
+**AI-Assisted Paraphrase (using Quilbot/Wordtune/Grammarly Suggestion):**
+
+> "The uptake of novel agricultural technologies depends on a complex combination of socioeconomic conditions, access to extension services, and farmers' perception of risk."
+
+**Why it is responsible?** The *idea* and *core content* are of the researcher. The AI has only helped with *word choice* and *sentence fluency*.
+
+
+## Example: Responsible Paraphrasing
+
+**AI-Generated Text:**
+
+> "The uptake of novel agricultural technologies depends on a complex combination of socioeconomic conditions, access to extension services, and farmers' perception of risk."
+
+**Human Paraphrase (using Wordtune/Grammarly Suggestion) after checking the sources:**
+
+> "The adoption of agricultural innovations depends on a complex set of socioeconomic attributes, access to extension services, and farmers' perception of risk."
+
+
+**Why it is responsible?** The AI has generated the texts. The author has checked the sources and found ok followed by paraphrasing aligned with the standard format for publication.
+
+
+
+## Example: Unethical Use of AI
+
+**AI-Written sentence:**
+
+> "The uptake of novel agricultural technologies depends on a complex combination of socioeconomic conditions, access to extension services, and farmers' perception of risk."
+
+**Used in article as it is:**
+
+> "The uptake of novel agricultural technologies depends on a complex combination of socioeconomic conditions, access to extension services, and farmers' perception of risk."
+
+
+**Why it is not responsible:** The *idea* and *core content* are generated by the AI. The researchers has not used their own idea or ideas based on published literature.
+
+
+# Phase 4b: Data Analysis & Visualization
+
+## Improving statistical analysis
+
+-   **Code Generation & Explanation:**
+    -   *Tool:* ChatGPT-4 (Code Interpreter), GitHub Copilot.
+    -   *Prompt:* "Write R code to run a multiple linear regression with `yield` as the dependent variable and `rainfall`, `fertilizer`, and `training` as independent variables. Include code to check for multicollinearity using VIF."
+-   **Error Debugging:**
+    -   *Prompt:* "I get this error in my Python code `ValueError: shapes (100,5) and (3,) not aligned`. What does it mean and how do I fix it?"
+
+**Principle:** You must know and understand the appropriate statistics. AI helps with the *implementation*, not the *conceptualization*.
+
+
+
+## Example: AI for data visualization
+
+**Researcher's goal:** Visualize the difference in mean yields between conventional and new practices.
+
+<br>
+
+**Initial R code (researcher's draft):**
+
+```r
+ggplot(data, aes(practice, yield)) + geom_boxplot()
+```
+
+<br>
+
+-   **Visualization enhancement:**
+
+    -   *Tool:* ChatGPT-4, Deepseek.
+    -   *Prompt:* "Suggest improvements for this ggplot2 code to make this scatterplot more publication-ready. [Paste your code]"
+
+
+# AI Tools for Image Creation and Illustration
+
+## For Conceptual Diagrams and Illustrations
+
+-   **Midjourney, DALL-E 3, Stable Diffusion, Davinci.ai:**
+    -   **Use case:** Creating original artwork, conceptual diagrams, illustrative figures that are not based on real data.
+    -   **Example prompt for a conceptual diagram:** "A minimalist, professional scientific illustration of the 'research methodology' as a cycle with icons for 'problem identification', 'data collection', 'analysis', and 'interpretation'. White background, blue and green colors, vector style."
+    -   **Critical consideration:** These tools **must not** be used to generate or alter experimental data, photographs, maps, or graphs that represent research findings. **This is a serious violation of academic integrity.**
+
+
+
+## Important Ethical Note on AI Images
+
+> **AI should not generate your *data*, but it can generate your *diagrams*.**
+
+-   **Permissible:** Creating a flow chart of your research process.
+-   **Permissible:** Generating an icon to represent "agricultural extension" in a presentation slide.
+-   **Fraudulent:** Generating a picture of a plant with a disease symptom for your research.
+-   **Fraudulent:** Creating a fake graph or map with fictional data points.
+
+
+## Important Ethical Note on AI Images (cont'd)
+
+<br>
+
+**Always disclose the use of AI for image generation in your figure captions.**
+
+<br>
+
+*Example Caption:* 
+
+"Figure 1: Research conceptual framework. AI-generated image created using Midjourney (v6.0) based on prompts by the authors."
+
+
+## Making Writing "AI-Free" {.smaller2}
+
+1.  **Write your first draft manually.** This is your original intellectual contribution.
+2.  **Use AI for editing.** Input your text into Grammarly/Wordtune/Quilbot for grammar, spelling, and clarity suggestions.
+3.  **Manually review every change.** Do not accept all changes. Critically check each suggestion. Does it change your intended meaning?
+4.  **Use AI for phrasing help.** If struggle with a single sentence, ask for alternatives, but then rewrite it in your own words based on the the alternative suggestions.
+5.  **Final Read-Through:** Read the entire document aloud to ensure it sounds like your voice.
+
+**Output:** A polished manuscript that is authentically yours.
+
+
+
+# Phase 5: Reference Management
+
+## Tools: Zotero, Mendeley {.smaller1}
+
+-   **Automatic:** These tools can automatically retrieve metadata (title, author, journal, DOI) from uploaded PDFs.
+-   **Word Processors Plugins:** The plugins for Word/Google Docs are used to seamlessly integrate with RStudio and Word processors.
+-   **Best Practice:** Double-check the auto-extracted data against the original PDF. Errors related to reference formating especially author names, capitalization and missing elements are highly common!
+-   **Take Care**: Double check the formats of direct and indirect in-text citations, e.g. Author (year) or author, year.
+-   **CSL:** Download required citation style language (.csl) file from [Zotero](https://www.zotero.org/styles)/[Mendeley](https://csl.mendeley.com/about/) repositories.
+
+
+
+## Disclosure Statement: Thesis/Manuscript/Article
+
+**A recommended statement for methods or acknowledgements section:**
+
+> "During the preparation of this work, the author(s) used [List of Tools, e.g., ChatGPT-4, Elicit, Grammarly] to [List of Purposes, e.g., generate initial ideas for research questions, improve language clarity, and paraphrase the author's original writing]. After using these tools/services, the author(s) reviewed and edited the content as needed and take(s) full responsibility for the content of the publication."
+
+
+
+## Danger: Risks in knowledge and science
+
+- **Plagiarism and Lack of Originality** in academic writing  
+- **Fake Data and References** generated by AI tools  
+- **Superficial Knowledge**: Polished text without depth  
+- **Loss of Critical Thinking** among researchers and young generations
+- **Misinformation & Deepfakes** undermining trust by producing fake audio/videos
+
+
+
+## Concluding remarks
+
+1.  **Speed up, do not automate:** Use AI for efficiency, not intellectual alternatives.
+2.  **You are the Expert:** You provide the critical thinking, subject matter expertise, and ethical judgment.
+3.  **Verify Everything:** Assume all AI output has potential for bias, falsification, inaccuracy, or "hallucination."
+4.  **Be Transparent:** Disclose your use of AI tools clearly and specifically.
+5.  **Protect Data:** Never input confidential, sensitive, or non-public data into generative AI models.
+
+
+## Wolf in sheep's cloth<br>(created using Midjourney AI)
+
+![](images/wolf-sheep-cloth.png)
+
+**AI can be more notorious than we can imagine if used without care.**
+
+
+## Q&A and Discussion
+
+<br>
+<div style="text-align: center;">
+<div style="font-size: 5rem;">
+Thank you.
+</div>
+
+Email: [kamrulext@pstu.ac.bd](mailto:kamrulext@pstu.ac.bd)
+
+GSM: +8801891565856
+
+<br>
+
+<div class="footer" style="font-size: small;">
+Slides created using Quarto. Available at: [www.ruenresearch.com](www.ruenresearch.com)
+</div>
+</div>

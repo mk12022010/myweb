@@ -90,19 +90,19 @@ body {
 }
 
 .smaller2 {
-  font-size: 0.8em;
+  font-size: 0.85em;
 }
 
 .smaller3 {
-  font-size: 0.7em;
+  font-size: 0.80em;
 }
 
 .smaller4 {
-  font-size: 0.6em;
+  font-size: 0.75em;
 }
 
 .smaller5 {
-  font-size: 0.5em;
+  font-size: 0.70em;
 }
 
 
@@ -399,3 +399,13 @@ body {
 .hidden {
   display: none !important;
 }
+
+
+.image-container {
+  position: relative;
+  /* This is crucial: it defines the containing block */
+  width: 100%;
+  /* Or a specific width, e.g., 600px */
+  /* height: 300px; /* You might want to set a height */
+}
+
