@@ -1,0 +1,235 @@
+---
+title: "Journalism and Communication"
+author: "Professor Dr. Md. Kamrul Hasan"
+date: "18 July 2025"
+
+categories:
+  - Communication
+  - General
+  - Journalism
+
+format: 
+  revealjs:
+    smaller: false
+    scrollable: true
+    incremental: false
+    code-block-height: 650px
+    logo: ../images/pstu-logo.png
+    footer: |
+      <a href="https://ruenresearch.com" target="_blank">RUEN Research</a>
+    transition: slide
+    slide-number: c/t
+    multiplex: false
+    embed-resources: false
+    chalkboard: true
+    theme: sky
+    css: ../styles.css
+---
+
+# Outline
+
+1.  Concept
+2.  Types
+3.  Elements
+4.  Uses
+
+# Introduction {#introduction}
+
+**Did you know?**
+
+-   We spend around **70%** of our time in some form of communication (listening, speaking, reading, writing). Most researchers agree it's between **60%–80%**, with **listening** alone taking \~45%.
+-   Communication and human relations skills are currencies in professional and personal life.
+
+# Importance of Communication
+
+Effective communication builds:
+
+-   Trust
+-   Cooperation
+-   Conflict resolution
+-   Teamwork and collaboration
+
+# Concept of Communication {#concept-of-communication}
+
+-   Communication is the **exchange of messages** between a **source** (sender) and a **receiver** (audience).
+-   It is not linear — it's **reciprocal and iterative**.
+-   It involves **feed-forward** (message sent) and **feedback** (message received).
+
+# ![](images/typical-communication-model.png)
+
+# Flow of Communication
+
+-   Sender initiates message\
+-   Receiver responds with feedback\
+-   Shared understanding is the goal
+
+Communication is complete only when mutual understanding is achieved.
+
+# Communication Cycle Example {#communication-cycle-example}
+
+``` text
+Sender: "Hello" (Feed-forward)
+Receiver: "Hi!" (Feedback)
+```
+
+Feedback makes the process **interactive** and **meaningful**.
+
+# Communication: An Unusual Example {#communication-an-unusual-example}
+
+If someone slaps a boy (Feed-forward), and the boy cries (Feedback), **is it communication?**
+
+> **Yes**, this is **non-verbal communication**.
+> Even in negative or chaotic situations, **messages are exchanged and feedback occurs**.
+
+# Chaotic or Silent Communication
+
+Conflict, violence, or silence can also be forms of communication.
+
+> Even **no feedback** is a **form of feedback**.
+
+Example: A phone rings but no one answers — we assume they are unavailable.
+
+# Silence and Feedback {#silence-and-feedback}
+
+Calling someone who doesn’t respond — we interpret that as absence or disinterest.\
+A **dead person** cannot provide feedback — this **ends the communication loop**.
+
+# Types of Communication {#types-of-communication}
+
+**Verbal Communication** (\~30%): - Spoken or written words
+
+**Non-verbal Communication** (\~70%): - Facial expressions - Gestures - Posture - Eye contact - Tone of voice
+
+# Models of Communication {#models-of-communication}
+
+1.  **Linear Model** – One-way transmission (e.g., TV broadcast)
+
+2.  **Interactive Model** – Sender ↔ Receiver with feedback (e.g. News blog)
+
+3.  **Transactional Model** – Both parties simultaneously sender and receiver (e.g. Interview)
+
+# Transactional Communication
+
+Modern communication favors **transactional**, real-time exchange — especially in interpersonal and professional settings.
+
+# Feedback in Communication {#feedback-in-communication}
+
+Feedback can be: - **Intentional** (e.g., nodding to show understanding) - **Unintentional** (e.g., yawning from boredom)
+
+# Feedback Examples
+
+-   A student raising hand = intentional
+-   Looking distracted = unintentional
+
+Feedback helps the sender adjust or clarify the message.
+
+# Effective Comm^n^
+
+1.  **Source credibility** – Trustworthiness, expertise
+2.  **Audience characteristics** – Age, education, values, needs
+3.  **Channel availability** – Face-to-face, phone, email
+4.  **Feedback mechanism** – Immediate or delayed, verbal or non-verbal
+5.  **Message treatment** – Tailoring the message improves effectiveness.
+
+# Message Organization
+
+-   Organize your message logically:
+-   Simple to complex
+-   General to specific
+-   Chronological (time-based)
+-   Topical (theme-based)
+
+# Message Appeals
+
+Use persuasive appeals:
+
+-   **Fear appeal**: Warns about negative consequences
+-   **Reward appeal**: Shows benefits of action
+-   **Emotional appeal**: Connects with feelings like love, guilt, pride
+-   **Rational appeal**: Based on logic, facts, reasoning
+
+# Channel {#selecting-the-right-communication-channel}
+
+Depends on:
+
+**Urgency**: Quick response?
+→ Phone or face-to-face
+
+**Message complexity**: Complex info → Written or visual aids
+
+-   **Audience access**: Choose accessible medium
+-   **Formality**:\
+    → Formal = Email or letter\
+    → Informal = Chat or call
+
+Choose wisely to improve clarity and impact.
+
+# Communication & Human Relations
+
+Communication builds **human relationships** through:
+
+-   Persuasion
+-   Negotiation
+-   Diplomacy
+-   Dispute resolution
+
+# Empathy in Communication
+
+> The key is **empathy** – seeing from the other’s perspective.
+
+Builds trust and strengthens understanding.
+
+# Persuasive Communication {#persuasive-communication-techniques}
+
+-   **Empathy**: Put yourself in others’ shoes
+-   **Clarity**: Use clear, precise language
+-   **Relevance**: Match audience interest
+-   **Respect**: Be polite and culturally sensitive
+
+# Communication for Journalist {#communication-for-reporters}
+
+::::: columns
+::: {.column width="70%"}
+Reporters deal with **exceptional cases** (outliers).
+They must ensure:
+
+-   Accurate communication of facts
+-   Sensitivity in presentation
+-   Ethical standards
+:::
+
+::: {.column width="30%"}
+![](images/outlier.png){.absolute top=150 right=0 width="250" height="500"}
+:::
+:::::
+
+# Reporting and Unusual Events
+
+> Usual things don’t make headlines — unusual does!
+
+Reporters must balance drama and truth.
+
+# Objectivity & Subjectivity
+
+-   **Objective**: Facts, data, neutrality
+-   **Subjective**: Emotions, experience, opinion
+-   **Important vs Urgent**: Don't miss the important ones becuase of many other urgent issues.
+
+> Good communication blends all thoughtfully.
+
+# Avoid Biases in Communication
+
+-   Avoid **prejudices** and **bias**
+-   Don’t rely only on past experience
+-   Incorporate **latest and accurate information**
+
+# Summary {#summary}
+
+-   Communication is central to **human interaction**
+-   It's a **two-way**, dynamic, and **context-sensitive** process
+-   Mastering communication enhances **relationships**, **influence**, and **understanding**
+
+# Thank You!
+
+> Any Questions?\
+> Let’s continue the discussion.
