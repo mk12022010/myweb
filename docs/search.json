@@ -987,13 +987,6 @@
     "text": "⚠️ This page is under development. If you do not find what you are looking for, please click here to contact us.\n\n\n\n\n\n\n\n\n📚 Courses\n\n\n\nResearch Methodology Enrol\n\n\nBasic Statistics Using R Enrol\n\n\nIntermediate Statistics Using R Enrol\n\n\nAdvanced Statistics Using R Enrol\n\n\nMachine Learning Using R Enrol\n\n\nData Analysis Using Python/SPSS/Minitab Coming Soon\n\n\n\n\n\n\n🛠️ Research Tools\n\n\n\nData Collection Tools and Techniques Enrol\n\n\nTechniques for Data Processing Coming Soon\n\n\nOptimization of Data Analysis Techniques Coming Soon\n\n\nUse of AI in Research Coming Soon\n\n\n\n\n\n\n🖥️ Office Programs\n\n\n\nUse of MS Word Coming Soon\n\n\nUse of MS Excel Coming Soon\n\n\nUse of MS PowerPoint Coming Soon\n\n\n\n\n\n\n\n&lt;span class=\"close\" onclick=\"closeModal()\"&gt;&times;&lt;/span&gt;\n&lt;h3 id=\"modalCourseTitle\"&gt;Course Title&lt;/h3&gt;\n&lt;p&gt;To enroll in this course, please &lt;a href=\"/contact.qmd\"&gt;contact us&lt;/a&gt; or stay tuned for the online registration system.&lt;/p&gt;"
   },
   {
-    "objectID": "posts/ai-use.html#ai-in-research",
-    "href": "posts/ai-use.html#ai-in-research",
-    "title": "Responsible Use of Artificial Intelligence in Academic Research",
-    "section": "AI in research",
-    "text": "AI in research\nUsing AI in academic writing and research (Khalifa & Albadawy, 2024):\n\nIdea generation and conceptualization\nContent structuring\nLiterature review and synthesis\nResearch design and methodology\nData management including visualization\nEditing and grammar corrections\nReference management"
-  },
-  {
     "objectID": "posts/ai-use.html#concerns-of-ai-in-research",
     "href": "posts/ai-use.html#concerns-of-ai-in-research",
     "title": "Responsible Use of Artificial Intelligence in Academic Research",
@@ -1008,32 +1001,11 @@
     "text": "The paradigm shift: AI generation\n\n“AI cannot replace your critical thinking; it is a powerful assistance for speeding up your prepared mind.”\n\n\nSupportive, not Replacement: AI enhances researcher capability.\nSpeed vs. Depth: Accelerates tedious tasks, provides time for deep analysis and interpretation.\nNew Skill Required: “Prompt Engineering” is a core AI use competency. How to prompt?"
   },
   {
-    "objectID": "posts/ai-use.html#how-do-ai-language-models-work",
-    "href": "posts/ai-use.html#how-do-ai-language-models-work",
-    "title": "Responsible Use of Artificial Intelligence in Academic Research",
-    "section": "How Do AI Language Models Work?",
-    "text": "How Do AI Language Models Work?\nCritical users should be aware of (IBM, 2025):\n\nAI Models: Predictive Text Generation using Machine Learning algorithms (e.g., deep neural network, which is a statistical model)\nThey are not collection of all facts or knowledge.\nThey are statistical prediction tools trained on large amounts of text data.\nFundamental task: Given a sequence of words or phrase (the prompt), predict the next word or phrase based on probability."
-  },
-  {
     "objectID": "posts/ai-use.html#ai-training-process-simplified",
     "href": "posts/ai-use.html#ai-training-process-simplified",
     "title": "Responsible Use of Artificial Intelligence in Academic Research",
     "section": "AI Training Process (Simplified)",
     "text": "AI Training Process (Simplified)\n\n\n\n\n%%{init: {'themeVariables': { 'fontSize': '2rem'}}}%%\ngraph TD\nA[Data collection from&lt;br&gt;books, articles, online resources, code] --&gt; B[Pattern learning by&lt;br&gt;statistical relationships]\nB --&gt; C[Proccessing of&lt;br&gt;billions of numerical parameters]\nC --&gt; D[Outputs for users&lt;br&gt;in natural language]"
-  },
-  {
-    "objectID": "posts/ai-use.html#ethical-principles",
-    "href": "posts/ai-use.html#ethical-principles",
-    "title": "Responsible Use of Artificial Intelligence in Academic Research",
-    "section": "Ethical principles",
-    "text": "Ethical principles\nMost top university and journal guidelines (Oxford, 2025; Springer, 2023) are built on:\n\nAuthorship: AI cannot be your co-author!\nTransparency and disclosure: Always disclose the use of AI during publication.\nAccountability: The researcher is ultimately responsible for all content.\nValidity and integrity: Never trust AI output blindly; always verify."
-  },
-  {
-    "objectID": "posts/ai-use.html#ethical-principles-contd",
-    "href": "posts/ai-use.html#ethical-principles-contd",
-    "title": "Responsible Use of Artificial Intelligence in Academic Research",
-    "section": "Ethical principles (cont’d)",
-    "text": "Ethical principles (cont’d)\n\nPrivacy and confidentiality: Never input sensitive, proprietary, or personal data.\nFairness: Be aware of and mitigate algorithmic biases.\nSecurity risk: Be cuatious about AI bots to minimize security risks and fishing.\n\n\nYour responsibility: Always check guidelines and policies of the university or journals of your interest."
   },
   {
     "objectID": "posts/ai-use.html#tools-chatgpt-4-claude-elicit-scispace",
@@ -1043,11 +1015,11 @@
     "text": "Tools: ChatGPT-4, Claude, Elicit, Scispace\n\nBrainstorming Research Questions:\n\nPrompt: “Give me 5 novel research questions on the linkage between climate-smart agriculture adoption and social capital in coastal Bangladesh.”\n\nIdentifying Gaps:\n\nPrompt: “Summarize the major theories used to explain technology adoption in rural sociology. Mention which are least applied in an agricultural context.”\n\nDeveloping a Conceptual Framework:\n\nPrompt: “Based on the Theory of Planned Behavior, provide me a draft conceptual framework model for analyzing farmers’ intention to use drought-resistant varieties.”"
   },
   {
-    "objectID": "posts/ai-use.html#tools-chatgpt-4-julius-ai-deepseek",
-    "href": "posts/ai-use.html#tools-chatgpt-4-julius-ai-deepseek",
+    "objectID": "posts/ai-use.html#tools-chatgpt-4-julius-ai-deepseek-gemini",
+    "href": "posts/ai-use.html#tools-chatgpt-4-julius-ai-deepseek-gemini",
     "title": "Responsible Use of Artificial Intelligence in Academic Research",
-    "section": "Tools: ChatGPT-4, Julius AI, Deepseek",
-    "text": "Tools: ChatGPT-4, Julius AI, Deepseek\n\nChoosing Statistical Tests: Prompt: “My research question is: ‘Does training (yes/no) have effects on knowledge scores (continuous) and adoption levels (ordinal: low, medium, high) among farmers? What are the appropriate statistical tests?’”\nSurvey Design: Prompt: “Draft a 5-point Likert scale questionnaire to measure ‘perceived behavioural control’ from the based on the theory of planned behaviour for farmers using organic fertilizers and manure.”\nSample Size Calculation: Example: Use a tool, such as Julius AI to estimate power and sample size based on the effect size from existing literature."
+    "section": "Tools: ChatGPT-4, Julius AI, Deepseek, Gemini",
+    "text": "Tools: ChatGPT-4, Julius AI, Deepseek, Gemini\n\nChoosing Statistical Tests: Prompt: “My research question is: ‘Does training (yes/no) have effects on knowledge scores (continuous) and adoption levels (ordinal: low, medium, high) among farmers? What are the appropriate statistical tests?’”\nSurvey Design: Prompt: “Draft a 5-point Likert scale questionnaire to measure ‘perceived behavioural control’ from the based on the theory of planned behaviour for farmers using organic fertilizers and manure.”\nSample Size Calculation: Example: Use a tool, such as Julius AI to estimate power and sample size based on the effect size from existing literature."
   },
   {
     "objectID": "posts/ai-use.html#tools-elicit-scite",
@@ -1082,7 +1054,7 @@
     "href": "posts/ai-use.html#example-responsible-paraphrasing",
     "title": "Responsible Use of Artificial Intelligence in Academic Research",
     "section": "Example: Responsible Paraphrasing",
-    "text": "Example: Responsible Paraphrasing\nOriginal (Human-Written) Sentence:\n\n“The adoption of new agricultural technologies is contingent upon a complex interplay of socioeconomic factors, extension service accessibility, and perceived risk among the farming community.”\n\nAI-Assisted Paraphrase (using Quilbot/Wordtune/Grammarly Suggestion):\n\n“The uptake of novel agricultural technologies depends on a complex combination of socioeconomic conditions, access to extension services, and farmers’ perception of risk.”\n\nWhy it is responsible? The idea and core content are of the researcher. The AI has only helped with word choice and sentence fluency."
+    "text": "Example: Responsible Paraphrasing\nOriginal (Human-Written) Sentence:\n\n“The adoption of new agricultural technologies is contingent upon a complex interplay of socioeconomic factors, extension service accessibility, and perceived risk among the farming community.”\n\nAI-Assisted Paraphrase (using Quilbot/Hixbypass/Wordtune/Grammarly Suggestion):\n\n“The uptake of novel agricultural technologies depends on a complex combination of socioeconomic conditions, access to extension services, and farmers’ perception of risk.”\n\nWhy it is responsible? The idea and core content are of the researcher. The AI has only helped with word choice and sentence fluency."
   },
   {
     "objectID": "posts/ai-use.html#example-responsible-paraphrasing-1",
@@ -1138,7 +1110,7 @@
     "href": "posts/ai-use.html#making-writing-ai-free",
     "title": "Responsible Use of Artificial Intelligence in Academic Research",
     "section": "Making Writing “AI-Free”",
-    "text": "Making Writing “AI-Free”\n\nWrite your first draft manually. This is your original intellectual contribution.\nUse AI for editing. Input your text into Grammarly/Wordtune/Quilbot for grammar, spelling, and clarity suggestions.\nManually review every change. Do not accept all changes. Critically check each suggestion. Does it change your intended meaning?\nUse AI for phrasing help. If struggle with a single sentence, ask for alternatives, but then rewrite it in your own words based on the the alternative suggestions.\nFinal Read-Through: Read the entire document aloud to ensure it sounds like your voice.\n\nOutput: A polished manuscript that is authentically yours."
+    "text": "Making Writing “AI-Free”\n\nWrite your first draft manually. This is your original intellectual contribution.\nUse AI for editing. Input your text into Grammarly/Wordtune/Quilbot/Hixbypass for grammar, spelling, and clarity suggestions.\nManually review every change. Do not accept all changes. Critically check each suggestion. Does it change your intended meaning?\nUse AI for phrasing help. If struggle with a single sentence, ask for alternatives, but then rewrite it in your own words based on the the alternative suggestions.\nFinal Read-Through: Read the entire document aloud to ensure it sounds like your voice.\n\nOutput: A polished manuscript that is authentically yours."
   },
   {
     "objectID": "posts/ai-use.html#tools-zotero-mendeley",
@@ -1148,18 +1120,18 @@
     "text": "Tools: Zotero, Mendeley\n\nAutomatic: These tools can automatically retrieve metadata (title, author, journal, DOI) from uploaded PDFs.\nWord Processors Plugins: The plugins for Word/Google Docs are used to seamlessly integrate with RStudio and Word processors.\nBest Practice: Double-check the auto-extracted data against the original PDF. Errors related to reference formating especially author names, capitalization and missing elements are highly common!\nTake Care: Double check the formats of direct and indirect in-text citations, e.g. Author (year) or author, year.\nCSL: Download required citation style language (.csl) file from Zotero/Mendeley repositories."
   },
   {
+    "objectID": "posts/ai-use.html#ethical-principles-contd",
+    "href": "posts/ai-use.html#ethical-principles-contd",
+    "title": "Responsible Use of Artificial Intelligence in Academic Research",
+    "section": "Ethical principles (cont’d)",
+    "text": "Ethical principles (cont’d)\n\nPrivacy and confidentiality: Never input sensitive, proprietary, or personal data.\nFairness: Be aware of and mitigate algorithmic biases.\nSecurity risk: Be cuatious about AI bots to minimize security risks and fishing.\n\n\nYour responsibility: Always check guidelines and policies of the university or journals of your interest."
+  },
+  {
     "objectID": "posts/ai-use.html#disclosure-statement-thesismanuscriptarticle",
     "href": "posts/ai-use.html#disclosure-statement-thesismanuscriptarticle",
     "title": "Responsible Use of Artificial Intelligence in Academic Research",
     "section": "Disclosure Statement: Thesis/Manuscript/Article",
     "text": "Disclosure Statement: Thesis/Manuscript/Article\nA recommended statement for methods or acknowledgements section:\n\n“During the preparation of this work, the author(s) used [List of Tools, e.g., ChatGPT-4, Elicit, Grammarly] to [List of Purposes, e.g., generate initial ideas for research questions, improve language clarity, and paraphrase the author’s original writing]. After using these tools/services, the author(s) reviewed and edited the content as needed and take(s) full responsibility for the content of the publication.”"
-  },
-  {
-    "objectID": "posts/ai-use.html#danger-risks-in-knowledge-and-science",
-    "href": "posts/ai-use.html#danger-risks-in-knowledge-and-science",
-    "title": "Responsible Use of Artificial Intelligence in Academic Research",
-    "section": "Danger: Risks in knowledge and science",
-    "text": "Danger: Risks in knowledge and science\n\nPlagiarism and Lack of Originality in academic writing\n\nFake Data and References generated by AI tools that can confidently misguide or mislead you to a deadend.\n\nSuperficial Knowledge: Polished text without depth\n\nLoss of Critical Thinking among researchers and young generations\nMisinformation & Deepfakes undermining trust by producing fake audio/videos"
   },
   {
     "objectID": "posts/ai-use.html#what-is-research-and-what-does-it-give",
@@ -1176,13 +1148,6 @@
     "text": "Biggest weakness of AI\n\nStatistical machine learning models that use existing information\nAI does not generate knowledge; it only recycles knowledge\nSo, full dependency on AI is a dead end of research and scientific progress\nHowever, AI provides efficient solutions that are based on existing information, e.g. diagnostic task, security, office management, auto-driving, auto-piloting, decision-making, deep analysis of information, programming, app and software development and many others."
   },
   {
-    "objectID": "posts/ai-use.html#beyond-ai-si-synthetic-intelligence",
-    "href": "posts/ai-use.html#beyond-ai-si-synthetic-intelligence",
-    "title": "Responsible Use of Artificial Intelligence in Academic Research",
-    "section": "Beyond AI ==> SI (Synthetic Intelligence)",
-    "text": "Beyond AI ==&gt; SI (Synthetic Intelligence)"
-  },
-  {
     "objectID": "posts/ai-use.html#concluding-remarks",
     "href": "posts/ai-use.html#concluding-remarks",
     "title": "Responsible Use of Artificial Intelligence in Academic Research",
@@ -1190,18 +1155,11 @@
     "text": "Concluding remarks\n\nSpeed up, do not automate: Use AI for efficiency, not intellectual alternatives.\nYou are the Expert: You provide the critical thinking, subject matter expertise, and ethical judgment.\nVerify Everything: Assume all AI output has potential for bias, falsification, inaccuracy, or “hallucination.”\nBe Transparent: Disclose your use of AI tools clearly and specifically.\nProtect Data: Never input confidential, sensitive, or non-public data into generative AI models."
   },
   {
-    "objectID": "posts/ai-use.html#section",
-    "href": "posts/ai-use.html#section",
+    "objectID": "posts/ai-use.html#section-1",
+    "href": "posts/ai-use.html#section-1",
     "title": "Responsible Use of Artificial Intelligence in Academic Research",
     "section": "",
     "text": "AI can be more notorious than we canimagine if used without care.\n\n\n\nFigure: Wolf in sheep’s cloth(created using Midjourney AI)"
-  },
-  {
-    "objectID": "posts/ai-use.html#qa-and-discussion",
-    "href": "posts/ai-use.html#qa-and-discussion",
-    "title": "Responsible Use of Artificial Intelligence in Academic Research",
-    "section": "Q&A and Discussion",
-    "text": "Q&A and Discussion\n\n\n\n\n\n%%{init: {'themeVariables': { 'fontSize': '2rem'}}}%%\ngraph LR\nA[AI] --&gt; B[Not using] --&gt; C[Foolish]\nA --&gt; D[Blind use] --&gt; E[Risky and dangerous]\nA --&gt; F[Responsible use] --&gt; G[Your ethical standard]\n\n\n\n\n\n\n\n\nThank you.\n\nEmail: kamrulext@pstu.ac.bd\nGSM: +8801891565856\n\n\nSlides created using Quarto. Available at: www.ruenresearch.com\n\n\n\n\n\nResources"
   },
   {
     "objectID": "posts/why-r-python.html",
