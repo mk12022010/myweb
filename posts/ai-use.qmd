@@ -3,7 +3,7 @@ title: "Responsible Use of Artificial Intelligence in Academic Research"
 subtitle: "From Problem Identification to Publication"
 author: "Professor Dr. Md. Kamrul Hasan"
 institute: "Department of Agricultural Extension and Rural Development<br>Patuakhali Science and Technology University"
-date: today
+date: "05 September 2025"
 title-slide-attributes:
   data-background-image: https://images.unsplash.com/photo-1677442135135-416f8aa26a5b?auto=format&fit=crop&q=80
   data-background-size: cover
@@ -27,7 +27,7 @@ format:
     logo: ../images/pstu-logo.png
     footer: |
       <a href="https://ruenresearch.com" target="_blank">RUEN Research</a>
-    transition: slide
+    transition: fade
     slide-number: c/t
     multiplex: false
     embed-resources: false
@@ -36,7 +36,17 @@ format:
     css: ../styles.css
     toc: true
     toc-depth: 1
-    toc-title: Course Contents
+    toc-title: Contents
+---
+
+---
+
+![](images/slido 1261684.jpg)
+
+---
+
+![](images/slido 1261685.jpg)
+
 ---
 
 ## {data-background-image="images/ai-logos.png" background-size="70%"}
@@ -368,9 +378,9 @@ Most top university and journal guidelines [@oxford2025; @springer2023] are buil
 - However, AI provides efficient solutions that are based on existing information, e.g. diagnostic task, security, office management, auto-driving, auto-piloting, decision-making, deep analysis of information, programming, app and software development and many others.
 
 
-# Looking Beyond AI 
+# Looking Beyond AI {.smaller1}
 
-**SI: Synthetic Intelligence, @pittman2018** 
+**SI: Synthetic Intelligence, @pittman2018**. Alreadey started by famous.ai 
 
 - AI: 
   - Does not generate new knowledge
@@ -379,7 +389,7 @@ Most top university and journal guidelines [@oxford2025; @springer2023] are buil
 <br>
 - SI:
   - Genuine non-human intelligence, not just an imitation of human
-  - Autonomous intelligence
+  - Autonomous intelligence, 
   - Advanced, self-controlled, can add intermediate actions
   - Involves building physical brain-like devices
 
@@ -393,19 +403,17 @@ Most top university and journal guidelines [@oxford2025; @springer2023] are buil
 5.  **Protect Data:** Never input confidential, sensitive, or non-public data into generative AI models.
 
 
-## {data-background-image="images/wolf-sheep-cloth.png"  background-size="70%"}
-
-<div style="color: yellow; text-align: center;">
-**AI can be more notorious than we can<br>imagine if used without care.** 
-<div>
-<br><br><br><br><br><br><br><br><br><br>
-<div style="color: yellow; text-align: right; font-size:1rem;">
-Figure: Wolf in sheep's cloth<br>(created using Midjourney AI)
-<div>
-
-# Q&A and Discussion
+---
 
 <div style="text-align: center;">
+![](images/wolf-sheep-cloth.png)
+</div>
+
+
+
+## Q&A and Discussion
+
+<br>
 
 ```{mermaid}
 %%| echo: false
@@ -417,18 +425,30 @@ A --> F[Responsible use] --> G[Your ethical standard]
 ```
 
 
-</div>
+---
+
+![](images/slido 1261686.jpg)
+
+
+
+---
+
+![](images/slido 1261687.jpg)
+
+
+
+## See you in another session. {.unnumbered}
 
 <div style="text-align: center;">
 <div style="font-size: 5rem;">
 Thank you.
 </div>
 
+![](../images/profile-kamrul.png){width="300px" height="auto"}
+
 Email: [kamrulext@pstu.ac.bd](mailto:kamrulext@pstu.ac.bd)
 
-GSM: +8801891565856
-
-<br>
+GSM/WhatsApp: +8801891565856
 
 <div class="footer" style="font-size: small;">
 Slides created using Quarto. Available at: [www.ruenresearch.com](www.ruenresearch.com)

@@ -921,7 +921,7 @@
     "href": "blogs.html",
     "title": "Blog Posts",
     "section": "",
-    "text": "Welcome to my blog! Here you can find a collection of my latest posts on various topics. Feel free to explore and engage with the content.\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nResponsible Use of Artificial Intelligence in Academic Research\n\n\nFrom Problem Identification to Publication\n\n\n\n\nEthical use of AI\n\n\nResearch\n\n\nArtificial Intelligence\n\n\n\n\n\n\n\n\n\n\n\nSep 1, 2025\n\n\nProfessor Dr. Md. Kamrul Hasan\n\n\n\n\n\n\n  \n\n\n\n\nExtension Field Trip 2025\n\n\n\n\n\n\n\nField Trip\n\n\nAgricultural Extension\n\n\n\n\n\n\n\n\n\n\n\nAug 19, 2025\n\n\nProfessor Dr. Md. Kamrul Hasan\n\n\n\n\n\n\n  \n\n\n\n\nARD 5112: Communication and Information Technology\n\n\n\n\n\n\n\nMS\n\n\nCommunication\n\n\nARD 5112\n\n\n\n\n\n\n\n\n\n\n\nAug 17, 2025\n\n\nProf. Dr. Md. Kamrul Hasan\n\n\n\n\n\n\n  \n\n\n\n\nJournalism and Communication\n\n\n\n\n\n\n\nCommunication\n\n\nGeneral\n\n\nJournalism\n\n\n\n\n\n\n\n\n\n\n\nJul 18, 2025\n\n\nProfessor Dr. Md. Kamrul Hasan\n\n\n\n\n\n\n  \n\n\n\n\nWhy to learn R/Python?\n\n\n\n\n\n\n\nR\n\n\nPython\n\n\n\n\n\n\n\n\n\n\n\nAug 3, 2024\n\n\nProfessor Dr. Md. Kamrul Hasan\n\n\n\n\n\n\nNo matching items"
+    "text": "Welcome to my blog! Here you can find a collection of my latest posts on various topics. Feel free to explore and engage with the content.\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nResponsible Use of Artificial Intelligence in Academic Research\n\n\nFrom Problem Identification to Publication\n\n\n\n\nEthical use of AI\n\n\nResearch\n\n\nArtificial Intelligence\n\n\n\n\n\n\n\n\n\n\n\nSep 5, 2025\n\n\nProfessor Dr. Md. Kamrul Hasan\n\n\n\n\n\n\n  \n\n\n\n\nExtension Field Trip 2025\n\n\n\n\n\n\n\nField Trip\n\n\nAgricultural Extension\n\n\n\n\n\n\n\n\n\n\n\nAug 19, 2025\n\n\nProfessor Dr. Md. Kamrul Hasan\n\n\n\n\n\n\n  \n\n\n\n\nARD 5112: Communication and Information Technology\n\n\n\n\n\n\n\nMS\n\n\nCommunication\n\n\nARD 5112\n\n\n\n\n\n\n\n\n\n\n\nAug 17, 2025\n\n\nProf. Dr. Md. Kamrul Hasan\n\n\n\n\n\n\n  \n\n\n\n\nJournalism and Communication\n\n\n\n\n\n\n\nCommunication\n\n\nGeneral\n\n\nJournalism\n\n\n\n\n\n\n\n\n\n\n\nJul 18, 2025\n\n\nProfessor Dr. Md. Kamrul Hasan\n\n\n\n\n\n\n  \n\n\n\n\nWhy to learn R/Python?\n\n\n\n\n\n\n\nR\n\n\nPython\n\n\n\n\n\n\n\n\n\n\n\nAug 3, 2024\n\n\nProfessor Dr. Md. Kamrul Hasan\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "courses/communication5112.html",
@@ -1155,11 +1155,18 @@
     "text": "Concluding remarks\n\nSpeed up, do not automate: Use AI for efficiency, not intellectual alternatives.\nYou are the Expert: You provide the critical thinking, subject matter expertise, and ethical judgment.\nVerify Everything: Assume all AI output has potential for bias, falsification, inaccuracy, or “hallucination.”\nBe Transparent: Disclose your use of AI tools clearly and specifically.\nProtect Data: Never input confidential, sensitive, or non-public data into generative AI models."
   },
   {
-    "objectID": "posts/ai-use.html#section-1",
-    "href": "posts/ai-use.html#section-1",
+    "objectID": "posts/ai-use.html#qa-and-discussion",
+    "href": "posts/ai-use.html#qa-and-discussion",
     "title": "Responsible Use of Artificial Intelligence in Academic Research",
-    "section": "",
-    "text": "AI can be more notorious than we canimagine if used without care.\n\n\n\nFigure: Wolf in sheep’s cloth(created using Midjourney AI)"
+    "section": "Q&A and Discussion",
+    "text": "Q&A and Discussion\n\n\n\n\n\n%%{init: {'themeVariables': { 'fontSize': '2rem'}}}%%\ngraph LR\nA[AI] --&gt; B[Not using] --&gt; C[Foolish]\nA --&gt; D[Blind use] --&gt; E[Risky and dangerous]\nA --&gt; F[Responsible use] --&gt; G[Your ethical standard]"
+  },
+  {
+    "objectID": "posts/ai-use.html#see-you-in-another-session.",
+    "href": "posts/ai-use.html#see-you-in-another-session.",
+    "title": "Responsible Use of Artificial Intelligence in Academic Research",
+    "section": "See you in another session.",
+    "text": "See you in another session.\n\n\nThank you.\n\n\nEmail: kamrulext@pstu.ac.bd\nGSM/WhatsApp: +8801891565856\n\nSlides created using Quarto. Available at: www.ruenresearch.com\n\n\n\n\n\nRUEN Research"
   },
   {
     "objectID": "posts/why-r-python.html",
