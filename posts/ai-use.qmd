@@ -64,26 +64,19 @@ Using AI in academic writing and research [@khalifa2024]:
 - Editing and grammar corrections
 - Reference management
 
-## Concerns of AI in research
-
-- **Get what you need:** use appropriate prompt.
-- **Responsible use:** you cannot blame AI for the contents.
-- **Ethical compliance:** you have to acknowledge the use of AI.
-- **Making writing plagiarism and AI-free:** use your own thinking; not only other AI tools for paraphrasing.
 
 
-
-## The paradigm shift: AI generation
+# The paradigm shift: AI generation
 
 > "AI cannot replace your critical thinking; it is a powerful assistance for speeding up your prepared mind."
 
--   **Supportive, not Replacement:** AI enhances researcher capability.
--   **Speed vs. Depth:** Accelerates tedious tasks, provides time for deep analysis and interpretation.
--   **New Skill Required:** "Prompt Engineering" is a core AI use competency. **How to prompt?**
+-   **Supportive, not replacement:** AI enhances researcher capability.
+-   **Speed vs. depth:** Accelerates tedious tasks, provides time for deep analysis and interpretation.
+-   **New skill required:** "Prompt Engineering" is a core AI use competency. **How to prompt?**
 
 
 
-# How Do AI Language Models Work? {.smaller1}
+## How Do AI Language Models Work? {.smaller1}
 
 **Critical users should be aware of [@ibm2025]:**
 
@@ -123,8 +116,8 @@ C --> D[Outputs for users<br>in natural language]
 ## Tools: ChatGPT-4, Julius AI, Deepseek, Gemini {.smaller1}
 
 -   **Choosing Statistical Tests:** *Prompt:* "My research question is: 'Does training (yes/no) have effects on knowledge scores (continuous) and adoption levels (ordinal: low, medium, high) among farmers? What are the appropriate statistical tests?'"
--   **Survey Design:** *Prompt:* "Draft a 5-point Likert scale questionnaire to measure 'perceived behavioural control' from the based on the theory of planned behaviour for farmers using organic fertilizers and manure."
--   **Sample Size Calculation:** *Example:* Use a tool, such as Julius AI to estimate power and sample size based on the effect size from existing literature.
+-   **Survey Design:** *Prompt:* "Draft a 5-point Likert scale questionnaire to measure 'perceived behavioural control' based on the theory of planned behaviour (TPB) for farmers using organic fertilizers and manure." [Note: TPB $\Rightarrow$ Attitude + Norms + Beliefs in Ability]
+-   **Sample Size Calculation:** *Prompt:* "My population is 15000. What could be the sample size with 95% confidence interval and 5% margin of error, using @hasan2024 formula. Also provide the values for different parameters in the formula, e.g. sample control ratio".
 
 
 
@@ -280,7 +273,7 @@ ggplot(data, aes(practice, yield)) + geom_boxplot()
 
 
 
-## Important Ethical Note on AI Images
+## Ethical Notes on AI Images
 
 > **AI should not generate your *data*, but it can generate your *diagrams*.**
 
@@ -290,7 +283,7 @@ ggplot(data, aes(practice, yield)) + geom_boxplot()
 -   **Fraudulent:** Creating a fake graph or map with fictional data points.
 
 
-## Important Ethical Note on AI Images (cont'd)
+## Ethical Notes on AI Images (cont'd)
 
 <br>
 
@@ -306,7 +299,7 @@ ggplot(data, aes(practice, yield)) + geom_boxplot()
 ## Making Writing "AI-Free" {.smaller2}
 
 1.  **Write your first draft manually.** This is your original intellectual contribution.
-2.  **Use AI for editing.** Input your text into Grammarly/Wordtune/Quilbot/Hixbypass for grammar, spelling, and clarity suggestions.
+2.  **Use AI for editing.** Input your text into Grammarly/ Wordtune/ Quilbot/ Hixbypass for grammar, spelling, and clarity suggestions.
 3.  **Manually review every change.** Do not accept all changes. Critically check each suggestion. Does it change your intended meaning?
 4.  **Use AI for phrasing help.** If struggle with a single sentence, ask for alternatives, but then rewrite it in your own words based on the the alternative suggestions.
 5.  **Final Read-Through:** Read the entire document aloud to ensure it sounds like your voice.
@@ -315,14 +308,14 @@ ggplot(data, aes(practice, yield)) + geom_boxplot()
 
 
 
-# AI in Reference Management
+# Reference Management
 
 ## Tools: Zotero, Mendeley {.smaller1}
 
 -   **Automatic:** These tools can automatically retrieve metadata (title, author, journal, DOI) from uploaded PDFs.
 -   **Word Processors Plugins:** The plugins for Word/Google Docs are used to seamlessly integrate with RStudio and Word processors.
 -   **Best Practice:** Double-check the auto-extracted data against the original PDF. Errors related to reference formating especially author names, capitalization and missing elements are highly common!
--   **Take Care**: Double check the formats of direct and indirect in-text citations, e.g. Author (year) or author, year.
+-   **Take Care**: Double check the formats of direct and indirect in-text citations, e.g. Author (year) or (author, year).
 -   **CSL:** Download required citation style language (.csl) file from [Zotero](https://www.zotero.org/styles)/[Mendeley](https://csl.mendeley.com/about/) repositories.
 
 
@@ -353,27 +346,41 @@ Most top university and journal guidelines [@oxford2025; @springer2023] are buil
 
 
 
-# Danger: Risks of AI in Knowledge and Science
 
-- **Plagiarism and Lack of Originality** in academic writing  
-- **Fake Data and References** generated by AI tools that can confidently misguide or mislead you to a deadend.  
-- **Superficial Knowledge**: Polished text without depth  
-- **Loss of Critical Thinking** among researchers and young generations
-- **Misinformation & Deepfakes** undermining trust by producing fake audio/videos
+## Skills needed for using AI in research
 
+- **Prompt:** Get what you need by using appropriate prompt.
+- **Accept responsibility:**  You are the author. Never blame AI for the contents.
+- **Acknowledge AI:** This is ethical compliance that you declare the use of AI.
+- **Paraphrase:** Making writing plagiarism and AI-free by using your own thinking; not only other AI tools for paraphrasing.
 
-## What is research and what does it give?
-
-- Systematized approach
-- Generate knowledge
-- Idea, practice, or device
-- Innovation or technology
+> Human input is required in every step for responsible and ethical use of AI in research.
 
 
-## Biggest weakness of AI
+# Danger: Risks of AI in Knowledge and Science {.smaller2}
+
+> **Don't think a person is interacting with you**. Hold your reign before you collapse.
+
+- **Plagiarism and lack of originality** in academic writing  
+- **Fake data and references** generated by AI tools that can confidently misguide or mislead you to a deadend.  
+- **Superficial knowledge**, polished text without depth  
+- **Loss of critical thinking** among researchers and young generations
+- **Misinformation and deepfakes** undermining trust by producing fake audio/videos
+
+
+## Biggest outputs of research
+
+Using systematized approach, research:
+
+- **Generates new knowledge**
+- Provides idea, practice, or device
+- Results in innovation or technology
+
+
+## Biggest weaknesses of AI
 
 - Statistical machine learning models that use existing information
-- AI does not generate knowledge; it only recycles knowledge
+- **AI does not generate new knowledge**; it only recycles knowledge
 - So, full dependency on AI is a dead end of research and scientific progress
 - However, AI provides efficient solutions that are based on existing information, e.g. diagnostic task, security, office management, auto-driving, auto-piloting, decision-making, deep analysis of information, programming, app and software development and many others.
 
@@ -393,14 +400,6 @@ Most top university and journal guidelines [@oxford2025; @springer2023] are buil
   - Advanced, self-controlled, can add intermediate actions
   - Involves building physical brain-like devices
 
-
-## Concluding remarks
-
-1.  **Speed up, do not automate:** Use AI for efficiency, not intellectual alternatives.
-2.  **You are the Expert:** You provide the critical thinking, subject matter expertise, and ethical judgment.
-3.  **Verify Everything:** Assume all AI output has potential for bias, falsification, inaccuracy, or "hallucination."
-4.  **Be Transparent:** Disclose your use of AI tools clearly and specifically.
-5.  **Protect Data:** Never input confidential, sensitive, or non-public data into generative AI models.
 
 
 ---
@@ -423,6 +422,13 @@ A[AI] --> B[Not using] --> C[Foolish]
 A --> D[Blind use] --> E[Risky and dangerous]
 A --> F[Responsible use] --> G[Your ethical standard]
 ```
+
+
+---
+
+**Which AI tool we have discussed but not its logo has not been inserted here?**
+![](images/ai-logos.png)
+
 
 
 ---
