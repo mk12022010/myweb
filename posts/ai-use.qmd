@@ -426,7 +426,7 @@ A --> F[Responsible use] --> G[Your ethical standard]
 
 ---
 
-**Which AI tool we have discussed but not its logo has not been inserted here?**
+**Which AI tool we have discussed but its logo has not been inserted here?**
 ![](images/ai-logos.png)
 
 
