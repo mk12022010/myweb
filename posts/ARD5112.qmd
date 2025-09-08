@@ -266,22 +266,22 @@ Five elements of communication:
 ## Elements - Feedback
 
 - Reaction given by receivers in response to message
-- Return process where receiver acts as source
-- Communication process ⇒ feed forward and feedback backward
-- Self-communication: message encoded is fed back into system by decoding
+- Return process where receiver acts as a source
+- Communication process ⇒ feed forward and feed backward
+- Self-communication: message encoded is fed back into the system by decoding
 - **Action - Reaction** interdependence is feedback
 - Both sender and receiver can encode and decode simultaneously
 
 
 ## Elements - Feedback (cont'd)
 
-- Provides source information about success in accomplishing objectives
+- Provides information to the sender  about the success of communication
 - Controls encoding of next messages
 - Feedback can be: 
   - Intentional (e.g., nodding to show understanding) 
+    - A student raising hand = intentional
   - Unintentional (e.g., yawning from boredom)
-  - A student raising hand = intentional
-  - Looking distracted = unintentional
+    - Looking distracted = unintentional
 
 
 ## Importance of Feedback
@@ -306,9 +306,10 @@ Five elements of communication:
 - Limitation of the channel
 - Shyness of the receiver
 - Discouraging by the communicator
+- Message delivered in wrong time
+- Cultural barriers
 - Socio-economic barriers
-- Untimely message
-- Language and cultural barriers
+- Language barriers 
 
 
 
@@ -316,18 +317,18 @@ Five elements of communication:
 
 ## Definition of Communication Model
 
-- **Model:** Miniature (drawings, charts, diagrams) of complex process to show relationships, flows, structures
-- Help simplify complex ideas for teaching and evaluation
-- Offer organised way of looking at complex process
+- **Model:** Miniature (drawings, charts, diagrams) of complex process to show relationships, flows, and structures of a complex process
+- Helps simplify complex ideas for teaching and evaluation
+- Offers organised way of looking at complex process
 - Should show all important elements with minimal text
 - **Models:** Berlo (1960), Shannon-Weaver (1949), Leagans (1963), Rogers and Shoemaker (1971)
 
 
 ## Types of Communication Models
 
-- **Action/linear/one-way Model** – One-way transmission (e.g., TV broadcast, Shannon-Weaver's model, Berlo's model)
+- **Linear/ one-way/ action Model** – One-way transmission (e.g., TV broadcast, Shannon-Weaver's model, Berlo's model)
 
-- **Interactive/two-way Model** – Sender ↔︎ Receiver with feedback (e.g. News blog, Rogers and Shoemaker's model, Leagan's model)
+- **Interactive/ two-way Model** – Sender ↔︎ Receiver with feedback (e.g. News blog, Rogers and Shoemaker's model, Leagan's model)
 
 - **Transactional or interpersonal Model** – Both parties simultaneously sender and receiver (e.g. Interview, Barlund's Model, mindful model)
 
