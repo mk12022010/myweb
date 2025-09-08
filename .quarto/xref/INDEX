@@ -130,5 +130,17 @@
   },
   "posts/quizzes.qmd": {
     "quizzes.html": "32fff064"
+  },
+  "blogs/ai-use.qmd": {
+    "ai-use.html": "ba06a764"
+  },
+  "blogs/ARD5112.qmd": {
+    "ARD5112.html": "cd7ec373"
+  },
+  "blogs/communication-journalism.qmd": {
+    "communication-journalism.html": "dad20b60"
+  },
+  "blogs/field-trip-ag-2025.qmd": {
+    "field-trip-ag-2025.html": "68a8084f"
   }
 }
