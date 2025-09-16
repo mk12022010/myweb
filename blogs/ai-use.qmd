@@ -162,8 +162,8 @@ C --> D[Outputs for users<br>in natural language]
 %%| echo: false
 %%{init: {'themeVariables': { 'fontSize': '2rem'}}}%%
 graph LR
-A[Human<br>Sentences] --> B[AI<br>Praphrasing]
-B --> C[Human<br>Editing</editing>]
+A[Human<br>Sentences] --> B[AI<br>Paraphrasing]
+B --> C[Human<br>Editing]
 C --> D[AI<br>grammar<br>check]
 ```
 

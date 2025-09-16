@@ -410,3 +410,33 @@ body {
   /* height: 300px; /* You might want to set a height */
 }
 
+
+ol {
+  list-style-type: decimal !important;
+  counter-reset: none !important;
+}
+ol li {
+  display: list-item !important;
+}
+
+
+.reveal ol {
+  list-style-type: decimal !important;
+  margin-left: 2em !important;
+}
+
+.reveal ol li {
+  display: list-item !important;
+  counter-increment: none !important;
+}
+
+
+/* Set all slides to light skyblue */
+.reveal {
+  background-color: #ADD8E6 !important; /* lighter sky blue */
+}
+
+/* Optional: set text color for contrast */
+.reveal .slides {
+  color: #000000 !important; /* black text */
+}

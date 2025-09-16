@@ -22,11 +22,14 @@ format:
     multiplex: false
     embed-resources: false
     chalkboard: true
-    theme: sky
+    theme: simple
     css: ../styles.css
     toc: true
     toc-depth: 1
     toc-title: Course Contents
+
+bibliography: references.bib
+csl: apa.csl
 ---
 
 ```{r setup, include=FALSE}
@@ -223,10 +226,23 @@ Five elements of communication:
 - Medium or vehicle which carries the message
 - Physical bridge between source and receiver
 - Extension teaching methods are communication channels
-- Person, mobile phone, newspaper, radio are examples
+- Person, conversation, face-to-face, word of mouth, mobile phone, newspaper, radio are examples
 - Must be used in right way, right time, for right actions with right audience
 - Can be local or cosmopolitan, and interpersonal, group or mass
 - Early adopters use mass communication; late majority uses interpersonal channels
+
+
+## Channel forms, nature of personnel and nature of contact
+
+Reference: @ray2003
+
+- **Forms:** Written (newspaper), spoken (radio talk)
+- **Nature of personnel**: Localite, cosmopolite
+
+  - Personal localite (neighbour, friends), personal cosmopolite (extension agents), impersonal cosmopolite (no personal face-to-face contact, newspaper)
+  
+- **Nature of contact**: Individual (extension agent at home visit), group (trainer in a group meeting), mass (newspaper)
+
 
 
 
@@ -411,24 +427,28 @@ Communication cycle disrupted by noise due to:
 7. **Failure to use enough channels in parallel** - 5-6 channels may be needed for impact
 8. **Use of too many channels in series** - More channels in series increases distortion risk
 
+Reference: @ray2003
+
 > Good communicator should identify and eliminate sources of communication noise
 
 
 
-## How to Minimize Channel Noise
+## How to Minimize Channel Noise {.smaller1}
 
 Use channels based on:
 
-1. Specific objectives of message
-2. Nature of message - direct vs abstract, difficulty, scope, timing
-3. Audience - size, need, interest, knowledge
-4. Availability of channels and logistic support
-5. Combination of channels - parallel vs series
-6. Relative cost of channels
-7. Time available of audience and communicator
-8. Nature of channels - seeing, hearing, or doing
-9. Extent of cumulative effects of message
-10. Skills of communicator
+<ol>
+<li>Specific objectives of message</li>
+<li>Nature of message - direct vs abstract, difficulty, scope, timing</li>
+<li>Audience - size, need, interest, knowledge</li>
+<li>Availability of channels and logistic support</li>
+<li>Combination of channels - parallel vs series</li>
+<li>Relative cost of channels</li>
+<li>Time available of audience and communicator</li>
+<li>Nature of channels - seeing, hearing, or doing</li>
+<li>Extent of cumulative effects of message</li>
+<li>Skills of communicator</li>
+</ol>
 
 
 
@@ -462,7 +482,7 @@ In persuasive communication, vital role in message acceptance
 - Implementation of message - desired/undesired
 - Feedback of audience - affects understanding
 
-Personal cosmopolite sources perceived as more credible than mass media
+> Personal cosmopolite sources perceived as more credible than mass media
 
 
 # Message Management
@@ -496,14 +516,14 @@ Personal cosmopolite sources perceived as more credible than mass media
 
 
 
-## Treatment of a Message
+## Treatment of a Message {.smaller1}
 
 - Encoding message to make it understandable for desired feedback
 - Necessary to carry intended meaning
 - Organized message produces more comprehension and retention
 - Disorganized message may foil communication functions
 
-For effective persuasion:
+For effective persuasion [@hovland1953]:
 
 - (A) Pattern of organization
 - (B) Ordering of arguments  
@@ -512,7 +532,7 @@ For effective persuasion:
 
 
 
-## A. Pattern of Organization
+## A. Pattern of Organization {.smaller2}
 
 1. **Space Pattern** - geographical order (e.g. AEZ, soil tracts)
 2. **Time order** - historical perspective (e.g. Agricultural development)
@@ -522,7 +542,7 @@ For effective persuasion:
 6. **Problem-solving order** - cultivation process
 7. **Climax order** - key points at end
 8. **Anticlimax order** - key points at beginning  
-9. **Pyramidical order** - key points at middle
+9. **Pyramidal order** - key points at middle
 
 
 
@@ -535,12 +555,11 @@ For effective persuasion:
 
 
 
-### C. Nature of Arguments
+## C. Nature of Arguments
 
 **One-sided vs two-sided message**
 
-- Limiting disfavourable parts suitable for illiterate audience
-- Example: Family planning helps welfare (favourable) but may contradict religion (disfavourable)
+- Limiting disfavourable parts suitable for illiterate audience. Example: Family planning helps welfare (favourable) but may contradict religion (disfavourable)
 - Two-sided message more effective with higher education receivers
 
 
@@ -702,6 +721,8 @@ Source: [ecampusontario.pressbooks.pub](https://ecampusontario.pressbooks.pub/in
 - If audience notice mannerism, they focus on it rather than message
 - Gestures should be graceful and unobtrusive
 
+> Sight, sound, touch, smell, and taste are sensory channels [@dubey2008]
+
 
 ## Conflicts in interpersonal communication
 
@@ -739,13 +760,29 @@ Source: [ecampusontario.pressbooks.pub](https://ecampusontario.pressbooks.pub/in
 # Communication strategy
 
 
+## Communication fidelity {.smaller1}
+
+- Communication fidelity indicates the accuracy of message transfer. This is about **Clarity**.
+- This means the degree to which the receiver perceives the intended meaning of the message
+- High fidelity: Receiver clearly understands the message. e.g., A UAO suggests a farmer to apply a pesticide at 7 days interval always in the afternoon during relatively low wind flow. If the farmer can explain the same, this indicates high communication fidelity.
+- Low fidelity: Receiver misunderstands the message. e.g., If the farmer in the above example understands partially the message, this will have low communication fidelity.
+
+
+## Communication effectiveness
+
+- Communication effectiveness refers to the degree to which the communication goal can be achieved i.e. the desired effects can be realised. This is about **Impact**
+- High effectiveness: Receiver follows the instruction. e.g., A UAO suggests a farmer to apply a pesticide at 7 days interval always in the afternoon during relatively low wind flow. If the farmer does the same, this indicates high communication effectiveness.
+- Low effectiveness: Receiver follows the message. e.g., If the farmer in the above example does not follow the instruction, this will have low communication effectiveness.
+
+
+
 ## Effective communication is a function of:
 
-1.  **Source credibility** – Trustworthiness, expertise
-2.  **Audience characteristics** – Age, education, values, needs
+1.  **Source credibility** – Trustworthiness, expertise, knowledge, attitude, delivery skill
+2.  **Audience characteristics** – Age, education, values, needs, attitude, intention, social status
 3.  **Channel availability** – Face-to-face, phone, email
 4.  **Feedback mechanism** – Immediate or delayed, verbal or non-verbal
-5.  **Message treatment** – Tailoring the message improves effectiveness.
+5.  **Message treatment** – Tailoring the message aligned with clear objectives, channel and audience improves effectiveness.
 
 
 ## Persuasive Communication 
@@ -756,7 +793,7 @@ Source: [ecampusontario.pressbooks.pub](https://ecampusontario.pressbooks.pub/in
 -   **Respect**: Be polite and culturally sensitive
 
 
-## Objectivity & Subjectivity
+## Objectivity and Subjectivity {.smaller1}
 
 ::::: columns
 ::: {.column width="70%"}
@@ -788,9 +825,261 @@ Source: [ecampusontario.pressbooks.pub](https://ecampusontario.pressbooks.pub/in
 
 # Mass Communication
 
+## Communication methods, channels and aids
+
+- Methods (TV broadcast): 
+
+  - how to transfer the message
+  - nature of interaction
+
+  
+- Channels (TV): 
+
+  - through what the message is transferred
+  - medium or tools of interaction
+
+- Aids (loud speaker): 
+
+  - how the transfer can be made more effective
+  - helping tools of interaction
+  
+
+# Communication types linked to methods and channels [@ray2003]
+
+## **Individual**
+
+<div style="text-align: center;">
+  <img src="images/individual-comm.png" alt="AKIS Diagram" />
+</div>
+
+
+## **Group**
+
+<div style="text-align: center;">
+  <img src="images/group-comm.png" alt="AKIS Diagram" />
+</div>
+
+
+## **Mass**
+
+<div style="text-align: center;">
+  <img src="images/mass-comm.png" alt="AKIS Diagram" />
+</div>
+
+
+## Public speaking {.smaller2}
+
+**Art of public speaking [@khan2002]:**
+
+- Don't be afraid, it is an easy task: Anything for the first time seem difficult. Take time for preparation.
+- Practice makes man perfect: Rehearse the contents by speaking loudly in front of mirror, friends or colleagues.
+- The chemical adrenalin: Control your adrenalin (emergency defense system activator hormone), don't be controlled by it. You need this hormone to overcome dull, uninteresting and monotonous speech. Uncontrolled adrenalin can ruin your speech. Take opportunities whenever you get chances.
+- Communicate message: Keep information in your pocket to deliver. This will automatically eliminate your nervousness.
+
+
+## Principles of public speaking [@khan2002] {.smaller2}
+
+1. Consider public speaking as a conversation.
+1. Use audio-visual aids, if available.
+1. Spend more time in preparing than delivering talk.
+1. Rehearse loudly using your posture and gesture.
+1. Keep contact with audience. Don't show your back to the audience.
+1. Use modular expression - rising or lowering voice.
+1. Emphasize points by changing voice.
+1. Speak loud enough.
+1. Follow the ABC of speaking - Accuracy, Brevity, Clarity.
+1. Speak from your mind rather than reading.
+
 
 # System Approach
 
+## Knowledge and Information
+
+- Knowledge and information are often used interchangeably.
+- Knowledge means processed and perceived information that can be retrieved when needed.
+
+```{mermaid}
+%%| echo: false
+%%{init: {'themeVariables': { 'fontSize': '2rem'}}}%%
+graph LR
+A[Environment] --> B[Data]
+B --> C[Information]
+C --> D[Knowledge]
+
+E[Systematised knowledge] --> F[Science]
+F --> G[Innovation or Technology]
+```
+
+- All are projected towards reducing uncertainty for a decision maker.
+
+
+## Concept of System {.smaller1}
+
+- System implies 
+
+  - Wholeness in structure and objective
+  - presence of parts in relationship
+  - The whole is different from the elements
+  - Dropping any elements can collapse the system
+
+- System has
+
+  - boundary for filtration and protection
+  - balanced state
+  - internal and external factors (dynamics/change)
+  - feedback mechanism
+  - subsystem with sub-component
+  - supra-system 
+
+
+## Characteristics of a system
+
+::: {.columns}
+::: {.column width="50%"}
+
+- Wholeness  
+- Objective  
+- Components  
+- Structure  
+- System level  
+- Subsystem  
+:::
+
+::: {.column width="50%"}
+
+- Interrelationship  
+- Interaction  
+- Interdependence  
+- Joint effect  
+- Coordination  
+- Process  
+:::
+:::
+
+
+## AKIS
+
+- AKIS - Agricultural Knowledge and Information Systems
+- It is a concept to explain the exchange of information, knowledge and services among research, extension and farmers.
+- AKIS is, nowadays, also known as Agricultural Knowledge and Innovation System
+- It is an analytical construct for illustrating actors and networks of agricultural knowledge and information flow.
+
+Reference: @germundsson2021
+
+
+## Characterisation of AKIS
+
+- **Strong AKIS:** Influential actors or organisations at national level, high public investment
+- **Weak AKIS:** Small private initiatives, not well supported by policies
+- **Integrated AKIS:** Coordinated structure, cooperative, supported by national policies
+- **Fragmented AKIS:** Independent agents, may be competing, rarely cooperate, not well coordinated
+
+
+
+## AKIS in Europe
+
+```{r}
+library(ggplot2)
+
+df <- data.frame(
+  country = c(
+    "Netherlands","UK","Spain","Italy","Romania","Portugal","Greece",
+    "Lithuania","Wallonia","Malta","Latvia","Estonia","Slovakia",
+    "Germany","Finland","Sweden","Slovenia",
+    "Ireland","Denmark","Austria","Luxembourg",
+    "France","Poland","Flanders","Czech Rep.","Cyprus","Bulgaria","Hungary"
+  ),
+  x = c(
+    0.2,0.2,0.2,0.2,0.2,0.2,0.2,
+    0.35,0.35,0.35,0.35,0.35,0.35,
+    0.5,0.5,0.5,0.5,
+    0.8,0.8,0.8,0.8,
+    0.65,0.65,0.65,0.65,0.65,0.65,0.65
+  ),
+  y = c(
+    0.85,0.8,0.7,0.6,0.4,0.3,0.2,
+    0.85,0.8,0.7,0.6,0.4,0.3,
+    0.85,0.75,0.5,0.4,
+    0.9,0.8,0.7,0.55,
+    0.9,0.8,0.75,0.7,0.6,0.4,0.23
+  )
+)
+
+
+ggplot(df, aes(x, y, label = country)) +
+  # Quadrants background
+  geom_rect(aes(xmin=0, xmax=0.5, ymin=0, ymax=0.5), fill="lightblue", alpha=0.2) +
+  geom_rect(aes(xmin=0.5, xmax=1, ymin=0, ymax=0.5), fill="pink", alpha=0.2) +
+  geom_rect(aes(xmin=0, xmax=0.5, ymin=0.5, ymax=1), fill="lightgreen", alpha=0.2) +
+  geom_rect(aes(xmin=0.5, xmax=1, ymin=0.5, ymax=1), fill="khaki", alpha=0.2) +
+  
+  # Points and labels
+  geom_point(color="black", size=3) +
+  geom_text(vjust=-0.8, size=3) +
+  
+  # Axis labels
+  scale_x_continuous(breaks=c(0,0.5,1), labels=c("Fragmented","","Integrated")) +
+  scale_y_continuous(breaks=c(0,0.5,1), labels=c("Weak","","Strong")) +
+  labs(x = "", y = "") +
+
+  theme_minimal(base_size=14)
+```
+
+
+## Simple AKIS
+
+<div style="text-align: center;">
+  <img src="images/akis.png" alt="AKIS Diagram" />
+</div>
+
+
+## Importance of AKIS
+
+According to @dubey2008, AKIS is important to analise for:
+ 
+- Identification of problems at farm levels
+- Development of innovations
+- Dissemination of technologies
+- Measuring utilisation effectiveness
+
+
+## Insights of AKIS in Bangladesh
+
+- Farmers generate a lot of knowledge
+- Information channels may not be agricultural
+- Farmers mostly get information from farmers
+- Formal channels are often top-down
+- Little linkage exists among elements
+- Need and access to information varies with farmer categories
+- AIS, mass media, extension agents, agricultural research organizations, input dealers, and farmers are major part of AKIS in Bangladesh.
+
+
+
+## Questions for Analysing AKIS
+
+The AKIS can be analysed using the following questions [@blaettler2020]:
+
+- Who are the main actors of the AKIS? Are there key actors missing? 
+- How do various AKIS actors interact? 
+- Who are the main recipients/clients of knowledge and information? 
+- What are the main methods used for knowledge and information transfer? 
+- What are the main assets and gaps of the existing system? 
+- How can the  AKIS be improved?
+
 
 # Information Technology
+
+
+## Assignment and presentation
+
+1. Role of telecommunication in agricultural technology transfer
+2. Communication infrastructure for agricultural development in Bangladesh
+3. Use of ICT and GIS in agricultural development in Bangladesh
+
+Instruction:
+
+- 16 October 2025: Written assignment (~3 pages, Times New Roman, 12 font size, 1.15 spacing)
+- 16 October 2025: Presentation (15 minutes, 10 ppt slides)
+
+## References (Online resources + the followins)
 
