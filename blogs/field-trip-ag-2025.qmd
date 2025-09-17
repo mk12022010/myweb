@@ -1,6 +1,6 @@
 ---
 title: "Extension Field Trip 2025"
-subtitle: " "
+subtitle: "Faculty of Agriculture"
 author: "Professor Dr. Md. Kamrul Hasan"
 date: "2025-08-19"
 categories: ["Field Trip", "Agricultural Extension"]
@@ -12,7 +12,7 @@ format:
     logo: ../images/pstu-logo.png
     footer: |
       <a href="https://ruenresearch.com" target="_blank">RUEN Research</a>
-    transition: slide
+    transition: fade
     slide-number: c/t
     multiplex: false
     embed-resources: false
@@ -60,7 +60,7 @@ At the end of the field trip, the participant students will be able to:
 
 - Plan for possible places
 - Approval from university authority
-- Receiving funds, zccommodation and transport
+- Receiving funds, accommodation and transport
 - Communicating with the hosts
 - Take some money for meals.
 - Take 40-50 A4 size blank sheets of paper for report writing.
@@ -183,14 +183,14 @@ At the end of the field trip, the participant students will be able to:
 - Take extra care for fire hazard
 - Use your own bed sheet for hygiene purpose
 - Take small soap, shampoo and other personal cosmetics
-- Take umbrella, sunglassess, water heater (if needd), medicines
+- Take umbrella, sunglasses, water heater (if needed), medicines
 
 ## Emergency Management
 
 - Sick: Immediately inform your guide teacher 
 - Send message to your parents in a soft tone.
 - Your guide teacher will arrange a shift for you with either your classmate or family members
-- Caution: Keep your emergency medicine with you, espcially for asthma, allergic reaction, anaphyllaxis.
+- Caution: Keep your emergency medicine with you, especially for asthma, allergic reaction, anaphyllaxis.
 
 ## Tentative Marks Distribution
 
@@ -205,11 +205,11 @@ At the end of the field trip, the participant students will be able to:
 
 - This is not a pleasure trip.
 - Consider adjustment and adaptation to the local situation.
-- Accept temporary discomfort in the dormatory.
+- Accept temporary discomfort in the dormitory.
 - Respect local culture and customs.
 - Behave well, show pleasant attitude.
 - You will only show classmate-like relationships.
-- No other relationships such as spouse and enemey must not be demonstrated.
+- No other relationships such as spouse and enemy must not be demonstrated.
 
 ## Final Touch
 

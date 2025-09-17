@@ -17,7 +17,7 @@ format:
     logo: ../images/pstu-logo.png
     footer: |
       <a href="https://ruenresearch.com" target="_blank">Resources</a>
-    transition: slide
+    transition: fade
     slide-number: c/t
     multiplex: false
     embed-resources: false

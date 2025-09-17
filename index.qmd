@@ -40,41 +40,43 @@ Currently, Professor Hasan is the Chairman of Agricultural Extension and Rural D
 
 ## Publications
 
+Include new publication
+
 1. Ratnayake, S. S., Reid, M., Larder, N., Hunter, D., Hasan, M. K., Dharmasena, P. B., Kogo, B., Senavirathna, M., & Kariyawasam, C. S. (2024). Climate and Land Use Change Pressures on Food Production in Social-Ecological Systems: Perceptions from Farmers in Village Tank Cascade Systems of Sri Lanka. Sustainability, 16(19), 8603. [https://doi.org/10.3390/su16198603]()
 
-2. Hasan, M.K. and Kumar, L. (2024). Determining adequate sample size for social survey research. Journal of Bangladesh Agricultural University, 22(2), 146-157. [https://doi.org/10.3329/jbau.v22i2.74547]()
+1. Hasan, M.K. and Kumar, L. (2024). Determining adequate sample size for social survey research. Journal of Bangladesh Agricultural University, 22(2), 146-157. [https://doi.org/10.3329/jbau.v22i2.74547]()
 
-3. Maiti, A., Hasan, M.K., Sannigrahi, S., et al. (2024). Optimal rainfall threshold for monsoon rice production in India varies across space and time. Communications Earth & Environment, 5, 302. [https://doi.org/10.1038/s43247-024-01414-7]()
+1. Maiti, A., Hasan, M.K., Sannigrahi, S., et al. (2024). Optimal rainfall threshold for monsoon rice production in India varies across space and time. Communications Earth & Environment, 5, 302. [https://doi.org/10.1038/s43247-024-01414-7]()
 
-4. Siddik, M. A., Hasan, M. K., Islam, A. R. M. T., & Islam, M. S. (2023). Coastal Community Valorization through Patuakhali Science and Technology University: Policy Support and Way Forwards. Journal of Planning Education and Research. [https://doi.org/10.1177/0739456X231195620]()
+1. Siddik, M. A., Hasan, M. K., Islam, A. R. M. T., & Islam, M. S. (2023). Coastal Community Valorization through Patuakhali Science and Technology University: Policy Support and Way Forwards. Journal of Planning Education and Research. [https://doi.org/10.1177/0739456X231195620]()
 
-5. Hasan, M. K., and Kumar, L. (2022). Changes in coastal farming systems in a changing climate. Regional Environmental Change, 2(4). [https://doi.org/10.1007/s10113-022-01962-8]()
+1. Hasan, M. K., and Kumar, L. (2022). Changes in coastal farming systems in a changing climate. Regional Environmental Change, 2(4). [https://doi.org/10.1007/s10113-022-01962-8]()
 
-6. Kogo, B. K., Kumar, L., Koech, R., and Hasan, M. K. (2022). Response to climate change in a rain-fed crop production system: Insights from maize farmers of western Kenya. Mitigation and Adaptation Strategies for Global Change, 27(8). [https://doi.org/10.1007/s11027-022-10023-8]()
+1. Kogo, B. K., Kumar, L., Koech, R., and Hasan, M. K. (2022). Response to climate change in a rain-fed crop production system: Insights from maize farmers of western Kenya. Mitigation and Adaptation Strategies for Global Change, 27(8). [https://doi.org/10.1007/s11027-022-10023-8]()
 
-7. Kogo, B. K., Kumar, L., Koech, R., & Hasan, K. (2021). Climatic and non-climatic risks in rainfed crop production systems: insights from maize farmers of western Kenya. Climate and Development, 13(10), 869–878. [https://doi.org/10.1080/17565529.2020.1867043]()
+1. Kogo, B. K., Kumar, L., Koech, R., & Hasan, K. (2021). Climatic and non-climatic risks in rainfed crop production systems: insights from maize farmers of western Kenya. Climate and Development, 13(10), 869–878. [https://doi.org/10.1080/17565529.2020.1867043]()
 
-8. Hasan, M. K., & Kumar, L. (2021). Yield trends and variabilities explained by climatic change in coastal and non-coastal areas of Bangladesh. Science of the Total Environment, 795, 148814. [https://doi.org/10.1016/j.scitotenv.2021.148814]()
+1. Hasan, M. K., & Kumar, L. (2021). Yield trends and variabilities explained by climatic change in coastal and non-coastal areas of Bangladesh. Science of the Total Environment, 795, 148814. [https://doi.org/10.1016/j.scitotenv.2021.148814]()
 
-9. Hasan, M. K., & Kumar, L. (2020). Discriminated perceptions of climatic impacts on coastal farm management practices. Journal of Environmental Management, 278, 111550. [https://doi.org/10.1016/j.jenvman.2020.111550]()
+1. Hasan, M. K., & Kumar, L. (2020). Discriminated perceptions of climatic impacts on coastal farm management practices. Journal of Environmental Management, 278, 111550. [https://doi.org/10.1016/j.jenvman.2020.111550]()
 
-10. Gopalakrishnan, T., Kumar, L., & Hasan, M. K. (2020). Coastal settlement patterns and exposure to sea-level rise in the Jaffna Peninsula, Sri Lanka. Population and Environment, 42, 129-145. [https://doi.org/10.1007/s11111-020-00350-w]()
+1. Gopalakrishnan, T., Kumar, L., & Hasan, M. K. (2020). Coastal settlement patterns and exposure to sea-level rise in the Jaffna Peninsula, Sri Lanka. Population and Environment, 42, 129-145. [https://doi.org/10.1007/s11111-020-00350-w]()
 
-11. Hasan, M. K., & Kumar, L. (2020). Perceived farm-level climatic impacts on coastal agricultural productivity in Bangladesh. Climatic Change, 161, 617-636. [https://doi.org/10.1007/s10584-020-02708-3]()
+1. Hasan, M. K., & Kumar, L. (2020). Perceived farm-level climatic impacts on coastal agricultural productivity in Bangladesh. Climatic Change, 161, 617-636. [https://doi.org/10.1007/s10584-020-02708-3]()
 
 12. Jayasinghe, S. L., Kumar, L., & Hasan, M. K. (2020). Relationship between Environmental Covariates and Ceylon Tea Cultivation in Sri Lanka. Agronomy, 10(4), 476. [https://doi.org/10.3390/agronomy10040476]()
 
-13. Hasan, M. K., & Kumar, L. (2020). Meteorological data and farmers' perception of coastal climate in Bangladesh. Science of the Total Environment, 704, 135384. [https://doi.org/10.1016/j.scitotenv.2019.135384]()
+1. Hasan, M. K., & Kumar, L. (2020). Meteorological data and farmers' perception of coastal climate in Bangladesh. Science of the Total Environment, 704, 135384. [https://doi.org/10.1016/j.scitotenv.2019.135384]()
 
-14. Chhogyel, N., Kumar, L., Bajgai, Y., & Hasan, M. K. (2020). Perception of farmers on climate change and its impacts on agriculture across various altitudinal zones of Bhutan Himalayas. International Journal of Environmental Science and Technology, 17, 3607-3620. [https://doi.org/10.1007/s13762-020-02662-8]()
+1. Chhogyel, N., Kumar, L., Bajgai, Y., & Hasan, M. K. (2020). Perception of farmers on climate change and its impacts on agriculture across various altitudinal zones of Bhutan Himalayas. International Journal of Environmental Science and Technology, 17, 3607-3620. [https://doi.org/10.1007/s13762-020-02662-8]()
 
-15. Hasan, M. K., Kumar, L., & Gopalakrishnan, T. (2020). Inundation modelling for Bangladeshi coasts using downscaled and bias-corrected temperature. Climate Risk Management, 27, 100207. [https://doi.org/https://doi.org/10.1016/j.crm.2019.100207]()
+1. Hasan, M. K., Kumar, L., & Gopalakrishnan, T. (2020). Inundation modelling for Bangladeshi coasts using downscaled and bias-corrected temperature. Climate Risk Management, 27, 100207. [https://doi.org/https://doi.org/10.1016/j.crm.2019.100207]()
 
-16. Gopalakrishnan, T., Hasan, M. K., Haque, A. T. M. S., Jayasinghe, S. L., & Kumar, L. (2019). Sustainability of coastal agriculture under climate change. Sustainability, 11(24), 7200. [https://doi.org/10.3390/su11247200]()
+1. Gopalakrishnan, T., Hasan, M. K., Haque, A. T. M. S., Jayasinghe, S. L., & Kumar, L. (2019). Sustainability of coastal agriculture under climate change. Sustainability, 11(24), 7200. [https://doi.org/10.3390/su11247200]()
 
-17. Hasan, M. K., and Kumar, L. (2019). Comparison between meteorological data and farmer perceptions of climate change and vulnerability in relation to adaptation. Journal of Environmental Management, 237, 54-62. [https://doi.org/10.1016/j.jenvman.2019.02.028]()
+1. Hasan, M. K., and Kumar, L. (2019). Comparison between meteorological data and farmer perceptions of climate change and vulnerability in relation to adaptation. Journal of Environmental Management, 237, 54-62. [https://doi.org/10.1016/j.jenvman.2019.02.028]()
 
-18. Hasan, M. K., Desiere, S., D'Haese, M., & Kumar, L. (2018). Impact of climate-smart agriculture adoption on the food security of coastal farmers in Bangladesh. Food Security, 10, 1073-1088. [https://doi.org/10.1007/s12571-018-0824-1]()
+1. Hasan, M. K., Desiere, S., D'Haese, M., & Kumar, L. (2018). Impact of climate-smart agriculture adoption on the food security of coastal farmers in Bangladesh. Food Security, 10, 1073-1088. [https://doi.org/10.1007/s12571-018-0824-1]()
 
 
 ## Research Supervision
