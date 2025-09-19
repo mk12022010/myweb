@@ -126,7 +126,7 @@ At the end of the field trip, the participant students will be able to:
 
 ## Starting
 
-**20 September 2025**
+**20 September 2025, Saturday**
 
 - **@ 2.30–3.00 pm** take the bus at PSTU
 - **@ 3.50–4.00 pm** take the bus at Barishal
@@ -225,14 +225,14 @@ At the end of the field trip, the participant students will be able to:
 ![](images/ag2025tour.jpg){width=60%, fig-align=center} 
 
 
-## Go to slido.com and enter the code to join
+## Go to slido.com and enter the code to join {.hidden}
 
 <div style="text-align:center">Question, Comments, Suggestions</div>
 
 ![](images/feedback-text){width=70%, fig-align=center} 
 
 
-## Go to slido.com and enter the code to join
+## Go to slido.com and enter the code to join {.hidden}
 
 <div style="text-align:center">Are you happy with this session?</div>
 
