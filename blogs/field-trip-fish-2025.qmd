@@ -220,3 +220,17 @@ At the end of the field trip, the participant students will be able to:
 <div style="text-align:center">Question, Comments, Suggestions</div>
 
 ![](images/ag2025tour.jpg){width=60%, fig-align=center} 
+
+
+## Go to slido.com and enter the code to join
+
+<div style="text-align:center">Question, Comments, Suggestions</div>
+
+![](images/feedback-text){width=70%, fig-align=center} 
+
+
+## Go to slido.com and enter the code to join
+
+<div style="text-align:center">Are you happy with this session?</div>
+
+![](images/feedback-happy){width=70%, fig-align=center} 
