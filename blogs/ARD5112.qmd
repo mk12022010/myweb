@@ -641,7 +641,7 @@ Psychological features that invoke feelings
 ## Three Types of Communication
 
 - **Interpersonal:** Communicator meets individual audience (face-to-face, meeting, visit, letter, phone, video call)
-- **Group:** Communicator reaches group with known identities (group discussion, method demonstration)  
+- **Group:** Communicator reaches a group with known identities (group discussion, method demonstration)  
 - **Mass:** Communicator reaches large number with unknown identities (mass gathering, radio, TV, newspaper)
 
 **Intrapersonal communication:** Communicating with onself
@@ -653,18 +653,12 @@ Psychological features that invoke feelings
 ## Inerpersonal Communication
 
 - Non-verbal cues vital in interpersonal, classroom, group, mass communication
-- Non-verbal can be stronger than verbal
+- Non-verbal communication can be stronger than verbal one.
 - Strong skills needed in personal/professional life
-- In business: speak clearly/confidently to build rapport/convince
+- In business: speak clearly/confidently to build rapport and convince
 - Conflicts are common in interpersonal communication
+- Some inherently expert; others need to learn skills and guidelines
 
-
-## Guidelines for Interpersonal Communication
-
-- Professionals should follow guidelines in all audience settings
-- Some inherently expert; others need to learn guidelines
-- Strong skills needed in personal/professional life
-- In business: speak clearly/confidently to build rapport/convince
 
 
 ## Skills needed for Interpersonal Communication
@@ -681,10 +675,10 @@ Source: [ecampusontario.pressbooks.pub](https://ecampusontario.pressbooks.pub/in
 ## Guidelines for Verbal Communication
 
 - Think before speaking
+- Be active listener (receiving, understanding, remembering, evaluating, responding)
 - Be clear and concise; make simple considering audience
 - Speak with confidence using proper voice, body language, eye contact
 - Vary vocal tone; use inflection for emphasis, pitch for emotion
-- Be active listener (receiving, understanding, remembering, evaluating, responding)
 - Be aware of non-verbal cues; read audience body language
 
 
@@ -714,7 +708,7 @@ Source: [ecampusontario.pressbooks.pub](https://ecampusontario.pressbooks.pub/in
 
 
 
-## Non-verbal Guidelines (Continued)
+## Improving Non-verbal Communication
 
 - Difficult to improve because faults arise unconsciously
 - Video record self-presentation and review with colleague/friend
@@ -735,7 +729,7 @@ Source: [ecampusontario.pressbooks.pub](https://ecampusontario.pressbooks.pub/in
 
 ## Conflict resolution
 
-- Improve communication skill
+- Use professional communication skill
 - Solve conflict mindfully and thoughtfully
 - Find points of both the parties' actions
 - Identify common parts of the both parties
@@ -756,89 +750,22 @@ Source: [ecampusontario.pressbooks.pub](https://ecampusontario.pressbooks.pub/in
 - Conflict management
 
 
-
-# Communication strategy
-
-
-## Communication fidelity {.smaller1}
-
-- Communication fidelity indicates the accuracy of message transfer. This is about **Clarity**.
-- This means the degree to which the receiver perceives the intended meaning of the message
-- High fidelity: Receiver clearly understands the message. e.g., A UAO suggests a farmer to apply a pesticide at 7 days interval always in the afternoon during relatively low wind flow. If the farmer can explain the same, this indicates high communication fidelity.
-- Low fidelity: Receiver misunderstands the message. e.g., If the farmer in the above example understands partially the message, this will have low communication fidelity.
-
-
-## Communication effectiveness
-
-- Communication effectiveness refers to the degree to which the communication goal can be achieved i.e. the desired effects can be realised. This is about **Impact**
-- High effectiveness: Receiver follows the instruction. e.g., A UAO suggests a farmer to apply a pesticide at 7 days interval always in the afternoon during relatively low wind flow. If the farmer does the same, this indicates high communication effectiveness.
-- Low effectiveness: Receiver follows the message. e.g., If the farmer in the above example does not follow the instruction, this will have low communication effectiveness.
-
-
-
-## Effective communication is a function of:
-
-1.  **Source credibility** – Trustworthiness, expertise, knowledge, attitude, delivery skill
-2.  **Audience characteristics** – Age, education, values, needs, attitude, intention, social status
-3.  **Channel availability** – Face-to-face, phone, email
-4.  **Feedback mechanism** – Immediate or delayed, verbal or non-verbal
-5.  **Message treatment** – Tailoring the message aligned with clear objectives, channel and audience improves effectiveness.
-
-
-## Persuasive Communication 
-
--   **Empathy**: Put yourself in others’ shoes
--   **Clarity**: Use clear, precise language
--   **Relevance**: Match audience interest
--   **Respect**: Be polite and culturally sensitive
-
-
-## Objectivity and Subjectivity {.smaller1}
-
-::::: columns
-::: {.column width="70%"}
-
--   **Objective**: Facts, data, neutrality
--   **Subjective**: Emotions, experience, opinion
--   **Important vs Urgent**: Don't miss the important ones becuase of many other urgent issues.
-
-> Good communication blends all thoughtfully.
-
-> Usual things don’t make headlines — unusual does!
-:::
-
-::: {.column width="30%"}
-
-![](images/outlier.png){.absolute top=150 right=0 width="250" height="500"}
-
-:::
-:::::
-
-
-## Avoid Biases in Communication
-
--   Avoid **prejudices** and **bias**
--   Don’t rely only on past experience
--   Incorporate **latest and accurate information**
-
-
-
 # Mass Communication
 
 ## Communication methods, channels and aids
 
-- Methods (TV broadcast): 
+- **Methods (TV broadcast): **
 
   - how to transfer the message
   - nature of interaction
 
   
-- Channels (TV): 
+- **Channels (TV): **
 
   - through what the message is transferred
-  - medium or tools of interaction
+  - medium or essential tools of interaction
 
-- Aids (loud speaker): 
+- **Aids (loud speaker): **
 
   - how the transfer can be made more effective
   - helping tools of interaction
@@ -871,10 +798,10 @@ Source: [ecampusontario.pressbooks.pub](https://ecampusontario.pressbooks.pub/in
 
 **Art of public speaking [@khan2002]:**
 
-- Don't be afraid, it is an easy task: Anything for the first time seem difficult. Take time for preparation.
-- Practice makes man perfect: Rehearse the contents by speaking loudly in front of mirror, friends or colleagues.
-- The chemical adrenalin: Control your adrenalin (emergency defense system activator hormone), don't be controlled by it. You need this hormone to overcome dull, uninteresting and monotonous speech. Uncontrolled adrenalin can ruin your speech. Take opportunities whenever you get chances.
-- Communicate message: Keep information in your pocket to deliver. This will automatically eliminate your nervousness.
+- **Take it easy:** Anything for the first time seems difficult. Take time for preparation.
+- **Practice makes perfect:** Rehearse the contents by speaking loudly in front of a mirror, friends or colleagues.
+- **The chemical adrenalin:** Control your adrenalin (emergency defense system activator hormone), don't be controlled by it. You need this hormone to overcome dull, uninteresting and monotonous speech. Uncontrolled adrenalin can ruin your speech. Take opportunities whenever you get chances.
+- **Communicate message:** Keep information in your pocket to deliver. This will automatically eliminate your nervousness.
 
 
 ## Principles of public speaking [@khan2002] {.smaller2}
@@ -889,6 +816,88 @@ Source: [ecampusontario.pressbooks.pub](https://ecampusontario.pressbooks.pub/in
 1. Speak loud enough.
 1. Follow the ABC of speaking - Accuracy, Brevity, Clarity.
 1. Speak from your mind rather than reading.
+
+
+
+# Communication strategy
+
+
+## Communication fidelity {.smaller1}
+
+- Communication fidelity indicates the accuracy of message transfer. This is about **Clarity**.
+- This means the degree to which the receiver perceives the intended meaning of the message
+- **High fidelity:** Receiver clearly understands the message. e.g., A UAO suggests a farmer to apply a pesticide at 7 days interval always in the afternoon during relatively low wind flow. If the farmer can explain the same, this indicates high communication fidelity.
+- **Low fidelity:** Receiver misunderstands the message. e.g., If the farmer in the above example understands partially the message, this will have low communication fidelity.
+
+
+## Communication effectiveness
+
+- Communication effectiveness refers to the degree to which the communication goal can be achieved i.e. the desired effects can be realised. This is about **Impact**
+- **High effectiveness:** Receiver follows the instruction. e.g., A UAO suggests a farmer to apply a pesticide at 7 days interval always in the afternoon during relatively low wind flow. If the farmer does the same, this indicates high communication effectiveness.
+- **Low effectiveness:** Receiver follows the message. e.g., If the farmer in the above example does not follow the instruction, this will have low communication effectiveness.
+
+
+
+## Effective communication is a function of:
+
+1.  **Source credibility** – Trustworthiness, expertise, knowledge, attitude, delivery skill
+2.  **Audience characteristics** – Age, education, values, needs, attitude, intention, social status
+3.  **Channel availability** – Face-to-face, phone, email
+4.  **Feedback mechanism** – Immediate or delayed, verbal or non-verbal
+5.  **Message treatment** – Tailoring the message aligned with clear objectives, channel and audience improves effectiveness.
+
+
+## Factors affecting communication effectiveness
+
+1. Socio-deomographic and economic characteristics, including education, experience, income level, social interaction intensity
+2. Media choice
+3. Language barriers
+4. Audience attitude
+5. Audience need
+6. Role of extension agents, input dealers and farmer groups
+7. Focus of the communication: targeted vs general
+
+References: [@awili2016],[ @age2012], and[ @oktarina2008]
+
+
+
+## Persuasive Communication 
+
+**Considerations:**
+
+-   **Empathy**: Put yourself in others’ shoes
+-   **Clarity**: Use clear, precise language
+-   **Relevance**: Match audience interest
+-   **Respect**: Be polite and culturally sensitive
+
+
+## Objectivity and Subjectivity {.smaller1}
+
+::::: columns
+::: {.column width="70%"}
+
+-   **Objective**: Facts, data, neutrality (as it is description)
+-   **Subjective**: Emotions, experience, opinion (mixed with prejudice)
+-   **Important vs Urgent**: Don't miss the important ones becuase of many other urgent issues.
+
+> Good communication blends all thoughtfully.
+
+> Usual things don’t make headlines — unusual does!
+:::
+
+::: {.column width="30%"}
+
+![](images/outlier.png){.absolute top=150 right=0 width="250" height="500"}
+
+:::
+:::::
+
+
+## Avoid Biases in Communication
+
+-   Avoid **prejudices** and **bias**.
+-   Don’t rely only on past experience.
+-   Incorporate **latest and accurate information**.
 
 
 # System Approach
@@ -913,16 +922,16 @@ F --> G[Innovation or Technology]
 - All are projected towards reducing uncertainty for a decision maker.
 
 
-## Concept of System {.smaller1}
+## Concept of a System {.smaller1}
 
-- System implies 
+- System implies- 
 
-  - Wholeness in structure and objective
+  - wholeness in structure and objective
   - presence of parts in relationship
-  - The whole is different from the elements
-  - Dropping any elements can collapse the system
+  - the whole is different from the elements
+  - dropping any elements can collapse the system
 
-- System has
+- System has-
 
   - boundary for filtration and protection
   - balanced state
@@ -959,15 +968,15 @@ F --> G[Innovation or Technology]
 
 ## AKIS
 
-- AKIS - Agricultural Knowledge and Information Systems
+- AKIS - _Agricultural Knowledge and Information Systems_
 - It is a concept to explain the exchange of information, knowledge and services among research, extension and farmers.
-- AKIS is, nowadays, also known as Agricultural Knowledge and Innovation System
+- AKIS is, nowadays, also known as _Agricultural Knowledge and Innovation System_
 - It is an analytical construct for illustrating actors and networks of agricultural knowledge and information flow.
 
 Reference: @germundsson2021
 
 
-## Characterisation of AKIS
+## Typology of AKIS
 
 - **Strong AKIS:** Influential actors or organisations at national level, high public investment
 - **Weak AKIS:** Small private initiatives, not well supported by policies
@@ -1026,7 +1035,7 @@ ggplot(df, aes(x, y, label = country)) +
 ```
 
 
-## Simple AKIS
+## Simple AKIS/AKS
 
 <div style="text-align: center;">
   <img src="images/akis.png" alt="AKIS Diagram" />
@@ -1045,12 +1054,12 @@ According to @dubey2008, AKIS is important to analise for:
 
 ## Insights of AKIS in Bangladesh
 
-- Farmers generate a lot of knowledge
-- Information channels may not be agricultural
-- Farmers mostly get information from farmers
-- Formal channels are often top-down
-- Little linkage exists among elements
-- Need and access to information varies with farmer categories
+- Farmers generate a lot of knowledge.
+- Information channels may not be agricultural.
+- Farmers mostly get information from farmers.
+- Formal channels are often top-down.
+- Little linkage exists among elements.
+- Need and access to information varies with farmer categories.
 - AIS, mass media, extension agents, agricultural research organizations, input dealers, and farmers are major part of AKIS in Bangladesh.
 
 
@@ -1076,7 +1085,7 @@ The AKIS can be analysed using the following questions [@blaettler2020]:
 2. Communication infrastructure for agricultural development in Bangladesh
 3. Use of ICT and GIS in agricultural development in Bangladesh
 
-Instruction:
+**Instructions:**
 
 - 16 October 2025: Written assignment (~3 pages, Times New Roman, 12 font size, 1.15 spacing)
 - 16 October 2025: Presentation (15 minutes, 10 ppt slides)
