@@ -1090,7 +1090,7 @@ The AKIS can be analysed using the following questions [@blaettler2020]:
 # Information Technology
 
 
-## Assignment and presentation
+## Assignment and presentation: Chapter 9 {.smaller2}
 
 1. Role of telecommunication in agricultural technology transfer
 2. Communication infrastructure for agricultural development in Bangladesh
@@ -1100,6 +1100,10 @@ The AKIS can be analysed using the following questions [@blaettler2020]:
 
 - 16 October 2025: Written assignment (~3 pages, Times New Roman, 12 font size, 1.15 spacing)
 - 16 October 2025: Presentation (15 minutes, 10 ppt slides)
+- Class test 1: Chapter 1
+- Class Test 2: Chapter 2 to 4
+- Final: Chapter 5 to 8
 
-## References (Online resources + the followins)
+
+## References (Online resources + the followings)
 
