@@ -487,61 +487,49 @@ In persuasive communication, vital role in message acceptance
 
 # Message Management
 
-## Characteristics of a Message
+## Characteristics of a Message {.smaller2}
 
-- Technology orderly organized and encoded for information, instruction or persuasion
-- Recommendations/contents affecting socioeconomic life
+The message is the orderly organized and encoded for information, instructions, recommendations or contents for persuasion that affect socioecnomic life. The should be:
 
-**Characteristics:**
-
-- Relevant to objective
-- Clearly understandable
-- Aligned with mental, social, economic, physical capabilities
-- Socially and economically significant
-- Specific - no irrelevant material
-
-
-
-## Characteristics (Continued)
-
-- Simply stated
-- Accurate and scientifically valid
+- Simply stated and clearly understandable
+- Relevant to objective, specific, accurate and scientifically valid
 - Timely in relation to practice
 - Appropriate to channel used
 - Appealing and attractive
-- Applicable to user system
+- Applicable to user system: Socially and economically significant
 - Adequate and complete
-- Manageable by source and receiver
+- Manageable by source and receiver: Aligned with mental, social, economic, physical capabilities
 - Persuasive - affects affective domain for changes
 
 
 
 ## Treatment of a Message {.smaller1}
 
-- Encoding message to make it understandable for desired feedback
+- Message treatment means encoding the message to make it understandable for desired feedback
 - Necessary to carry intended meaning
 - Organized message produces more comprehension and retention
 - Disorganized message may foil communication functions
 
-For effective persuasion [@hovland1953]:
+For effective persuasion [@hovland1953], message treatment involves:
 
 - (A) Pattern of organization
 - (B) Ordering of arguments  
 - (C) Nature of arguments
 - (D) Message style
+- (E) Message appeals
 
 
 
 ## A. Pattern of Organization {.smaller2}
 
-1. **Space Pattern** - geographical order (e.g. AEZ, soil tracts)
-2. **Time order** - historical perspective (e.g. Agricultural development)
+1. **Spatial order** - space or geographical pattern (e.g. AEZ, soil tracts)
+2. **Chronological order** - time pattern,  historical perspective (e.g. Agricultural development)
 3. **Deductive order** - general to specific (e.g. role of communication)
 4. **Inductive order** - specific to general (e.g. impact of compost use)
 5. **Psychological order** - based on attitude, need, satisfaction, visualization, action
-6. **Problem-solving order** - cultivation process
-7. **Climax order** - key points at end
-8. **Anticlimax order** - key points at beginning  
+6. **Problem-solving order** - focuses on breking down the problem (e.g. cultivation process)
+7. **Climax order** - key points at the end
+8. **Anticlimax order** - key points at the beginning  
 9. **Pyramidal order** - key points at middle
 
 
@@ -567,14 +555,14 @@ For effective persuasion [@hovland1953]:
 ## D. Message Style
 
 1. **Message repetition** - Increases awareness but continued repetition may cause boredom
-2. **Message comprehension** - Receivers must understand to accept; correlated with agreement/retention
-3. **Source evaluation** - Communicator evaluated based on message contents affecting credibility
+2. **Message clarity** - Receivers must understand to accept; correlated with agreement/retention
+3. **Message contents** - Communicator is evaluated based on message contents affecting credibility
 
 
 
-## Message Appeals
+## E. Message Appeals
 
-Psychological features that invoke feelings
+Psychological features that invoke feelings and create motivation.
 
 **1. Fear appeal**
 
@@ -590,18 +578,19 @@ Psychological features that invoke feelings
 
 - Message organized with possible benefits from innovation
 - Blended with relative merits/advantages
-- Example: Binashail vs Nazirshail - taller plants, 20% higher yield, earlier maturity, better recovery, rainfed cultivation, high demand
-- **Conclusion drawing:** Explicit conclusions by source more effective than implicit by receivers
+- Example: Binashail has taller plants than Nazirshail, 20% higher yield, earlier maturity, better recovery, rainfed cultivation, high demand
+
+> **Conclusion drawing:** Explicit conclusions by source are more effective than implicit by receivers.
+
 
 ## Message Appeals (Continued)
 
 **3. Emotional appeal**
 
 - 'Pathos' appeals creating appropriate feeling using values/emotions
-- Argue for belief by pointing out rewards from holding belief
+- Argue for belief by pointing out rewards from holding belief and affection (religious, family, loving ones, communinity, country, environment, welfare, and so on)
+- This something like finding one's weak (extreme affinity) points and directing the message encompassing that side.
 - Example: Clean homestead for safe environment for kids/parents
-- Example: Bangabandhu's speech on 7 March 1971
-
 
 
 ## Message Appeals (Continued)
@@ -609,7 +598,7 @@ Psychological features that invoke feelings
 **4. Rational appeal**
 
 - 'Logos' appeals presenting empirical/logical evidence
-- Result demonstration is rational appeal
+- Result demonstration is rational appeal (seeing is believing)
 - Emotional and rational appeals often complementary
 - Emotional for politicians; rational for elite/educated voters
 - Association with known facts, visual elements, non-verbal cues works well
@@ -619,14 +608,14 @@ Psychological features that invoke feelings
 ## Message Reception - 'Selective'/'Partial'
 
 - Process of exposure/attention, perception and retention
-- Effects depend on attention, learning, and perception as intended
+- Learning in terms of change in behaviour depends on attention and perception
 - Audience reaction explained by selective exposure, perception, retention
 - People attend to **(selective exposure)**, understand **(selective perception)**, remember **(selective retention)** parts supportive of existing knowledge/attitude/beliefs
-- Knowledge-gap hypothesis: Farmers with better knowledge have better attention/perception/retention
+- Knowledge-gap hypothesis: Farmers with better knowledge have better attention/perception/retention. Thus, they aquire more knowledge, increasing the gap with the farmers with less knowledge.
 
 
 
-## Source Evaluating Variables of Message
+## Variables for evaluating a message
 
 1. **Listenibility/readability** - Economy of words; short active sentences (8-10 words); short words
 2. **Human interest** - Related to receivers
@@ -669,13 +658,13 @@ Source: [ecampusontario.pressbooks.pub](https://ecampusontario.pressbooks.pub/in
 - **People skill:** sympathy and empathy,  see the context from others' perspectives
 - **Emotional intelligence:** knowing own emotion, showing careful emotions and reactions
 
-**Stick to the ethical values while communicating.**
+**Stick to the ethical values while communicating.** Respect culture, dressing, language, norms and locality of the audience.
 
 
 ## Guidelines for Verbal Communication
 
-- Think before speaking
-- Be active listener (receiving, understanding, remembering, evaluating, responding)
+- Think before speaking (check your gear before hitting the acceleration pedal)
+- Be an active listener (receiving, understanding, remembering, evaluating, responding)
 - Be clear and concise; make simple considering audience
 - Speak with confidence using proper voice, body language, eye contact
 - Vary vocal tone; use inflection for emphasis, pitch for emotion
@@ -686,9 +675,9 @@ Source: [ecampusontario.pressbooks.pub](https://ecampusontario.pressbooks.pub/in
 ## Guidelines for Non-verbal Communication
 
 - **Facial expression** - Relax muscles, smile, avoid frown, conform with emotion
-- **Eye contact** - Binds speaker/audience, conveys honesty/respect; roam gaze, don't stare
+- **Eye contact** - Binds speaker/audience, conveys honesty/respect; roam/change gaze, don't stare
 - **Tone, pitch, speed** - Speak slowly/clearly with modulation
-- **Appearance** - Proper dress/make-up/hairstyle for context; formal outlook for seriousness
+- **Appearance** - Proper dress, make-up and hairstyle for context; formal outlook for seriousness
 - **Gesture** - Using body parts (head, hands, thumbs, legs, whole body)
 
 
@@ -703,7 +692,7 @@ Source: [ecampusontario.pressbooks.pub](https://ecampusontario.pressbooks.pub/in
   - Standing on one foot: Personality issues
 
 - **Touch** - Hug, handshake, light tap
-- **Space** - Distance shows affection/domination
+- **Space** - Closeness/distance shows affection/domination/respect.
 - **Getting rid of distracting mannerism** - Vocal impediments, finger tapping, lip biting/licking, toying with objects, frowning, throwing hands, shaking legs, adjusting dress/hair, head wagging
 
 
@@ -819,7 +808,34 @@ Source: [ecampusontario.pressbooks.pub](https://ecampusontario.pressbooks.pub/in
 
 
 
-# Communication strategy
+# Communication Strategy
+
+## Communication strategy
+
+A communication strategy is a detail plan that includes:
+
+- what a communicator will say, 
+- to whom, why, how, and
+-  when to achieve specific objectives of communication, such as transferring a technology or improving farmers' skill. 
+
+> Communication stragy = setting goals ⟹ identifying target audiences ⟹ treatment of messages ⟹ selecting appropriate channels ⟹ measuring effectiveness 
+
+## Key components of communication strategy {.smaller2}
+Goals: Clear, measurable objectives for the communication effort. 
+Audience: The specific people or groups the communication is intended for, whether internal (SAAO) or external (farmers). 
+Messages: The core ideas and information that need to be communicated, organized for the target audience. 
+Channels: The platforms or methods used to deliver the message, such as social media, bulletin, or face-to-face meetings. 
+Metrics: Ways to measure the success and effectiveness of the communication strategy. 
+
+
+## Example of a communication strategy
+ 
+
+A strategy to inform 200 potential farmers about a technology could involve: poster/leaflet/farmers meeting, and campaign, using consistent parallel messaging about the benefits to motivate them to adopt the technology. 
+
+> **Q. How will you evaluate teh success of this communication strategy?**
+> Communication success = Fidelity + Effectiveness
+
 
 
 ## Communication fidelity {.smaller1}
