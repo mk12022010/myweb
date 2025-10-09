@@ -635,8 +635,6 @@ Psychological features that invoke feelings and create motivation.
 
 **Intrapersonal communication:** Communicating with onself
 
-**Persuasive communication:** Art to convince using skills, credible source, convincing arguments, relevance
-
 
 
 ## Interpersonal Communication
@@ -760,7 +758,7 @@ Source: [ecampusontario.pressbooks.pub](https://ecampusontario.pressbooks.pub/in
   - helping tools of interaction
   
 
-# Communication types linked to methods and channels [@ray2003]
+# Communication types linked to methods, channels and aids [@ray2003]. Note: These are sometimes overlapping and the distiction is fuzzy and blurred. Consider their position and way of use. {.smaller2}
 
 ## **Individual**
 
@@ -821,11 +819,12 @@ A communication strategy is a detail plan that includes:
 > Communication stragy = setting goals ⟹ identifying target audiences ⟹ treatment of messages ⟹ selecting appropriate channels ⟹ measuring effectiveness 
 
 ## Key components of communication strategy {.smaller2}
-Goals: Clear, measurable objectives for the communication effort. 
-Audience: The specific people or groups the communication is intended for, whether internal (SAAO) or external (farmers). 
-Messages: The core ideas and information that need to be communicated, organized for the target audience. 
-Channels: The platforms or methods used to deliver the message, such as social media, bulletin, or face-to-face meetings. 
-Metrics: Ways to measure the success and effectiveness of the communication strategy. 
+
+**Goals:** Clear, measurable objectives for the communication effort. 
+**Audience:** The specific people or groups the communication is intended for, whether internal (SAAO) or external (farmers). 
+**Messages:** The core ideas and information that need to be communicated, organized for the target audience. 
+**Channels:** The platforms or methods used to deliver the message, such as social media, bulletin, or face-to-face meetings. 
+**Metrics:** Ways to measure the success and effectiveness of the communication strategy. 
 
 
 ## Example of a communication strategy
@@ -889,6 +888,8 @@ Source:
 
 
 ## Persuasive Communication 
+
+**Persuasive communication:** Art to convince using skills in negotiation, bagaining, diplomatic situation, arbitration and conflict resolution.
 
 **Considerations:**
 
