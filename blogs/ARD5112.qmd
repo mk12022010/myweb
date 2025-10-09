@@ -820,11 +820,11 @@ A communication strategy is a detail plan that includes:
 
 ## Key components of communication strategy {.smaller2}
 
-**Goals:** Clear, measurable objectives for the communication effort. 
-**Audience:** The specific people or groups the communication is intended for, whether internal (SAAO) or external (farmers). 
-**Messages:** The core ideas and information that need to be communicated, organized for the target audience. 
-**Channels:** The platforms or methods used to deliver the message, such as social media, bulletin, or face-to-face meetings. 
-**Metrics:** Ways to measure the success and effectiveness of the communication strategy. 
+- **Goals:** Clear, measurable objectives for the communication effort. 
+- **Audience:** The specific people or groups the communication is intended for, whether internal (SAAO) or external (farmers). 
+- **Messages:** The core ideas and information that need to be communicated, organized for the target audience. 
+- **Channels:** The platforms or methods used to deliver the message, such as social media, bulletin, or face-to-face meetings. 
+- **Metrics:** Ways to measure the success and effectiveness of the communication strategy. 
 
 
 ## Example of a communication strategy
