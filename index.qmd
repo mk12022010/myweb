@@ -48,7 +48,7 @@ Currently, Professor Hasan is the Chairman of Agricultural Extension and Rural D
 
 1. Maiti, A., **Hasan, M. K.**, Sannigrahi, S., et al. (2024). Optimal rainfall threshold for monsoon rice production in India varies across space and time. *Communications Earth & Environment, 5*, 302. [https://doi.org/10.1038/s43247-024-01414-7](https://doi.org/10.1038/s43247-024-01414-7)
 
-1. Siddik, M. A., **Hasan, M. K.**, Islam, A. R. M. T., & Islam, M. S. (2023). Coastal Community Valorization through Patuakhali Science and Technology University: Policy Support and Way Forwards. *Journal of Planning Education and Research, 45(1)*, 14-24.  [https://doi.org/10.1177/0739456X231195620]([https://doi.org/10.1177/0739456X231195620)
+1. Siddik, M. A., **Hasan, M. K.**, Islam, A. R. M. T., & Islam, M. S. (2023). Coastal Community Valorization through Patuakhali Science and Technology University: Policy Support and Way Forwards. *Journal of Planning Education and Research, 45(1)*, 14-24.  [https://doi.org/10.1177/0739456X231195620](https://doi.org/10.1177/0739456X231195620)
 
 1. **Hasan, M. K.**, and Kumar, L. (2022). Changes in coastal farming systems in a changing climate. *Regional Environmental Change, 22*, 113. [https://doi.org/10.1007/s10113-022-01962-8](https://doi.org/10.1007/s10113-022-01962-8)
 
@@ -109,5 +109,6 @@ Currently, Professor Hasan is the Chairman of Agricultural Extension and Rural D
 | MS/MBA | Anika Ahmed | Climate Vulnerability of Rural Households in the Exposed Central Coast of Bangladesh | Supervisor |
 | MS/MBA | Shimul Banik | Livelihood Strategies and Food Security of Coastal Fishermen in Patuakhali | Supervisor |
 :::
+
 
 :::
