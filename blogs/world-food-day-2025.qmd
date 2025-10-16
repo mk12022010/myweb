@@ -2,6 +2,7 @@
 title: "World Food Day 2025"
 subtitle: "Hand in Hand for a Better Food and a Better Future"
 author: "Prof. Dr. Md. Kamrul Hasan"
+institute: "Webinar on Youth Collaboration for a Better Food Future in Bangladesh organizede by World Food Forum (WFF) Bangladesh Chapter Team"
 date: "2025-10-16"
 
 categories:
