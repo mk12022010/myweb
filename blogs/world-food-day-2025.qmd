@@ -1,5 +1,6 @@
 ---
-title: "Hand in Hand for a Better Food and a Better Future"
+title: "World Food Day 2025"
+subtitle: "Hand in Hand for a Better Food and a Better Future"
 author: "Prof. Dr. Md. Kamrul Hasan"
 date: "2025-10-16"
 
