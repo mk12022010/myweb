@@ -46,6 +46,7 @@ if (interactive()) {
 - Do you know how many people are dying of hunger right now?
 - Between 7,700 and over 20,000 people die every day from hunger-related causes.
 - That is roughly 10 every minute (Oxfam, 2024).
+- Hunger-related death toll is higher than the combined figure of AIDS, malaria and typhoid.
 
 ---
 
@@ -59,15 +60,17 @@ if (interactive()) {
 ## Bangladesh Reality
 
 - Bangladesh produces enough rice for its needs, but it struggles with malnutrition and food insecurity.
-- Approximately 17% of the population is food-insecure, particularly in coastal regions. Climate stress and market inequalities make the situation worse.
+- Approximately 17% of the population is food-insecure, particularly in coastal regions.
+- Among them around 10% are severely food insecure.
+- Climate stress and market inequalities make the situation worse.
 
 ---
 
 ## Major Causes of Hunger
 
-- Inequitable Distribution, unequal access to markets and resources (Benassai‑Dalmau et al., 2025).
-- Food Loss and Waste, 21 million tonnes lost annually (CPD, 2024).
-- Climate and Conflict Impacts, extreme weather, price volatility, and displacement (Oxfam, 2024).
+- Inequitable distribution of food, unequal access to markets and resources (Benassai‑Dalmau et al., 2025).
+- Food loss and waste: 21 million tonnes lost annually (CPD, 2024).
+- Climate and conflict impacts, extreme weather, price volatility, and displacement (Oxfam, 2024).
 
 ---
 
@@ -79,7 +82,7 @@ Food security = Production × Access × Equity × Sustainability.
 
 - Social safety nets and nutrition-sensitive agriculture.
 - Local food systems and short value chains.
-- Investment in post-harvest management and youth innovation.
+- Investment in post-harvest management and youth involvement.
 
 ---
 
@@ -87,13 +90,13 @@ Food security = Production × Access × Equity × Sustainability.
 
 - **National:** fair markets, subsidies, inclusive land policies.
 - **Local:** link cooperatives, women’s groups, and markets.
-- **Multi-sector:** universities, NGOs, and government coordination for resilient systems.
+- **Multi-sector:** coordination of universities, NGOs, and government agencies for resilient systems.
 
 ---
 
-## Youth as Change Catalysts
+## Youth as Change Agents
 
-- Youth networks bridge innovation and field needs.
+- Youth networks connects innovation and local needs.
 - Promote agri-digital tools, climate-smart practices, entrepreneurship.
 - Showcase local startups and youth-led agrifood initiatives.
 
@@ -105,17 +108,20 @@ Food security = Production × Access × Equity × Sustainability.
 
 **Action Steps:**
 
+- National database of food insecure households.
 - Integrate equity in food policy.
-- Build trust-based partnerships.
+- Build partnerships among people, NGOs and GOs.
 - Empower youth and communities.
+- Strengthen living labs and science-policy interface 
 
 ---
 
 ## Conclusion
 
-“If you cannot feed a hundred people, then feed just one.” — Mother Teresa
+> “If you cannot feed a hundred people, then feed just one.” — Mother Teresa
 
-Collective humanity defines our food future.
+- Collective humanity defines our food future.
+- Awareness and action for collective humanity.
 
 ---
 
