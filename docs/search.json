@@ -116,343 +116,175 @@
     "href": "blogs.html",
     "title": "RUEN Research Blog",
     "section": "",
-    "text": "Welcome to my blog! Here you can find a collection of my latest posts on various topics. Feel free to explore and engage with the content.\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nExtension Field Trip 2025\n\n\nFaculty of Fisheries\n\n\n\n\nField Trip\n\n\nFisheries Extension\n\n\n\n\n\n\n\n\n\n\n\nSep 19, 2025\n\n\nProfessor Dr. Md. Kamrul Hasan\n\n\n\n\n\n\n  \n\n\n\n\nResponsible Use of Artificial Intelligence in Academic Research\n\n\nFrom Problem Identification to Publication\n\n\n\n\nEthical use of AI\n\n\nResearch\n\n\nArtificial Intelligence\n\n\n\n\n\n\n\n\n\n\n\nSep 5, 2025\n\n\nProfessor Dr. Md. Kamrul Hasan\n\n\n\n\n\n\n  \n\n\n\n\nExtension Field Trip 2025\n\n\nFaculty of Agriculture\n\n\n\n\nField Trip\n\n\nAgricultural Extension\n\n\n\n\n\n\n\n\n\n\n\nAug 19, 2025\n\n\nProfessor Dr. Md. Kamrul Hasan\n\n\n\n\n\n\n  \n\n\n\n\nARD 5112: Communication and Information Technology\n\n\n\n\n\n\n\nMS\n\n\nCommunication\n\n\nARD 5112\n\n\n\n\n\n\n\n\n\n\n\nAug 17, 2025\n\n\nProf. Dr. Md. Kamrul Hasan\n\n\n\n\n\n\n  \n\n\n\n\nJournalism and Communication\n\n\n\n\n\n\n\nCommunication\n\n\nGeneral\n\n\nJournalism\n\n\n\n\n\n\n\n\n\n\n\nJul 18, 2025\n\n\nProfessor Dr. Md. Kamrul Hasan\n\n\n\n\n\n\n  \n\n\n\n\nWhy to learn R/Python?\n\n\n\n\n\n\n\nR\n\n\nPython\n\n\n\n\n\n\n\n\n\n\n\nAug 3, 2024\n\n\nProfessor Dr. Md. Kamrul Hasan\n\n\n\n\n\n\nNo matching items"
+    "text": "Welcome to my blog! Here you can find a collection of my latest posts on various topics. Feel free to explore and engage with the content.\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nHand in Hand for a Better Food and a Better Future\n\n\n\n\n\n\n\nWorld Food Day 2025\n\n\nFood security\n\n\nPlenty-share paradox\n\n\nWebinar\n\n\n\n\n\n\n\n\n\n\n\nOct 16, 2025\n\n\nProf. Dr. Md. Kamrul Hasan\n\n\n\n\n\n\n  \n\n\n\n\nExtension Field Trip 2025\n\n\nFaculty of Fisheries\n\n\n\n\nField Trip\n\n\nFisheries Extension\n\n\n\n\n\n\n\n\n\n\n\nSep 19, 2025\n\n\nProfessor Dr. Md. Kamrul Hasan\n\n\n\n\n\n\n  \n\n\n\n\nResponsible Use of Artificial Intelligence in Academic Research\n\n\nFrom Problem Identification to Publication\n\n\n\n\nEthical use of AI\n\n\nResearch\n\n\nArtificial Intelligence\n\n\n\n\n\n\n\n\n\n\n\nSep 5, 2025\n\n\nProfessor Dr. Md. Kamrul Hasan\n\n\n\n\n\n\n  \n\n\n\n\nExtension Field Trip 2025\n\n\nFaculty of Agriculture\n\n\n\n\nField Trip\n\n\nAgricultural Extension\n\n\n\n\n\n\n\n\n\n\n\nAug 19, 2025\n\n\nProfessor Dr. Md. Kamrul Hasan\n\n\n\n\n\n\n  \n\n\n\n\nARD 5112: Communication and Information Technology\n\n\n\n\n\n\n\nMS\n\n\nCommunication\n\n\nARD 5112\n\n\n\n\n\n\n\n\n\n\n\nAug 17, 2025\n\n\nProf. Dr. Md. Kamrul Hasan\n\n\n\n\n\n\n  \n\n\n\n\nJournalism and Communication\n\n\n\n\n\n\n\nCommunication\n\n\nGeneral\n\n\nJournalism\n\n\n\n\n\n\n\n\n\n\n\nJul 18, 2025\n\n\nProfessor Dr. Md. Kamrul Hasan\n\n\n\n\n\n\n  \n\n\n\n\nWhy to learn R/Python?\n\n\n\n\n\n\n\nR\n\n\nPython\n\n\n\n\n\n\n\n\n\n\n\nAug 3, 2024\n\n\nProfessor Dr. Md. Kamrul Hasan\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "blogs/field-trip-fish-2025.html#extension-field-trip-2025",
-    "href": "blogs/field-trip-fish-2025.html#extension-field-trip-2025",
+    "objectID": "blogs/why-r-python.html",
+    "href": "blogs/why-r-python.html",
+    "title": "Why to learn R/Python?",
+    "section": "",
+    "text": "Python or R is an open-source programming language. Python is one of the most widely used general programming language and R is one of the most widely used programming language for research and data analysis.\nCode sharing, customizing, reusability of codes, and literally endless possibility of expansion of data science ideas are some of the benefits of command-driven programs over menu-driven programs.\nR seems to know anything that a data analyst needs to analyze. The code is highly customizable. One problem can be solved in different ways. Output formatting can be styled using tidyverse and kableExtra. However, I think R has attracted many data analyst for its amazing publication ready data-based figures usually done with ggplot2.\n\n\n\nInstall R Download R\nInstall Python Download Python\nInstall pip (package installer for python) using cmd (command prompt): python -m pip install --upgrade pip\nFor python3, update pip if needed: python3 -m pip install --upgrade pip\nInstall Jupyter using cmd: python -m pip install jupyter\nYou can also install Jupyter Lab using cmd: python -m pip install jupyterlab\nYou can launch Jupyter Notebook or Lab using cmd: jupyter notebook or jupyter lab\n\n\n\n\n\nIn cmd: jupyter notebook\n\n\n\n\n\nInstall VS Code Download VS Code\nInstall R extension in VS code: R Extension for Visual Studio Code (REditorSupport)\nInstall radian in cmd for syntax highlighting: pip3 install -U radian\nOpen R from Start Menu\nInstall packages in R (not RStudio) without compilation: install.packages(c('languageserver', 'httpgd', 'repr', 'IRdisplay', 'evaluate', 'crayon', 'pbdZMQ', 'devtools', 'uuid', 'digest'))\nInstall R kernel for jupyter in R (not RStudio): devtools::install_github('IRkernel/IRkernel')\nLink R kernel to jupyter notebook in R (not RStudio): IRkernel::installspec(user = FALSE)\nOpen a file in VS code with .ipynb extension and select kernel (jupyer kernel &gt; R kernel)\n\nNow your jupyter notebook is ready for both python and R. You can also create and work with R file with .R extension in vs code. At the end, you can export the .ipynb (jupyter notebook) file as html by pressing ctrl+shift+P and search for ‘jupyter: export to html’. Open this html file in RStudio to publish. In addition, you can read some tips on working with markdown in Markdown cheat sheet."
+  },
+  {
+    "objectID": "blogs/why-r-python.html#installation-of-r-and-integration-with-jupyter-notebook-in-visual-studio-code",
+    "href": "blogs/why-r-python.html#installation-of-r-and-integration-with-jupyter-notebook-in-visual-studio-code",
+    "title": "Why to learn R/Python?",
+    "section": "",
+    "text": "Install R Download R\nInstall Python Download Python\nInstall pip (package installer for python) using cmd (command prompt): python -m pip install --upgrade pip\nFor python3, update pip if needed: python3 -m pip install --upgrade pip\nInstall Jupyter using cmd: python -m pip install jupyter\nYou can also install Jupyter Lab using cmd: python -m pip install jupyterlab\nYou can launch Jupyter Notebook or Lab using cmd: jupyter notebook or jupyter lab"
+  },
+  {
+    "objectID": "blogs/why-r-python.html#run-jupyter-notebook-in-browser",
+    "href": "blogs/why-r-python.html#run-jupyter-notebook-in-browser",
+    "title": "Why to learn R/Python?",
+    "section": "",
+    "text": "In cmd: jupyter notebook"
+  },
+  {
+    "objectID": "blogs/why-r-python.html#run-r-with-jupyter-notebook-in-vs-code-visual-studio-code",
+    "href": "blogs/why-r-python.html#run-r-with-jupyter-notebook-in-vs-code-visual-studio-code",
+    "title": "Why to learn R/Python?",
+    "section": "",
+    "text": "Install VS Code Download VS Code\nInstall R extension in VS code: R Extension for Visual Studio Code (REditorSupport)\nInstall radian in cmd for syntax highlighting: pip3 install -U radian\nOpen R from Start Menu\nInstall packages in R (not RStudio) without compilation: install.packages(c('languageserver', 'httpgd', 'repr', 'IRdisplay', 'evaluate', 'crayon', 'pbdZMQ', 'devtools', 'uuid', 'digest'))\nInstall R kernel for jupyter in R (not RStudio): devtools::install_github('IRkernel/IRkernel')\nLink R kernel to jupyter notebook in R (not RStudio): IRkernel::installspec(user = FALSE)\nOpen a file in VS code with .ipynb extension and select kernel (jupyer kernel &gt; R kernel)\n\nNow your jupyter notebook is ready for both python and R. You can also create and work with R file with .R extension in vs code. At the end, you can export the .ipynb (jupyter notebook) file as html by pressing ctrl+shift+P and search for ‘jupyter: export to html’. Open this html file in RStudio to publish. In addition, you can read some tips on working with markdown in Markdown cheat sheet."
+  },
+  {
+    "objectID": "blogs/field-trip-ag-2025.html#extension-field-trip-2025",
+    "href": "blogs/field-trip-ag-2025.html#extension-field-trip-2025",
     "title": "Extension Field Trip 2025",
     "section": "Extension Field Trip 2025",
-    "text": "Extension Field Trip 2025\n\nB. Sc. Fisheries (Hons.), Session 2020–2021\nDepartment of Agricultural Extension and Rural Development\nPatuakhali Science and Technology University\nDumki, Patuakhali 8660\nDate: 21-23 September 2025\nPlace: Dumuria Upazila, Khulna"
+    "text": "Extension Field Trip 2025\n\nB.Sc.Ag. (Hons.), Session 2019–2020\nDepartment of Agricultural Extension and Rural Development\nPatuakhali Science and Technology University\nDumki, Patuakhali 8660\nDate: 10-15 August 2025\nPlace: Digholia, Fultola, and Jashore Sadar"
   },
   {
-    "objectID": "blogs/field-trip-fish-2025.html#outline",
-    "href": "blogs/field-trip-fish-2025.html#outline",
+    "objectID": "blogs/field-trip-ag-2025.html#outline",
+    "href": "blogs/field-trip-ag-2025.html#outline",
     "title": "Extension Field Trip 2025",
     "section": "Outline",
     "text": "Outline\n\nWhat is extension field trip?\nWhy is it done?\nHow to do it?\nWhat are the expectations?\nWhat are your queries?"
   },
   {
-    "objectID": "blogs/field-trip-fish-2025.html#extension-field-trip",
-    "href": "blogs/field-trip-fish-2025.html#extension-field-trip",
+    "objectID": "blogs/field-trip-ag-2025.html#extension-field-trip",
+    "href": "blogs/field-trip-ag-2025.html#extension-field-trip",
     "title": "Extension Field Trip 2025",
     "section": "Extension Field Trip",
-    "text": "Extension Field Trip\n\nExtension field trip is a part of the course contents of ARD 418 (Extension Education for Fisheries).\nThis is a capstone program that introduces students with field level activities of various government offices related to agriculture, fisheries and rural development.\nThis out-of-class visit to the rural areas brings practical experiences, which are complementary to the classroom contents."
+    "text": "Extension Field Trip\n\nExtension field trip is a part of the course contents of ARD 422 (Extension Program Building and Technology Transfer).\nThis is a capstone program that introduces students with field level activities of various government offices related to agricultural and rural development.\nThis out-of-class visit to the rural areas brings practical experiences, which are complementary to the classroom contents."
   },
   {
-    "objectID": "blogs/field-trip-fish-2025.html#learning-outcomes",
-    "href": "blogs/field-trip-fish-2025.html#learning-outcomes",
+    "objectID": "blogs/field-trip-ag-2025.html#learning-outcomes",
+    "href": "blogs/field-trip-ag-2025.html#learning-outcomes",
     "title": "Extension Field Trip 2025",
     "section": "Learning Outcomes",
-    "text": "Learning Outcomes\nAt the end of the field trip, the participant students will be able to:\n\nexplain the administrative structure of a upazila (sub-district);\nillustrate the organogram of different government departments;\ndescribe the services mentioned in the citizen charters;\nsummarize the objectives of visited projects in the farmers’ field; and\nsuggest improvements for fisheries development projects."
+    "text": "Learning Outcomes\nAt the end of the field trip, the participant students will be able to:\n\nexplain the administrative structure of a upazila (sub-district)\nillustrate the organogram of different government departments\ndescribe the services mentioned in the citizen charters\nsummarize the objectives of visited projects in the farmers’ field\nsuggest improvements for rural development projects."
   },
   {
-    "objectID": "blogs/field-trip-fish-2025.html#groups-and-guides",
-    "href": "blogs/field-trip-fish-2025.html#groups-and-guides",
-    "title": "Extension Field Trip 2025",
-    "section": "Groups and Guides",
-    "text": "Groups and Guides\n\nStay: Hotel Asia International, Majid Sarani, Khulna\nTeacher Guides:\n\nProf. Dr. Md. Golam Rabbani Akanda,\nProf. Dr. md. Kamrul Hasan, and\nAssociate Professor Aparajita Badhan\n\nAssistants:\n\nMr. Md. Afzal Hossain and\nMr.Liton Chandra Shil"
-  },
-  {
-    "objectID": "blogs/field-trip-fish-2025.html#preparation",
-    "href": "blogs/field-trip-fish-2025.html#preparation",
+    "objectID": "blogs/field-trip-ag-2025.html#preparation",
+    "href": "blogs/field-trip-ag-2025.html#preparation",
     "title": "Extension Field Trip 2025",
     "section": "Preparation",
-    "text": "Preparation\n\nTour Approval from university authority\nReceiving funds for accommodation and transport\nCommunicating with the hosts (UNO, SUFU, UAO, etc.)\nTake some extra money for meals.\nTake 30-35 A4 size blank sheets of paper for report writing.\nNo specific dress code, take a clean bed sheet if needed.\nHot water arrangement on your own"
+    "text": "Preparation\n\nPlan for possible places\nApproval from university authority\nReceiving funds, accommodation and transport\nCommunicating with the hosts\nTake some money for meals.\nTake 40-50 A4 size blank sheets of paper for report writing.\nNo specific dress code, take a clean bed sheet if needed."
   },
   {
-    "objectID": "blogs/field-trip-fish-2025.html#food-management",
-    "href": "blogs/field-trip-fish-2025.html#food-management",
-    "title": "Extension Field Trip 2025",
-    "section": "Food management",
-    "text": "Food management\n\nArrange on your own (hotel or restaurant).\nTeachers will not arrange your meals.\nDrink only safe water.\nVegetarian: Explore on your own."
-  },
-  {
-    "objectID": "blogs/field-trip-fish-2025.html#beware-of",
-    "href": "blogs/field-trip-fish-2025.html#beware-of",
-    "title": "Extension Field Trip 2025",
-    "section": "Beware of …",
-    "text": "Beware of …\n\nTake extra care for fire hazard and avoid as much as possible.\nUse your own bed sheet for hygiene purpose.\nTake small soap, shampoo and other personal cosmetics.\nTake umbrella, sunglasses, water heater (if needed), medicines.\nDo not overlook contagious diseases."
-  },
-  {
-    "objectID": "blogs/field-trip-fish-2025.html#emergency-management",
-    "href": "blogs/field-trip-fish-2025.html#emergency-management",
-    "title": "Extension Field Trip 2025",
-    "section": "Emergency Management",
-    "text": "Emergency Management\n\nSick: Immediately inform your guide teacher.\nSend message to your parents in a soft tone.\nYour guide teacher will arrange a shift for you with either your classmate or family members\nCaution: Keep your emergency medicine with you, especially for asthma, allergic reaction, anaphyllaxis."
-  },
-  {
-    "objectID": "blogs/field-trip-fish-2025.html#schedule-2025",
-    "href": "blogs/field-trip-fish-2025.html#schedule-2025",
+    "objectID": "blogs/field-trip-ag-2025.html#schedule-2025",
+    "href": "blogs/field-trip-ag-2025.html#schedule-2025",
     "title": "Extension Field Trip 2025",
     "section": "Schedule 2025",
-    "text": "Schedule 2025\n\n20 Sep 2025: travelling to the selected upazila\n21 Sep 2025: attending the conference of upazila level officers and visiting various upazila level offices\n22 Sep 2025: visiting various field projects\n23 Sep 2025: report presentation, certificate receiving and travelling back to the campus\n\n\nYour attendances may be recorded several times a day."
+    "text": "Schedule 2025\n\n10 August: travelling to the selected upazila\n11 August: attending the conference of upazila level officers\n12 August: visiting various upazila level offices\n13 August: visiting project areas and meeting farmers\n14 August: report preparation\n15 August: receiving certificates and coming back"
   },
   {
-    "objectID": "blogs/field-trip-fish-2025.html#important-locations",
-    "href": "blogs/field-trip-fish-2025.html#important-locations",
+    "objectID": "blogs/field-trip-ag-2025.html#groups-and-guides",
+    "href": "blogs/field-trip-ag-2025.html#groups-and-guides",
     "title": "Extension Field Trip 2025",
-    "section": "Important Locations",
-    "text": "Important Locations"
+    "section": "Groups and Guides",
+    "text": "Groups and Guides\n\nDigholiaJashoreFultola\n\n\n\nID 1901001–1901057 (Serial 1–47) [male 29, female 18 = 47]\nStay: Hort Center, Daulatpur\nTeacher Guide: Professor Dr. Md. Kamrul Hasan\nAssistant: Md. Saidul Islam\n\n\n\nID 1901058–1901163 (Serial 48–127) [male 39, female 41 = 80]\n\nRRFRARSBanchte Shekha\n\n\n\nStay: RRF\n\nID 1901058–1901118 (Serial 48–94) [male 26, female 21 = 47]\nTeacher Guide: Professor Dr. Md. Mamun-ur-Rashid\nAssistant: Md. Jahidul Islam\n\n\n\n\n\nStay: RARS\n\nID 1901120–1901132 (Serial 95–107) [male 5, female 8 = 13]\nTeacher Guide: Assistant Professor Shekhar Mondal\nAssistant: (not listed)\n\n\n\n\n\nStay: Banchte Shekha\n\nID 1901133–1901163 (Serial 108–127) [male 8, female 12 = 20]\nTeacher Guide: Assistant Professor Aparajita Badhan\nAssistant: (not listed)\n\n\n\n\n\n\n\n\nID 1901164–1801177 (Serial 128–188) [male 41, female 20 = 61]\nStay: GSS, Fultola\n\nTeacher Guide: Professor Dr. Md. Golam Rabbani Akanda and Associate Professor A.T.M Sanaul Haque\nAssistants: Md. Afzal Hossain and Md. Ataur Rahman"
   },
   {
-    "objectID": "blogs/field-trip-fish-2025.html#starting",
-    "href": "blogs/field-trip-fish-2025.html#starting",
+    "objectID": "blogs/field-trip-ag-2025.html#day-1-starting-10-august-2025",
+    "href": "blogs/field-trip-ag-2025.html#day-1-starting-10-august-2025",
     "title": "Extension Field Trip 2025",
-    "section": "Starting",
-    "text": "Starting\n20 September 2025, Saturday\n\n@ 2.30–3.00 pm take the bus at PSTU\n@ 3.50–4.00 pm take the bus at Barishal\n@ 4.15-4.45 pm prayer and short break\n@ 6.00-6.20 pm: Prayer break\n@ 7.15–7.30 pm: Check in at the hotel"
+    "section": "Day 1: Starting 10 August 2025",
+    "text": "Day 1: Starting 10 August 2025\n\n@ 9.00–9.30 am from PSTU:\n@ 10.30 am from Rupatoli, Barishal\n\n4 buses in front of Admin Building at PSTU\n1 for Daulatpur, Khulna [ID 1901001–1901057, Serial 1–47]\n1 for Fultola, Khulna [ID 1901164–1801177, Serial 142–188]\n1 for RRF, Jashore [ID 1901058–1901118, Serial 48–94]\n1 (mixed) for Fultola, Banchte Shekha, and RARS [ID 1901120–1901163, Serial 95–141]\nUse the bus according to the serial, otherwise you will be marked absent during roll call.\n\n@ 1.00 pm: Lunch and prayer break\n@ 3.00–5.00 pm: Exploring the staying places"
   },
   {
-    "objectID": "blogs/field-trip-fish-2025.html#seat-distribution",
-    "href": "blogs/field-trip-fish-2025.html#seat-distribution",
+    "objectID": "blogs/field-trip-ag-2025.html#day-2-to-6",
+    "href": "blogs/field-trip-ag-2025.html#day-2-to-6",
     "title": "Extension Field Trip 2025",
-    "section": "Seat Distribution",
-    "text": "Seat Distribution\n\nHave patience, wait at the dormitory gate.\nGuide teacher will talk to the manager.\nGuide teacher will note the number of rooms with capacity.\nGuide teacher will distribute the keys to each group.\nDo not see the rooms before taking the keys.\nTake the key and go required number of students in a room.\nTake the key …. and repeat the process until the end."
+    "section": "Day 2 to 6",
+    "text": "Day 2 to 6\n\nFollow your teacher guide’s instruction.\nYour attendances may be recorded several times a day.\nAttend all the sessions and keep notes for reporting.\nPrepare part of your reports regularly.\nDay 5 afternoon and night: Finalize your report in a feedback session.\nDay 6: Return to PSTU"
   },
   {
-    "objectID": "blogs/field-trip-fish-2025.html#day-1",
-    "href": "blogs/field-trip-fish-2025.html#day-1",
-    "title": "Extension Field Trip 2025",
-    "section": "Day 1",
-    "text": "Day 1\n\nAttend Dumuria Upazial Complex by 9.00 am.\nFollow your teacher guide’s instructions for subsequent activities.\nAttend all the sessions and keep notes for reporting.\nPrepare part of your reports in the evening."
-  },
-  {
-    "objectID": "blogs/field-trip-fish-2025.html#day-2",
-    "href": "blogs/field-trip-fish-2025.html#day-2",
-    "title": "Extension Field Trip 2025",
-    "section": "Day 2",
-    "text": "Day 2\n\nMorning session (9.00 am to 1.00 pm):\n\nVisiting fisheries and agricultural project sites\n\nAfternoon and evening (4.00 pm to 9.00 pm):\n\nFinalize your report."
-  },
-  {
-    "objectID": "blogs/field-trip-fish-2025.html#day-3",
-    "href": "blogs/field-trip-fish-2025.html#day-3",
-    "title": "Extension Field Trip 2025",
-    "section": "Day 3",
-    "text": "Day 3\n\nMorning session (9.00 am to 11.00 am):\n\nPresent your report, receive certificates and provide feedback.\n\n11.00 am:\n\nCheck out from the hotel.\n\n11.30 am to 6.00 pm:\n\nReturn to PSTU, including prayer and lunch breaks"
-  },
-  {
-    "objectID": "blogs/field-trip-fish-2025.html#your-payment",
-    "href": "blogs/field-trip-fish-2025.html#your-payment",
+    "objectID": "blogs/field-trip-ag-2025.html#your-payment",
+    "href": "blogs/field-trip-ag-2025.html#your-payment",
     "title": "Extension Field Trip 2025",
     "section": "Your Payment",
-    "text": "Your Payment\n\nTotal budget (B)\nCommon expense (C) = Transport + Accommodation + Banner + Stage + Revenue Stamp\nCash payment: P = B - C\nYour guide teacher(s) will pay your share during the tour."
+    "text": "Your Payment\n\nTotal budget (B)\nCentral expenditure (C): bus fare, banner, certificates, logistics\nLocal expenditure (L): accommodation, water bottles, tissue, snacks for conference, aerosol\nIndividual payment (P): meals, local transport, own expenditure\nFormula: P = B - (C + L)\nYour guide teacher will pay twice during the tour.\nRemaining amount will be paid at the end."
   },
   {
-    "objectID": "blogs/field-trip-fish-2025.html#tentative-marks-distribution",
-    "href": "blogs/field-trip-fish-2025.html#tentative-marks-distribution",
+    "objectID": "blogs/field-trip-ag-2025.html#money-disbursement",
+    "href": "blogs/field-trip-ag-2025.html#money-disbursement",
+    "title": "Extension Field Trip 2025",
+    "section": "Money Disbursement",
+    "text": "Money Disbursement\n\nTotal bus fare, banner, certificates, logistics cost will be divided by the number of students to calculate per head central expenditure.\nUpon meeting the local expenditures, the guide teachers will distribute the money to you.\nRemaining will be given to the guide teachers."
+  },
+  {
+    "objectID": "blogs/field-trip-ag-2025.html#seat-distribution",
+    "href": "blogs/field-trip-ag-2025.html#seat-distribution",
+    "title": "Extension Field Trip 2025",
+    "section": "Seat Distribution",
+    "text": "Seat Distribution\n\nHave patience, wait at the gate\nGuide teacher will talk to the host\nGuide teacher will know the number of rooms with capacity\nGuide teacher will distribute the keys to each group\nDo not see the rooms before taking the keys\nTake the key and go required number of students in a room\nTake the key …. and repeat the process until end"
+  },
+  {
+    "objectID": "blogs/field-trip-ag-2025.html#food",
+    "href": "blogs/field-trip-ag-2025.html#food",
+    "title": "Extension Field Trip 2025",
+    "section": "Food",
+    "text": "Food\n\nArrange on your own (guest house or restaurant)\nTeachers will not arrange your meals\nDrink only safe water\nVegetarian: talk to the guest house or explore other options"
+  },
+  {
+    "objectID": "blogs/field-trip-ag-2025.html#beware-of-pests-and-nuisance",
+    "href": "blogs/field-trip-ag-2025.html#beware-of-pests-and-nuisance",
+    "title": "Extension Field Trip 2025",
+    "section": "Beware of Pests and Nuisance",
+    "text": "Beware of Pests and Nuisance\n\nTeachers will buy mosquito coils and aerosol\nTake extra care for fire hazard\nUse your own bed sheet for hygiene purpose\nTake small soap, shampoo and other personal cosmetics\nTake umbrella, sunglasses, water heater (if needed), medicines"
+  },
+  {
+    "objectID": "blogs/field-trip-ag-2025.html#emergency-management",
+    "href": "blogs/field-trip-ag-2025.html#emergency-management",
+    "title": "Extension Field Trip 2025",
+    "section": "Emergency Management",
+    "text": "Emergency Management\n\nSick: Immediately inform your guide teacher\nSend message to your parents in a soft tone.\nYour guide teacher will arrange a shift for you with either your classmate or family members\nCaution: Keep your emergency medicine with you, especially for asthma, allergic reaction, anaphyllaxis."
+  },
+  {
+    "objectID": "blogs/field-trip-ag-2025.html#tentative-marks-distribution",
+    "href": "blogs/field-trip-ag-2025.html#tentative-marks-distribution",
     "title": "Extension Field Trip 2025",
     "section": "Tentative Marks Distribution",
     "text": "Tentative Marks Distribution\n\nAttendance and punctuality (15%)\nTeamwork and cooperation (15%)\nEthical values (15%)\nExtra satisfactory performance (5%)\nPresentation of report or requested part (20%)\nReport (30%)"
   },
   {
-    "objectID": "blogs/field-trip-fish-2025.html#responsibility",
-    "href": "blogs/field-trip-fish-2025.html#responsibility",
+    "objectID": "blogs/field-trip-ag-2025.html#responsibility",
+    "href": "blogs/field-trip-ag-2025.html#responsibility",
     "title": "Extension Field Trip 2025",
     "section": "Responsibility",
-    "text": "Responsibility\n\nThis is not a pleasure trip.\nConsider adjustment and adaptation to the local situation.\nAccept temporary discomfort in the dormitory.\nRespect local culture and customs.\nBehave well, show pleasant attitude.\nYou will only show classmate-like relationships. No other relationships such as spouse, grouping and enemy must not be demonstrated."
+    "text": "Responsibility\n\nThis is not a pleasure trip.\nConsider adjustment and adaptation to the local situation.\nAccept temporary discomfort in the dormitory.\nRespect local culture and customs.\nBehave well, show pleasant attitude.\nYou will only show classmate-like relationships.\nNo other relationships such as spouse and enemy must not be demonstrated."
   },
   {
-    "objectID": "blogs/field-trip-fish-2025.html#final-touch",
-    "href": "blogs/field-trip-fish-2025.html#final-touch",
+    "objectID": "blogs/field-trip-ag-2025.html#final-touch",
+    "href": "blogs/field-trip-ag-2025.html#final-touch",
     "title": "Extension Field Trip 2025",
     "section": "Final Touch",
-    "text": "Final Touch\n\nIf you want to go home directly at the end of the tour, your guide may talk to your guardians. You will not get bus fare reimbursement.\n\nNostalgia\n\nDon’t forget to compile your beautiful photos and memories.\nMake an album selecting the best ones.\nShare those with us for uploading in the PSTU website."
+    "text": "Final Touch\n\nYou can arrange a feedback with fun session (consult your guide teacher)\nSubmit your completed report and take certificate\nTake the bus waiting outside (jashore 9.30 am, Fultola 10.15 am, and Digholia 10.30 am).\nIf you want to go home directly, your guide may talk to your guardians. You will not get bus fare reimbursement.\nLunch break at Khulna Zero point (may not be possible due to Friday prayer).\nArrive at PSTU at around 6.00 pm"
   },
   {
-    "objectID": "blogs/field-trip-fish-2025.html#thank-you-so-much.",
-    "href": "blogs/field-trip-fish-2025.html#thank-you-so-much.",
+    "objectID": "blogs/field-trip-ag-2025.html#nostalgia",
+    "href": "blogs/field-trip-ag-2025.html#nostalgia",
+    "title": "Extension Field Trip 2025",
+    "section": "Nostalgia",
+    "text": "Nostalgia\n\nDon’t forget to compile your beautiful photos and memories.\nMake an album selecting the best ones.\nShare those with us for uploading in the PSTU website."
+  },
+  {
+    "objectID": "blogs/field-trip-ag-2025.html#thank-you-so-much.",
+    "href": "blogs/field-trip-ag-2025.html#thank-you-so-much.",
     "title": "Extension Field Trip 2025",
     "section": "Thank you so much.",
-    "text": "Thank you so much.\n\nQuestion, Comments, Suggestions"
-  },
-  {
-    "objectID": "blogs/field-trip-fish-2025.html#go-to-slido.com-and-enter-the-code-to-join",
-    "href": "blogs/field-trip-fish-2025.html#go-to-slido.com-and-enter-the-code-to-join",
-    "title": "Extension Field Trip 2025",
-    "section": "Go to slido.com and enter the code to join",
-    "text": "Go to slido.com and enter the code to join\n\nQuestion, Comments, Suggestions"
-  },
-  {
-    "objectID": "blogs/field-trip-fish-2025.html#go-to-slido.com-and-enter-the-code-to-join-1",
-    "href": "blogs/field-trip-fish-2025.html#go-to-slido.com-and-enter-the-code-to-join-1",
-    "title": "Extension Field Trip 2025",
-    "section": "Go to slido.com and enter the code to join",
-    "text": "Go to slido.com and enter the code to join\n\nAre you happy with this session?\n\n\n\n\n\n\n\n\n\nRUEN Research"
-  },
-  {
-    "objectID": "blogs/ai-use.html#how-do-ai-language-models-work",
-    "href": "blogs/ai-use.html#how-do-ai-language-models-work",
-    "title": "Responsible Use of Artificial Intelligence in Academic Research",
-    "section": "How Do AI Language Models Work?",
-    "text": "How Do AI Language Models Work?\nCritical users should be aware of (IBM, 2025):\n\nAI Models: Predictive Text Generation using Machine Learning algorithms (e.g., deep neural network, which is a statistical model)\nThey are not collection of all facts or knowledge.\nThey are statistical prediction tools trained on large amounts of text data.\nFundamental task: Given a sequence of words or phrase (the prompt), predict the next word or phrase based on probability."
-  },
-  {
-    "objectID": "blogs/ai-use.html#ai-training-process-simplified",
-    "href": "blogs/ai-use.html#ai-training-process-simplified",
-    "title": "Responsible Use of Artificial Intelligence in Academic Research",
-    "section": "AI Training Process (Simplified)",
-    "text": "AI Training Process (Simplified)\n\n\n\n\n%%{init: {'themeVariables': { 'fontSize': '2rem'}}}%%\ngraph TD\nA[Data collection from&lt;br&gt;books, articles, online resources, code] --&gt; B[Pattern learning by&lt;br&gt;statistical relationships]\nB --&gt; C[Proccessing of&lt;br&gt;billions of numerical parameters]\nC --&gt; D[Outputs for users&lt;br&gt;in natural language]"
-  },
-  {
-    "objectID": "blogs/ai-use.html#tools-chatgpt-4-claude-elicit-scispace",
-    "href": "blogs/ai-use.html#tools-chatgpt-4-claude-elicit-scispace",
-    "title": "Responsible Use of Artificial Intelligence in Academic Research",
-    "section": "Tools: ChatGPT-4, Claude, Elicit, Scispace",
-    "text": "Tools: ChatGPT-4, Claude, Elicit, Scispace\n\nBrainstorming Research Questions:\n\nPrompt: “Give me 5 novel research questions on the linkage between climate-smart agriculture adoption and social capital in coastal Bangladesh.”\n\nIdentifying Gaps:\n\nPrompt: “Summarize the major theories used to explain technology adoption in rural sociology. Mention which are least applied in an agricultural context.”\n\nDeveloping a Conceptual Framework:\n\nPrompt: “Based on the Theory of Planned Behavior, provide me a draft conceptual framework model for analyzing farmers’ intention to use drought-resistant varieties.”"
-  },
-  {
-    "objectID": "blogs/ai-use.html#tools-chatgpt-4-julius-ai-deepseek-gemini",
-    "href": "blogs/ai-use.html#tools-chatgpt-4-julius-ai-deepseek-gemini",
-    "title": "Responsible Use of Artificial Intelligence in Academic Research",
-    "section": "Tools: ChatGPT-4, Julius AI, Deepseek, Gemini",
-    "text": "Tools: ChatGPT-4, Julius AI, Deepseek, Gemini\n\nChoosing Statistical Tests: Prompt: “My research question is: ‘Does training (yes/no) have effects on knowledge scores (continuous) and adoption levels (ordinal: low, medium, high) among farmers? What are the appropriate statistical tests?’”\nSurvey Design: Prompt: “Draft a 5-point Likert scale questionnaire to measure ‘perceived behavioural control’ based on the theory of planned behaviour (TPB) for farmers using organic fertilizers and manure.” [Note: TPB \\(\\Rightarrow\\) Attitude + Norms + Beliefs in Ability]\nSample Size Calculation: Prompt: “My population is 15000. What could be the sample size with 95% confidence interval and 5% margin of error, using Hasan & Kumar (2024) formula. Also provide the values for different parameters in the formula, e.g. sample control ratio”."
-  },
-  {
-    "objectID": "blogs/ai-use.html#tools-elicit-scite",
-    "href": "blogs/ai-use.html#tools-elicit-scite",
-    "title": "Responsible Use of Artificial Intelligence in Academic Research",
-    "section": "Tools: Elicit, Scite",
-    "text": "Tools: Elicit, Scite\n\nElicit: Uses AI to find and summarize top published articles. Best for initial search.\n\nTask: Find top cited papers on “diffusion of innovations in agriculture.” \n\nScite: Shows citations of published articles (e.g., as supporting or contradicting findings).\n\nTask: Check if a key theory paper that has been widely cited."
-  },
-  {
-    "objectID": "blogs/ai-use.html#tools-research-rabbit-litmaps-scispace",
-    "href": "blogs/ai-use.html#tools-research-rabbit-litmaps-scispace",
-    "title": "Responsible Use of Artificial Intelligence in Academic Research",
-    "section": "Tools: Research Rabbit, Litmaps, Scispace",
-    "text": "Tools: Research Rabbit, Litmaps, Scispace\n\nResearch Rabbit and Litmaps: Creates visualization and maps of the literature based on citation that help find key papers of interest.\nScispace: For writing research tasks.\n\n\nCrucial: These tools assist in finding literature. The synthesis and critical analysis must be done by you."
-  },
-  {
-    "objectID": "blogs/ai-use.html#remember-ai-is-an-assistant-not-an-author",
-    "href": "blogs/ai-use.html#remember-ai-is-an-assistant-not-an-author",
-    "title": "Responsible Use of Artificial Intelligence in Academic Research",
-    "section": "Remember: AI is an Assistant, Not an Author",
-    "text": "Remember: AI is an Assistant, Not an Author\n\nOvercoming Writer’s Limitation:\n\nPrompt: “Write a paragraph for the ‘methodology’ chapter of a PhD thesis explaining a multistage random sampling technique for a survey in coastal areas of Bangladesh.”\n\nImproving Clarity:\n\nPrompt: “Rewrite this sentence for better clarity and brevity: [Paste your haphazard sentences.]”\n\nParaphrasing & Grammar:\n\nTools: Grammarly, Wordtune, QuillBot.\nGoal: To polish your own writing, not to generate original content."
-  },
-  {
-    "objectID": "blogs/ai-use.html#responsible-paraphrasing",
-    "href": "blogs/ai-use.html#responsible-paraphrasing",
-    "title": "Responsible Use of Artificial Intelligence in Academic Research",
-    "section": "Responsible Paraphrasing",
-    "text": "Responsible Paraphrasing\n\n\n\n\n\n%%{init: {'themeVariables': { 'fontSize': '2rem'}}}%%\ngraph LR\nA[Human&lt;br&gt;Sentences] --&gt; B[AI&lt;br&gt;Paraphrasing]\nB --&gt; C[Human&lt;br&gt;Editing]\nC --&gt; D[AI&lt;br&gt;grammar&lt;br&gt;check]\n\n\n\n\n\n\n\n\n\n%%{init: {'themeVariables': { 'fontSize': '2rem'}}}%%\ngraph LR\nA[AI&lt;br&gt;Generated Texts] --&gt; B[AI&lt;br&gt;Praphrasing]\nB --&gt; C[Human&lt;br&gt;Paraphrasing&lt;/editing&gt;]\nC --&gt; D[AI&lt;br&gt;grammar&lt;br&gt;check]\n\n\n\n\n\n Unethical use\n\n\n\n\n%%{init: {'themeVariables': { 'fontSize': '2rem'}}}%%\ngraph LR\nA[AI&lt;br&gt;Generated Texts] --&gt; B[AI&lt;br&gt;Praphrasing]\nB --&gt; C[Published&lt;br&gt;Article]"
-  },
-  {
-    "objectID": "blogs/ai-use.html#example-responsible-paraphrasing",
-    "href": "blogs/ai-use.html#example-responsible-paraphrasing",
-    "title": "Responsible Use of Artificial Intelligence in Academic Research",
-    "section": "Example: Responsible Paraphrasing",
-    "text": "Example: Responsible Paraphrasing\nOriginal (Human-Written) Sentence:\n\n“The adoption of new agricultural technologies is contingent upon a complex interplay of socioeconomic factors, extension service accessibility, and perceived risk among the farming community.”\n\nAI-Assisted Paraphrase (using Quilbot/Hixbypass/Wordtune/Grammarly Suggestion):\n\n“The uptake of novel agricultural technologies depends on a complex combination of socioeconomic conditions, access to extension services, and farmers’ perception of risk.”\n\nWhy it is responsible? The idea and core content are of the researcher. The AI has only helped with word choice and sentence fluency."
-  },
-  {
-    "objectID": "blogs/ai-use.html#example-responsible-paraphrasing-1",
-    "href": "blogs/ai-use.html#example-responsible-paraphrasing-1",
-    "title": "Responsible Use of Artificial Intelligence in Academic Research",
-    "section": "Example: Responsible Paraphrasing",
-    "text": "Example: Responsible Paraphrasing\nAI-Generated Text:\n\n“The uptake of novel agricultural technologies depends on a complex combination of socioeconomic conditions, access to extension services, and farmers’ perception of risk.”\n\nHuman Paraphrase after checking the sources:\n\n“The adoption of agricultural innovations depends on a complex set of socioeconomic attributes, access to extension services, and farmers’ perception of risk.”\n\nWhy it is responsible? The AI has generated the texts. The author has checked the sources and found ok followed by paraphrasing aligned with the standard format for publication."
-  },
-  {
-    "objectID": "blogs/ai-use.html#example-unethical-use-of-ai",
-    "href": "blogs/ai-use.html#example-unethical-use-of-ai",
-    "title": "Responsible Use of Artificial Intelligence in Academic Research",
-    "section": "Example: Unethical Use of AI",
-    "text": "Example: Unethical Use of AI\nAI-Written sentence:\n\n“The uptake of novel agricultural technologies depends on a complex combination of socioeconomic conditions, access to extension services, and farmers’ perception of risk.”\n\nUsed in article as it is:\n\n“The uptake of novel agricultural technologies depends on a complex combination of socioeconomic conditions, access to extension services, and farmers’ perception of risk.”\n\nWhy it is not responsible: The idea and core content are generated by the AI. The researchers has not used their own idea or ideas based on published literature."
-  },
-  {
-    "objectID": "blogs/ai-use.html#improving-statistical-analysis",
-    "href": "blogs/ai-use.html#improving-statistical-analysis",
-    "title": "Responsible Use of Artificial Intelligence in Academic Research",
-    "section": "Improving statistical analysis",
-    "text": "Improving statistical analysis\n\nCode Generation & Explanation:\n\nTool: ChatGPT-4 (Code Interpreter), GitHub Copilot.\nPrompt: “Write R code to run a multiple linear regression with yield as the dependent variable and rainfall, fertilizer, and training as independent variables. Include code to check for multicollinearity using VIF.”\n\nError Debugging:\n\nPrompt: “I get this error in my Python code ValueError: shapes (100,5) and (3,) not aligned. What does it mean and how do I fix it?”\n\n\nPrinciple: You must know and understand the appropriate statistics. AI helps with the implementation, not the conceptualization."
-  },
-  {
-    "objectID": "blogs/ai-use.html#example-ai-for-data-visualization",
-    "href": "blogs/ai-use.html#example-ai-for-data-visualization",
-    "title": "Responsible Use of Artificial Intelligence in Academic Research",
-    "section": "Example: AI for data visualization",
-    "text": "Example: AI for data visualization\nResearcher’s goal: Visualize the difference in mean yields between conventional and new practices.\n\nInitial R code (researcher’s draft):\nggplot(data, aes(practice, yield)) + geom_boxplot()\n\n\nVisualization enhancement:\n\nTool: ChatGPT-4, Deepseek.\nPrompt: “Suggest improvements for this ggplot2 code to make this scatterplot more publication-ready. [Paste your code]”"
-  },
-  {
-    "objectID": "blogs/ai-use.html#for-conceptual-diagrams-and-illustrations",
-    "href": "blogs/ai-use.html#for-conceptual-diagrams-and-illustrations",
-    "title": "Responsible Use of Artificial Intelligence in Academic Research",
-    "section": "For Conceptual Diagrams and Illustrations",
-    "text": "For Conceptual Diagrams and Illustrations\n\nMidjourney, DALL-E 3, Stable Diffusion, Davinci.ai:\n\nUse case: Creating original artwork, conceptual diagrams, illustrative figures that are not based on real data.\nExample prompt for a conceptual diagram: “A minimalist, professional scientific illustration of the ‘research methodology’ as a cycle with icons for ‘problem identification’, ‘data collection’, ‘analysis’, and ‘interpretation’. White background, blue and green colors, vector style.”\nCritical consideration: These tools must not be used to generate or alter experimental data, photographs, maps, or graphs that represent research findings. This is a serious violation of academic integrity."
-  },
-  {
-    "objectID": "blogs/ai-use.html#ethical-notes-on-ai-images",
-    "href": "blogs/ai-use.html#ethical-notes-on-ai-images",
-    "title": "Responsible Use of Artificial Intelligence in Academic Research",
-    "section": "Ethical Notes on AI Images",
-    "text": "Ethical Notes on AI Images\n\nAI should not generate your data, but it can generate your diagrams.\n\n\nPermissible: Creating a flow chart of your research process.\nPermissible: Generating an icon to represent “agricultural extension” in a presentation slide.\nFraudulent: Generating a picture of a plant with a disease symptom for your research.\nFraudulent: Creating a fake graph or map with fictional data points."
-  },
-  {
-    "objectID": "blogs/ai-use.html#ethical-notes-on-ai-images-contd",
-    "href": "blogs/ai-use.html#ethical-notes-on-ai-images-contd",
-    "title": "Responsible Use of Artificial Intelligence in Academic Research",
-    "section": "Ethical Notes on AI Images (cont’d)",
-    "text": "Ethical Notes on AI Images (cont’d)\n\nAlways disclose the use of AI for image generation in your figure captions.\n\nExample Caption:\n“Figure 1: Research conceptual framework. AI-generated image created using Midjourney (v6.0) based on prompts by the authors.”"
-  },
-  {
-    "objectID": "blogs/ai-use.html#making-writing-ai-free",
-    "href": "blogs/ai-use.html#making-writing-ai-free",
-    "title": "Responsible Use of Artificial Intelligence in Academic Research",
-    "section": "Making Writing “AI-Free”",
-    "text": "Making Writing “AI-Free”\n\nWrite your first draft manually. This is your original intellectual contribution.\nUse AI for editing. Input your text into Grammarly/ Wordtune/ Quilbot/ Hixbypass for grammar, spelling, and clarity suggestions.\nManually review every change. Do not accept all changes. Critically check each suggestion. Does it change your intended meaning?\nUse AI for phrasing help. If struggle with a single sentence, ask for alternatives, but then rewrite it in your own words based on the the alternative suggestions.\nFinal Read-Through: Read the entire document aloud to ensure it sounds like your voice.\n\nOutput: A polished manuscript that is authentically yours."
-  },
-  {
-    "objectID": "blogs/ai-use.html#tools-zotero-mendeley",
-    "href": "blogs/ai-use.html#tools-zotero-mendeley",
-    "title": "Responsible Use of Artificial Intelligence in Academic Research",
-    "section": "Tools: Zotero, Mendeley",
-    "text": "Tools: Zotero, Mendeley\n\nAutomatic: These tools can automatically retrieve metadata (title, author, journal, DOI) from uploaded PDFs.\nWord Processors Plugins: The plugins for Word/Google Docs are used to seamlessly integrate with RStudio and Word processors.\nBest Practice: Double-check the auto-extracted data against the original PDF. Errors related to reference formating especially author names, capitalization and missing elements are highly common!\nTake Care: Double check the formats of direct and indirect in-text citations, e.g. Author (year) or (author, year).\nCSL: Download required citation style language (.csl) file from Zotero/Mendeley repositories."
-  },
-  {
-    "objectID": "blogs/ai-use.html#ethical-principles-contd",
-    "href": "blogs/ai-use.html#ethical-principles-contd",
-    "title": "Responsible Use of Artificial Intelligence in Academic Research",
-    "section": "Ethical principles (cont’d)",
-    "text": "Ethical principles (cont’d)\n\nPrivacy and confidentiality: Never input sensitive, proprietary, or personal data.\nFairness: Be aware of and mitigate algorithmic biases.\nSecurity risk: Be cuatious about AI bots to minimize security risks and fishing.\n\n\nYour responsibility: Always check guidelines and policies of the university or journals of your interest."
-  },
-  {
-    "objectID": "blogs/ai-use.html#disclosure-statement-thesismanuscriptarticle",
-    "href": "blogs/ai-use.html#disclosure-statement-thesismanuscriptarticle",
-    "title": "Responsible Use of Artificial Intelligence in Academic Research",
-    "section": "Disclosure Statement: Thesis/Manuscript/Article",
-    "text": "Disclosure Statement: Thesis/Manuscript/Article\nA recommended statement for methods or acknowledgements section:\n\n“During the preparation of this work, the author(s) used [List of Tools, e.g., ChatGPT-4, Elicit, Grammarly] to [List of Purposes, e.g., generate initial ideas for research questions, improve language clarity, and paraphrase the author’s original writing]. After using these tools/services, the author(s) reviewed and edited the content as needed and take(s) full responsibility for the content of the publication.”"
-  },
-  {
-    "objectID": "blogs/ai-use.html#skills-needed-for-using-ai-in-research",
-    "href": "blogs/ai-use.html#skills-needed-for-using-ai-in-research",
-    "title": "Responsible Use of Artificial Intelligence in Academic Research",
-    "section": "Skills needed for using AI in research",
-    "text": "Skills needed for using AI in research\n\nPrompt: Get what you need by using appropriate prompt.\nAccept responsibility: You are the author. Never blame AI for the contents.\nAcknowledge AI: This is ethical compliance that you declare the use of AI.\nParaphrase: Making writing plagiarism and AI-free by using your own thinking; not only other AI tools for paraphrasing.\n\n\nHuman input is required in every step for responsible and ethical use of AI in research."
-  },
-  {
-    "objectID": "blogs/ai-use.html#biggest-outputs-of-research",
-    "href": "blogs/ai-use.html#biggest-outputs-of-research",
-    "title": "Responsible Use of Artificial Intelligence in Academic Research",
-    "section": "Biggest outputs of research",
-    "text": "Biggest outputs of research\nUsing systematized approach, research:\n\nGenerates new knowledge\nProvides idea, practice, or device\nResults in innovation or technology"
-  },
-  {
-    "objectID": "blogs/ai-use.html#biggest-weaknesses-of-ai",
-    "href": "blogs/ai-use.html#biggest-weaknesses-of-ai",
-    "title": "Responsible Use of Artificial Intelligence in Academic Research",
-    "section": "Biggest weaknesses of AI",
-    "text": "Biggest weaknesses of AI\n\nStatistical machine learning models that use existing information\nAI does not generate new knowledge; it only recycles knowledge\nSo, full dependency on AI is a dead end of research and scientific progress\nHowever, AI provides efficient solutions that are based on existing information, e.g. diagnostic task, security, office management, auto-driving, auto-piloting, decision-making, deep analysis of information, programming, app and software development and many others."
-  },
-  {
-    "objectID": "blogs/ai-use.html#qa-and-discussion",
-    "href": "blogs/ai-use.html#qa-and-discussion",
-    "title": "Responsible Use of Artificial Intelligence in Academic Research",
-    "section": "Q&A and Discussion",
-    "text": "Q&A and Discussion\n\n\n\n\n\n%%{init: {'themeVariables': { 'fontSize': '2rem'}}}%%\ngraph LR\nA[AI] --&gt; B[Not using] --&gt; C[Foolish]\nA --&gt; D[Blind use] --&gt; E[Risky and dangerous]\nA --&gt; F[Responsible use] --&gt; G[Your ethical standard]"
-  },
-  {
-    "objectID": "blogs/ai-use.html#see-you-in-another-session.",
-    "href": "blogs/ai-use.html#see-you-in-another-session.",
-    "title": "Responsible Use of Artificial Intelligence in Academic Research",
-    "section": "See you in another session.",
-    "text": "See you in another session.\n\n\nThank you.\n\n\nEmail: kamrulext@pstu.ac.bd\nGSM/WhatsApp: +8801891565856\n\nSlides created using Quarto. Available at: www.ruenresearch.com\n\n\n\n\n\nRUEN Research"
+    "text": "Thank you so much.\nQuestion, Comments, Suggestions\n\n\n\n\nRUEN Research"
   },
   {
     "objectID": "blogs/ARD5112.html#communication-brings-common-understanding",
@@ -1099,172 +931,410 @@
     "text": "References (Online resources + the followings)\n\n\n\nResources\n\n\n\nAge, A. I., Obinne, C. P. O., & Demenongu, T. S. (2012). Communication for sustainable rural and agricultural development in benue state, nigeria. Sustainable Agriculture Research, 1, 118–129. https://api.semanticscholar.org/CorpusID:53595165\n\n\nAwili, M. A., White, & Kimotho, S. G. (2016). Factors that influence effective communication of agricultural information among farmers – the case of farmers in south west kisumu ward, kisumu county. https://api.semanticscholar.org/CorpusID:133467930\n\n\nBlaettler, D., Deisadze, S., Fehle, P., Gelashvili, S., Kochlamazashvili, R., Lehmann, R., & Mamardashvili, P. (2020). Analysis of the agricultural knowledge and information system (AKIS) in georgia. Final report. UNDP. https://iset-pi.ge/storage/media/other/2022-03-25/e3e75540-ac49-11ec-9b98-7310e1da4f4e.pdf\n\n\nDubey, V. K., & Bishnoi, I. (2008). Extension education and communication. New Age International.\n\n\nGermundsson, L. B. (2021). What is AKIS? LTV faculty factsheet. https://pub.epsilon.slu.se/26228/1/germundsson_l_211129.pdf\n\n\nHovland, C. I., Janis, I. L., & Kelley, H. H. (1953). Communication and persuasion: Psychological studies of opinion change. Yale University Press.\n\n\nKhan, P. M. (2002). Textbook of extension education. Himangshu Publications.\n\n\nOktarina, S., Sumardjo, & Rustiadi, E. (2008). Keefektivan komunikasi dalam pengembangan peran-peran kelembagaan agropolitan. https://api.semanticscholar.org/CorpusID:129751144\n\n\nRay, G. L. (2003). Extension communication and management. Kalyani Publishers."
   },
   {
-    "objectID": "blogs/field-trip-ag-2025.html#extension-field-trip-2025",
-    "href": "blogs/field-trip-ag-2025.html#extension-field-trip-2025",
-    "title": "Extension Field Trip 2025",
-    "section": "Extension Field Trip 2025",
-    "text": "Extension Field Trip 2025\n\nB.Sc.Ag. (Hons.), Session 2019–2020\nDepartment of Agricultural Extension and Rural Development\nPatuakhali Science and Technology University\nDumki, Patuakhali 8660\nDate: 10-15 August 2025\nPlace: Digholia, Fultola, and Jashore Sadar"
+    "objectID": "blogs/ai-use.html#how-do-ai-language-models-work",
+    "href": "blogs/ai-use.html#how-do-ai-language-models-work",
+    "title": "Responsible Use of Artificial Intelligence in Academic Research",
+    "section": "How Do AI Language Models Work?",
+    "text": "How Do AI Language Models Work?\nCritical users should be aware of (IBM, 2025):\n\nAI Models: Predictive Text Generation using Machine Learning algorithms (e.g., deep neural network, which is a statistical model)\nThey are not collection of all facts or knowledge.\nThey are statistical prediction tools trained on large amounts of text data.\nFundamental task: Given a sequence of words or phrase (the prompt), predict the next word or phrase based on probability."
   },
   {
-    "objectID": "blogs/field-trip-ag-2025.html#outline",
-    "href": "blogs/field-trip-ag-2025.html#outline",
+    "objectID": "blogs/ai-use.html#ai-training-process-simplified",
+    "href": "blogs/ai-use.html#ai-training-process-simplified",
+    "title": "Responsible Use of Artificial Intelligence in Academic Research",
+    "section": "AI Training Process (Simplified)",
+    "text": "AI Training Process (Simplified)\n\n\n\n\n%%{init: {'themeVariables': { 'fontSize': '2rem'}}}%%\ngraph TD\nA[Data collection from&lt;br&gt;books, articles, online resources, code] --&gt; B[Pattern learning by&lt;br&gt;statistical relationships]\nB --&gt; C[Proccessing of&lt;br&gt;billions of numerical parameters]\nC --&gt; D[Outputs for users&lt;br&gt;in natural language]"
+  },
+  {
+    "objectID": "blogs/ai-use.html#tools-chatgpt-4-claude-elicit-scispace",
+    "href": "blogs/ai-use.html#tools-chatgpt-4-claude-elicit-scispace",
+    "title": "Responsible Use of Artificial Intelligence in Academic Research",
+    "section": "Tools: ChatGPT-4, Claude, Elicit, Scispace",
+    "text": "Tools: ChatGPT-4, Claude, Elicit, Scispace\n\nBrainstorming Research Questions:\n\nPrompt: “Give me 5 novel research questions on the linkage between climate-smart agriculture adoption and social capital in coastal Bangladesh.”\n\nIdentifying Gaps:\n\nPrompt: “Summarize the major theories used to explain technology adoption in rural sociology. Mention which are least applied in an agricultural context.”\n\nDeveloping a Conceptual Framework:\n\nPrompt: “Based on the Theory of Planned Behavior, provide me a draft conceptual framework model for analyzing farmers’ intention to use drought-resistant varieties.”"
+  },
+  {
+    "objectID": "blogs/ai-use.html#tools-chatgpt-4-julius-ai-deepseek-gemini",
+    "href": "blogs/ai-use.html#tools-chatgpt-4-julius-ai-deepseek-gemini",
+    "title": "Responsible Use of Artificial Intelligence in Academic Research",
+    "section": "Tools: ChatGPT-4, Julius AI, Deepseek, Gemini",
+    "text": "Tools: ChatGPT-4, Julius AI, Deepseek, Gemini\n\nChoosing Statistical Tests: Prompt: “My research question is: ‘Does training (yes/no) have effects on knowledge scores (continuous) and adoption levels (ordinal: low, medium, high) among farmers? What are the appropriate statistical tests?’”\nSurvey Design: Prompt: “Draft a 5-point Likert scale questionnaire to measure ‘perceived behavioural control’ based on the theory of planned behaviour (TPB) for farmers using organic fertilizers and manure.” [Note: TPB \\(\\Rightarrow\\) Attitude + Norms + Beliefs in Ability]\nSample Size Calculation: Prompt: “My population is 15000. What could be the sample size with 95% confidence interval and 5% margin of error, using Hasan & Kumar (2024) formula. Also provide the values for different parameters in the formula, e.g. sample control ratio”."
+  },
+  {
+    "objectID": "blogs/ai-use.html#tools-elicit-scite",
+    "href": "blogs/ai-use.html#tools-elicit-scite",
+    "title": "Responsible Use of Artificial Intelligence in Academic Research",
+    "section": "Tools: Elicit, Scite",
+    "text": "Tools: Elicit, Scite\n\nElicit: Uses AI to find and summarize top published articles. Best for initial search.\n\nTask: Find top cited papers on “diffusion of innovations in agriculture.” \n\nScite: Shows citations of published articles (e.g., as supporting or contradicting findings).\n\nTask: Check if a key theory paper that has been widely cited."
+  },
+  {
+    "objectID": "blogs/ai-use.html#tools-research-rabbit-litmaps-scispace",
+    "href": "blogs/ai-use.html#tools-research-rabbit-litmaps-scispace",
+    "title": "Responsible Use of Artificial Intelligence in Academic Research",
+    "section": "Tools: Research Rabbit, Litmaps, Scispace",
+    "text": "Tools: Research Rabbit, Litmaps, Scispace\n\nResearch Rabbit and Litmaps: Creates visualization and maps of the literature based on citation that help find key papers of interest.\nScispace: For writing research tasks.\n\n\nCrucial: These tools assist in finding literature. The synthesis and critical analysis must be done by you."
+  },
+  {
+    "objectID": "blogs/ai-use.html#remember-ai-is-an-assistant-not-an-author",
+    "href": "blogs/ai-use.html#remember-ai-is-an-assistant-not-an-author",
+    "title": "Responsible Use of Artificial Intelligence in Academic Research",
+    "section": "Remember: AI is an Assistant, Not an Author",
+    "text": "Remember: AI is an Assistant, Not an Author\n\nOvercoming Writer’s Limitation:\n\nPrompt: “Write a paragraph for the ‘methodology’ chapter of a PhD thesis explaining a multistage random sampling technique for a survey in coastal areas of Bangladesh.”\n\nImproving Clarity:\n\nPrompt: “Rewrite this sentence for better clarity and brevity: [Paste your haphazard sentences.]”\n\nParaphrasing & Grammar:\n\nTools: Grammarly, Wordtune, QuillBot.\nGoal: To polish your own writing, not to generate original content."
+  },
+  {
+    "objectID": "blogs/ai-use.html#responsible-paraphrasing",
+    "href": "blogs/ai-use.html#responsible-paraphrasing",
+    "title": "Responsible Use of Artificial Intelligence in Academic Research",
+    "section": "Responsible Paraphrasing",
+    "text": "Responsible Paraphrasing\n\n\n\n\n\n%%{init: {'themeVariables': { 'fontSize': '2rem'}}}%%\ngraph LR\nA[Human&lt;br&gt;Sentences] --&gt; B[AI&lt;br&gt;Paraphrasing]\nB --&gt; C[Human&lt;br&gt;Editing]\nC --&gt; D[AI&lt;br&gt;grammar&lt;br&gt;check]\n\n\n\n\n\n\n\n\n\n%%{init: {'themeVariables': { 'fontSize': '2rem'}}}%%\ngraph LR\nA[AI&lt;br&gt;Generated Texts] --&gt; B[AI&lt;br&gt;Praphrasing]\nB --&gt; C[Human&lt;br&gt;Paraphrasing&lt;/editing&gt;]\nC --&gt; D[AI&lt;br&gt;grammar&lt;br&gt;check]\n\n\n\n\n\n Unethical use\n\n\n\n\n%%{init: {'themeVariables': { 'fontSize': '2rem'}}}%%\ngraph LR\nA[AI&lt;br&gt;Generated Texts] --&gt; B[AI&lt;br&gt;Praphrasing]\nB --&gt; C[Published&lt;br&gt;Article]"
+  },
+  {
+    "objectID": "blogs/ai-use.html#example-responsible-paraphrasing",
+    "href": "blogs/ai-use.html#example-responsible-paraphrasing",
+    "title": "Responsible Use of Artificial Intelligence in Academic Research",
+    "section": "Example: Responsible Paraphrasing",
+    "text": "Example: Responsible Paraphrasing\nOriginal (Human-Written) Sentence:\n\n“The adoption of new agricultural technologies is contingent upon a complex interplay of socioeconomic factors, extension service accessibility, and perceived risk among the farming community.”\n\nAI-Assisted Paraphrase (using Quilbot/Hixbypass/Wordtune/Grammarly Suggestion):\n\n“The uptake of novel agricultural technologies depends on a complex combination of socioeconomic conditions, access to extension services, and farmers’ perception of risk.”\n\nWhy it is responsible? The idea and core content are of the researcher. The AI has only helped with word choice and sentence fluency."
+  },
+  {
+    "objectID": "blogs/ai-use.html#example-responsible-paraphrasing-1",
+    "href": "blogs/ai-use.html#example-responsible-paraphrasing-1",
+    "title": "Responsible Use of Artificial Intelligence in Academic Research",
+    "section": "Example: Responsible Paraphrasing",
+    "text": "Example: Responsible Paraphrasing\nAI-Generated Text:\n\n“The uptake of novel agricultural technologies depends on a complex combination of socioeconomic conditions, access to extension services, and farmers’ perception of risk.”\n\nHuman Paraphrase after checking the sources:\n\n“The adoption of agricultural innovations depends on a complex set of socioeconomic attributes, access to extension services, and farmers’ perception of risk.”\n\nWhy it is responsible? The AI has generated the texts. The author has checked the sources and found ok followed by paraphrasing aligned with the standard format for publication."
+  },
+  {
+    "objectID": "blogs/ai-use.html#example-unethical-use-of-ai",
+    "href": "blogs/ai-use.html#example-unethical-use-of-ai",
+    "title": "Responsible Use of Artificial Intelligence in Academic Research",
+    "section": "Example: Unethical Use of AI",
+    "text": "Example: Unethical Use of AI\nAI-Written sentence:\n\n“The uptake of novel agricultural technologies depends on a complex combination of socioeconomic conditions, access to extension services, and farmers’ perception of risk.”\n\nUsed in article as it is:\n\n“The uptake of novel agricultural technologies depends on a complex combination of socioeconomic conditions, access to extension services, and farmers’ perception of risk.”\n\nWhy it is not responsible: The idea and core content are generated by the AI. The researchers has not used their own idea or ideas based on published literature."
+  },
+  {
+    "objectID": "blogs/ai-use.html#improving-statistical-analysis",
+    "href": "blogs/ai-use.html#improving-statistical-analysis",
+    "title": "Responsible Use of Artificial Intelligence in Academic Research",
+    "section": "Improving statistical analysis",
+    "text": "Improving statistical analysis\n\nCode Generation & Explanation:\n\nTool: ChatGPT-4 (Code Interpreter), GitHub Copilot.\nPrompt: “Write R code to run a multiple linear regression with yield as the dependent variable and rainfall, fertilizer, and training as independent variables. Include code to check for multicollinearity using VIF.”\n\nError Debugging:\n\nPrompt: “I get this error in my Python code ValueError: shapes (100,5) and (3,) not aligned. What does it mean and how do I fix it?”\n\n\nPrinciple: You must know and understand the appropriate statistics. AI helps with the implementation, not the conceptualization."
+  },
+  {
+    "objectID": "blogs/ai-use.html#example-ai-for-data-visualization",
+    "href": "blogs/ai-use.html#example-ai-for-data-visualization",
+    "title": "Responsible Use of Artificial Intelligence in Academic Research",
+    "section": "Example: AI for data visualization",
+    "text": "Example: AI for data visualization\nResearcher’s goal: Visualize the difference in mean yields between conventional and new practices.\n\nInitial R code (researcher’s draft):\nggplot(data, aes(practice, yield)) + geom_boxplot()\n\n\nVisualization enhancement:\n\nTool: ChatGPT-4, Deepseek.\nPrompt: “Suggest improvements for this ggplot2 code to make this scatterplot more publication-ready. [Paste your code]”"
+  },
+  {
+    "objectID": "blogs/ai-use.html#for-conceptual-diagrams-and-illustrations",
+    "href": "blogs/ai-use.html#for-conceptual-diagrams-and-illustrations",
+    "title": "Responsible Use of Artificial Intelligence in Academic Research",
+    "section": "For Conceptual Diagrams and Illustrations",
+    "text": "For Conceptual Diagrams and Illustrations\n\nMidjourney, DALL-E 3, Stable Diffusion, Davinci.ai:\n\nUse case: Creating original artwork, conceptual diagrams, illustrative figures that are not based on real data.\nExample prompt for a conceptual diagram: “A minimalist, professional scientific illustration of the ‘research methodology’ as a cycle with icons for ‘problem identification’, ‘data collection’, ‘analysis’, and ‘interpretation’. White background, blue and green colors, vector style.”\nCritical consideration: These tools must not be used to generate or alter experimental data, photographs, maps, or graphs that represent research findings. This is a serious violation of academic integrity."
+  },
+  {
+    "objectID": "blogs/ai-use.html#ethical-notes-on-ai-images",
+    "href": "blogs/ai-use.html#ethical-notes-on-ai-images",
+    "title": "Responsible Use of Artificial Intelligence in Academic Research",
+    "section": "Ethical Notes on AI Images",
+    "text": "Ethical Notes on AI Images\n\nAI should not generate your data, but it can generate your diagrams.\n\n\nPermissible: Creating a flow chart of your research process.\nPermissible: Generating an icon to represent “agricultural extension” in a presentation slide.\nFraudulent: Generating a picture of a plant with a disease symptom for your research.\nFraudulent: Creating a fake graph or map with fictional data points."
+  },
+  {
+    "objectID": "blogs/ai-use.html#ethical-notes-on-ai-images-contd",
+    "href": "blogs/ai-use.html#ethical-notes-on-ai-images-contd",
+    "title": "Responsible Use of Artificial Intelligence in Academic Research",
+    "section": "Ethical Notes on AI Images (cont’d)",
+    "text": "Ethical Notes on AI Images (cont’d)\n\nAlways disclose the use of AI for image generation in your figure captions.\n\nExample Caption:\n“Figure 1: Research conceptual framework. AI-generated image created using Midjourney (v6.0) based on prompts by the authors.”"
+  },
+  {
+    "objectID": "blogs/ai-use.html#making-writing-ai-free",
+    "href": "blogs/ai-use.html#making-writing-ai-free",
+    "title": "Responsible Use of Artificial Intelligence in Academic Research",
+    "section": "Making Writing “AI-Free”",
+    "text": "Making Writing “AI-Free”\n\nWrite your first draft manually. This is your original intellectual contribution.\nUse AI for editing. Input your text into Grammarly/ Wordtune/ Quilbot/ Hixbypass for grammar, spelling, and clarity suggestions.\nManually review every change. Do not accept all changes. Critically check each suggestion. Does it change your intended meaning?\nUse AI for phrasing help. If struggle with a single sentence, ask for alternatives, but then rewrite it in your own words based on the the alternative suggestions.\nFinal Read-Through: Read the entire document aloud to ensure it sounds like your voice.\n\nOutput: A polished manuscript that is authentically yours."
+  },
+  {
+    "objectID": "blogs/ai-use.html#tools-zotero-mendeley",
+    "href": "blogs/ai-use.html#tools-zotero-mendeley",
+    "title": "Responsible Use of Artificial Intelligence in Academic Research",
+    "section": "Tools: Zotero, Mendeley",
+    "text": "Tools: Zotero, Mendeley\n\nAutomatic: These tools can automatically retrieve metadata (title, author, journal, DOI) from uploaded PDFs.\nWord Processors Plugins: The plugins for Word/Google Docs are used to seamlessly integrate with RStudio and Word processors.\nBest Practice: Double-check the auto-extracted data against the original PDF. Errors related to reference formating especially author names, capitalization and missing elements are highly common!\nTake Care: Double check the formats of direct and indirect in-text citations, e.g. Author (year) or (author, year).\nCSL: Download required citation style language (.csl) file from Zotero/Mendeley repositories."
+  },
+  {
+    "objectID": "blogs/ai-use.html#ethical-principles-contd",
+    "href": "blogs/ai-use.html#ethical-principles-contd",
+    "title": "Responsible Use of Artificial Intelligence in Academic Research",
+    "section": "Ethical principles (cont’d)",
+    "text": "Ethical principles (cont’d)\n\nPrivacy and confidentiality: Never input sensitive, proprietary, or personal data.\nFairness: Be aware of and mitigate algorithmic biases.\nSecurity risk: Be cuatious about AI bots to minimize security risks and fishing.\n\n\nYour responsibility: Always check guidelines and policies of the university or journals of your interest."
+  },
+  {
+    "objectID": "blogs/ai-use.html#disclosure-statement-thesismanuscriptarticle",
+    "href": "blogs/ai-use.html#disclosure-statement-thesismanuscriptarticle",
+    "title": "Responsible Use of Artificial Intelligence in Academic Research",
+    "section": "Disclosure Statement: Thesis/Manuscript/Article",
+    "text": "Disclosure Statement: Thesis/Manuscript/Article\nA recommended statement for methods or acknowledgements section:\n\n“During the preparation of this work, the author(s) used [List of Tools, e.g., ChatGPT-4, Elicit, Grammarly] to [List of Purposes, e.g., generate initial ideas for research questions, improve language clarity, and paraphrase the author’s original writing]. After using these tools/services, the author(s) reviewed and edited the content as needed and take(s) full responsibility for the content of the publication.”"
+  },
+  {
+    "objectID": "blogs/ai-use.html#skills-needed-for-using-ai-in-research",
+    "href": "blogs/ai-use.html#skills-needed-for-using-ai-in-research",
+    "title": "Responsible Use of Artificial Intelligence in Academic Research",
+    "section": "Skills needed for using AI in research",
+    "text": "Skills needed for using AI in research\n\nPrompt: Get what you need by using appropriate prompt.\nAccept responsibility: You are the author. Never blame AI for the contents.\nAcknowledge AI: This is ethical compliance that you declare the use of AI.\nParaphrase: Making writing plagiarism and AI-free by using your own thinking; not only other AI tools for paraphrasing.\n\n\nHuman input is required in every step for responsible and ethical use of AI in research."
+  },
+  {
+    "objectID": "blogs/ai-use.html#biggest-outputs-of-research",
+    "href": "blogs/ai-use.html#biggest-outputs-of-research",
+    "title": "Responsible Use of Artificial Intelligence in Academic Research",
+    "section": "Biggest outputs of research",
+    "text": "Biggest outputs of research\nUsing systematized approach, research:\n\nGenerates new knowledge\nProvides idea, practice, or device\nResults in innovation or technology"
+  },
+  {
+    "objectID": "blogs/ai-use.html#biggest-weaknesses-of-ai",
+    "href": "blogs/ai-use.html#biggest-weaknesses-of-ai",
+    "title": "Responsible Use of Artificial Intelligence in Academic Research",
+    "section": "Biggest weaknesses of AI",
+    "text": "Biggest weaknesses of AI\n\nStatistical machine learning models that use existing information\nAI does not generate new knowledge; it only recycles knowledge\nSo, full dependency on AI is a dead end of research and scientific progress\nHowever, AI provides efficient solutions that are based on existing information, e.g. diagnostic task, security, office management, auto-driving, auto-piloting, decision-making, deep analysis of information, programming, app and software development and many others."
+  },
+  {
+    "objectID": "blogs/ai-use.html#qa-and-discussion",
+    "href": "blogs/ai-use.html#qa-and-discussion",
+    "title": "Responsible Use of Artificial Intelligence in Academic Research",
+    "section": "Q&A and Discussion",
+    "text": "Q&A and Discussion\n\n\n\n\n\n%%{init: {'themeVariables': { 'fontSize': '2rem'}}}%%\ngraph LR\nA[AI] --&gt; B[Not using] --&gt; C[Foolish]\nA --&gt; D[Blind use] --&gt; E[Risky and dangerous]\nA --&gt; F[Responsible use] --&gt; G[Your ethical standard]"
+  },
+  {
+    "objectID": "blogs/ai-use.html#see-you-in-another-session.",
+    "href": "blogs/ai-use.html#see-you-in-another-session.",
+    "title": "Responsible Use of Artificial Intelligence in Academic Research",
+    "section": "See you in another session.",
+    "text": "See you in another session.\n\n\nThank you.\n\n\nEmail: kamrulext@pstu.ac.bd\nGSM/WhatsApp: +8801891565856\n\nSlides created using Quarto. Available at: www.ruenresearch.com\n\n\n\n\n\nRUEN Research"
+  },
+  {
+    "objectID": "blogs/field-trip-fish-2025.html#extension-field-trip-2025",
+    "href": "blogs/field-trip-fish-2025.html#extension-field-trip-2025",
+    "title": "Extension Field Trip 2025",
+    "section": "Extension Field Trip 2025",
+    "text": "Extension Field Trip 2025\n\nB. Sc. Fisheries (Hons.), Session 2020–2021\nDepartment of Agricultural Extension and Rural Development\nPatuakhali Science and Technology University\nDumki, Patuakhali 8660\nDate: 21-23 September 2025\nPlace: Dumuria Upazila, Khulna"
+  },
+  {
+    "objectID": "blogs/field-trip-fish-2025.html#outline",
+    "href": "blogs/field-trip-fish-2025.html#outline",
     "title": "Extension Field Trip 2025",
     "section": "Outline",
     "text": "Outline\n\nWhat is extension field trip?\nWhy is it done?\nHow to do it?\nWhat are the expectations?\nWhat are your queries?"
   },
   {
-    "objectID": "blogs/field-trip-ag-2025.html#extension-field-trip",
-    "href": "blogs/field-trip-ag-2025.html#extension-field-trip",
+    "objectID": "blogs/field-trip-fish-2025.html#extension-field-trip",
+    "href": "blogs/field-trip-fish-2025.html#extension-field-trip",
     "title": "Extension Field Trip 2025",
     "section": "Extension Field Trip",
-    "text": "Extension Field Trip\n\nExtension field trip is a part of the course contents of ARD 422 (Extension Program Building and Technology Transfer).\nThis is a capstone program that introduces students with field level activities of various government offices related to agricultural and rural development.\nThis out-of-class visit to the rural areas brings practical experiences, which are complementary to the classroom contents."
+    "text": "Extension Field Trip\n\nExtension field trip is a part of the course contents of ARD 418 (Extension Education for Fisheries).\nThis is a capstone program that introduces students with field level activities of various government offices related to agriculture, fisheries and rural development.\nThis out-of-class visit to the rural areas brings practical experiences, which are complementary to the classroom contents."
   },
   {
-    "objectID": "blogs/field-trip-ag-2025.html#learning-outcomes",
-    "href": "blogs/field-trip-ag-2025.html#learning-outcomes",
+    "objectID": "blogs/field-trip-fish-2025.html#learning-outcomes",
+    "href": "blogs/field-trip-fish-2025.html#learning-outcomes",
     "title": "Extension Field Trip 2025",
     "section": "Learning Outcomes",
-    "text": "Learning Outcomes\nAt the end of the field trip, the participant students will be able to:\n\nexplain the administrative structure of a upazila (sub-district)\nillustrate the organogram of different government departments\ndescribe the services mentioned in the citizen charters\nsummarize the objectives of visited projects in the farmers’ field\nsuggest improvements for rural development projects."
+    "text": "Learning Outcomes\nAt the end of the field trip, the participant students will be able to:\n\nexplain the administrative structure of a upazila (sub-district);\nillustrate the organogram of different government departments;\ndescribe the services mentioned in the citizen charters;\nsummarize the objectives of visited projects in the farmers’ field; and\nsuggest improvements for fisheries development projects."
   },
   {
-    "objectID": "blogs/field-trip-ag-2025.html#preparation",
-    "href": "blogs/field-trip-ag-2025.html#preparation",
-    "title": "Extension Field Trip 2025",
-    "section": "Preparation",
-    "text": "Preparation\n\nPlan for possible places\nApproval from university authority\nReceiving funds, accommodation and transport\nCommunicating with the hosts\nTake some money for meals.\nTake 40-50 A4 size blank sheets of paper for report writing.\nNo specific dress code, take a clean bed sheet if needed."
-  },
-  {
-    "objectID": "blogs/field-trip-ag-2025.html#schedule-2025",
-    "href": "blogs/field-trip-ag-2025.html#schedule-2025",
-    "title": "Extension Field Trip 2025",
-    "section": "Schedule 2025",
-    "text": "Schedule 2025\n\n10 August: travelling to the selected upazila\n11 August: attending the conference of upazila level officers\n12 August: visiting various upazila level offices\n13 August: visiting project areas and meeting farmers\n14 August: report preparation\n15 August: receiving certificates and coming back"
-  },
-  {
-    "objectID": "blogs/field-trip-ag-2025.html#groups-and-guides",
-    "href": "blogs/field-trip-ag-2025.html#groups-and-guides",
+    "objectID": "blogs/field-trip-fish-2025.html#groups-and-guides",
+    "href": "blogs/field-trip-fish-2025.html#groups-and-guides",
     "title": "Extension Field Trip 2025",
     "section": "Groups and Guides",
-    "text": "Groups and Guides\n\nDigholiaJashoreFultola\n\n\n\nID 1901001–1901057 (Serial 1–47) [male 29, female 18 = 47]\nStay: Hort Center, Daulatpur\nTeacher Guide: Professor Dr. Md. Kamrul Hasan\nAssistant: Md. Saidul Islam\n\n\n\nID 1901058–1901163 (Serial 48–127) [male 39, female 41 = 80]\n\nRRFRARSBanchte Shekha\n\n\n\nStay: RRF\n\nID 1901058–1901118 (Serial 48–94) [male 26, female 21 = 47]\nTeacher Guide: Professor Dr. Md. Mamun-ur-Rashid\nAssistant: Md. Jahidul Islam\n\n\n\n\n\nStay: RARS\n\nID 1901120–1901132 (Serial 95–107) [male 5, female 8 = 13]\nTeacher Guide: Assistant Professor Shekhar Mondal\nAssistant: (not listed)\n\n\n\n\n\nStay: Banchte Shekha\n\nID 1901133–1901163 (Serial 108–127) [male 8, female 12 = 20]\nTeacher Guide: Assistant Professor Aparajita Badhan\nAssistant: (not listed)\n\n\n\n\n\n\n\n\nID 1901164–1801177 (Serial 128–188) [male 41, female 20 = 61]\nStay: GSS, Fultola\n\nTeacher Guide: Professor Dr. Md. Golam Rabbani Akanda and Associate Professor A.T.M Sanaul Haque\nAssistants: Md. Afzal Hossain and Md. Ataur Rahman"
+    "text": "Groups and Guides\n\nStay: Hotel Asia International, Majid Sarani, Khulna\nTeacher Guides:\n\nProf. Dr. Md. Golam Rabbani Akanda,\nProf. Dr. md. Kamrul Hasan, and\nAssociate Professor Aparajita Badhan\n\nAssistants:\n\nMr. Md. Afzal Hossain and\nMr.Liton Chandra Shil"
   },
   {
-    "objectID": "blogs/field-trip-ag-2025.html#day-1-starting-10-august-2025",
-    "href": "blogs/field-trip-ag-2025.html#day-1-starting-10-august-2025",
+    "objectID": "blogs/field-trip-fish-2025.html#preparation",
+    "href": "blogs/field-trip-fish-2025.html#preparation",
     "title": "Extension Field Trip 2025",
-    "section": "Day 1: Starting 10 August 2025",
-    "text": "Day 1: Starting 10 August 2025\n\n@ 9.00–9.30 am from PSTU:\n@ 10.30 am from Rupatoli, Barishal\n\n4 buses in front of Admin Building at PSTU\n1 for Daulatpur, Khulna [ID 1901001–1901057, Serial 1–47]\n1 for Fultola, Khulna [ID 1901164–1801177, Serial 142–188]\n1 for RRF, Jashore [ID 1901058–1901118, Serial 48–94]\n1 (mixed) for Fultola, Banchte Shekha, and RARS [ID 1901120–1901163, Serial 95–141]\nUse the bus according to the serial, otherwise you will be marked absent during roll call.\n\n@ 1.00 pm: Lunch and prayer break\n@ 3.00–5.00 pm: Exploring the staying places"
+    "section": "Preparation",
+    "text": "Preparation\n\nTour Approval from university authority\nReceiving funds for accommodation and transport\nCommunicating with the hosts (UNO, SUFU, UAO, etc.)\nTake some extra money for meals.\nTake 30-35 A4 size blank sheets of paper for report writing.\nNo specific dress code, take a clean bed sheet if needed.\nHot water arrangement on your own"
   },
   {
-    "objectID": "blogs/field-trip-ag-2025.html#day-2-to-6",
-    "href": "blogs/field-trip-ag-2025.html#day-2-to-6",
+    "objectID": "blogs/field-trip-fish-2025.html#food-management",
+    "href": "blogs/field-trip-fish-2025.html#food-management",
     "title": "Extension Field Trip 2025",
-    "section": "Day 2 to 6",
-    "text": "Day 2 to 6\n\nFollow your teacher guide’s instruction.\nYour attendances may be recorded several times a day.\nAttend all the sessions and keep notes for reporting.\nPrepare part of your reports regularly.\nDay 5 afternoon and night: Finalize your report in a feedback session.\nDay 6: Return to PSTU"
+    "section": "Food management",
+    "text": "Food management\n\nArrange on your own (hotel or restaurant).\nTeachers will not arrange your meals.\nDrink only safe water.\nVegetarian: Explore on your own."
   },
   {
-    "objectID": "blogs/field-trip-ag-2025.html#your-payment",
-    "href": "blogs/field-trip-ag-2025.html#your-payment",
+    "objectID": "blogs/field-trip-fish-2025.html#beware-of",
+    "href": "blogs/field-trip-fish-2025.html#beware-of",
     "title": "Extension Field Trip 2025",
-    "section": "Your Payment",
-    "text": "Your Payment\n\nTotal budget (B)\nCentral expenditure (C): bus fare, banner, certificates, logistics\nLocal expenditure (L): accommodation, water bottles, tissue, snacks for conference, aerosol\nIndividual payment (P): meals, local transport, own expenditure\nFormula: P = B - (C + L)\nYour guide teacher will pay twice during the tour.\nRemaining amount will be paid at the end."
+    "section": "Beware of …",
+    "text": "Beware of …\n\nTake extra care for fire hazard and avoid as much as possible.\nUse your own bed sheet for hygiene purpose.\nTake small soap, shampoo and other personal cosmetics.\nTake umbrella, sunglasses, water heater (if needed), medicines.\nDo not overlook contagious diseases."
   },
   {
-    "objectID": "blogs/field-trip-ag-2025.html#money-disbursement",
-    "href": "blogs/field-trip-ag-2025.html#money-disbursement",
-    "title": "Extension Field Trip 2025",
-    "section": "Money Disbursement",
-    "text": "Money Disbursement\n\nTotal bus fare, banner, certificates, logistics cost will be divided by the number of students to calculate per head central expenditure.\nUpon meeting the local expenditures, the guide teachers will distribute the money to you.\nRemaining will be given to the guide teachers."
-  },
-  {
-    "objectID": "blogs/field-trip-ag-2025.html#seat-distribution",
-    "href": "blogs/field-trip-ag-2025.html#seat-distribution",
-    "title": "Extension Field Trip 2025",
-    "section": "Seat Distribution",
-    "text": "Seat Distribution\n\nHave patience, wait at the gate\nGuide teacher will talk to the host\nGuide teacher will know the number of rooms with capacity\nGuide teacher will distribute the keys to each group\nDo not see the rooms before taking the keys\nTake the key and go required number of students in a room\nTake the key …. and repeat the process until end"
-  },
-  {
-    "objectID": "blogs/field-trip-ag-2025.html#food",
-    "href": "blogs/field-trip-ag-2025.html#food",
-    "title": "Extension Field Trip 2025",
-    "section": "Food",
-    "text": "Food\n\nArrange on your own (guest house or restaurant)\nTeachers will not arrange your meals\nDrink only safe water\nVegetarian: talk to the guest house or explore other options"
-  },
-  {
-    "objectID": "blogs/field-trip-ag-2025.html#beware-of-pests-and-nuisance",
-    "href": "blogs/field-trip-ag-2025.html#beware-of-pests-and-nuisance",
-    "title": "Extension Field Trip 2025",
-    "section": "Beware of Pests and Nuisance",
-    "text": "Beware of Pests and Nuisance\n\nTeachers will buy mosquito coils and aerosol\nTake extra care for fire hazard\nUse your own bed sheet for hygiene purpose\nTake small soap, shampoo and other personal cosmetics\nTake umbrella, sunglasses, water heater (if needed), medicines"
-  },
-  {
-    "objectID": "blogs/field-trip-ag-2025.html#emergency-management",
-    "href": "blogs/field-trip-ag-2025.html#emergency-management",
+    "objectID": "blogs/field-trip-fish-2025.html#emergency-management",
+    "href": "blogs/field-trip-fish-2025.html#emergency-management",
     "title": "Extension Field Trip 2025",
     "section": "Emergency Management",
-    "text": "Emergency Management\n\nSick: Immediately inform your guide teacher\nSend message to your parents in a soft tone.\nYour guide teacher will arrange a shift for you with either your classmate or family members\nCaution: Keep your emergency medicine with you, especially for asthma, allergic reaction, anaphyllaxis."
+    "text": "Emergency Management\n\nSick: Immediately inform your guide teacher.\nSend message to your parents in a soft tone.\nYour guide teacher will arrange a shift for you with either your classmate or family members\nCaution: Keep your emergency medicine with you, especially for asthma, allergic reaction, anaphyllaxis."
   },
   {
-    "objectID": "blogs/field-trip-ag-2025.html#tentative-marks-distribution",
-    "href": "blogs/field-trip-ag-2025.html#tentative-marks-distribution",
+    "objectID": "blogs/field-trip-fish-2025.html#schedule-2025",
+    "href": "blogs/field-trip-fish-2025.html#schedule-2025",
+    "title": "Extension Field Trip 2025",
+    "section": "Schedule 2025",
+    "text": "Schedule 2025\n\n20 Sep 2025: travelling to the selected upazila\n21 Sep 2025: attending the conference of upazila level officers and visiting various upazila level offices\n22 Sep 2025: visiting various field projects\n23 Sep 2025: report presentation, certificate receiving and travelling back to the campus\n\n\nYour attendances may be recorded several times a day."
+  },
+  {
+    "objectID": "blogs/field-trip-fish-2025.html#important-locations",
+    "href": "blogs/field-trip-fish-2025.html#important-locations",
+    "title": "Extension Field Trip 2025",
+    "section": "Important Locations",
+    "text": "Important Locations"
+  },
+  {
+    "objectID": "blogs/field-trip-fish-2025.html#starting",
+    "href": "blogs/field-trip-fish-2025.html#starting",
+    "title": "Extension Field Trip 2025",
+    "section": "Starting",
+    "text": "Starting\n20 September 2025, Saturday\n\n@ 2.30–3.00 pm take the bus at PSTU\n@ 3.50–4.00 pm take the bus at Barishal\n@ 4.15-4.45 pm prayer and short break\n@ 6.00-6.20 pm: Prayer break\n@ 7.15–7.30 pm: Check in at the hotel"
+  },
+  {
+    "objectID": "blogs/field-trip-fish-2025.html#seat-distribution",
+    "href": "blogs/field-trip-fish-2025.html#seat-distribution",
+    "title": "Extension Field Trip 2025",
+    "section": "Seat Distribution",
+    "text": "Seat Distribution\n\nHave patience, wait at the dormitory gate.\nGuide teacher will talk to the manager.\nGuide teacher will note the number of rooms with capacity.\nGuide teacher will distribute the keys to each group.\nDo not see the rooms before taking the keys.\nTake the key and go required number of students in a room.\nTake the key …. and repeat the process until the end."
+  },
+  {
+    "objectID": "blogs/field-trip-fish-2025.html#day-1",
+    "href": "blogs/field-trip-fish-2025.html#day-1",
+    "title": "Extension Field Trip 2025",
+    "section": "Day 1",
+    "text": "Day 1\n\nAttend Dumuria Upazial Complex by 9.00 am.\nFollow your teacher guide’s instructions for subsequent activities.\nAttend all the sessions and keep notes for reporting.\nPrepare part of your reports in the evening."
+  },
+  {
+    "objectID": "blogs/field-trip-fish-2025.html#day-2",
+    "href": "blogs/field-trip-fish-2025.html#day-2",
+    "title": "Extension Field Trip 2025",
+    "section": "Day 2",
+    "text": "Day 2\n\nMorning session (9.00 am to 1.00 pm):\n\nVisiting fisheries and agricultural project sites\n\nAfternoon and evening (4.00 pm to 9.00 pm):\n\nFinalize your report."
+  },
+  {
+    "objectID": "blogs/field-trip-fish-2025.html#day-3",
+    "href": "blogs/field-trip-fish-2025.html#day-3",
+    "title": "Extension Field Trip 2025",
+    "section": "Day 3",
+    "text": "Day 3\n\nMorning session (9.00 am to 11.00 am):\n\nPresent your report, receive certificates and provide feedback.\n\n11.00 am:\n\nCheck out from the hotel.\n\n11.30 am to 6.00 pm:\n\nReturn to PSTU, including prayer and lunch breaks"
+  },
+  {
+    "objectID": "blogs/field-trip-fish-2025.html#your-payment",
+    "href": "blogs/field-trip-fish-2025.html#your-payment",
+    "title": "Extension Field Trip 2025",
+    "section": "Your Payment",
+    "text": "Your Payment\n\nTotal budget (B)\nCommon expense (C) = Transport + Accommodation + Banner + Stage + Revenue Stamp\nCash payment: P = B - C\nYour guide teacher(s) will pay your share during the tour."
+  },
+  {
+    "objectID": "blogs/field-trip-fish-2025.html#tentative-marks-distribution",
+    "href": "blogs/field-trip-fish-2025.html#tentative-marks-distribution",
     "title": "Extension Field Trip 2025",
     "section": "Tentative Marks Distribution",
     "text": "Tentative Marks Distribution\n\nAttendance and punctuality (15%)\nTeamwork and cooperation (15%)\nEthical values (15%)\nExtra satisfactory performance (5%)\nPresentation of report or requested part (20%)\nReport (30%)"
   },
   {
-    "objectID": "blogs/field-trip-ag-2025.html#responsibility",
-    "href": "blogs/field-trip-ag-2025.html#responsibility",
+    "objectID": "blogs/field-trip-fish-2025.html#responsibility",
+    "href": "blogs/field-trip-fish-2025.html#responsibility",
     "title": "Extension Field Trip 2025",
     "section": "Responsibility",
-    "text": "Responsibility\n\nThis is not a pleasure trip.\nConsider adjustment and adaptation to the local situation.\nAccept temporary discomfort in the dormitory.\nRespect local culture and customs.\nBehave well, show pleasant attitude.\nYou will only show classmate-like relationships.\nNo other relationships such as spouse and enemy must not be demonstrated."
+    "text": "Responsibility\n\nThis is not a pleasure trip.\nConsider adjustment and adaptation to the local situation.\nAccept temporary discomfort in the dormitory.\nRespect local culture and customs.\nBehave well, show pleasant attitude.\nYou will only show classmate-like relationships. No other relationships such as spouse, grouping and enemy must not be demonstrated."
   },
   {
-    "objectID": "blogs/field-trip-ag-2025.html#final-touch",
-    "href": "blogs/field-trip-ag-2025.html#final-touch",
+    "objectID": "blogs/field-trip-fish-2025.html#final-touch",
+    "href": "blogs/field-trip-fish-2025.html#final-touch",
     "title": "Extension Field Trip 2025",
     "section": "Final Touch",
-    "text": "Final Touch\n\nYou can arrange a feedback with fun session (consult your guide teacher)\nSubmit your completed report and take certificate\nTake the bus waiting outside (jashore 9.30 am, Fultola 10.15 am, and Digholia 10.30 am).\nIf you want to go home directly, your guide may talk to your guardians. You will not get bus fare reimbursement.\nLunch break at Khulna Zero point (may not be possible due to Friday prayer).\nArrive at PSTU at around 6.00 pm"
+    "text": "Final Touch\n\nIf you want to go home directly at the end of the tour, your guide may talk to your guardians. You will not get bus fare reimbursement.\n\nNostalgia\n\nDon’t forget to compile your beautiful photos and memories.\nMake an album selecting the best ones.\nShare those with us for uploading in the PSTU website."
   },
   {
-    "objectID": "blogs/field-trip-ag-2025.html#nostalgia",
-    "href": "blogs/field-trip-ag-2025.html#nostalgia",
-    "title": "Extension Field Trip 2025",
-    "section": "Nostalgia",
-    "text": "Nostalgia\n\nDon’t forget to compile your beautiful photos and memories.\nMake an album selecting the best ones.\nShare those with us for uploading in the PSTU website."
-  },
-  {
-    "objectID": "blogs/field-trip-ag-2025.html#thank-you-so-much.",
-    "href": "blogs/field-trip-ag-2025.html#thank-you-so-much.",
+    "objectID": "blogs/field-trip-fish-2025.html#thank-you-so-much.",
+    "href": "blogs/field-trip-fish-2025.html#thank-you-so-much.",
     "title": "Extension Field Trip 2025",
     "section": "Thank you so much.",
-    "text": "Thank you so much.\nQuestion, Comments, Suggestions\n\n\n\n\nRUEN Research"
+    "text": "Thank you so much.\n\nQuestion, Comments, Suggestions"
   },
   {
-    "objectID": "blogs/why-r-python.html",
-    "href": "blogs/why-r-python.html",
-    "title": "Why to learn R/Python?",
-    "section": "",
-    "text": "Python or R is an open-source programming language. Python is one of the most widely used general programming language and R is one of the most widely used programming language for research and data analysis.\nCode sharing, customizing, reusability of codes, and literally endless possibility of expansion of data science ideas are some of the benefits of command-driven programs over menu-driven programs.\nR seems to know anything that a data analyst needs to analyze. The code is highly customizable. One problem can be solved in different ways. Output formatting can be styled using tidyverse and kableExtra. However, I think R has attracted many data analyst for its amazing publication ready data-based figures usually done with ggplot2.\n\n\n\nInstall R Download R\nInstall Python Download Python\nInstall pip (package installer for python) using cmd (command prompt): python -m pip install --upgrade pip\nFor python3, update pip if needed: python3 -m pip install --upgrade pip\nInstall Jupyter using cmd: python -m pip install jupyter\nYou can also install Jupyter Lab using cmd: python -m pip install jupyterlab\nYou can launch Jupyter Notebook or Lab using cmd: jupyter notebook or jupyter lab\n\n\n\n\n\nIn cmd: jupyter notebook\n\n\n\n\n\nInstall VS Code Download VS Code\nInstall R extension in VS code: R Extension for Visual Studio Code (REditorSupport)\nInstall radian in cmd for syntax highlighting: pip3 install -U radian\nOpen R from Start Menu\nInstall packages in R (not RStudio) without compilation: install.packages(c('languageserver', 'httpgd', 'repr', 'IRdisplay', 'evaluate', 'crayon', 'pbdZMQ', 'devtools', 'uuid', 'digest'))\nInstall R kernel for jupyter in R (not RStudio): devtools::install_github('IRkernel/IRkernel')\nLink R kernel to jupyter notebook in R (not RStudio): IRkernel::installspec(user = FALSE)\nOpen a file in VS code with .ipynb extension and select kernel (jupyer kernel &gt; R kernel)\n\nNow your jupyter notebook is ready for both python and R. You can also create and work with R file with .R extension in vs code. At the end, you can export the .ipynb (jupyter notebook) file as html by pressing ctrl+shift+P and search for ‘jupyter: export to html’. Open this html file in RStudio to publish. In addition, you can read some tips on working with markdown in Markdown cheat sheet."
+    "objectID": "blogs/field-trip-fish-2025.html#go-to-slido.com-and-enter-the-code-to-join",
+    "href": "blogs/field-trip-fish-2025.html#go-to-slido.com-and-enter-the-code-to-join",
+    "title": "Extension Field Trip 2025",
+    "section": "Go to slido.com and enter the code to join",
+    "text": "Go to slido.com and enter the code to join\n\nQuestion, Comments, Suggestions"
   },
   {
-    "objectID": "blogs/why-r-python.html#installation-of-r-and-integration-with-jupyter-notebook-in-visual-studio-code",
-    "href": "blogs/why-r-python.html#installation-of-r-and-integration-with-jupyter-notebook-in-visual-studio-code",
-    "title": "Why to learn R/Python?",
-    "section": "",
-    "text": "Install R Download R\nInstall Python Download Python\nInstall pip (package installer for python) using cmd (command prompt): python -m pip install --upgrade pip\nFor python3, update pip if needed: python3 -m pip install --upgrade pip\nInstall Jupyter using cmd: python -m pip install jupyter\nYou can also install Jupyter Lab using cmd: python -m pip install jupyterlab\nYou can launch Jupyter Notebook or Lab using cmd: jupyter notebook or jupyter lab"
+    "objectID": "blogs/field-trip-fish-2025.html#go-to-slido.com-and-enter-the-code-to-join-1",
+    "href": "blogs/field-trip-fish-2025.html#go-to-slido.com-and-enter-the-code-to-join-1",
+    "title": "Extension Field Trip 2025",
+    "section": "Go to slido.com and enter the code to join",
+    "text": "Go to slido.com and enter the code to join\n\nAre you happy with this session?\n\n\n\n\n\n\n\n\n\nRUEN Research"
   },
   {
-    "objectID": "blogs/why-r-python.html#run-jupyter-notebook-in-browser",
-    "href": "blogs/why-r-python.html#run-jupyter-notebook-in-browser",
-    "title": "Why to learn R/Python?",
-    "section": "",
-    "text": "In cmd: jupyter notebook"
+    "objectID": "blogs/world-food-day-2025.html#introduction",
+    "href": "blogs/world-food-day-2025.html#introduction",
+    "title": "Hand in Hand for a Better Food and a Better Future",
+    "section": "Introduction",
+    "text": "Introduction\n\nDo you know how many people are dying of hunger right now?\nBetween 7,700 and over 20,000 people die every day from hunger-related causes.\nThat is roughly 10 every minute (Oxfam, 2024)."
   },
   {
-    "objectID": "blogs/why-r-python.html#run-r-with-jupyter-notebook-in-vs-code-visual-studio-code",
-    "href": "blogs/why-r-python.html#run-r-with-jupyter-notebook-in-vs-code-visual-studio-code",
-    "title": "Why to learn R/Python?",
-    "section": "",
-    "text": "Install VS Code Download VS Code\nInstall R extension in VS code: R Extension for Visual Studio Code (REditorSupport)\nInstall radian in cmd for syntax highlighting: pip3 install -U radian\nOpen R from Start Menu\nInstall packages in R (not RStudio) without compilation: install.packages(c('languageserver', 'httpgd', 'repr', 'IRdisplay', 'evaluate', 'crayon', 'pbdZMQ', 'devtools', 'uuid', 'digest'))\nInstall R kernel for jupyter in R (not RStudio): devtools::install_github('IRkernel/IRkernel')\nLink R kernel to jupyter notebook in R (not RStudio): IRkernel::installspec(user = FALSE)\nOpen a file in VS code with .ipynb extension and select kernel (jupyer kernel &gt; R kernel)\n\nNow your jupyter notebook is ready for both python and R. You can also create and work with R file with .R extension in vs code. At the end, you can export the .ipynb (jupyter notebook) file as html by pressing ctrl+shift+P and search for ‘jupyter: export to html’. Open this html file in RStudio to publish. In addition, you can read some tips on working with markdown in Markdown cheat sheet."
+    "objectID": "blogs/world-food-day-2025.html#plenty-share-paradox",
+    "href": "blogs/world-food-day-2025.html#plenty-share-paradox",
+    "title": "Hand in Hand for a Better Food and a Better Future",
+    "section": "Plenty-Share Paradox",
+    "text": "Plenty-Share Paradox\n\nThe world produces enough food to feed everyone, yet millions still starve.\nGlobal food output meets 2.5 times the caloric needs, but unfair distribution, conflict, and waste lead to ongoing hunger."
+  },
+  {
+    "objectID": "blogs/world-food-day-2025.html#bangladesh-reality",
+    "href": "blogs/world-food-day-2025.html#bangladesh-reality",
+    "title": "Hand in Hand for a Better Food and a Better Future",
+    "section": "Bangladesh Reality",
+    "text": "Bangladesh Reality\n\nBangladesh produces enough rice for its needs, but it struggles with malnutrition and food insecurity.\nApproximately 17% of the population is food-insecure, particularly in coastal regions. Climate stress and market inequalities make the situation worse."
+  },
+  {
+    "objectID": "blogs/world-food-day-2025.html#major-causes-of-hunger",
+    "href": "blogs/world-food-day-2025.html#major-causes-of-hunger",
+    "title": "Hand in Hand for a Better Food and a Better Future",
+    "section": "Major Causes of Hunger",
+    "text": "Major Causes of Hunger\n\nInequitable Distribution, unequal access to markets and resources (Benassai‑Dalmau et al., 2025).\nFood Loss and Waste, 21 million tonnes lost annually (CPD, 2024).\nClimate and Conflict Impacts, extreme weather, price volatility, and displacement (Oxfam, 2024)."
+  },
+  {
+    "objectID": "blogs/world-food-day-2025.html#rethinking-solutions",
+    "href": "blogs/world-food-day-2025.html#rethinking-solutions",
+    "title": "Hand in Hand for a Better Food and a Better Future",
+    "section": "Rethinking Solutions",
+    "text": "Rethinking Solutions\nFood security = Production × Access × Equity × Sustainability.\nSolutions:\n\nSocial safety nets and nutrition-sensitive agriculture.\nLocal food systems and short value chains.\nInvestment in post-harvest management and youth innovation."
+  },
+  {
+    "objectID": "blogs/world-food-day-2025.html#collaboration-for-equity",
+    "href": "blogs/world-food-day-2025.html#collaboration-for-equity",
+    "title": "Hand in Hand for a Better Food and a Better Future",
+    "section": "Collaboration for Equity",
+    "text": "Collaboration for Equity\n\nNational: fair markets, subsidies, inclusive land policies.\nLocal: link cooperatives, women’s groups, and markets.\nMulti-sector: universities, NGOs, and government coordination for resilient systems."
+  },
+  {
+    "objectID": "blogs/world-food-day-2025.html#youth-as-change-catalysts",
+    "href": "blogs/world-food-day-2025.html#youth-as-change-catalysts",
+    "title": "Hand in Hand for a Better Food and a Better Future",
+    "section": "Youth as Change Catalysts",
+    "text": "Youth as Change Catalysts\n\nYouth networks bridge innovation and field needs.\nPromote agri-digital tools, climate-smart practices, entrepreneurship.\nShowcase local startups and youth-led agrifood initiatives."
+  },
+  {
+    "objectID": "blogs/world-food-day-2025.html#vision-for-a-resilient-future",
+    "href": "blogs/world-food-day-2025.html#vision-for-a-resilient-future",
+    "title": "Hand in Hand for a Better Food and a Better Future",
+    "section": "Vision for a Resilient Future",
+    "text": "Vision for a Resilient Future\n“Food security will not come from producing more, but from sharing better.”\nAction Steps:\n\nIntegrate equity in food policy.\nBuild trust-based partnerships.\nEmpower youth and communities."
+  },
+  {
+    "objectID": "blogs/world-food-day-2025.html#conclusion",
+    "href": "blogs/world-food-day-2025.html#conclusion",
+    "title": "Hand in Hand for a Better Food and a Better Future",
+    "section": "Conclusion",
+    "text": "Conclusion\n“If you cannot feed a hundred people, then feed just one.” — Mother Teresa\nCollective humanity defines our food future."
+  },
+  {
+    "objectID": "blogs/world-food-day-2025.html#further-reading",
+    "href": "blogs/world-food-day-2025.html#further-reading",
+    "title": "Hand in Hand for a Better Food and a Better Future",
+    "section": "Further Reading",
+    "text": "Further Reading\n\nBenassai‑Dalmau, R., Voukelatou, V., Schifanella, R., Fiandrino, S., Paolotti, D., & Kalimeri, K. (2025). Unequal journeys to food markets: Continental‑scale evidence from open data in Africa. arXiv preprint arXiv:2505.07913.\nhttps://arxiv.org/abs/2505.07913\nCentre for Policy Dialogue. (2024, February 12). Post-harvest losses eat up 21m tonnes of food a year: CPD. The Daily Star.\nhttps://www.thedailystar.net/business/news/post-harvest-losses-eat-21m-tonnes-food-year-cpd-3998016\nCostlow, L., Herforth, A., Sulser, T. B., Cenacchi, N., & Masters, W. A. (2024). Global analysis reveals persistent shortfalls and regional differences in availability of foods needed for health. arXiv preprint arXiv:2401.01080.\nhttps://arxiv.org/abs/2401.01080\nOxfam. (2024). Food wars: Conflict, hunger, and globalization 2023–2024.\nhttps://www.oxfam.org/en/press-releases/21000-people-are-dying-each-day-conflict-fuelled-hunger-around-world\nUsman, M. A., & Callo‑Concha, D. (2021). Does market access improve dietary diversity and food security? Evidence from Southwestern Ethiopian smallholder coffee producers. Agricultural and Food Economics, 9(1), 1–19.\nhttps://agrifoodecon.springeropen.com/articles/10.1186/s40100-021-00190-8\nWorld Bank. (2024, July). Bangladesh wastes 34% of food annually: World Bank study. The Business Standard.\nhttps://www.tbsnews.net/bangladesh/bangladesh-wastes-34-food-annually-experts-1249056\n\n\n\n\nResources"
   },
   {
     "objectID": "contact.html",

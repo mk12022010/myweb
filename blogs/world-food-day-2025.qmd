@@ -1,0 +1,143 @@
+---
+title: "Hand in Hand for a Better Food and a Better Future"
+author: "Prof. Dr. Md. Kamrul Hasan"
+date: "2025-10-16"
+
+categories:
+  - World Food Day 2025
+  - Food security
+  - Plenty-share paradox
+  - Webinar
+
+format: 
+  revealjs:
+    smaller: false
+    scrollable: true
+    incremental: false
+    code-block-height: 650px
+    logo: ../images/pstu-logo.png
+    footer: |
+      <a href="https://ruenresearch.com" target="_blank">Resources</a>
+    transition: fade
+    slide-number: c/t
+    multiplex: false
+    embed-resources: false
+    chalkboard: true
+    theme: simple
+    css: ../styles.css
+    toc: true
+    toc-depth: 1
+    toc-title: Course Contents
+
+bibliography: references.bib
+csl: apa.csl
+---
+
+```{r setup, include=FALSE}
+# Render and view presentation
+if (interactive()) {
+  quarto::quarto_preview()
+}
+```
+
+## Introduction
+
+- Do you know how many people are dying of hunger right now?
+- Between 7,700 and over 20,000 people die every day from hunger-related causes.
+- That is roughly 10 every minute (Oxfam, 2024).
+
+---
+
+## Plenty-Share Paradox
+
+- The world produces enough food to feed everyone, yet millions still starve.
+- Global food output meets 2.5 times the caloric needs, but unfair distribution, conflict, and waste lead to ongoing hunger.
+
+---
+
+## Bangladesh Reality
+
+- Bangladesh produces enough rice for its needs, but it struggles with malnutrition and food insecurity.
+- Approximately 17% of the population is food-insecure, particularly in coastal regions. Climate stress and market inequalities make the situation worse.
+
+---
+
+## Major Causes of Hunger
+
+- Inequitable Distribution, unequal access to markets and resources (Benassai‑Dalmau et al., 2025).
+- Food Loss and Waste, 21 million tonnes lost annually (CPD, 2024).
+- Climate and Conflict Impacts, extreme weather, price volatility, and displacement (Oxfam, 2024).
+
+---
+
+## Rethinking Solutions
+
+Food security = Production × Access × Equity × Sustainability.
+
+**Solutions:**
+
+- Social safety nets and nutrition-sensitive agriculture.
+- Local food systems and short value chains.
+- Investment in post-harvest management and youth innovation.
+
+---
+
+## Collaboration for Equity
+
+- **National:** fair markets, subsidies, inclusive land policies.
+- **Local:** link cooperatives, women’s groups, and markets.
+- **Multi-sector:** universities, NGOs, and government coordination for resilient systems.
+
+---
+
+## Youth as Change Catalysts
+
+- Youth networks bridge innovation and field needs.
+- Promote agri-digital tools, climate-smart practices, entrepreneurship.
+- Showcase local startups and youth-led agrifood initiatives.
+
+---
+
+## Vision for a Resilient Future
+
+“Food security will not come from producing more, but from sharing better.”
+
+**Action Steps:**
+
+- Integrate equity in food policy.
+- Build trust-based partnerships.
+- Empower youth and communities.
+
+---
+
+## Conclusion
+
+“If you cannot feed a hundred people, then feed just one.” — Mother Teresa
+
+Collective humanity defines our food future.
+
+---
+
+## Further Reading {.smaller6}
+
+::: hanging-indent
+
+Benassai‑Dalmau, R., Voukelatou, V., Schifanella, R., Fiandrino, S., Paolotti, D., & Kalimeri, K. (2025). Unequal journeys to food markets: Continental‑scale evidence from open data in Africa. arXiv preprint arXiv:2505.07913.  
+https://arxiv.org/abs/2505.07913
+
+Centre for Policy Dialogue. (2024, February 12). Post-harvest losses eat up 21m tonnes of food a year: CPD. The Daily Star.  
+https://www.thedailystar.net/business/news/post-harvest-losses-eat-21m-tonnes-food-year-cpd-3998016
+
+Costlow, L., Herforth, A., Sulser, T. B., Cenacchi, N., & Masters, W. A. (2024). Global analysis reveals persistent shortfalls and regional differences in availability of foods needed for health. arXiv preprint arXiv:2401.01080.  
+https://arxiv.org/abs/2401.01080
+
+Oxfam. (2024). Food wars: Conflict, hunger, and globalization 2023–2024.  
+https://www.oxfam.org/en/press-releases/21000-people-are-dying-each-day-conflict-fuelled-hunger-around-world
+
+Usman, M. A., & Callo‑Concha, D. (2021). Does market access improve dietary diversity and food security? Evidence from Southwestern Ethiopian smallholder coffee producers. Agricultural and Food Economics, 9(1), 1–19.  
+https://agrifoodecon.springeropen.com/articles/10.1186/s40100-021-00190-8
+
+World Bank. (2024, July). Bangladesh wastes 34% of food annually: World Bank study. The Business Standard.  
+https://www.tbsnews.net/bangladesh/bangladesh-wastes-34-food-annually-experts-1249056
+
+:::

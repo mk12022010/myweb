@@ -105,6 +105,11 @@ body {
   font-size: 0.70em;
 }
 
+.smaller6 {
+  font-size: 0.40em;
+}
+
+
 
 .reveal h1, .reveal h2, .reveal h3 {
   color: #2c3e50;
