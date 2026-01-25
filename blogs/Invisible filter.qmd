@@ -1,0 +1,44 @@
+---
+title: "Microteach"
+subtitle: "Why farmers often ignore good messages?"
+author: "Prof. Dr. Md. Kamrul Hasan"
+institute: ""
+date: "2025-10-16"
+
+categories:
+  - Technology transfer
+  - Invisible filter
+  - Microteach
+
+format: 
+  revealjs:
+    smaller: false
+    scrollable: true
+    incremental: false
+    code-block-height: 650px
+    logo: ../images/pstu-logo.png
+    footer: |
+      <a href="https://ruenresearch.com" target="_blank">Resources</a>
+    transition: fade
+    slide-number: c/t
+    multiplex: false
+    embed-resources: false
+    chalkboard: true
+    theme: simple
+    css: ../styles.css
+    toc: true
+    toc-depth: 1
+    toc-title: Course Contents
+
+bibliography: references.bib
+csl: apa.csl
+---
+
+<div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
+ padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+ border-radius: 8px; will-change: transform;">
+  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+    src="https://www.canva.com/design/DAG_JOGteOM/foZYyg1tLiVv0kUBHOIX4g/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+  </iframe>
+</div>
+<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAG_JOGteOM&#x2F;foZYyg1tLiVv0kUBHOIX4g&#x2F;view?utm_content=DAG_JOGteOM&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">“Last year, an extension officer demonstrated a high-yield rice variety. Farmers listened, nodded… and then went back to their old variety. Question: Was the technology wrong—or was something else at work?”</a> by Md Kamrul Hasan

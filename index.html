@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.32">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>RUEN Research</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-b061074e2dd8c5addb9acb77f9998f48.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script src="script.js"></script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="floating nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./images/logo.png" alt="" class="navbar-logo">
+    </a>
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">RUEN Research</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="./index.html" aria-current="page"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-courses" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Courses</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-courses">    
+        <li>
+    <a class="dropdown-item" href="./courses/research-methodology.html">
+ <span class="dropdown-text">Research Methodology</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./courses/data-analysis.html">
+ <span class="dropdown-text">Data Analysis Using R</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./courses/communication5112.html">
+ <span class="dropdown-text">Communication and IT</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./courses/machine-learning.html">
+ <span class="dropdown-text">Machine Learning Using R</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./blogs.html"> 
+<span class="menu-text">Blogs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./enrol.html"> 
+<span class="menu-text">My Courses</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.youtube.com/@RUENResearch"> <i class="bi bi-youtube" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.facebook.com/share/1Zg85wujVJ/?mibextid=wwXIfr"> <i class="bi bi-facebook" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://x.com/kamrulext"> <i class="bi bi-twitter" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.instagram.com/ruenresearch/"> <i class="bi bi-instagram" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/kamrulext/"> <i class="bi bi-linkedin" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+  
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    </div>
+<!-- main -->
+<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+
+
+
+
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" role="tab" aria-controls="tabset-2-1" aria-selected="true">Welcome</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" role="tab" aria-controls="tabset-2-2" aria-selected="false">About</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-3" role="tab" aria-controls="tabset-2-3" aria-selected="false">Biography</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-4" role="tab" aria-controls="tabset-2-4" aria-selected="false">Publications</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-5" role="tab" aria-controls="tabset-2-5" aria-selected="false">Research Supervision</a></li></ul>
+<div class="tab-content">
+<div id="tabset-2-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-2-1-tab">
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img src="images/web-cover-left.png" class="img-with-border responsive-img img-fluid" style="width: auto; height: auto;;width:100.0%"></p>
+</div><div class="column" style="width:50%;">
+<p><img src="images/web-cover-right.png" class="img-with-border responsive-img img-fluid" style="width: auto; height: auto;;width:100.0%"></p>
+</div>
+</div>
+<p>This platform is initiated by Professor Dr.&nbsp;Md. Kamrul Hasan. At the moment, Professor Hasan holds a full time position as an academic employee in the Department of Agricultural Extension and Rural Development, Faculty of Agriculture, Patuakhali Science and Technology University, Dumki, Patuakhali 8602, Bangladesh.</p>
+<p><em>“The primary purpose of this website is to advance contemporary knowledge for students and learners across research, teaching, and extension domains. Social research is our central theme and we are also committed to extend meaningful collaborations and partnerships with other disciplines to enrich academic excellence and minimize the gap between science and policy.”</em></p>
+</div>
+<div id="tabset-2-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-2-tab">
+<p>Professor Dr.&nbsp;Md. Kamrul Hasan has completed his PhD degree in Ecosystem Management from the School of Environmental and Rural Science, University of New England, Australia. After graduation from Bangladesh Agricultural University in Bachelor of Science in Agriculture and Master of Science in Agricultural Extension Education, he completed an International Master of Science in Rural Development (IMRD) from Bioscience Engineering in Ghent University, Belgium. He studied human-environment interactions and climate science in Humboldt University, Germany followed by a case study in Slovakia to understand the community-led development activities under common agricultural policy of European Union. Economics, Econometrics, Advanced Statistics, and Policy Analysis were some of the major focus of his IMRD program.</p>
+<p><img src="images/profile-kamrul.png" class="img-fluid" width="200"></p>
+<p><a href="https://www.pstu.ac.bd/user-profile/129">Details at PSTU Website</a></p>
+</div>
+<div id="tabset-2-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-3-tab">
+<p>Dr.&nbsp;Md. Kamrul Hasan is a professor of Agricultural Extension and Rural Development. His attended academic institutions are Pekua Govt. Primary School (1987-1991), Bashtoil M. M. High School (1992-1997), HSC (Science group, 1999) at Govt. M. M. Ali College (Tangail), B.Sc.Ag. (Hons.) at Bangladesh Agricultural University (BAU, 2005), International Master of Science in Rural Development (IMRD, Ghent University, Humboldt University and Slovak University of Agriculture) in Belgium, Germany and Slovakia, and University of New England in Australia.</p>
+<p>Strong mathematical problem-solving capacity opened his way to become a big fan of statistics subject. He has been an expert in Microsoft Office programs, operating systems, networking, video and audio editing and statistical software (MSTAT, SPSS). Further improvement in using statistical and programming language (R, GAMS, SAS), including the application of machine learning algorithm and econometric analysis using Python and R programming language. He is also skilled in cartography and spatial analysis using ArcGIS software.</p>
+<p>As a graduate in agricultural sciences, Professor Hasan studied a wide range of subjects related to production, protection, extension, marketing and policy. Environmental Science and Development Economics attracted him while he was in Europe studying under Erasmus Mundus program. His research focused on Climate change, food security and farming systems. He is supervising Master’s and PhD students related to such fields of interests. Besides research, his taught courses include Research Methodology, Training Management, Communication, Learning Theories and Methods, Leadership and Groups, Gender Development, and Technology Transfer.</p>
+<p>Currently, Professor Hasan is the Chairman of Agricultural Extension and Rural Development and also worked as the Director of Institutional Quality Assurance Cell (IQAC) of Patuakhali Science and Technology University. As a part of this job, he organized and delivered training on quality related topics, e.g., Curriculum Development, National Integrity System, Right to Information, Grievance Redress, Citizen Charter, Public Procurement, and Pedagogy (teaching-learning, active learning, blended learning). He also acts as an active team member for organizing regular extension field tours for undergraduate students.</p>
+</div>
+<div id="tabset-2-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-4-tab">
+<ol type="1">
+<li><p>Mia, S., Roja, N. T., Sattar, M. A., Ahmed, R., Bhuyan, M. I., Islam, M. R., Badhan, A., &amp; <strong>Hasan, M. K.</strong> (2025). Prioritizing climate-smart agricultural technologies for coastal Bangladesh: A multicriteria assessment. <em>Agricultural Systems, 230</em>, 104489. <a href="https://doi.org/10.1016/j.agsy.2025.104489">https://doi.org/10.1016/j.agsy.2025.104489</a></p></li>
+<li><p>Ratnayake, S. S., Reid, M., Larder, N., Hunter, D., <strong>Hasan, M. K.</strong>, Dharmasena, P. B., Kogo, B., Senavirathna, M., &amp; Kariyawasam, C. S. (2024). Climate and Land Use Change Pressures on Food Production in Social-Ecological Systems: Perceptions from Farmers in Village Tank Cascade Systems of Sri Lanka. <em>Sustainability, 16</em>(19), 8603. <a href="https://doi.org/10.3390/su16198603">https://doi.org/10.3390/su16198603</a></p></li>
+<li><p><strong>Hasan, M. K.</strong> and Kumar, L. (2024). Determining adequate sample size for social survey research. <em>Journal of Bangladesh Agricultural University, 22</em>(2), 146-157. <a href="https://doi.org/10.3329/jbau.v22i2.74547">https://doi.org/10.3329/jbau.v22i2.74547</a></p></li>
+<li><p>Maiti, A., <strong>Hasan, M. K.</strong>, Sannigrahi, S., et al.&nbsp;(2024). Optimal rainfall threshold for monsoon rice production in India varies across space and time. <em>Communications Earth &amp; Environment, 5</em>, 302. <a href="https://doi.org/10.1038/s43247-024-01414-7">https://doi.org/10.1038/s43247-024-01414-7</a></p></li>
+<li><p>Siddik, M. A., <strong>Hasan, M. K.</strong>, Islam, A. R. M. T., &amp; Islam, M. S. (2023). Coastal Community Valorization through Patuakhali Science and Technology University: Policy Support and Way Forwards. <em>Journal of Planning Education and Research, 45(1)</em>, 14-24. <a href="https://doi.org/10.1177/0739456X231195620">https://doi.org/10.1177/0739456X231195620</a></p></li>
+<li><p><strong>Hasan, M. K.</strong>, and Kumar, L. (2022). Changes in coastal farming systems in a changing climate. <em>Regional Environmental Change, 22</em>, 113. <a href="https://doi.org/10.1007/s10113-022-01962-8">https://doi.org/10.1007/s10113-022-01962-8</a></p></li>
+<li><p>Kogo, B. K., Kumar, L., Koech, R., and <strong>Hasan, M. K.</strong> (2022). Response to climate change in a rain-fed crop production system: Insights from maize farmers of western Kenya. <em>Mitigation and Adaptation Strategies for Global Change, 27</em>, 50. <a href="https://doi.org/10.1007/s11027-022-10023-8">https://doi.org/10.1007/s11027-022-10023-8</a></p></li>
+<li><p>Kogo, B. K., Kumar, L., Koech, R., &amp; <strong>Hasan, M. K.</strong> (2021). Climatic and non-climatic risks in rainfed crop production systems: insights from maize farmers of western Kenya. <em>Climate and Development, 13</em>(10), 869–878. <a href="https://doi.org/10.1080/17565529.2020.1867043">https://doi.org/10.1080/17565529.2020.1867043</a></p></li>
+<li><p><strong>Hasan, M. K.</strong>, &amp; Kumar, L. (2021). Yield trends and variabilities explained by climatic change in coastal and non-coastal areas of Bangladesh. <em>Science of the Total Environment, 795</em>, 148814. <a href="https://doi.org/10.1016/j.scitotenv.2021.148814">https://doi.org/10.1016/j.scitotenv.2021.148814</a></p></li>
+<li><p><strong>Hasan, M. K.</strong>, &amp; Kumar, L. (2020). Discriminated perceptions of climatic impacts on coastal farm management practices. <em>Journal of Environmental Management, 278</em>, 111550. <a href="https://doi.org/10.1016/j.jenvman.2020.111550">https://doi.org/10.1016/j.jenvman.2020.111550</a></p></li>
+<li><p>Gopalakrishnan, T., Kumar, L., &amp; <strong>Hasan, M. K.</strong> (2020). Coastal settlement patterns and exposure to sea-level rise in the Jaffna Peninsula, Sri Lanka. <em>Population and Environment, 42</em>, 129-145. <a href="https://doi.org/10.1007/s11111-020-00350-w">https://doi.org/10.1007/s11111-020-00350-w</a></p></li>
+<li><p>Hasan, M. K., &amp; Kumar, L. (2020). Perceived farm-level climatic impacts on coastal agricultural productivity in Bangladesh. <em>Climatic Change, 161</em>, 617-636. <a href="https://doi.org/10.1007/s10584-020-02708-3">https://doi.org/10.1007/s10584-020-02708-3</a></p></li>
+<li><p>Jayasinghe, S. L., Kumar, L., &amp; <strong>Hasan, M. K.</strong> (2020). Relationship between Environmental Covariates and Ceylon Tea Cultivation in Sri Lanka. <em>Agronomy, 10</em>(4), 476. <a href="https://doi.org/10.3390/agronomy10040476">https://doi.org/10.3390/agronomy10040476</a></p></li>
+<li><p><strong>Hasan, M. K.</strong>, &amp; Kumar, L. (2020). Meteorological data and farmers’ perception of coastal climate in Bangladesh. <em>Science of the Total Environment, 704</em>, 135384. <a href="https://doi.org/10.1016/j.scitotenv.2019.135384">https://doi.org/10.1016/j.scitotenv.2019.135384</a></p></li>
+<li><p>Chhogyel, N., Kumar, L., Bajgai, Y., &amp; <strong>Hasan, M. K.</strong> (2020). Perception of farmers on climate change and its impacts on agriculture across various altitudinal zones of Bhutan Himalayas. <em>International Journal of Environmental Science and Technology, 17</em>, 3607-3620. <a href="https://doi.org/10.1007/s13762-020-02662-8">https://doi.org/10.1007/s13762-020-02662-8</a></p></li>
+<li><p><strong>Hasan, M. K.</strong>, Kumar, L., &amp; Gopalakrishnan, T. (2020). Inundation modelling for Bangladeshi coasts using downscaled and bias-corrected temperature. <em>Climate Risk Management, 27</em>, 100207. <a href="https://doi.org/https://doi.org/10.1016/j.crm.2019.100207">https://doi.org/https://doi.org/10.1016/j.crm.2019.100207</a></p></li>
+<li><p>Gopalakrishnan, T., <strong>Hasan, M. K.</strong>, Haque, A. T. M. S., Jayasinghe, S. L., &amp; Kumar, L. (2019). Sustainability of coastal agriculture under climate change. <em>Sustainability, 11</em>(24), 7200. <a href="https://doi.org/10.3390/su11247200">https://doi.org/10.3390/su11247200</a></p></li>
+<li><p><strong>Hasan, M. K.</strong>, and Kumar, L. (2019). Comparison between meteorological data and farmer perceptions of climate change and vulnerability in relation to adaptation. <em>Journal of Environmental Management, 237</em>, 54-62. <a href="https://doi.org/10.1016/j.jenvman.2019.02.028">https://doi.org/10.1016/j.jenvman.2019.02.028</a></p></li>
+<li><p><strong>Hasan, M. K.</strong>, Desiere, S., D’Haese, M., &amp; Kumar, L. (2018). Impact of climate-smart agriculture adoption on the food security of coastal farmers in Bangladesh. <em>Food Security, 10</em>, 1073-1088. <a href="https://doi.org/10.1007/s12571-018-0824-1">https://doi.org/10.1007/s12571-018-0824-1</a></p></li>
+</ol>
+</div>
+<div id="tabset-2-5" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-5-tab">
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">On-going</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Completed</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 19%">
+<col style="width: 19%">
+<col style="width: 41%">
+<col style="width: 19%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Level of Study</th>
+<th>Name of Student</th>
+<th style="text-align: left;">Title</th>
+<th style="text-align: left;">Role</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">MS/MBA</td>
+<td>Swapon Chandra Hawlader</td>
+<td style="text-align: left;">Investigating the Impact of Climatic Extreme on Homestead Livestock Farming</td>
+<td style="text-align: left;">Supervisor</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">PhD</td>
+<td>Md. Sumon Howlader</td>
+<td style="text-align: left;">Strategies for Implementation of Climate-Smart Agriculture (CSA) Practices in Bangladesh</td>
+<td style="text-align: left;">Co-supervisor</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">PhD</td>
+<td>Mahmuda Khanom</td>
+<td style="text-align: left;">Effect of Market Access and Value Chains on the Adoption of Climate-Smart Agriculture by Smallholder Farmers</td>
+<td style="text-align: left;">Supervisor</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">MS/MBA</td>
+<td>Jasika Jerrin Renesa</td>
+<td style="text-align: left;">Livelihood Strategy and Food Security of Low Income Households in Dumki Upazila of Patuakhali District</td>
+<td style="text-align: left;">Supervisor</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">MS/MBA</td>
+<td>Jubaer Ahmed</td>
+<td style="text-align: left;">Crop Diversification and Food Security of Rice Growers of Dumki Upazila in Patuakhali</td>
+<td style="text-align: left;">Supervisor</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">MS/MBA</td>
+<td>Shuvajit Roy Turjya</td>
+<td style="text-align: left;">Adoption of Climate Resilient Rice Varieties by the Farmers of Dumki Upazila</td>
+<td style="text-align: left;">Supervisor</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 19%">
+<col style="width: 19%">
+<col style="width: 42%">
+<col style="width: 19%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Level Of Study</th>
+<th>Name of Student</th>
+<th style="text-align: left;">Title</th>
+<th style="text-align: left;">Role</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">MS/MBA</td>
+<td>Md. Zahid Hasan</td>
+<td style="text-align: left;">Homestead poultry rearing and women empowerment in Barguna Sadar upazila of Bangladesh</td>
+<td style="text-align: left;">Co-supervisor</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">MS/MBA</td>
+<td>Halima Akter</td>
+<td style="text-align: left;">Weather information seeking behavior of small-scale fish farmers in selected areas of Patukhali District</td>
+<td style="text-align: left;">Co-supervisor</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">MS/MBA</td>
+<td>Tanmoy Sarkar Utsha</td>
+<td style="text-align: left;">Adoption of aquaculture practices at Dumki upazila under Patuakhali district</td>
+<td style="text-align: left;">Co-supervisor</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">MS/MBA</td>
+<td>Rezwana Ferdousi</td>
+<td style="text-align: left;">Performance Assessment of Farmers’ Groups under East-West Seed Knowledge Transfer (EWS-KT)</td>
+<td style="text-align: left;">Co-supervisor</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">MS/MBA</td>
+<td>Khan Alimul Razi</td>
+<td style="text-align: left;">Occupational Risk and Safety Measures of Coastal Fishermen in Patuakhali</td>
+<td style="text-align: left;">Supervisor</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">MS/MBA</td>
+<td>Sadman Sarar</td>
+<td style="text-align: left;">Livelihood and Household Dietary Diversity of Fishermen in Patuakhali District</td>
+<td style="text-align: left;">Supervisor</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">MS/MBA</td>
+<td>Rakibul Islam</td>
+<td style="text-align: left;">Effectiveness of Training for Small Scale Fish Farmers in Patuakhali</td>
+<td style="text-align: left;">Supervisor</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">MS/MBA</td>
+<td>S.M. Shariar Rahman</td>
+<td style="text-align: left;">Livelihood Status and Poverty Line of Fish Hatchery Workers in Jashore District</td>
+<td style="text-align: left;">Supervisor</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">MS/MBA</td>
+<td>Tanusree Halder</td>
+<td style="text-align: left;">Socioeconomic Conditions of Dry Fish Producers in the South-Central Coastal Region of Bangladesh</td>
+<td style="text-align: left;">Supervisor</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">MS/MBA</td>
+<td>Anika Ahmed</td>
+<td style="text-align: left;">Climate Vulnerability of Rural Households in the Exposed Central Coast of Bangladesh</td>
+<td style="text-align: left;">Supervisor</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">MS/MBA</td>
+<td>Shimul Banik</td>
+<td style="text-align: left;">Livelihood Strategies and Food Security of Coastal Fishermen in Patuakhali</td>
+<td style="text-align: left;">Supervisor</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="./index.html">
+<p>© RUEN Research. All rights reserved.</p>
+</a>
+  </li>  
+</ul>
+    </div>   
+    <div class="nav-footer-center">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1">
+<p>CC BY-NC-SA 4.0</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="./privacy-policy.html">
+<p>Privacy Policy</p>
+</a>
+  </li>  
+</ul>
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="./contact.html">
+<p>Contact</p>
+</a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
