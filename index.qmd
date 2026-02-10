@@ -40,7 +40,7 @@ Professor Hasan acted as the Chairman of Agricultural Extension and Rural Develo
 
 ## Publications
 
-1. Mousumi, M.A., Paparrizos, S., Hasan, M.K., Uddin, M.E., and Ludwig, F. (2026). Impacts of climate variability on rice yield and diseases in coastal Bangladesh. Regional Environmental Change, 26, 1-18. [https://doi.org/10.1007/s10113-025-02516-4](https://doi.org/10.1007/s10113-025-02516-4)
+1. Mousumi, M. A., Paparrizos, S., **Hasan, M. K.**, Uddin, M. E., and Ludwig, F. (2026). Impacts of climate variability on rice yield and diseases in coastal Bangladesh. Regional Environmental Change, 26, 1-18. [https://doi.org/10.1007/s10113-025-02516-4](https://doi.org/10.1007/s10113-025-02516-4)
 
 1. Mia, S., Roja, N. T., Sattar, M. A., Ahmed, R., Bhuyan, M. I., Islam, M. R., Badhan, A., & **Hasan, M. K.** (2025). Prioritizing climate-smart agricultural technologies for coastal Bangladesh: A multicriteria assessment. *Agricultural Systems, 230*, 104489. [https://doi.org/10.1016/j.agsy.2025.104489](https://doi.org/10.1016/j.agsy.2025.104489)
 
@@ -93,10 +93,10 @@ Professor Hasan acted as the Chairman of Agricultural Extension and Rural Develo
 | PhD | Md. Moniruzzaman | Climate Impacts on Basic Livelihood Resources, Food Security and Coping Mechanism of the Vulnerable People in the South Central Coast of Bangladesh | Co-supervisor |
 | PhD | Mahmuda Khanom | Effect of Market Access and Value Chains on the Adoption of Climate-Smart Agriculture by Smallholder Farmers | Supervisor |
 | PhD | Md. Sumon Howlader | Strategies for Implementation of Climate-Smart Agriculture (CSA) Practices in Bangladesh | Co-supervisor |
-
 | MS/MBA | Jasika Jerrin Renesa | Livelihood Strategy and Food Security of Low Income Households in Dumki Upazila of Patuakhali District | Supervisor |
 | MS/MBA | Jubaer Ahmed | Crop Diversification and Food Security of Rice Growers of Dumki Upazila in Patuakhali | Supervisor |
 | MS/MBA | Shuvajit Roy Turjya | Adoption of Climate Resilient Rice Varieties by the Farmers of Dumki Upazila | Supervisor |
+
 
 ### Completed
 
@@ -113,6 +113,7 @@ Professor Hasan acted as the Chairman of Agricultural Extension and Rural Develo
 | MS/MBA | Tanusree Halder | Socioeconomic Conditions of Dry Fish Producers in the South-Central Coastal Region of Bangladesh | Supervisor |
 | MS/MBA | Anika Ahmed | Climate Vulnerability of Rural Households in the Exposed Central Coast of Bangladesh | Supervisor |
 | MS/MBA | Shimul Banik | Livelihood Strategies and Food Security of Coastal Fishermen in Patuakhali | Supervisor |
+| MS/MBA | Md. Imran Hossan | Understanding the use of Nature-Based Solution for Crop Protection in Southern Coast of Bangladesh | Co-supervisor |
 :::
 
 
