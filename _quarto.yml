@@ -29,8 +29,8 @@ website:
             href: courses/machine-learning.qmd
       - text: "Blogs"
         href: blogs.qmd
-      - text: "My Courses"
-        href: enrol.qmd
+      # - text: "My Courses"
+      #   href: enrol.qmd
     right:
       - icon: youtube
         href: https://www.youtube.com/@RUENResearch

@@ -24,21 +24,23 @@ This platform is initiated by Professor Dr. Md. Kamrul Hasan. At the moment, Pro
 
 Professor Dr. Md. Kamrul Hasan has completed his PhD degree in Ecosystem Management from the School of Environmental and Rural Science, University of New England, Australia. After graduation from Bangladesh Agricultural University in Bachelor of Science in Agriculture and Master of Science in Agricultural Extension Education, he completed an International Master of Science in Rural Development (IMRD) from Bioscience Engineering in Ghent University, Belgium. He studied human-environment interactions and climate science in Humboldt University, Germany followed by a case study in Slovakia to understand the community-led development activities under common agricultural policy of European Union. Economics, Econometrics, Advanced Statistics, and Policy Analysis were some of the major focus of his IMRD program.
 
-![](images/profile-kamrul.png){width="200"}
+![](images/Profile_update2.png){width="200"}
 
 [Details at PSTU Website](https://www.pstu.ac.bd/user-profile/129)
 
 ## Biography
 
-Dr. Md. Kamrul Hasan is a professor of Agricultural Extension and Rural Development. His attended academic institutions are Pekua Govt. Primary School (1987-1991), Bashtoil M. M. High School (1992-1997), HSC (Science group, 1999) at Govt. M. M. Ali College (Tangail), B.Sc.Ag. (Hons.) at Bangladesh Agricultural University (BAU, 2005), International Master of Science in Rural Development (IMRD, Ghent University, Humboldt University and Slovak University of Agriculture) in Belgium, Germany and Slovakia, and University of New England in Australia.
+Dr. Md. Kamrul Hasan is a Professor of Agricultural Extension and Rural Development. He graduated from Bangladesh Agricultural University (Mymensingh) in B. Sc. Ag. (Hons.) in 2005, followed by a Master of Science (MS) in Agricultural Extension Education from the same. His second Master's Degree was International Master of Science in Rural Development (IMRD, Ghent University, Humboldt University and Slovak University of Agriculture) in Belgium, Germany and Slovakia. His PhD in Ecosystem Management was awarded from the School of Environmental and Rural Science at the University of New England in Australia.
 
-Strong mathematical problem-solving capacity opened his way to become a big fan of statistics subject. He has been an expert in Microsoft Office programs, operating systems, networking, video and audio editing and statistical software (MSTAT, SPSS). Further improvement in using statistical and programming language (R, GAMS, SAS), including the application of machine learning algorithm and econometric analysis using Python and R programming language. He is also skilled in cartography and spatial analysis using ArcGIS software.
+Professor Hasan is an expert data analyst who works with R and Python, including big data management and modelling. He is also divergent in SPSS, GAMS, Office Applications and web development. He studied a wide range of subjects related to production, protection, extension, marketing and policy. Environmental Science and Development Economics attracted him while he was in Europe studying under the Erasmus Mundus program. His research focused on Climate change, food security and farming systems. He is supervising Master's and PhD students related to such fields of interest. In addition to research, his taught courses include Research Methodology, Training Management, Communication, Learning Theories and Methods, Leadership and Groups, Gender Development, and Technology Transfer.
 
-As a graduate in agricultural sciences, Professor Hasan studied a wide range of subjects related to production, protection, extension, marketing and policy. Environmental Science and Development Economics attracted him while he was in Europe studying under Erasmus Mundus program. His research focused on Climate change, food security and farming systems. He is supervising Master's and PhD students related to such fields of interests. Besides research, his taught courses include Research Methodology, Training Management, Communication, Learning Theories and Methods, Leadership and Groups, Gender Development, and Technology Transfer.
+Professor Hasan has been actively involved in curriculum development activities at PSTU. He contributed to the OBE curriculum of the Faculty of Agriculture and other Faculties. He developed skills in curriculum, teaching, learning and assessment strategies by joining the training program of the British Council on Teaching Excellence Program and Staff Exchange Program in Germany and Finland.
 
-Currently, Professor Hasan is the Chairman of Agricultural Extension and Rural Development and also worked as the Director of Institutional Quality Assurance Cell (IQAC) of Patuakhali Science and Technology University. As a part of this job, he organized and delivered training on quality related topics, e.g., Curriculum Development, National Integrity System, Right to Information, Grievance Redress, Citizen Charter, Public Procurement, and Pedagogy (teaching-learning, active learning, blended learning). He also acts as an active team member for organizing regular extension field tours for undergraduate students.
+Professor Hasan acted as the Chairman of Agricultural Extension and Rural Development for three years, and also worked as the Director of the Institutional Quality Assurance Cell (IQAC) of Patuakhali Science and Technology University. As a part of this job, he organized and delivered training on quality-related topics, e.g., Curriculum Development, National Integrity System, Right to Information, Grievance Redress, Citizen Charter, Public Procurement, and Pedagogy (teaching-learning, active learning, blended learning).
 
 ## Publications
+
+1. Mousumi, M.A., Paparrizos, S., Hasan, M.K., Uddin, M.E., and Ludwig, F. (2026). Impacts of climate variability on rice yield and diseases in coastal Bangladesh. Regional Environmental Change, 26, 1-18. [https://doi.org/10.1007/s10113-025-02516-4](https://doi.org/10.1007/s10113-025-02516-4)
 
 1. Mia, S., Roja, N. T., Sattar, M. A., Ahmed, R., Bhuyan, M. I., Islam, M. R., Badhan, A., & **Hasan, M. K.** (2025). Prioritizing climate-smart agricultural technologies for coastal Bangladesh: A multicriteria assessment. *Agricultural Systems, 230*, 104489. [https://doi.org/10.1016/j.agsy.2025.104489](https://doi.org/10.1016/j.agsy.2025.104489)
 
@@ -87,8 +89,11 @@ Currently, Professor Hasan is the Chairman of Agricultural Extension and Rural D
 | Level of Study | Name of Student | Title | Role |
 |:-------------|--------------|:-----------------------------|:-------------|
 | MS/MBA | Swapon Chandra Hawlader | Investigating the Impact of Climatic Extreme on Homestead Livestock Farming | Supervisor |
-| PhD | Md. Sumon Howlader | Strategies for Implementation of Climate-Smart Agriculture (CSA) Practices in Bangladesh | Co-supervisor |
+| PhD | Md. Arifur Rahman | Co-creation of Adaptation Pathways by Assimilating CSA into ClS Frameworks using Living Labs Approach | Supervisor |
+| PhD | Md. Moniruzzaman | Climate Impacts on Basic Livelihood Resources, Food Security and Coping Mechanism of the Vulnerable People in the South Central Coast of Bangladesh | Co-supervisor |
 | PhD | Mahmuda Khanom | Effect of Market Access and Value Chains on the Adoption of Climate-Smart Agriculture by Smallholder Farmers | Supervisor |
+| PhD | Md. Sumon Howlader | Strategies for Implementation of Climate-Smart Agriculture (CSA) Practices in Bangladesh | Co-supervisor |
+
 | MS/MBA | Jasika Jerrin Renesa | Livelihood Strategy and Food Security of Low Income Households in Dumki Upazila of Patuakhali District | Supervisor |
 | MS/MBA | Jubaer Ahmed | Crop Diversification and Food Security of Rice Growers of Dumki Upazila in Patuakhali | Supervisor |
 | MS/MBA | Shuvajit Roy Turjya | Adoption of Climate Resilient Rice Varieties by the Farmers of Dumki Upazila | Supervisor |
