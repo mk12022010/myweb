@@ -6,8 +6,8 @@
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../../site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.7.32">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.8.27">
 
   <meta name="author" content="Professor Dr.&nbsp;Md. Kamrul Hasan">
   <title>RUEN Research – Data Analysis Using R</title>
@@ -95,7 +95,7 @@
     code span.vs { color: #20794d; } /* VerbatimString */
     code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
-  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto-93023b45f99c5e8439c552f0a6fe4040.css">
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto-e86c503ae7d0c955172f8ddd64118476.css">
   <link href="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -246,7 +246,7 @@ Professor Dr.&nbsp;Md. Kamrul Hasan
 <ul id="tabset-1" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-1-1">Code</a></li><li><a href="#tabset-1-2">Output</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1">
-<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a></a><span class="co"># This is a comment</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a></a><span class="co"># This is a comment</span></span>
 <span id="cb1-2"><a></a>x <span class="ot">&lt;-</span> <span class="dv">5</span>  <span class="co"># Assigning a value to a variable x</span></span>
 <span id="cb1-3"><a></a><span class="dv">3</span> <span class="ot">-&gt;</span> y  <span class="co"># Another way to assign a value to y</span></span>
 <span id="cb1-4"><a></a>z <span class="ot">=</span> <span class="dv">8</span> <span class="co"># Simple way of assigning a value to z</span></span>
@@ -262,7 +262,7 @@ Professor Dr.&nbsp;Md. Kamrul Hasan
 <span id="cb1-14"><a></a>x <span class="sc">==</span> y  <span class="co"># Check if x is equal to y</span></span>
 <span id="cb1-15"><a></a>x <span class="sc">!=</span> y  <span class="co"># Check if x is not equal to y</span></span>
 <span id="cb1-16"><a></a>y <span class="sc">%/%</span> x  <span class="co"># Integer division</span></span>
-<span id="cb1-17"><a></a>y <span class="sc">%%</span> x  <span class="co"># Modulus operation</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-17"><a></a>y <span class="sc">%%</span> x  <span class="co"># Modulus operation</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <div id="tabset-1-2">
 <div class="cell">
@@ -316,13 +316,13 @@ Professor Dr.&nbsp;Md. Kamrul Hasan
 <ul id="tabset-2" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-2-1">Code</a></li><li><a href="#tabset-2-2">Output</a></li></ul>
 <div class="tab-content">
 <div id="tabset-2-1">
-<div class="sourceCode" id="cb15"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a></a><span class="fu">log</span>(<span class="dv">1000</span>) <span class="co"># Natural logarithm of 1000</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb15"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a></a><span class="fu">log</span>(<span class="dv">1000</span>) <span class="co"># Natural logarithm of 1000</span></span>
 <span id="cb15-2"><a></a><span class="fu">log10</span>(<span class="dv">1000</span>) <span class="co"># Base 10 logarithm of 1000</span></span>
 <span id="cb15-3"><a></a><span class="fu">sin</span>(pi<span class="sc">/</span><span class="dv">2</span>) <span class="co"># Sine of pi/2</span></span>
 <span id="cb15-4"><a></a></span>
 <span id="cb15-5"><a></a>degree <span class="ot">=</span> <span class="dv">45</span></span>
 <span id="cb15-6"><a></a>radian <span class="ot">=</span> degree <span class="sc">*</span> (pi <span class="sc">/</span> <span class="dv">180</span>) <span class="co"># Convert degrees to radians</span></span>
-<span id="cb15-7"><a></a><span class="fu">tan</span>(radian) <span class="co"># Tangent of the angle in radians</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb15-7"><a></a><span class="fu">tan</span>(radian) <span class="co"># Tangent of the angle in radians</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <div id="tabset-2-2">
 <div class="cell">
@@ -349,7 +349,7 @@ Professor Dr.&nbsp;Md. Kamrul Hasan
 <ul id="tabset-3" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-3-1">Data codes</a></li><li><a href="#tabset-3-2">Index codes</a></li><li><a href="#tabset-3-3">Accessed elements</a></li></ul>
 <div class="tab-content">
 <div id="tabset-3-1">
-<div class="sourceCode" id="cb20"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a></a><span class="co"># Vectors</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb20"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a></a><span class="co"># Vectors</span></span>
 <span id="cb20-2"><a></a>v <span class="ot">=</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>)  <span class="co"># Create a numeric vector</span></span>
 <span id="cb20-3"><a></a>v_char <span class="ot">=</span> <span class="fu">c</span>(<span class="st">"a"</span>, <span class="st">"b"</span>, <span class="st">"c"</span>)  <span class="co"># Create a character vector</span></span>
 <span id="cb20-4"><a></a><span class="co"># Matrices</span></span>
@@ -361,10 +361,10 @@ Professor Dr.&nbsp;Md. Kamrul Hasan
 <span id="cb20-10"><a></a>name <span class="ot">=</span> <span class="fu">c</span>(<span class="st">"Alice"</span>, <span class="st">"Bob"</span>, <span class="st">"Charlie"</span>)</span>
 <span id="cb20-11"><a></a>age <span class="ot">=</span> <span class="fu">c</span>(<span class="dv">25</span>, <span class="dv">30</span>, <span class="dv">35</span>)</span>
 <span id="cb20-12"><a></a>scores <span class="ot">=</span> <span class="fu">c</span>(<span class="dv">90</span>, <span class="dv">85</span>, <span class="dv">88</span>)</span>
-<span id="cb20-13"><a></a>df <span class="ot">=</span> <span class="fu">data.frame</span>(name, age, scores)  <span class="co"># Create a data frame</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb20-13"><a></a>df <span class="ot">=</span> <span class="fu">data.frame</span>(name, age, scores)  <span class="co"># Create a data frame</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <div id="tabset-3-2">
-<div class="sourceCode" id="cb21"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a></a>v <span class="ot">=</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>) <span class="co"># Accessing elements in vectors</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb21"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a></a>v <span class="ot">=</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>) <span class="co"># Accessing elements in vectors</span></span>
 <span id="cb21-2"><a></a>v[<span class="dv">1</span>]  <span class="co"># First element</span></span>
 <span id="cb21-3"><a></a>v[<span class="dv">2</span><span class="sc">:</span><span class="dv">4</span>]  <span class="co"># Elements from index 2 to 4</span></span>
 <span id="cb21-4"><a></a></span>
@@ -380,7 +380,7 @@ Professor Dr.&nbsp;Md. Kamrul Hasan
 <span id="cb21-14"><a></a>df <span class="ot">=</span> <span class="fu">data.frame</span>(<span class="at">name=</span><span class="fu">c</span>(<span class="st">"Alice"</span>, <span class="st">"Bob"</span>, <span class="st">"Charlie"</span>), <span class="at">age=</span><span class="fu">c</span>(<span class="dv">25</span>, <span class="dv">30</span>, <span class="dv">35</span>), <span class="at">scores=</span><span class="fu">c</span>(<span class="dv">90</span>, <span class="dv">85</span>, <span class="dv">88</span>))</span>
 <span id="cb21-15"><a></a>df<span class="sc">$</span>name  <span class="co"># Access the 'name' column</span></span>
 <span id="cb21-16"><a></a>df[<span class="dv">1</span>, ]  <span class="co"># Access the first row</span></span>
-<span id="cb21-17"><a></a>df[<span class="dv">2</span>, <span class="st">"age"</span>]  <span class="co"># Access the 'age' of the second row</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb21-17"><a></a>df[<span class="dv">2</span>, <span class="st">"age"</span>]  <span class="co"># Access the 'age' of the second row</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <div id="tabset-3-3">
 <div class="cell">
@@ -437,7 +437,7 @@ Professor Dr.&nbsp;Md. Kamrul Hasan
 <ul id="tabset-4" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-4-1">Code</a></li><li><a href="#tabset-4-2">Output</a></li></ul>
 <div class="tab-content">
 <div id="tabset-4-1">
-<div class="sourceCode" id="cb32"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb32-1"><a></a><span class="fu">library</span>(dplyr)</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb32"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb32-1"><a></a><span class="fu">library</span>(dplyr)</span>
 <span id="cb32-2"><a></a>df <span class="ot">=</span> <span class="fu">data.frame</span>(<span class="at">name=</span><span class="fu">c</span>(<span class="st">"Alice"</span>, <span class="st">"Bob"</span>, <span class="st">"Charlie"</span>), </span>
 <span id="cb32-3"><a></a>                <span class="at">age=</span><span class="fu">c</span>(<span class="dv">25</span>, <span class="dv">30</span>, <span class="dv">35</span>), </span>
 <span id="cb32-4"><a></a>                <span class="at">scores=</span><span class="fu">c</span>(<span class="dv">90</span>, <span class="dv">85</span>, <span class="dv">88</span>))</span>
@@ -446,7 +446,7 @@ Professor Dr.&nbsp;Md. Kamrul Hasan
 <span id="cb32-7"><a></a>  <span class="fu">filter</span>(age <span class="sc">&gt;</span> <span class="dv">28</span>)  <span class="co"># Filter rows where age is greater than 28</span></span>
 <span id="cb32-8"><a></a></span>
 <span id="cb32-9"><a></a>df <span class="sc">%&gt;%</span></span>
-<span id="cb32-10"><a></a>  <span class="fu">select</span>(name, scores)  <span class="co"># Select specific columns</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb32-10"><a></a>  <span class="fu">select</span>(name, scores)  <span class="co"># Select specific columns</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <div id="tabset-4-2">
 <div class="cell">
@@ -660,7 +660,7 @@ Professor Dr.&nbsp;Md. Kamrul Hasan
         margin: 0.1,
 
         math: {
-          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js',
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
           config: 'TeX-AMS_HTML-full',
           tex2jax: {
             inlineMath: [['\\(','\\)']],
@@ -810,13 +810,14 @@ Professor Dr.&nbsp;Md. Kamrul Hasan
           e.clearSelection();
         }
         const getTextToCopy = function(trigger) {
-            const codeEl = trigger.previousElementSibling.cloneNode(true);
-            for (const childEl of codeEl.children) {
-              if (isCodeAnnotation(childEl)) {
-                childEl.remove();
-              }
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
             }
-            return codeEl.innerText;
+          }
+          return codeEl.innerText;
         }
         const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
           text: getTextToCopy
