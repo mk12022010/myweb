@@ -8,61 +8,57 @@ format:
 ---
 
 <p class="access-note">
-  📚 <strong>Note:</strong> To access restricted course materials, please contact via <a href="mailto:channel.kamrulext@gmail.com">email</a> or form below. Please scroll down for contact details.
-</p>
 
+📚 <strong>Note:</strong> To access restricted course materials, please contact via <a href="mailto:channel.kamrulext@gmail.com">email</a> or form below. Please scroll down for contact details.
+
+</p>
 
 ### 📬 Send a Message
 
-<form class="contact-form"  action="https://formspree.io/f/xkgzjpge"
-method="POST" enctype="multipart/form-data">
-  <label for="name">Name</label>
-  <input type="text" id="name" name="name" required>
+<form class="contact-form" action="https://formspree.io/f/xkgzjpge" method="POST" enctype="multipart/form-data">
 
-  <label for="email">Email</label>
-  <input type="email" id="email" name="_replyto" required>
+<label for="name">Name</label> <input type="text" id="name" name="name" required>
 
-  <label for="subject">Subject</label>
-  <input type="text" id="subject" name="subject" required>
+<label for="email">Email</label> <input type="email" id="email" name="_replyto" required>
 
-  <label for="message">Message</label>
-  <textarea id="message" name="message" rows="5" required></textarea>
+<label for="subject">Subject</label> <input type="text" id="subject" name="subject" required>
 
-  <button type="submit">Send Message</button>
+<label for="message">Message</label>
+
+```{=html}
+<textarea id="message" name="message" rows="5" required></textarea>
+```
+
+<button type="submit">
+
+Send Message
+
+</button>
+
 </form>
 
-
-
-<div class="contact-container">
-
-<div class="contact-card">
-
+:::: contact-container
+::: contact-card
 <h2>📞 Phone</h2>
+
 <p><strong>+8801891565856</strong></p>
 
 <h2>📧 Email</h2>
-<p>
-  <a href="mailto:channel.kamrulext@gmail.com">
-    Professor Dr. Md. Kamrul Hasan
-  </a>
-</p>
+
+<p><a href="mailto:channel.kamrulext@gmail.com"> Professor Dr. Md. Kamrul Hasan </a></p>
 
 <h2>🌐 Website</h2>
-<p>
-  <a href="https://www.ruenresearch.com" target="_blank">
-    www.ruenresearch.com
-  </a>
-</p>
+
+<p><a href="https://www.ruenresearch.com" target="_blank"> www.ruenresearch.com </a></p>
 
 <h2>📍 Postal Address</h2>
-<p>
-  Department of Agricultural Extension and Rural Development<br>
-  Patuakhali Science and Technology University<br>
-  Dumki, Patuakhali 8660, Bangladesh
-</p>
+
+<p>Department of Agricultural Extension and Rural Development<br> Patuakhali Science and Technology University<br> Dumki, Patuakhali 8660, Bangladesh</p>
 
 <hr>
 
 </div>
 
 </div>
+:::
+::::

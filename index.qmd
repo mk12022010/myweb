@@ -101,8 +101,8 @@ Professor Hasan acted as the Chairman of Agricultural Extension and Rural Develo
 ### On-going
 
 | Level of Study | Name of Student | Title | Role |
-|:--------------|---------------|:--------------------------|:--------------|
-| PhD | Md. Arifur Rahman | Co-creation of Adaptation Pathways by Assimilating CSA into ClS Frameworks using Living Labs Approach | Supervisor |
+|:----------------|-----------------|:--------------------|:----------------|
+| PhD | Muhammad Arifur Rahman | Co-creation of Adaptation Pathways by Assimilating CSA into ClS Frameworks using Living Labs Approach | Supervisor |
 | PhD | Md. Moniruzzaman | Climate Impacts on Basic Livelihood Resources, Food Security and Coping Mechanism of the Vulnerable People in the South Central Coast of Bangladesh | Co-supervisor |
 | PhD | Mahmuda Khanom | Effect of Market Access and Value Chains on the Adoption of Climate-Smart Agriculture by Smallholder Farmers | Supervisor |
 | PhD | Md. Sumon Howlader | Strategies for Implementation of Climate-Smart Agriculture (CSA) Practices in Bangladesh | Co-supervisor |
@@ -117,18 +117,18 @@ Professor Hasan acted as the Chairman of Agricultural Extension and Rural Develo
 ### Completed
 
 | Level Of Study | Name of Student | Title | Role |
-|:--------------|---------------|:--------------------------|:--------------|
-| MS/MBA | Md. Zahid Hasan | Homestead poultry rearing and women empowerment in Barguna Sadar upazila of Bangladesh | Co-supervisor |
-| MS/MBA | Halima Akter | Weather information seeking behavior of small-scale fish farmers in selected areas of Patukhali District | Co-supervisor |
-| MS/MBA | Tanmoy Sarkar Utsha | Adoption of aquaculture practices at Dumki upazila under Patuakhali district | Co-supervisor |
-| MS/MBA | Rezwana Ferdousi | Performance Assessment of Farmers' Groups under East-West Seed Knowledge Transfer (EWS-KT) | Co-supervisor |
-| MS/MBA | Khan Alimul Razi | Occupational Risk and Safety Measures of Coastal Fishermen in Patuakhali | Supervisor |
-| MS/MBA | Sadman Sarar | Livelihood and Household Dietary Diversity of Fishermen in Patuakhali District | Supervisor |
-| MS/MBA | Rakibul Islam | Effectiveness of Training for Small Scale Fish Farmers in Patuakhali | Supervisor |
-| MS/MBA | S.M. Shariar Rahman | Livelihood Status and Poverty Line of Fish Hatchery Workers in Jashore District | Supervisor |
-| MS/MBA | Tanusree Halder | Socioeconomic Conditions of Dry Fish Producers in the South-Central Coastal Region of Bangladesh | Supervisor |
-| MS/MBA | Anika Ahmed | Climate Vulnerability of Rural Households in the Exposed Central Coast of Bangladesh | Supervisor |
-| MS/MBA | Shimul Banik | Livelihood Strategies and Food Security of Coastal Fishermen in Patuakhali | Supervisor |
-| MS/MBA | Md. Imran Hossan | Understanding the use of Nature-Based Solution for Crop Protection in Southern Coast of Bangladesh | Co-supervisor |
+|:----------------|-----------------|:--------------------|:----------------|
+| MS | Md. Zahid Hasan | Homestead poultry rearing and women empowerment in Barguna Sadar upazila of Bangladesh | Co-supervisor |
+| MS | Halima Akter | Weather information seeking behavior of small-scale fish farmers in selected areas of Patukhali District | Co-supervisor |
+| MS | Tanmoy Sarkar Utsha | Adoption of aquaculture practices at Dumki upazila under Patuakhali district | Co-supervisor |
+| MS | Rezwana Ferdousi | Performance Assessment of Farmers' Groups under East-West Seed Knowledge Transfer (EWS-KT) | Co-supervisor |
+| MS | Khan Alimul Razi | Occupational Risk and Safety Measures of Coastal Fishermen in Patuakhali | Supervisor |
+| MS | Sadman Sarar | Livelihood and Household Dietary Diversity of Fishermen in Patuakhali District | Supervisor |
+| MS | Rakibul Islam | Effectiveness of Training for Small Scale Fish Farmers in Patuakhali | Supervisor |
+| MS | S.M. Shariar Rahman | Livelihood Status and Poverty Line of Fish Hatchery Workers in Jashore District | Supervisor |
+| MS | Tanusree Halder | Socioeconomic Conditions of Dry Fish Producers in the South-Central Coastal Region of Bangladesh | Supervisor |
+| MS | Anika Ahmed | Climate Vulnerability of Rural Households in the Exposed Central Coast of Bangladesh | Supervisor |
+| MS | Shimul Banik | Livelihood Strategies and Food Security of Coastal Fishermen in Patuakhali | Supervisor |
+| MS | Md. Imran Hossan | Understanding the use of Nature-Based Solution for Crop Protection in Southern Coast of Bangladesh | Co-supervisor |
 :::
 :::::::

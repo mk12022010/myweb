@@ -5,30 +5,13 @@ author: "Professor Dr. Md. Kamrul Hasan"
 
 # Data Analysis Using R
 
-This page briefly introduces with R and guides you through basic to advanced level of data analysis and visualizations.
-It covers data set creation, manipulation, saving, and opening.
-Implementation of descriptive statistics (e.g. mean, standard deviation, standard error, frequency and percentage distribution) and inferential statistics (e.g. chi-square test, independent two sample t-test, paired t-test, Welch test, Wilcoxon test, one-way ANOVA, two-way ANOVA, three-way ANOVA, post-hoc analysis with Tukey and Bonferroni adjustment, Kruskal Wallis test, Pearson and Spearman correlation, and multiple regression with detecting and solving multicollinearity, heteroskedasticity and endogeneity problems).
-Along with these analysis, related visualization techniques are explained in this manual.
-It is strongly advised to practice the R codes mentioned in this manual while reading it.
+This page briefly introduces with R and guides you through basic to advanced level of data analysis and visualizations. It covers data set creation, manipulation, saving, and opening. Implementation of descriptive statistics (e.g. mean, standard deviation, standard error, frequency and percentage distribution) and inferential statistics (e.g. chi-square test, independent two sample t-test, paired t-test, Welch test, Wilcoxon test, one-way ANOVA, two-way ANOVA, three-way ANOVA, post-hoc analysis with Tukey and Bonferroni adjustment, Kruskal Wallis test, Pearson and Spearman correlation, and multiple regression with detecting and solving multicollinearity, heteroskedasticity and endogeneity problems). Along with these analysis, related visualization techniques are explained in this manual. It is strongly advised to practice the R codes mentioned in this manual while reading it.
 
 ## **Installation of R and RStudio**
 
-R is usually known as an open source data analysis tool though it can do much more than just data analysis, such as website design, article writing, thesis preparation, book compilation, and web applet creation.
-R is a programming language that uses our personal computer resources to translate R programming language into useful outputs.
-Installation of R is very easy.
-However, the functionality of R is popularly enhanced by RStudio.
-Therefore, you need to download and install both R and RStudio for completing this manual smoothly.
-You can download R and R studio from <https://posit.co/download/rstudio-desktop/>.
-It should be noted that RStudio is a software that enables us to write and execute R script.
-[**You can also integrate R with Jupyter Notebook in visual Studio Code**](https://ruenresearch.com/blog/).
-After writing the codes and markdown in Jupyter Notebook, export as HTML, open in RStudio, publish in RPubs.
-Alternatively, you can convert .ipynb (jupyter notebook) to .Rmd (R Makrdown) in R using `rmarkdown::convert_ipynb(input, output)` function.
+R is usually known as an open source data analysis tool though it can do much more than just data analysis, such as website design, article writing, thesis preparation, book compilation, and web applet creation. R is a programming language that uses our personal computer resources to translate R programming language into useful outputs. Installation of R is very easy. However, the functionality of R is popularly enhanced by RStudio. Therefore, you need to download and install both R and RStudio for completing this manual smoothly. You can download R and R studio from <https://posit.co/download/rstudio-desktop/>. It should be noted that RStudio is a software that enables us to write and execute R script. [**You can also integrate R with Jupyter Notebook in visual Studio Code**](https://ruenresearch.com/blog/). After writing the codes and markdown in Jupyter Notebook, export as HTML, open in RStudio, publish in RPubs. Alternatively, you can convert .ipynb (jupyter notebook) to .Rmd (R Makrdown) in R using `rmarkdown::convert_ipynb(input, output)` function.
 
-In jupyter lab or notebook, you may need additional installation to activate co-pilot (`pip install notebook-intelligence` in command prompt terminal).
-[**Details are here**](https://blog.jupyter.org/introducing-notebook-intelligence-3648c306b91a)**.** Custom shortcut can also be added by editing the .json file.
-[**Details are here**](https://sinlingchan.com/p/jupyter-lab-custom-keyboard-shortcut/)**.** You need to add the following codes in the **User Preference Pane**.
-Be careful for not messing the original file.
-Paste this codes before the last curly bracket and put comma after the \] (square bracket) of the previous line.
+In jupyter lab or notebook, you may need additional installation to activate co-pilot (`pip install notebook-intelligence` in command prompt terminal). [**Details are here**](https://blog.jupyter.org/introducing-notebook-intelligence-3648c306b91a)**.** Custom shortcut can also be added by editing the .json file. [**Details are here**](https://sinlingchan.com/p/jupyter-lab-custom-keyboard-shortcut/)**.** You need to add the following codes in the **User Preference Pane**. Be careful for not messing the original file. Paste this codes before the last curly bracket and put comma after the \] (square bracket) of the previous line.
 
 ```         
 {
