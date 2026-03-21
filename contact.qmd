@@ -34,7 +34,9 @@ format:
 </form>
 
 :::: contact-container
+
 ::: contact-card
+
 <h2>📞 Phone</h2>
 
 <p><strong>+8801891565856</strong></p>
@@ -49,12 +51,16 @@ format:
 
 <h2>📍 Postal Address</h2>
 
-<p>Department of Agricultural Extension and Rural Development<br> Patuakhali Science and Technology University<br> Dumki, Patuakhali 8660, Bangladesh</p>
+<p>Department of Agricultural Extension and Rural Development<br> 
+Patuakhali Science and Technology University<br> 
+Dumki, Patuakhali 8660, Bangladesh</p>
 
 <hr>
 
 </div>
 
 </div>
+
 :::
+
 ::::

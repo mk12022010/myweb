@@ -82,46 +82,32 @@ A few important VS Code extensions for R and Python: Code Runner (Jun Han), Docu
 
 VS Code may show further error regarding 'R Not Attached' or failing to initiate R terminals. To solve this you may need to change some settings. Insert the following settings in the settings.json. Maintain its position in the existing settings' curly braces and rename R versions (if needed). VS Code environment can fire on all cylinders: Radian for the terminal, httpgd for the plots, a direct R.exe path for the help pages, and a quiet Language Server providing documentation without the "linting" clutter. 
 
-```{
-  "editor.minimap.enabled": false,
-  "editor.unicodeHighlight.nonBasicASCII": false,
-  "editor.wordWrap": "on",
-  "workbench.editorAssociations": {
-      "*.pdf": "pdf.view",
-      "*.xlsx": "syncfusion-excel-viewer"
-      },
-  "editor.unicodeHighlight.invisibleCharacters": false,
-  "security.workspace.trust.untrustedFiles": "open",
-  "workbench.colorTheme": "Quiet Light",
-  "terminal.integrated.initialHint": false,
-  "security.workspace.trust.startupPrompt": "always",
-  
-  "r.rpath.windows": "C:\\Program Files\\R\\R-X.X.XVer----si----on\\bin\\x64\\R.exe",
-  "quarkdownPreview.quarkdownPath": "quarkdown",
-  "terminal.integrated.defaultProfile.windows": "R Terminal",
-  "terminal.integrated.enableMultiLinePasteWarning": "never",
-  "r.bracketedPaste": true,
-  "r.rterm.option": [],
-  "r.alwaysUseActiveTerminal": true,
-  "r.plot.useHttpgd": true,
+```
 
-  // For diasabling lints
-  "r.lsp.diagnostics": false, 
-
-  // For using Radian R consol use the following
-  "r.rterm.windows": "C:\\Users\\XXXXXU--------s-----e------r\\AppData\\Local\\Programs\\Python\\PythonXXXVe----rs----ion\\Scripts\\radian.exe",
-  "breadcrumbs.enabled": false,
-
-  
-  // For using using the original R Console (instead of radian) use the following settings.
-  // "terminal.integrated.profiles.windows": {
-  
-  //     "R Terminal": {
-  //     "path": "C:\\Program Files\\R\\R-X.X.XVer----si----on\\bin\\R.exe",
-  //     "args": ["--no-save", "--no-restore"]
-  //      }
-  // },
+{
+    "editor.minimap.enabled": false,
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "editor.wordWrap": "on",
+    "workbench.editorAssociations": { ".pdf": "pdf.view", ".xlsx": "syncfusion-excel-viewer" },
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "security.workspace.trust.enabled": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.colorTheme": "Quiet Light",
+    "terminal.integrated.initialHint": false,
+    "security.workspace.trust.startupPrompt": "never",
+    "quarkdownPreview.quarkdownPath": "quarkdown",
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
+    "r.bracketedPaste": true,
+    "r.rterm.option": [ ],
+    "r.alwaysUseActiveTerminal": true,
+    "r.plot.useHttpgd": true,
+    "r.lsp.diagnostics": false,
+    "breadcrumbs.enabled": false,
+    "r.rpath.windows": "C:\\Program Files\\R\\R-4.5.3\\bin\\x64\\R.exe",
+    "r.rterm.windows": "C:\\Users\\ruenr\\AppData\\Roaming\\Python\\Python314\\Scripts\\radian.exe",
+    "terminal.integrated.defaultProfile.windows": "R Terminal",
 }
+
 ```
 
 
@@ -139,6 +125,7 @@ Note: To run Quarto Document in VS Code, install QuarkDown using this powershell
 ### QuarkDown Install Command: 
 irm https://raw.githubusercontent.com/quarkdown-labs/get-quarkdown/refs/heads/main/install.ps1 | iex
 
+Download and install quarfrom from https://quarto.org/docs/download/
 
 ### To automate the RPubs upload:
 To automate publishing to RPubs in VS Code, you can create a simple wrapper script. Since VS Code lacks RStudio's "Publish" button, we use the markdown package to handle the upload programmatically. 
@@ -146,7 +133,9 @@ To automate publishing to RPubs in VS Code, you can create a simple wrapper scri
 - The Automation Script
 Create a new R script (e.g., publish.R) and use this code. It will render your document and immediately upload it.
 
-```# Load necessary libraries
+```
+
+# Load necessary libraries
 library(rmarkdown)
 library(markdown)
 
@@ -171,4 +160,6 @@ if (!is.null(result$continueUrl)) {
 } else {
   stop("Upload failed: ", result$error)
 }
+
+
 ```
