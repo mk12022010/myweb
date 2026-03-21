@@ -73,63 +73,65 @@ Now your jupyter notebook is ready for both python and R.
 You can also create and work with R file with .R extension in vs code.
 At the end, you can export the .ipynb (jupyter notebook) file as html by pressing ctrl+shift+P and search for ‘jupyter: export to html’.
 Open this html file in RStudio to publish.
-In addition, you can read some tips on working with markdown in [Markdown cheat sheet](https://support.squarespace.com/hc/en-us/articles/206543587-Markdown-cheat-sheet).
+
+> In addition, you can read some tips on working with markdown in [Markdown cheat sheet](https://support.squarespace.com/hc/en-us/articles/206543587-Markdown-cheat-sheet).
 
 A few important VS Code extensions for R and Python: Code Runner (Jun Han), Document Viewer (Syncfusion), GitHub Copilot Chat (GitHub), LaTex Shortcuts (Axel Delaval), Latex Workshop (James Yu), Markdown All in One (Yu Zhang), Markdown for Humans: WYSISIWYG Editor (concret.io), Markdown PDF (Yzane), Markdown PDF Plus (Tom Lathan), Markdown Preview Github Styling (Matt Bierner), PDF Viewer (Mathematic Inc), Markdown (Official) (Quarkdown), Quarkdown Preview (holooooo), Quarto (Quarto), Quarto Helpers (EmilHvitfeldt), R (REditorSupport), R Debugger (RDebugger), R Syntax (ReditorSupport), R LSP Client (REditorSupport), R Tools (REditorSupport), C/C++ (Microsoft), Pylance (Microsoft), Jupyter (Microsoft), Python Docstring Generator (Nils Werner), Black Formatter (Josip Medved).
 
-For Latex, you can install small MiKTeX [Download MiKTeX](https://miktex.org/download) or large TeXstudio [Download TeXstudio](https://www.texstudio.org/).
+> For Latex, you can install small MiKTeX [Download MiKTeX](https://miktex.org/download) or large TeXstudio [Download TeXstudio](https://www.texstudio.org/).
 
 VS Code may show further error regarding 'R Not Attached' or failing to initiate R terminals. To solve this you may need to change some settings. Insert the following settings in the settings.json. Maintain its position in the existing settings' curly braces and rename R versions (if needed). VS Code environment can fire on all cylinders: Radian for the terminal, httpgd for the plots, a direct R.exe path for the help pages, and a quiet Language Server providing documentation without the "linting" clutter. 
 
-`{
-    "editor.minimap.enabled": false,
-    "editor.unicodeHighlight.nonBasicASCII": false,
-    "editor.wordWrap": "on",
-    "workbench.editorAssociations": {
-        "*.pdf": "pdf.view",
-        "*.xlsx": "syncfusion-excel-viewer"
-       },
-    "editor.unicodeHighlight.invisibleCharacters": false,
-    "security.workspace.trust.untrustedFiles": "open",
-    "workbench.colorTheme": "Quiet Light",
-    "terminal.integrated.initialHint": false,
-    "security.workspace.trust.startupPrompt": "always",
-    
-    "r.rpath.windows": "C:\\Program Files\\R\\R-X.X.XVer----si----on\\bin\\x64\\R.exe",
-    "quarkdownPreview.quarkdownPath": "quarkdown",
-    "terminal.integrated.defaultProfile.windows": "R Terminal",
-    "terminal.integrated.enableMultiLinePasteWarning": "never",
-    "r.bracketedPaste": true,
-    "r.rterm.option": [],
-    "r.alwaysUseActiveTerminal": true,
-    "r.plot.useHttpgd": true,
+```{
+  "editor.minimap.enabled": false,
+  "editor.unicodeHighlight.nonBasicASCII": false,
+  "editor.wordWrap": "on",
+  "workbench.editorAssociations": {
+      "*.pdf": "pdf.view",
+      "*.xlsx": "syncfusion-excel-viewer"
+      },
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "workbench.colorTheme": "Quiet Light",
+  "terminal.integrated.initialHint": false,
+  "security.workspace.trust.startupPrompt": "always",
+  
+  "r.rpath.windows": "C:\\Program Files\\R\\R-X.X.XVer----si----on\\bin\\x64\\R.exe",
+  "quarkdownPreview.quarkdownPath": "quarkdown",
+  "terminal.integrated.defaultProfile.windows": "R Terminal",
+  "terminal.integrated.enableMultiLinePasteWarning": "never",
+  "r.bracketedPaste": true,
+  "r.rterm.option": [],
+  "r.alwaysUseActiveTerminal": true,
+  "r.plot.useHttpgd": true,
 
-    // For diasabling lints
-    "r.lsp.diagnostics": false, 
+  // For diasabling lints
+  "r.lsp.diagnostics": false, 
 
-    // For using Radian R consol use the following
-    "r.rterm.windows": "C:\\Users\\XXXXXU--------s-----e------r\\AppData\\Local\\Programs\\Python\\PythonXXXVe----rs----ion\\Scripts\\radian.exe",
-    "breadcrumbs.enabled": false,
+  // For using Radian R consol use the following
+  "r.rterm.windows": "C:\\Users\\XXXXXU--------s-----e------r\\AppData\\Local\\Programs\\Python\\PythonXXXVe----rs----ion\\Scripts\\radian.exe",
+  "breadcrumbs.enabled": false,
 
-    
-    // For using using the original R Console (instead of radian) use the following settings.
-    // "terminal.integrated.profiles.windows": {
-    
-    //     "R Terminal": {
-    //     "path": "C:\\Program Files\\R\\R-X.X.XVer----si----on\\bin\\R.exe",
-    //     "args": ["--no-save", "--no-restore"]
-    //      }
-    // },
-
-
+  
+  // For using using the original R Console (instead of radian) use the following settings.
+  // "terminal.integrated.profiles.windows": {
+  
+  //     "R Terminal": {
+  //     "path": "C:\\Program Files\\R\\R-X.X.XVer----si----on\\bin\\R.exe",
+  //     "args": ["--no-save", "--no-restore"]
+  //      }
+  // },
 }
-`
+```
 
 
 If VS Code does not find the existing R Package Library path, the installed packages in RStudio may not work in VS Code. To solve this, you will need to create some new environmental variables in system and user sections. Example:
-R_libs: C:\Program Files\R\R-4.5.1\library
+
+```R_libs: C:\Program Files\R\R-4.5.1\library
+
 R_paths: C:\Program Files\R\R-4.5.1\bin
-R_term: C:\Program Files\R\R-4.5.1\bin\x64
+
+R_term: C:\Program Files\R\R-4.5.1\bin\x64```
 
 
 Note: To run Quarto Document in VS Code, install QuarkDown using this powershell command. Ignore error message, just wait. However, you may need to install npm.
@@ -144,8 +146,7 @@ To automate publishing to RPubs in VS Code, you can create a simple wrapper scri
 - The Automation Script
 Create a new R script (e.g., publish.R) and use this code. It will render your document and immediately upload it.
 
-`
-# Load necessary libraries
+```# Load necessary libraries
 library(rmarkdown)
 library(markdown)
 
@@ -164,9 +165,10 @@ html_file <- gsub("\\.Rmd$", ".html", doc_path)
 result <- rpubsUpload(title = doc_title, htmlFile = html_file, id = NULL)
 
 # 4. Finalize
+
 if (!is.null(result$continueUrl)) {
   browseURL(result$continueUrl) # Opens browser to confirm
 } else {
   stop("Upload failed: ", result$error)
 }
-`
+```

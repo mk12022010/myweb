@@ -72,35 +72,6 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <script src="script.js"></script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
@@ -203,19 +174,8 @@ window.Quarto = {
   <ul class="collapse">
   <li><a href="#installation-of-r-and-integration-with-jupyter-notebook-in-visual-studio-code" id="toc-installation-of-r-and-integration-with-jupyter-notebook-in-visual-studio-code" class="nav-link" data-scroll-target="#installation-of-r-and-integration-with-jupyter-notebook-in-visual-studio-code"><strong>Installation of R and integration with Jupyter Notebook in Visual Studio Code</strong></a></li>
   <li><a href="#run-jupyter-notebook-in-browser" id="toc-run-jupyter-notebook-in-browser" class="nav-link" data-scroll-target="#run-jupyter-notebook-in-browser"><strong>Run jupyter notebook in browser</strong></a></li>
-  <li><a href="#run-r-with-jupyter-notebook-in-vs-code-visual-studio-code" id="toc-run-r-with-jupyter-notebook-in-vs-code-visual-studio-code" class="nav-link" data-scroll-target="#run-r-with-jupyter-notebook-in-vs-code-visual-studio-code"><strong>Run R with jupyter notebook in VS Code (Visual Studio code)</strong></a>
-  <ul class="collapse">
-  <li><a href="#quarkdown-install-command" id="toc-quarkdown-install-command" class="nav-link" data-scroll-target="#quarkdown-install-command">QuarkDown Install Command:</a></li>
-  <li><a href="#to-automate-the-rpubs-upload" id="toc-to-automate-the-rpubs-upload" class="nav-link" data-scroll-target="#to-automate-the-rpubs-upload">To automate the RPubs upload:</a></li>
+  <li><a href="#run-r-with-jupyter-notebook-in-vs-code-visual-studio-code" id="toc-run-r-with-jupyter-notebook-in-vs-code-visual-studio-code" class="nav-link" data-scroll-target="#run-r-with-jupyter-notebook-in-vs-code-visual-studio-code"><strong>Run R with jupyter notebook in VS Code (Visual Studio code)</strong></a></li>
   </ul></li>
-  </ul></li>
-  <li><a href="#define-your-file-and-title" id="toc-define-your-file-and-title" class="nav-link" data-scroll-target="#define-your-file-and-title">1. Define your file and title</a></li>
-  <li><a href="#render-the-document-to-html" id="toc-render-the-document-to-html" class="nav-link" data-scroll-target="#render-the-document-to-html">2. Render the document to HTML</a></li>
-  <li><a href="#this-creates-the-.html-file-needed-for-rpubs" id="toc-this-creates-the-.html-file-needed-for-rpubs" class="nav-link" data-scroll-target="#this-creates-the-.html-file-needed-for-rpubs">This creates the .html file needed for RPubs</a></li>
-  <li><a href="#upload-to-rpubs" id="toc-upload-to-rpubs" class="nav-link" data-scroll-target="#upload-to-rpubs">3. Upload to RPubs</a></li>
-  <li><a href="#if-its-a-new-post-leave-id-null." id="toc-if-its-a-new-post-leave-id-null." class="nav-link" data-scroll-target="#if-its-a-new-post-leave-id-null.">If it’s a NEW post, leave id = NULL.</a></li>
-  <li><a href="#if-updating-an-existing-post-paste-your-rpubs-id-string-in-id" id="toc-if-updating-an-existing-post-paste-your-rpubs-id-string-in-id" class="nav-link" data-scroll-target="#if-updating-an-existing-post-paste-your-rpubs-id-string-in-id">If updating an EXISTING post, paste your RPubs ID string in ‘id’</a></li>
-  <li><a href="#finalize" id="toc-finalize" class="nav-link" data-scroll-target="#finalize">4. Finalize</a></li>
   </ul>
 </nav>
 </nav>
@@ -298,80 +258,72 @@ window.Quarto = {
 <li><p>Link R kernel to jupyter notebook in R (not RStudio): <code>IRkernel::installspec(user = FALSE)</code></p></li>
 <li><p>Open a file in VS code with .ipynb extension and select kernel (jupyer kernel &gt; R kernel)</p></li>
 </ul>
-<p>Now your jupyter notebook is ready for both python and R. You can also create and work with R file with .R extension in vs code. At the end, you can export the .ipynb (jupyter notebook) file as html by pressing ctrl+shift+P and search for ‘jupyter: export to html’. Open this html file in RStudio to publish. In addition, you can read some tips on working with markdown in <a href="https://support.squarespace.com/hc/en-us/articles/206543587-Markdown-cheat-sheet">Markdown cheat sheet</a>.</p>
+<p>Now your jupyter notebook is ready for both python and R. You can also create and work with R file with .R extension in vs code. At the end, you can export the .ipynb (jupyter notebook) file as html by pressing ctrl+shift+P and search for ‘jupyter: export to html’. Open this html file in RStudio to publish.</p>
+<blockquote class="blockquote">
+<p>In addition, you can read some tips on working with markdown in <a href="https://support.squarespace.com/hc/en-us/articles/206543587-Markdown-cheat-sheet">Markdown cheat sheet</a>.</p>
+</blockquote>
 <p>A few important VS Code extensions for R and Python: Code Runner (Jun Han), Document Viewer (Syncfusion), GitHub Copilot Chat (GitHub), LaTex Shortcuts (Axel Delaval), Latex Workshop (James Yu), Markdown All in One (Yu Zhang), Markdown for Humans: WYSISIWYG Editor (concret.io), Markdown PDF (Yzane), Markdown PDF Plus (Tom Lathan), Markdown Preview Github Styling (Matt Bierner), PDF Viewer (Mathematic Inc), Markdown (Official) (Quarkdown), Quarkdown Preview (holooooo), Quarto (Quarto), Quarto Helpers (EmilHvitfeldt), R (REditorSupport), R Debugger (RDebugger), R Syntax (ReditorSupport), R LSP Client (REditorSupport), R Tools (REditorSupport), C/C++ (Microsoft), Pylance (Microsoft), Jupyter (Microsoft), Python Docstring Generator (Nils Werner), Black Formatter (Josip Medved).</p>
+<blockquote class="blockquote">
 <p>For Latex, you can install small MiKTeX <a href="https://miktex.org/download">Download MiKTeX</a> or large TeXstudio <a href="https://www.texstudio.org/">Download TeXstudio</a>.</p>
+</blockquote>
 <p>VS Code may show further error regarding ‘R Not Attached’ or failing to initiate R terminals. To solve this you may need to change some settings. Insert the following settings in the settings.json. Maintain its position in the existing settings’ curly braces and rename R versions (if needed). VS Code environment can fire on all cylinders: Radian for the terminal, httpgd for the plots, a direct R.exe path for the help pages, and a quiet Language Server providing documentation without the “linting” clutter.</p>
-<p>`{ “editor.minimap.enabled”: false, “editor.unicodeHighlight.nonBasicASCII”: false, “editor.wordWrap”: “on”, “workbench.editorAssociations”: { “<em>.pdf”: ”pdf.view”, ”</em>.xlsx”: “syncfusion-excel-viewer” }, “editor.unicodeHighlight.invisibleCharacters”: false, “security.workspace.trust.untrustedFiles”: “open”, “workbench.colorTheme”: “Quiet Light”, “terminal.integrated.initialHint”: false, “security.workspace.trust.startupPrompt”: “always”,</p>
-<pre><code>"r.rpath.windows": "C:\\Program Files\\R\\R-X.X.XVer----si----on\\bin\\x64\\R.exe",
-"quarkdownPreview.quarkdownPath": "quarkdown",
-"terminal.integrated.defaultProfile.windows": "R Terminal",
-"terminal.integrated.enableMultiLinePasteWarning": "never",
-"r.bracketedPaste": true,
-"r.rterm.option": [],
-"r.alwaysUseActiveTerminal": true,
-"r.plot.useHttpgd": true,
+<p>```{ “editor.minimap.enabled”: false, “editor.unicodeHighlight.nonBasicASCII”: false, “editor.wordWrap”: “on”, “workbench.editorAssociations”: { “<em>.pdf”: ”pdf.view”, ”</em>.xlsx”: “syncfusion-excel-viewer” }, “editor.unicodeHighlight.invisibleCharacters”: false, “security.workspace.trust.untrustedFiles”: “open”, “workbench.colorTheme”: “Quiet Light”, “terminal.integrated.initialHint”: false, “security.workspace.trust.startupPrompt”: “always”,</p>
+<p>“r.rpath.windows”: “C:\Program Files\R\R-X.X.XVer—-si—-on\bin\x64\R.exe”, “quarkdownPreview.quarkdownPath”: “quarkdown”, “terminal.integrated.defaultProfile.windows”: “R Terminal”, “terminal.integrated.enableMultiLinePasteWarning”: “never”, “r.bracketedPaste”: true, “r.rterm.option”: [], “r.alwaysUseActiveTerminal”: true, “r.plot.useHttpgd”: true,</p>
+<p>// For diasabling lints “r.lsp.diagnostics”: false,</p>
+<p>// For using Radian R consol use the following “r.rterm.windows”: “C:\Users\XXXXXU——–s—–e——r\AppData\Local\Programs\Python\PythonXXXVe—-rs—-ion\Scripts\radian.exe”, “breadcrumbs.enabled”: false,</p>
+<p>// For using using the original R Console (instead of radian) use the following settings. // “terminal.integrated.profiles.windows”: {</p>
+<p>// “R Terminal”: { // “path”: “C:\Program Files\R\R-X.X.XVer—-si—-on\bin\R.exe”, // “args”: [“–no-save”, “–no-restore”] // } // }, }</p>
+<pre><code>
 
-// For diasabling lints
-"r.lsp.diagnostics": false, 
+If VS Code does not find the existing R Package Library path, the installed packages in RStudio may not work in VS Code. To solve this, you will need to create some new environmental variables in system and user sections. Example:
 
-// For using Radian R consol use the following
-"r.rterm.windows": "C:\\Users\\XXXXXU--------s-----e------r\\AppData\\Local\\Programs\\Python\\PythonXXXVe----rs----ion\\Scripts\\radian.exe",
-"breadcrumbs.enabled": false,
+```R_libs: C:\Program Files\R\R-4.5.1\library
 
+R_paths: C:\Program Files\R\R-4.5.1\bin
 
-// For using using the original R Console (instead of radian) use the following settings.
-// "terminal.integrated.profiles.windows": {
-
-//     "R Terminal": {
-//     "path": "C:\\Program Files\\R\\R-X.X.XVer----si----on\\bin\\R.exe",
-//     "args": ["--no-save", "--no-restore"]
-//      }
-// },</code></pre>
-<p>} `</p>
-<p>If VS Code does not find the existing R Package Library path, the installed packages in RStudio may not work in VS Code. To solve this, you will need to create some new environmental variables in system and user sections. Example: R_libs: C:Files.1 R_paths: C:Files.1 R_term: C:Files.1</p>
-<p>Note: To run Quarto Document in VS Code, install QuarkDown using this powershell command. Ignore error message, just wait. However, you may need to install npm.</p>
-<section id="quarkdown-install-command" class="level3">
-<h3 class="anchored" data-anchor-id="quarkdown-install-command">QuarkDown Install Command:</h3>
-<p>irm https://raw.githubusercontent.com/quarkdown-labs/get-quarkdown/refs/heads/main/install.ps1 | iex</p>
-</section>
-<section id="to-automate-the-rpubs-upload" class="level3">
-<h3 class="anchored" data-anchor-id="to-automate-the-rpubs-upload">To automate the RPubs upload:</h3>
-<p>To automate publishing to RPubs in VS Code, you can create a simple wrapper script. Since VS Code lacks RStudio’s “Publish” button, we use the markdown package to handle the upload programmatically.</p>
-<ul>
-<li>The Automation Script Create a new R script (e.g., publish.R) and use this code. It will render your document and immediately upload it.</li>
-</ul>
-<p>` # Load necessary libraries library(rmarkdown) library(markdown)</p>
-</section>
-</section>
-</section>
-<section id="define-your-file-and-title" class="level1">
-<h1>1. Define your file and title</h1>
-<p>doc_path &lt;- “your_file.Rmd” doc_title &lt;- “My Professional Report”</p>
-</section>
-<section id="render-the-document-to-html" class="level1">
-<h1>2. Render the document to HTML</h1>
-</section>
-<section id="this-creates-the-.html-file-needed-for-rpubs" class="level1">
-<h1>This creates the .html file needed for RPubs</h1>
-<p>render(doc_path, output_format = “html_document”) html_file &lt;- gsub(“\.Rmd$”, “.html”, doc_path)</p>
-</section>
-<section id="upload-to-rpubs" class="level1">
-<h1>3. Upload to RPubs</h1>
-</section>
-<section id="if-its-a-new-post-leave-id-null." class="level1">
-<h1>If it’s a NEW post, leave id = NULL.</h1>
-</section>
-<section id="if-updating-an-existing-post-paste-your-rpubs-id-string-in-id" class="level1">
-<h1>If updating an EXISTING post, paste your RPubs ID string in ‘id’</h1>
-<p>result &lt;- rpubsUpload(title = doc_title, htmlFile = html_file, id = NULL)</p>
-</section>
-<section id="finalize" class="level1">
-<h1>4. Finalize</h1>
-<p>if (!is.null(result<span class="math inline">\(continueUrl)) {
-  browseURL(result\)</span>continueUrl) # Opens browser to confirm } else { stop(“Upload failed:”, result$error) } `</p>
+R_term: C:\Program Files\R\R-4.5.1\bin\x64```
 
 
+Note: To run Quarto Document in VS Code, install QuarkDown using this powershell command. Ignore error message, just wait. However, you may need to install npm.
+
+### QuarkDown Install Command: 
+irm https://raw.githubusercontent.com/quarkdown-labs/get-quarkdown/refs/heads/main/install.ps1 | iex
+
+
+### To automate the RPubs upload:
+To automate publishing to RPubs in VS Code, you can create a simple wrapper script. Since VS Code lacks RStudio's "Publish" button, we use the markdown package to handle the upload programmatically. 
+
+- The Automation Script
+Create a new R script (e.g., publish.R) and use this code. It will render your document and immediately upload it.
+
+```# Load necessary libraries
+library(rmarkdown)
+library(markdown)
+
+# 1. Define your file and title
+doc_path &lt;- "your_file.Rmd"
+doc_title &lt;- "My Professional Report"
+
+# 2. Render the document to HTML
+# This creates the .html file needed for RPubs
+render(doc_path, output_format = "html_document")
+html_file &lt;- gsub("\\.Rmd$", ".html", doc_path)
+
+# 3. Upload to RPubs
+# If it's a NEW post, leave id = NULL. 
+# If updating an EXISTING post, paste your RPubs ID string in 'id'
+result &lt;- rpubsUpload(title = doc_title, htmlFile = html_file, id = NULL)
+
+# 4. Finalize
+
+if (!is.null(result$continueUrl)) {
+  browseURL(result$continueUrl) # Opens browser to confirm
+} else {
+  stop("Upload failed: ", result$error)
+}</code></pre>
+
+
+</section>
 </section>
 
 </main> <!-- /main -->
