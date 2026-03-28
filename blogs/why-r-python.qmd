@@ -113,11 +113,15 @@ VS Code may show further error regarding 'R Not Attached' or failing to initiate
 
 If VS Code does not find the existing R Package Library path, the installed packages in RStudio may not work in VS Code. To solve this, you will need to create some new environmental variables in system and user sections. Example:
 
-```R_libs: C:\Program Files\R\R-4.5.1\library
+```
+
+R_libs: C:\Program Files\R\R-4.5.1\library
 
 R_paths: C:\Program Files\R\R-4.5.1\bin
 
-R_term: C:\Program Files\R\R-4.5.1\bin\x64```
+R_term: C:\Program Files\R\R-4.5.1\bin\x64
+
+```
 
 
 Note: To run Quarto Document in VS Code, install QuarkDown using this powershell command. Ignore error message, just wait. However, you may need to install npm.
@@ -125,7 +129,7 @@ Note: To run Quarto Document in VS Code, install QuarkDown using this powershell
 ### QuarkDown Install Command: 
 irm https://raw.githubusercontent.com/quarkdown-labs/get-quarkdown/refs/heads/main/install.ps1 | iex
 
-Download and install quarfrom from https://quarto.org/docs/download/
+Download and install quarfrom from [https://quarto.org/docs/download/](https://quarto.org/docs/download/)
 
 ### To automate the RPubs upload:
 To automate publishing to RPubs in VS Code, you can create a simple wrapper script. Since VS Code lacks RStudio's "Publish" button, we use the markdown package to handle the upload programmatically. 
