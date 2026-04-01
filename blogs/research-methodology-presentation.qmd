@@ -1,7 +1,7 @@
 ---
 title: "Research Methodology"
 author: "Prof. Dr. Md. Kamrul Hasan"
-date: "2025-04-01"
+date: "02 April 2026"
 
 categories:
   - Training
@@ -39,6 +39,11 @@ bibliography: references.bib
 csl: apa.csl
 ---
 
+### Presentation link: Scan
+
+![](images/res-methods.png){fig-align="center"}
+
+
 ## Research and Knowledge
 
 - Knowledge is the stored information in our brain, books or internet that can be recalled when needed.
@@ -50,20 +55,19 @@ csl: apa.csl
 
 ## Research Types
 
-- Fundamental research: to generate new knowledge (theory) or test existing theory.
-- Experimental research (fundamental): A reserch to investigate the cause-effect relationship between variables.
-- Applied research: to solve a specific problem using existing (indigenous/scientific) knowledge.
-- Action research: applied research with a focus on immediate application in a local context.
-- Behavioral research: to understand human/social behavior. e.g. perception, attitude, motivation, adoption, participation, training effectiveness, adaptation to climate change, etc.
+- **Fundamental research:** to generate new knowledge (theory) or test existing theory. Fundamental research conducted to investigate the cause-effect relationship between variables is called **experimental research**.
+- **Applied research:** to solve a specific problem using existing (indigenous/scientific) knowledge.
+- **Action research:** applied research with a focus on immediate application in a local context.
+- **Behavioral research:** to understand human/social behavior. e.g. perception, attitude, motivation, adoption, participation, training effectiveness, adaptation to climate change, etc.
 
 
 ## Research Terminologies
 
-- Reserch methodology: ~ How to conduct research?
-- Research method: ~ A specific way to collect and analyze data.
-- Research design: ~ A plan to conduct research. e.g. qualitative, quantitative, mixed method, experimental design, etc.
-- Experiment: ~ A trial or setup involving treatments/interventions and experimental units.
-- Experimental design: ~ A plan to apply treatments/interventions in an experiment. e.g. CRD, RCBD, Factorial, pretest-posttest control group design, timeseries design, etc.
+- **Reserch methodology:** ~ How to conduct research?
+- **Research method:** ~ A specific way to collect and analyze data.
+- **Research design:** ~ A plan to conduct research. e.g. qualitative, quantitative, mixed method, experimental design, etc.
+- **Experiment:** ~ A trial or setup involving treatments/interventions and experimental units.
+- **Experimental design:** ~ A plan to apply treatments/interventions in an experiment. e.g. CRD, RCBD, Factorial, pretest-posttest control group design, timeseries design, etc.
 
 
 ## Steps in Research
@@ -79,7 +83,7 @@ csl: apa.csl
 > Ends the step with: Scientific report writing (presentation/publication)
 
 
-## Data to Law {.smaller1}
+## Data to Law {.smaller2}
 
 - **Data: **Raw and unprocessed information (numbers, text, images, etc.). e.g. 20, 30, 40, etc.
 - **Information:** Processed data with meaning. e.g. 20°C is the average temperature in April.
@@ -92,7 +96,7 @@ csl: apa.csl
 
 ## Problem Identification
 
-- Problem: A gap between what is and what should be.
+- **Problem:** A gap between what is and what should be.
 - Problem is the guiding force of research. This ensures research quality and resource allocation.
 - **Sources of problem:** literature review, and personal experience, observation, discussion with stakeholders, etc. also linked to the exsisting literature.
 
@@ -102,19 +106,20 @@ csl: apa.csl
 
 ## Resarech Title and Objectives {.smaller1}
 
-- Title: 10 - 15 words that reflect the research problem and objectives. Sometimes, it may include methodological aspects.
-- Examples: "Effect of row planing on growth and yield of wheat in Bangladesh", "Effect of training on income generation: A socio-psychological analysis using Kirkpatrick's model".
+- **Title:** 10 - 15 words that reflect the research problem and objectives. Sometimes, it may include methodological aspects.
+- **Example:** "Effect of row planing on growth and yield of wheat in Bangladesh", "Effect of training on income generation: A socio-psychological analysis using Kirkpatrick's model".
 - Titles should avoid dead words (investigate, study, effect, etc.), colon (as in the avove example) and abbreviations.
   
-- Objectives: Specific statements that describe what the research aims to achieve. 
-- Example: To estimate the effect of training on the adoption of row planing among wheat farmers in Barishal region by the end of 2025.
+- **Objectives:** Specific statements that describe what the research aims to achieve. 
+- **Example:** To estimate the effect of training on the adoption of row planing among wheat farmers in Barishal region by the end of 2025.
 
 ## Research Design: CRD, RCBD, LSD, Factorial {.smaller1}
 
-- One factor design where all units are homogeneous
+- **CRD:** One factor design where all units are homogeneous
   
 ![](../courses/images/clipboard-4083441025.png){fig-align="center"}
 
+---
 
 ### RCBD
 
@@ -123,6 +128,7 @@ csl: apa.csl
 
 ![](../courses/images/clipboard-1233838033.png){fig-align="center"}
 
+---
 
 ### LSD
 
@@ -131,6 +137,7 @@ csl: apa.csl
 
 ![](../courses/images/clipboard-1021137386.png){fig-align="center"}
 
+---
 
 ### Factorial Design
 
@@ -138,16 +145,19 @@ csl: apa.csl
 - For example, effect of N and P on rice yield.
 - This design can follow any of the basic designs.
 
+---
 
-### Factorial Design
+### Factorial Design under CRD
 
 ![](../courses/images/clipboard-1589060275.png){fig-align="center"}
 
+---
 
-### Factorial Design
+### Factorial Design under RCBD
 
 ![](../courses/images/clipboard-2897278034.png){fig-align="center"}
 
+---
 
 ### Social Research Design
 
@@ -177,7 +187,7 @@ csl: apa.csl
   - e.g. education level, income group, etc.
 - **Interval:** numerical values without a true zero
   - e.g. temperature in Celsius or Fahrenheit
--** Ratio:** numerical values with a true zero
+- **Ratio:** numerical values with a true zero
   - e.g. height, weight, age, income
 
 > The level of measurement determines the appropriate statistical analysis and interpretation of data.
@@ -187,7 +197,14 @@ csl: apa.csl
 **Example:** "I am satisfied with the training program on row planing for wheat farmers in Barishal region."
 
 
-**Response:** Strongely agree, Agree, Neutral, Disagree, Strongly disagree
+**Response:** 
+
+- Strongely agree = 5, 
+- Agree = 4, 
+- Neutral = 3 [no opinion or undecided], 
+- Disagree = 2, 
+- Strongly disagree = 1
+
 
 ## Constructing Statements
 
@@ -220,18 +237,17 @@ csl: apa.csl
 > In quota sampling quotas are set for different subgroups and data is collected until the quotas are filled.  
 
 
-## Data Collection Methods/Tools
+## Data Collection Methods/Tools {.smaller2}
 
 - **Observation:** A method of data collection that involves systematically watching and recording behavior or events.
 - **Questionnaire:** A set of written questions used to collect data from respondents. e.g. structured questionnaire, semi-structured questionnaire, unstructured questionnaire.
-- **Interview:** A method of data collection that involves direct interaction between the researcher and the respondent
-- e.g. structured interview, semi-structured interview, unstructured interview.
+- **Interview:** A method of data collection that involves direct interaction between the researcher and the respondent. e.g. structured interview, semi-structured interview, unstructured interview.
 - **Case study:** An in-depth analysis of a single case or a small number of cases. e.g. a village, a farm, a farmer, etc.
 - **FGD, KII:** Focus Group Discussion and Key Informant Interview
 - **PRA:** Transect walk, social mapping, wealth ranking, preference ranking, venn diagram, etc.
 
 
-## Conducting Interviews
+## Conducting Interviews {.smaller2}
 
 - **Prepration: **interview schedule/questionnaire, date and time, venue, **consent** etc.
 - **Rapport building:** establish trust and comfort with the respondent.
@@ -265,9 +281,10 @@ csl: apa.csl
 - **Type I Error:** Rejecting a null hypothesis when it is true.
 - **Type II Error:** Not rejecting a null hypothesis when it is false.
 
+
 ## Error Types
 
-| Decision   | H~0~​ is True     | H~0~​ is False    |
+| Decision   | H~0~ is True     | H~0~ is False    |
 |------------|------------------|------------------|
 | **Reject** | Type I Error     | Correct Decision |
 | **Accept** | Correct Decision | Type II Error    |
@@ -295,4 +312,8 @@ csl: apa.csl
 ## Report Writing and Presentation
 
 - To be contiued in the next session.
-- Link: https://ruenresearch.com/courses/research-methodology.html#report-writing-and-presentation
+- Link: [https://ruenresearch.com/blogs/scientific-writing.html#/title-slide](https://ruenresearch.com/blogs/scientific-writing.html#/title-slide)
+
+- Scan and go through the presentation and resources for the next session.
+
+![](images/res-methods.png){fig-align="center"}

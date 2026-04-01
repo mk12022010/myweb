@@ -446,3 +446,20 @@ ol li {
   color: #000000 !important; /* black text */
 }
 <span style="position:absolute;left:126.08400344848633px;top:348.78003692626953px;"></span>
+
+
+/* Table formatting */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+}
+
+th, td {
+  padding: 0.5rem;
+  text-align: left;
+}

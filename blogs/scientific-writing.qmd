@@ -1,7 +1,7 @@
 ---
 title: "Scientific Writing and Publication"
 author: "Prof. Dr. Md. Kamrul Hasan"
-date: "2025-04-01"
+date: "02 April 2026"
 
 categories:
   - Training
@@ -39,6 +39,11 @@ format:
 bibliography: references.bib
 csl: apa.csl
 ---
+
+
+### Presentation link: Scan
+
+![](images/res-methods.png){fig-align="center"}
 
 
 ## Why Scientific Writing and Publication? {.smaller2}
@@ -224,7 +229,7 @@ Smallholder farmers’ perception to climate change impact on crop production: c
 > For details please visits [https://ruenresearch.com/blogs/ai-use.html](https://ruenresearch.com/blogs/ai-use.html)
 
 
-## {data-background-image="../blogs/images/ai-logos.PNG" background-size="70%"}
+## {data-background-image="images/ai-logos.PNG" background-size="60%"}
 
 **AI Tools:** Deepseek, Chatgpt, Gemini, Copilot, Bard, Perplexity, Scispace, thesis.ai, Quillbot, Grammarly, Elicit, Dall-e, Midjourney, Stable Diffusion, Pictory, Synthesia, Lumen5, InVideo
 
