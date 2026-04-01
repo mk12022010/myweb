@@ -209,7 +209,7 @@ csl: apa.csl
 - **Sampling error:** The difference between the sample statistic and the population parameter due to random sampling
 
 
-## Sampling methods {.smaller2}
+## Sampling Methods {.smaller2}
 
 - **Probability sampling:** Each member of the population has a known and non-zero chance of being selected. e.g. simple random sampling, systematic sampling, stratified sampling, cluster sampling.
 
@@ -231,7 +231,7 @@ csl: apa.csl
 - **PRA:** Transect walk, social mapping, wealth ranking, preference ranking, venn diagram, etc.
 
 
-## Conducting interviews
+## Conducting Interviews
 
 - **Prepration: **interview schedule/questionnaire, date and time, venue, **consent** etc.
 - **Rapport building:** establish trust and comfort with the respondent.

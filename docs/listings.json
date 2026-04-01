@@ -2,7 +2,6 @@
   {
     "listing": "/blogs.html",
     "items": [
-      "/blogs/scientific-writing.html",
       "/blogs/Invisible filter.html",
       "/blogs/world-food-day-2025.html",
       "/blogs/field-trip-fish-2025.html",
@@ -11,6 +10,7 @@
       "/blogs/ARD5112.html",
       "/blogs/communication-journalism.html",
       "/blogs/research-methodology-presentation.html",
+      "/blogs/scientific-writing.html",
       "/blogs/why-r-python.html"
     ]
   }
