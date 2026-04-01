@@ -256,14 +256,14 @@
     "href": "blogs/research-methodology-presentation.html#conducting-interviews",
     "title": "Research Methodology",
     "section": "Conducting Interviews",
-    "text": "Conducting Interviews\n\nPrepration: interview schedule/questionnaire, date and time, venue, consent etc.\nRapport building: establish trust and comfort with the respondent.\nData collection: ask questions, listen actively, and record responses accurately.\n\nUse probes and follow-up questions to clarify and expand responses.\nAvoid leading questions and bias in data collection.\nEnsure ethical considerations such as informed consent, confidentiality, and respect for the respondent’s rights.\nNever miss any questions and never guess any answers.\n\nClosing: thank the respondent and provide any necessary information about the next steps.\n\n\nRemember: Field editing and central editing"
+    "text": "Conducting Interviews\n\nPrepration: interview schedule/questionnaire, date and time, venue, consent etc.\nRapport building: establish trust and comfort with the respondent.\nData collection: ask questions, listen actively, and record responses accurately.\n\nUse probes and follow-up questions to clarify and expand responses.\nAvoid leading questions and bias in data collection.\nEnsure ethical considerations such as informed consent, confidentiality, and respect for the respondent’s rights.\nNever miss any questions and never guess any answers.\n\nClosing: thank the respondent and provide any necessary information about the next steps."
   },
   {
     "objectID": "blogs/research-methodology-presentation.html#data-processing-and-analysis",
     "href": "blogs/research-methodology-presentation.html#data-processing-and-analysis",
     "title": "Research Methodology",
     "section": "Data Processing and Analysis",
-    "text": "Data Processing and Analysis\n\nData processing: The steps taken to prepare raw data for analysis, including data cleaning, coding, and organization.\nData analysis: The application of statistical or qualitative techniques to interpret and draw conclusions from processed data. e.g. descriptive statistics, inferential statistics or hypothesis testing, thematic analysis, content analysis, etc.\nSoftware for data processing and analysis: MS Excel, OnlyOffice, R, Python, SPSS, Stata, MATLAB, Minitab, NVivo, etc."
+    "text": "Data Processing and Analysis\n\nRemember: Field editing and central editing are part of data processing.\n\n\nData processing: The steps taken to prepare raw data for analysis, including data cleaning, coding, and organization.\nData analysis: The application of statistical or qualitative techniques to interpret and draw conclusions from processed data. e.g. descriptive statistics, inferential statistics or hypothesis testing, thematic analysis, content analysis, etc.\nSoftware for data processing and analysis: MS Excel, OnlyOffice, R, Python, SPSS, Stata, MATLAB, Minitab, NVivo, etc."
   },
   {
     "objectID": "blogs/research-methodology-presentation.html#selection-of-statiscal-test",
@@ -1561,11 +1561,11 @@
     "text": "Plagiarism and AI in Research\n\nPlagiarism is the inclusion of someone else ideas, text and results without acknowledgment is unethical and punishable academic crime.\nUse quote or paraphrased statements with proper citations of the original authors (even for your own previous works) to avoid plagiarism.\nThe Turnitin software is used to detect plagiarism.\ngpt.me is used to detect AI-generated text.\n\n\nFor details please visits https://ruenresearch.com/blogs/ai-use.html"
   },
   {
-    "objectID": "blogs/scientific-writing.html#section",
-    "href": "blogs/scientific-writing.html#section",
+    "objectID": "blogs/scientific-writing.html#ai-tools-in-research-and-scientific-writing",
+    "href": "blogs/scientific-writing.html#ai-tools-in-research-and-scientific-writing",
     "title": "Scientific Writing and Publication",
-    "section": "",
-    "text": "AI Tools: Deepseek, Chatgpt, Gemini, Copilot, Bard, Perplexity, Scispace, thesis.ai, Quillbot, Grammarly, Elicit, Dall-e, Midjourney, Stable Diffusion, Pictory, Synthesia, Lumen5, InVideo"
+    "section": "AI Tools in Research and Scientific Writing",
+    "text": "AI Tools in Research and Scientific Writing"
   },
   {
     "objectID": "blogs/scientific-writing.html#paraphrase-for-responsible-use-of-ai",

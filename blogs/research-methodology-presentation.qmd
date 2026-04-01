@@ -179,7 +179,7 @@ csl: apa.csl
 - Pairwise ranking
 - Multidimensional scaling
 
-## Levels of Measurement
+## Levels of Measurement {.smaller1}
 
 - **Nominal:** categories without order
   - e.g. gender, religion, occupation, etc.
@@ -256,12 +256,12 @@ csl: apa.csl
   - Avoid leading questions and bias in data collection.
   - Ensure ethical considerations such as informed consent, confidentiality, and respect for the respondent's rights.
   - Never miss any questions and never guess any answers.
-- Closing: thank the respondent and provide any necessary information about the next steps.
-
-> Remember: Field editing and central editing
+- **Closing:** thank the respondent and provide any necessary information about the next steps.
 
 
 ## Data Processing and Analysis
+
+> **Remember:** Field editing and central editing are part of data processing.
 
 - **Data processing:** The steps taken to prepare raw data for analysis, including data cleaning, coding, and organization.
 
