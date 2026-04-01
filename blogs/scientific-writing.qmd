@@ -229,11 +229,10 @@ Smallholder farmers’ perception to climate change impact on crop production: c
 > For details please visits [https://ruenresearch.com/blogs/ai-use.html](https://ruenresearch.com/blogs/ai-use.html)
 
 
-## AI Tools in Research and Scientific Writing
+---
 
-<div style="text-align: center;">
-![](images/ai-logos.PNG)
-</div>
+**AI Tools in Research and Scientific Writing**
+![](images/ai-logos.png)
 
 
 ## Paraphrase for Responsible Use of AI {.smaller2}
