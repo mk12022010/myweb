@@ -17,7 +17,7 @@ author: "Professor Dr. Md. Kamrul Hasan"
 
 ## Knowledge, Science, Technology, Research
 
-![](images/clipboard-3489032357.png)
+![](images/fuller-quote.png.png)
 
 Knowledge is the stored information in our brain, books or internet that can be recalled when needed.
 If we cannot recall or retrieve the information that is not considered as knowledge.
@@ -392,7 +392,7 @@ A good experimental design maximizes reliability of information and minimize exp
     For example, we cannot assign a school going kid in the drop out group.
 
     -   **Non-equivalent control group design:** Similar to the pretest-post-test control group design, it has both control and treatment groups but without randomization.
-        It also similar to the static group comparison design because both have control groups and do not have randomization, but different because the static group comparison design does not have the pretest step.
+        It also similar to the static group comparison design because both have control groups and do not have randomization, but different because the static group comparison design includes the pretest step.
 
     -   **Interrupted/multiple time series design:** Similar to the non-equivalent control group design but several observations are taken before assigning the treatment and several observations are taken after assigning the treatment.
         By analyzing data points over time, both before and after the intervention, a time series design allows researchers to observe trends that existed prior to the intervention.
