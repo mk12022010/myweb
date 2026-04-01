@@ -233,7 +233,7 @@ Smallholder farmers’ perception to climate change impact on crop production: c
 
 - ChatGPT, Google Bard, Deepseek, Perplexity, Scispace, Elicit, Thesis.ai, DALL-E, Midjourney, Grammarly, Wordtune, Quillbot, etc.
 
-![](images/ai-logos.PNG){fig-align="center"}
+![](images/ai-logos.jpeg){fig-align="center"}
 
 ## Paraphrase for Responsible Use of AI {.smaller2}
 
