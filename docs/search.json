@@ -147,6 +147,167 @@
     "text": "Install VS Code Download VS Code\nInstall R extension in VS code: R Extension for Visual Studio Code (REditorSupport)\nInstall radian in cmd for syntax highlighting: pip3 install -U radian\nOpen R from Start Menu\nInstall packages in R (not RStudio) without compilation: install.packages(c('languageserver', 'httpgd', 'repr', 'IRdisplay', 'evaluate', 'crayon', 'pbdZMQ', 'devtools', 'uuid', 'digest'))\nInstall R kernel for jupyter in R (not RStudio): devtools::install_github('IRkernel/IRkernel')\nLink R kernel to jupyter notebook in R (not RStudio): IRkernel::installspec(user = FALSE)\nOpen a file in VS code with .ipynb extension and select kernel (jupyer kernel &gt; R kernel)\n\nNow your jupyter notebook is ready for both python and R. You can also create and work with R file with .R extension in vs code. At the end, you can export the .ipynb (jupyter notebook) file as html by pressing ctrl+shift+P and search for ‘jupyter: export to html’. Open this html file in RStudio to publish.\n\nIn addition, you can read some tips on working with markdown in Markdown cheat sheet.\n\nA few important VS Code extensions for R and Python:  Code Runner (Jun Han), Document Viewer (Syncfusion), GitHub Copilot Chat (GitHub), LaTex Shortcuts (Axel Delaval), Latex Workshop (James Yu), Markdown All in One (Yu Zhang), Markdown for Humans: WYSISIWYG Editor (concret.io), Markdown PDF (Yzane), Markdown PDF Plus (Tom Lathan), Markdown Preview Github Styling (Matt Bierner), PDF Viewer (Mathematic Inc), Markdown (Official) (Quarkdown), Quarkdown Preview (holooooo), Quarto (Quarto), Quarto Helpers (EmilHvitfeldt), R (REditorSupport), R Debugger (RDebugger), R Syntax (ReditorSupport), R Tools (Mikhail Arkhipov), C/C++ (Microsoft), Pylance (Microsoft), Jupyter (Microsoft), AI Python Docstring Generator (Tae Hwan Jung), Prettier - Code formatter (Prettier), and Black Formatter (Microsoft).\n\nFor Latex, you can install small MiKTeX Download MiKTeX or large TeXstudio Download TeXstudio.\n\nVS Code may show further error regarding ‘R Not Attached’ or failing to initiate R terminals. To solve this you may need to change some settings. Insert the following settings in the settings.json. Maintain its position in the existing settings’ curly braces and rename R versions (if needed). VS Code environment can fire on all cylinders: Radian for the terminal, httpgd for the plots, a direct R.exe path for the help pages, and a quiet Language Server providing documentation without the “linting” clutter.\n\n{\n    \"editor.minimap.enabled\": false,\n    \"editor.unicodeHighlight.nonBasicASCII\": false,\n    \"editor.wordWrap\": \"on\",\n    \"workbench.editorAssociations\": { \".pdf\": \"pdf.view\", \".xlsx\": \"syncfusion-excel-viewer\" },\n    \"editor.unicodeHighlight.invisibleCharacters\": false,\n    \"security.workspace.trust.enabled\": false,\n    \"security.workspace.trust.untrustedFiles\": \"open\",\n    \"workbench.colorTheme\": \"Quiet Light\",\n    \"terminal.integrated.initialHint\": false,\n    \"security.workspace.trust.startupPrompt\": \"never\",\n    \"quarkdownPreview.quarkdownPath\": \"quarkdown\",\n    \"terminal.integrated.enableMultiLinePasteWarning\": \"never\",\n    \"r.bracketedPaste\": true,\n    \"r.rterm.option\": [ ],\n    \"r.alwaysUseActiveTerminal\": true,\n    \"r.plot.useHttpgd\": true,\n    \"r.lsp.diagnostics\": false,\n    \"breadcrumbs.enabled\": false,\n    \"r.rpath.windows\": \"C:\\\\Program Files\\\\R\\\\R-4.5.3\\\\bin\\\\x64\\\\R.exe\",\n    \"r.rterm.windows\": \"C:\\\\Users\\\\ruenr\\\\AppData\\\\Roaming\\\\Python\\\\Python314\\\\Scripts\\\\radian.exe\",\n    \"terminal.integrated.defaultProfile.windows\": \"R Terminal\",\n}\n\nIf VS Code does not find the existing R Package Library path, the installed packages in RStudio may not work in VS Code. To solve this, you will need to create some new environmental variables in system and user sections. Example:\n\nR_libs: C:\\Program Files\\R\\R-4.5.1\\library\n\nR_paths: C:\\Program Files\\R\\R-4.5.1\\bin\n\nR_term: C:\\Program Files\\R\\R-4.5.1\\bin\\x64\n\nNote: To run Quarto Document in VS Code, install QuarkDown using this powershell command. Ignore error message, just wait. However, you may need to install npm.\n\n\nirm https://raw.githubusercontent.com/quarkdown-labs/get-quarkdown/refs/heads/main/install.ps1 | iex\nDownload and install quarfrom from https://quarto.org/docs/download/\n\n\n\nTo automate publishing to RPubs in VS Code, you can create a simple wrapper script. Since VS Code lacks RStudio’s “Publish” button, we use the markdown package to handle the upload programmatically.\n\nThe Automation Script Create a new R script (e.g., publish.R) and use this code. It will render your document and immediately upload it.\n\n\n# Load necessary libraries\nlibrary(rmarkdown)\nlibrary(markdown)\n\n# 1. Define your file and title\ndoc_path &lt;- \"your_file.Rmd\"\ndoc_title &lt;- \"My Professional Report\"\n\n# 2. Render the document to HTML\n# This creates the .html file needed for RPubs\nrender(doc_path, output_format = \"html_document\")\nhtml_file &lt;- gsub(\"\\\\.Rmd$\", \".html\", doc_path)\n\n# 3. Upload to RPubs\n# If it's a NEW post, leave id = NULL. \n# If updating an EXISTING post, paste your RPubs ID string in 'id'\nresult &lt;- rpubsUpload(title = doc_title, htmlFile = html_file, id = NULL)\n\n# 4. Finalize\n\nif (!is.null(result$continueUrl)) {\n  browseURL(result$continueUrl) # Opens browser to confirm\n} else {\n  stop(\"Upload failed: \", result$error)\n}"
   },
   {
+    "objectID": "blogs/research-methodology-presentation.html#research-and-knowledge",
+    "href": "blogs/research-methodology-presentation.html#research-and-knowledge",
+    "title": "Research Methodology",
+    "section": "Research and Knowledge",
+    "text": "Research and Knowledge\n\nKnowledge is the stored information in our brain, books or internet that can be recalled when needed.\nSource of knowledge can be anything and anywhere.\nKnowdge generated using systematic (scientific) process is called science.\nExpression of science is technology. e.g. idea, practice, device, sofware, etc."
+  },
+  {
+    "objectID": "blogs/research-methodology-presentation.html#research-types",
+    "href": "blogs/research-methodology-presentation.html#research-types",
+    "title": "Research Methodology",
+    "section": "Research Types",
+    "text": "Research Types\n\nFundamental research: to generate new knowledge (theory) or test existing theory.\nExperimental research (fundamental): A reserch to investigate the cause-effect relationship between variables.\nApplied research: to solve a specific problem using existing (indigenous/scientific) knowledge.\nAction research: applied research with a focus on immediate application in a local context.\nBehavioral research: to understand human/social behavior. e.g. perception, attitude, motivation, adoption, participation, training effectiveness, adaptation to climate change, etc."
+  },
+  {
+    "objectID": "blogs/research-methodology-presentation.html#research-terminologies",
+    "href": "blogs/research-methodology-presentation.html#research-terminologies",
+    "title": "Research Methodology",
+    "section": "Research Terminologies",
+    "text": "Research Terminologies\n\nReserch methodology: ~ How to conduct research?\nResearch method: ~ A specific way to collect and analyze data.\nResearch design: ~ A plan to conduct research. e.g. qualitative, quantitative, mixed method, experimental design, etc.\nExperiment: ~ A trial or setup involving treatments/interventions and experimental units.\nExperimental design: ~ A plan to apply treatments/interventions in an experiment. e.g. CRD, RCBD, Factorial, pretest-posttest control group design, timeseries design, etc."
+  },
+  {
+    "objectID": "blogs/research-methodology-presentation.html#steps-in-research",
+    "href": "blogs/research-methodology-presentation.html#steps-in-research",
+    "title": "Research Methodology",
+    "section": "Steps in Research",
+    "text": "Steps in Research\n\nProblem identification\nSetting research objectives\nSpecififying research methodology\nData collection and analysis\nIntrepretation and conclusion\n\n\nEvery step includes: Literature review\n\n\nEnds the step with: Scientific report writing (presentation/publication)"
+  },
+  {
+    "objectID": "blogs/research-methodology-presentation.html#data-to-law",
+    "href": "blogs/research-methodology-presentation.html#data-to-law",
+    "title": "Research Methodology",
+    "section": "Data to Law",
+    "text": "Data to Law\n\nData: Raw and unprocessed information (numbers, text, images, etc.). e.g. 20, 30, 40, etc.\nInformation: Processed data with meaning. e.g. 20°C is the average temperature in April.\nFact: Verifiable information. e.g. Water boils at 100°C.\nEvidence: Information that supports or refutes a claim. e.g. observed increase in crop growth with row planing.\nHypothesis: A testable scientific guess about the relationship between variables. e.g. row planing enhances crop growth.\nTheory: Proven hypothesis. e.g. balannce fertilizer is better than imbalanced fertilizer for crop growth.\nLaw: Proven theory with universal applicability. e.g. Law’s of learning: readyness, exercise, effect, etc."
+  },
+  {
+    "objectID": "blogs/research-methodology-presentation.html#problem-identification",
+    "href": "blogs/research-methodology-presentation.html#problem-identification",
+    "title": "Research Methodology",
+    "section": "Problem Identification",
+    "text": "Problem Identification\n\nProblem: A gap between what is and what should be.\nProblem is the guiding force of research. This ensures research quality and resource allocation.\nSources of problem: literature review, and personal experience, observation, discussion with stakeholders, etc. also linked to the exsisting literature.\n\n\nProblem must be consistent with the existing knowledge.\n\n\nProblem must have newness (innovativeness/novelty)."
+  },
+  {
+    "objectID": "blogs/research-methodology-presentation.html#resarech-title-and-objectives",
+    "href": "blogs/research-methodology-presentation.html#resarech-title-and-objectives",
+    "title": "Research Methodology",
+    "section": "Resarech Title and Objectives",
+    "text": "Resarech Title and Objectives\n\nTitle: 10 - 15 words that reflect the research problem and objectives. Sometimes, it may include methodological aspects.\nExamples: “Effect of row planing on growth and yield of wheat in Bangladesh”, “Effect of training on income generation: A socio-psychological analysis using Kirkpatrick’s model”.\nTitles should avoid dead words (investigate, study, effect, etc.), colon (as in the avove example) and abbreviations.\nObjectives: Specific statements that describe what the research aims to achieve.\nExample: To estimate the effect of training on the adoption of row planing among wheat farmers in Barishal region by the end of 2025."
+  },
+  {
+    "objectID": "blogs/research-methodology-presentation.html#research-design-crd-rcbd-lsd-factorial",
+    "href": "blogs/research-methodology-presentation.html#research-design-crd-rcbd-lsd-factorial",
+    "title": "Research Methodology",
+    "section": "Research Design: CRD, RCBD, LSD, Factorial",
+    "text": "Research Design: CRD, RCBD, LSD, Factorial\n\nOne factor design where all units are homogeneous\n\n\n\n\n\n\nRCBD\n\nOne factor design where field is homogeneous in one direction but heterogeneous in another direction.\n\n\n\n\n\n\nLSD\n\nOne factor design where the field is heterogeneous in both directions.\n\n\n\n\n\n\nFactorial Design\n\nTwo factors or treatments and both are easy to manage or manipulate.\nFor example, effect of N and P on rice yield.\nThis design can follow any of the basic designs.\n\nFactorial Design\n\n\n\n\n\nFactorial Design\n\n\n\n\n\nSocial Research Design\nA. Pre-experimental design: no randomization. e.g. one group pretest-posttest design, one group posttest only design, static group comparison design (posttest only with control group)\nB. True experimental design: randomization is possible and there is a control group. e.g. pretest-posttest control group design, posttest only control group design\nC. Quasi-experimental design: randomization is not possible but there is a control group. e.g. non-equivalent control group design (has pretest), time series design"
+  },
+  {
+    "objectID": "blogs/research-methodology-presentation.html#scales-of-measurement",
+    "href": "blogs/research-methodology-presentation.html#scales-of-measurement",
+    "title": "Research Methodology",
+    "section": "Scales of Measurement",
+    "text": "Scales of Measurement\n\nMCQ\nLikert scale\nRating scale\nSemantic differential scale\nSentence completion\nOpen ended questions\nRanking items\nPairwise ranking\nMultidimensional scaling"
+  },
+  {
+    "objectID": "blogs/research-methodology-presentation.html#levels-of-measurement",
+    "href": "blogs/research-methodology-presentation.html#levels-of-measurement",
+    "title": "Research Methodology",
+    "section": "Levels of Measurement",
+    "text": "Levels of Measurement\n\nNominal: categories without order\n\ne.g. gender, religion, occupation, etc.\n\nOrdinal: categories with order\n\ne.g. education level, income group, etc.\n\nInterval: numerical values without a true zero\n\ne.g. temperature in Celsius or Fahrenheit -** Ratio:** numerical values with a true zero\ne.g. height, weight, age, income\n\n\n\nThe level of measurement determines the appropriate statistical analysis and interpretation of data."
+  },
+  {
+    "objectID": "blogs/research-methodology-presentation.html#statements-for-likert-scale",
+    "href": "blogs/research-methodology-presentation.html#statements-for-likert-scale",
+    "title": "Research Methodology",
+    "section": "Statements for Likert Scale",
+    "text": "Statements for Likert Scale\nExample: “I am satisfied with the training program on row planing for wheat farmers in Barishal region.”\nResponse: Strongely agree, Agree, Neutral, Disagree, Strongly disagree"
+  },
+  {
+    "objectID": "blogs/research-methodology-presentation.html#constructing-statements",
+    "href": "blogs/research-methodology-presentation.html#constructing-statements",
+    "title": "Research Methodology",
+    "section": "Constructing Statements",
+    "text": "Constructing Statements\n\nUse present-tense, non-factual, and unambiguous statements relevant to the psychological construct.\nKeep statements short (under 20 words) and express one idea only.\nUse simple, clear, and direct language; avoid complex vocabulary.\nAvoid universal terms and double negatives (e.g., all, always, none, never).\nUse qualifiers sparingly (e.g., only, just, merely).\nEnsure balanced coverage across the affective scale; avoid statements most or few would endorse."
+  },
+  {
+    "objectID": "blogs/research-methodology-presentation.html#population-and-sampling",
+    "href": "blogs/research-methodology-presentation.html#population-and-sampling",
+    "title": "Research Methodology",
+    "section": "Population and Sampling",
+    "text": "Population and Sampling\n\nPopulation: The entire group of individuals or items that meet certain criteria and are of interest in a research study. e.g. all wheat farmers in Barishal region.\nSample: A subset of the population that is selected for participation in a research study. e.g. 100 wheat farmers from Barishal region.\nSampling: The process of selecting a sample from the population.\nSampling frame: A list or database of the population from which the sample is drawn. e.g. list of wheat farmers in Barishal region.\nSampling unit: The individual or item that is selected for inclusion in the sample. e.g. a wheat farmer in Barishal region.\nSampling error: The difference between the sample statistic and the population parameter due to random sampling"
+  },
+  {
+    "objectID": "blogs/research-methodology-presentation.html#sampling-methods",
+    "href": "blogs/research-methodology-presentation.html#sampling-methods",
+    "title": "Research Methodology",
+    "section": "Sampling methods",
+    "text": "Sampling methods\n\nProbability sampling: Each member of the population has a known and non-zero chance of being selected. e.g. simple random sampling, systematic sampling, stratified sampling, cluster sampling.\nNon-probability sampling: The probability of selection is unknown or zero for some members of the population. e.g. convenience sampling, purposive sampling, snowball sampling, quota sampling.\n\n\nIn cluster sampling a number of clusters are randomly selected for data collection.\n\n\nIn quota sampling quotas are set for different subgroups and data is collected until the quotas are filled."
+  },
+  {
+    "objectID": "blogs/research-methodology-presentation.html#data-collection-methodstools",
+    "href": "blogs/research-methodology-presentation.html#data-collection-methodstools",
+    "title": "Research Methodology",
+    "section": "Data Collection Methods/Tools",
+    "text": "Data Collection Methods/Tools\n\nObservation: A method of data collection that involves systematically watching and recording behavior or events.\nQuestionnaire: A set of written questions used to collect data from respondents. e.g. structured questionnaire, semi-structured questionnaire, unstructured questionnaire.\nInterview: A method of data collection that involves direct interaction between the researcher and the respondent\ne.g. structured interview, semi-structured interview, unstructured interview.\nCase study: An in-depth analysis of a single case or a small number of cases. e.g. a village, a farm, a farmer, etc.\nFGD, KII: Focus Group Discussion and Key Informant Interview\nPRA: Transect walk, social mapping, wealth ranking, preference ranking, venn diagram, etc."
+  },
+  {
+    "objectID": "blogs/research-methodology-presentation.html#conducting-interviews",
+    "href": "blogs/research-methodology-presentation.html#conducting-interviews",
+    "title": "Research Methodology",
+    "section": "Conducting interviews",
+    "text": "Conducting interviews\n\nPrepration: interview schedule/questionnaire, date and time, venue, consent etc.\nRapport building: establish trust and comfort with the respondent.\nData collection: ask questions, listen actively, and record responses accurately.\n\nUse probes and follow-up questions to clarify and expand responses.\nAvoid leading questions and bias in data collection.\nEnsure ethical considerations such as informed consent, confidentiality, and respect for the respondent’s rights.\nNever miss any questions and never guess any answers.\n\nClosing: thank the respondent and provide any necessary information about the next steps.\n\n\nRemember: Field editing and central editing"
+  },
+  {
+    "objectID": "blogs/research-methodology-presentation.html#data-processing-and-analysis",
+    "href": "blogs/research-methodology-presentation.html#data-processing-and-analysis",
+    "title": "Research Methodology",
+    "section": "Data Processing and Analysis",
+    "text": "Data Processing and Analysis\n\nData processing: The steps taken to prepare raw data for analysis, including data cleaning, coding, and organization.\nData analysis: The application of statistical or qualitative techniques to interpret and draw conclusions from processed data. e.g. descriptive statistics, inferential statistics or hypothesis testing, thematic analysis, content analysis, etc.\nSoftware for data processing and analysis: MS Excel, OnlyOffice, R, Python, SPSS, Stata, MATLAB, Minitab, NVivo, etc."
+  },
+  {
+    "objectID": "blogs/research-methodology-presentation.html#selection-of-statiscal-test",
+    "href": "blogs/research-methodology-presentation.html#selection-of-statiscal-test",
+    "title": "Research Methodology",
+    "section": "Selection of Statiscal Test",
+    "text": "Selection of Statiscal Test"
+  },
+  {
+    "objectID": "blogs/research-methodology-presentation.html#hypothesis-and-errors",
+    "href": "blogs/research-methodology-presentation.html#hypothesis-and-errors",
+    "title": "Research Methodology",
+    "section": "Hypothesis and Errors",
+    "text": "Hypothesis and Errors\n\nNull and Research Hypothesis: Null hypothesis (H0) is a statement of no effect or no relationship, while research hypothesis (H1) is a statement of an expected effect or relationship.\nType I Error: Rejecting a null hypothesis when it is true.\nType II Error: Not rejecting a null hypothesis when it is false."
+  },
+  {
+    "objectID": "blogs/research-methodology-presentation.html#error-types",
+    "href": "blogs/research-methodology-presentation.html#error-types",
+    "title": "Research Methodology",
+    "section": "Error Types",
+    "text": "Error Types\n\n\n\nDecision\nH0​ is True\nH0​ is False\n\n\n\n\nReject\nType I Error\nCorrect Decision\n\n\nAccept\nCorrect Decision\nType II Error"
+  },
+  {
+    "objectID": "blogs/research-methodology-presentation.html#validity-and-reliability",
+    "href": "blogs/research-methodology-presentation.html#validity-and-reliability",
+    "title": "Research Methodology",
+    "section": "Validity and Reliability",
+    "text": "Validity and Reliability\n\nValidity: The extent to which a research instrument measures what it is intended to measure. e.g. content validity, construct validity, criterion validity, etc.\nReliability: The consistency and stability of a research instrument over time and across different conditions. e.g. test-retest reliability, inter-rater reliability, split-half or internal consistency reliability, etc."
+  },
+  {
+    "objectID": "blogs/research-methodology-presentation.html#data-types",
+    "href": "blogs/research-methodology-presentation.html#data-types",
+    "title": "Research Methodology",
+    "section": "Data Types",
+    "text": "Data Types\n\nQuantitative data: Numerical data that can be measured and analyzed statistically. e.g. height, weight, income, etc.\n\nDiscrete data: Quantitative data that can only take specific values. e.g. number of children, number of rows, etc.\nContinuous data: Quantitative data that can take any value within a range. e\n\nQualitative data: Non-numerical data that can be analyzed thematically or content-wise. e.g. interview transcripts, field notes, etc."
+  },
+  {
+    "objectID": "blogs/research-methodology-presentation.html#report-writing-and-presentation",
+    "href": "blogs/research-methodology-presentation.html#report-writing-and-presentation",
+    "title": "Research Methodology",
+    "section": "Report Writing and Presentation",
+    "text": "Report Writing and Presentation\n\nTo be contiued in the next session.\nLink: https://ruenresearch.com/courses/research-methodology.html#report-writing-and-presentation"
+  },
+  {
     "objectID": "blogs/field-trip-fish-2025.html#extension-field-trip-2025",
     "href": "blogs/field-trip-fish-2025.html#extension-field-trip-2025",
     "title": "Extension Field Trip 2025",

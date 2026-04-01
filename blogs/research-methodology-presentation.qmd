@@ -25,14 +25,21 @@ format:
     theme: simple
     css: ../styles.css
     toc: true
-    toc-depth: 1
+    toc-depth: 2
     toc-title: Course Contents
+    include-in-header:
+      text: |
+        <style>
+        #TOC {
+          font-size: 20px;
+        }
+        </style>
 
 bibliography: references.bib
 csl: apa.csl
 ---
 
-# Research and Knowledge
+## Research and Knowledge
 
 - Knowledge is the stored information in our brain, books or internet that can be recalled when needed.
 - Source of knowledge can be anything and anywhere.
@@ -41,7 +48,7 @@ csl: apa.csl
 
 ![](../courses/images/fuller-quote.png){fig-align="center"}
 
-# Research types
+## Research Types
 
 - Fundamental research: to generate new knowledge (theory) or test existing theory.
 - Experimental research (fundamental): A reserch to investigate the cause-effect relationship between variables.
@@ -50,7 +57,7 @@ csl: apa.csl
 - Behavioral research: to understand human/social behavior. e.g. perception, attitude, motivation, adoption, participation, training effectiveness, adaptation to climate change, etc.
 
 
-# Research terminologies
+## Research Terminologies
 
 - Reserch methodology: ~ How to conduct research?
 - Research method: ~ A specific way to collect and analyze data.
@@ -59,7 +66,7 @@ csl: apa.csl
 - Experimental design: ~ A plan to apply treatments/interventions in an experiment. e.g. CRD, RCBD, Factorial, pretest-posttest control group design, timeseries design, etc.
 
 
-# Steps in Research
+## Steps in Research
 
 1. Problem identification
 2. Setting research objectives
@@ -72,7 +79,7 @@ csl: apa.csl
 > Ends the step with: Scientific report writing (presentation/publication)
 
 
-# Data to Law {.smaller1}
+## Data to Law {.smaller1}
 
 - **Data: **Raw and unprocessed information (numbers, text, images, etc.). e.g. 20, 30, 40, etc.
 - **Information:** Processed data with meaning. e.g. 20°C is the average temperature in April.
@@ -83,7 +90,7 @@ csl: apa.csl
 - **Law:** Proven theory with universal applicability. e.g. Law's of learning: readyness, exercise, effect, etc.
 
 
-# Problem identification
+## Problem Identification
 
 - Problem: A gap between what is and what should be.
 - Problem is the guiding force of research. This ensures research quality and resource allocation.
@@ -93,7 +100,7 @@ csl: apa.csl
 
 > Problem must have newness (innovativeness/novelty).
 
-# Resarech title and objectives {.smaller1}
+## Resarech Title and Objectives {.smaller1}
 
 - Title: 10 - 15 words that reflect the research problem and objectives. Sometimes, it may include methodological aspects.
 - Examples: "Effect of row planing on growth and yield of wheat in Bangladesh", "Effect of training on income generation: A socio-psychological analysis using Kirkpatrick's model".
@@ -102,14 +109,14 @@ csl: apa.csl
 - Objectives: Specific statements that describe what the research aims to achieve. 
 - Example: To estimate the effect of training on the adoption of row planing among wheat farmers in Barishal region by the end of 2025.
 
-# Research design: CRD, RCBD, LSD, Factorial {.smaller1}
+## Research Design: CRD, RCBD, LSD, Factorial {.smaller1}
 
 - One factor design where all units are homogeneous
   
 ![](../courses/images/clipboard-4083441025.png){fig-align="center"}
 
 
-# RCBD
+### RCBD
 
 - One factor design where field is homogeneous in one direction but heterogeneous in another direction. 
 
@@ -117,7 +124,7 @@ csl: apa.csl
 ![](../courses/images/clipboard-1233838033.png){fig-align="center"}
 
 
-# LSD
+### LSD
 
 - One factor design where the field is heterogeneous in both directions. 
 
@@ -125,24 +132,24 @@ csl: apa.csl
 ![](../courses/images/clipboard-1021137386.png){fig-align="center"}
 
 
-# Factorial Design
+### Factorial Design
 
 - Two factors or treatments and both are easy to manage or manipulate.
 - For example, effect of N and P on rice yield.
 - This design can follow any of the basic designs.
 
 
-# Factorial Design
+### Factorial Design
 
 ![](../courses/images/clipboard-1589060275.png){fig-align="center"}
 
 
-# Factorial Design
+### Factorial Design
 
 ![](../courses/images/clipboard-2897278034.png){fig-align="center"}
 
 
-# Social Research Design
+### Social Research Design
 
 **A. Pre-experimental design:** no randomization. e.g. one group pretest-posttest design, one group posttest only design, static group comparison design (posttest only with control group)
 
@@ -150,7 +157,7 @@ csl: apa.csl
 
 **C. Quasi-experimental design:** randomization is not possible but there is a control group. e.g. non-equivalent control group design (has pretest), time series design
 
-# Scales of Measurement
+## Scales of Measurement
 
 - MCQ
 - Likert scale
@@ -162,7 +169,7 @@ csl: apa.csl
 - Pairwise ranking
 - Multidimensional scaling
 
-# Levels of Measurement
+## Levels of Measurement
 
 - **Nominal:** categories without order
   - e.g. gender, religion, occupation, etc.
@@ -175,14 +182,14 @@ csl: apa.csl
 
 > The level of measurement determines the appropriate statistical analysis and interpretation of data.
 
-# Statements for Likert Scale
+## Statements for Likert Scale
 
 **Example:** "I am satisfied with the training program on row planing for wheat farmers in Barishal region."
 
 
 **Response:** Strongely agree, Agree, Neutral, Disagree, Strongly disagree
 
-# Constructing Statements
+## Constructing Statements
 
 - Use present-tense, non-factual, and unambiguous statements relevant to the psychological construct.
 - Keep statements short (under 20 words) and express one idea only.
@@ -192,7 +199,7 @@ csl: apa.csl
 - Ensure balanced coverage across the affective scale; avoid statements most or few would endorse.
 
 
-# Population and Sampling {.smaller2}
+## Population and Sampling {.smaller2}
 
 - **Population:** The entire group of individuals or items that meet certain criteria and are of interest in a research study. e.g. all wheat farmers in Barishal region.
 - **Sample:** A subset of the population that is selected for participation in a research study. e.g. 100 wheat farmers from Barishal region.
@@ -202,7 +209,7 @@ csl: apa.csl
 - **Sampling error:** The difference between the sample statistic and the population parameter due to random sampling
 
 
-# Sampling methods {.smaller2}
+## Sampling methods {.smaller2}
 
 - **Probability sampling:** Each member of the population has a known and non-zero chance of being selected. e.g. simple random sampling, systematic sampling, stratified sampling, cluster sampling.
 
@@ -213,7 +220,7 @@ csl: apa.csl
 > In quota sampling quotas are set for different subgroups and data is collected until the quotas are filled.  
 
 
-# Data Collection Methods/Tools
+## Data Collection Methods/Tools
 
 - **Observation:** A method of data collection that involves systematically watching and recording behavior or events.
 - **Questionnaire:** A set of written questions used to collect data from respondents. e.g. structured questionnaire, semi-structured questionnaire, unstructured questionnaire.
@@ -224,7 +231,7 @@ csl: apa.csl
 - **PRA:** Transect walk, social mapping, wealth ranking, preference ranking, venn diagram, etc.
 
 
-# Conducting interviews
+## Conducting interviews
 
 - **Prepration: **interview schedule/questionnaire, date and time, venue, **consent** etc.
 - **Rapport building:** establish trust and comfort with the respondent.
@@ -238,7 +245,7 @@ csl: apa.csl
 > Remember: Field editing and central editing
 
 
-# Data Processing and Analysis
+## Data Processing and Analysis
 
 - **Data processing:** The steps taken to prepare raw data for analysis, including data cleaning, coding, and organization.
 
@@ -247,18 +254,18 @@ csl: apa.csl
 - **Software for data processing and analysis:** MS Excel, OnlyOffice, R, Python, SPSS, Stata, MATLAB, Minitab, NVivo, etc.
 
 
-# Selection of Statiscal Test
+## Selection of Statiscal Test
 
 ![](../courses/images/clipboard-1466642367.png){fig-align="center"}
 
 
-# Hypothesis and Errors
+## Hypothesis and Errors
 
 - **Null and Research Hypothesis:** Null hypothesis (H0) is a statement of no effect or no relationship, while research hypothesis (H1) is a statement of an expected effect or relationship.
 - **Type I Error:** Rejecting a null hypothesis when it is true.
 - **Type II Error:** Not rejecting a null hypothesis when it is false.
 
-# Error Types
+## Error Types
 
 | Decision   | H~0~​ is True     | H~0~​ is False    |
 |------------|------------------|------------------|
@@ -266,7 +273,7 @@ csl: apa.csl
 | **Accept** | Correct Decision | Type II Error    |
 
 
-# Validity and Reliability
+## Validity and Reliability
 
 - **Validity:** The extent to which a research instrument measures what it is intended to measure. e.g. content validity, construct validity, criterion validity, etc.
 
@@ -275,7 +282,7 @@ csl: apa.csl
 ![](../courses/images/clipboard-3885768312.png){fig-align="center"}
 
 
-# Data Types {.smaller3}
+## Data Types {.smaller3}
 
 - **Quantitative data:** Numerical data that can be measured and analyzed statistically. e.g. height, weight, income, etc.
   - **Discrete data:** Quantitative data that can only take specific values. e.g. number of children, number of rows, etc.
@@ -285,7 +292,7 @@ csl: apa.csl
 ![](../courses/images/clipboard-2053556229.png){fig-align="center"}
 
 
-# Report writing and presentation
+## Report Writing and Presentation
 
 - To be contiued in the next session.
 - Link: https://ruenresearch.com/courses/research-methodology.html#report-writing-and-presentation
