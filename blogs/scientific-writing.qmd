@@ -231,9 +231,14 @@ Smallholder farmers’ perception to climate change impact on crop production: c
 
 ---
 
-**AI Tools in Research and Scientific Writing**
-![](images/ai-logos.png)
+**AI Tools in Research and Report Writing**
 
+  - ChatGPT, Google Bard, Deepseek, Perplexity, Scispace, Elicit, Thesis.ai, DALL-E, Midjourney, Grammarly, Wordtune, Quillbot, etc.
+
+![AI Tools](images/ai-logos.PNG)
+
+
+---
 
 ## Paraphrase for Responsible Use of AI {.smaller2}
 
