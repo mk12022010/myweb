@@ -231,7 +231,7 @@ Smallholder farmers’ perception to climate change impact on crop production: c
 
 ## AI Tools in Research and Scientific Writing
 
-![](images/ai-logos.PNG.png){fig-align="center"}
+![](images/ai-logos.PNG){fig-align="center"}
 
 
 ## Paraphrase for Responsible Use of AI {.smaller2}
