@@ -57,7 +57,7 @@ Professor Hasan acted as the Chairman of Agricultural Extension and Rural Develo
 
 1.  Kogo, B. K., Kumar, L., Koech, R., and **Hasan, M. K.** (2022). Response to climate change in a rain-fed crop production system: Insights from maize farmers of western Kenya. *Mitigation and Adaptation Strategies for Global Change, 27*, 50. <https://doi.org/10.1007/s11027-022-10023-8>
 
-1.  Kumar, L., Chhogyel, N., Gopalakrishnan, T., **Hasan, M. K.**, Jayasinghe, S. L., Kariyawasam, C. S., Kogo, B. K., & Ratnayake, S. (2022). Chapter 4 - Climate change and future of agri-food production. In R. Bhat (Ed.), Future Foods (pp. 49-79). Academic Press, Elsevier. https://doi.org/10.1016/B978-0-323-91001-9.00009-8
+1.  Kumar, L., Chhogyel, N., Gopalakrishnan, T., **Hasan, M. K.**, Jayasinghe, S. L., Kariyawasam, C. S., Kogo, B. K., & Ratnayake, S. (2022). Chapter 4 - Climate change and future of agri-food production. In R. Bhat (Ed.), Future Foods (pp. 49-79). Academic Press, Elsevier. <https://doi.org/10.1016/B978-0-323-91001-9.00009-8>
 
 1.  Kogo, B. K., Kumar, L., Koech, R., & **Hasan, M. K.** (2021). Climatic and non-climatic risks in rainfed crop production systems: insights from maize farmers of western Kenya. *Climate and Development, 13*(10), 869–878. <https://doi.org/10.1080/17565529>
 
