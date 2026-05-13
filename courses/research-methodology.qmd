@@ -757,7 +757,7 @@ This type of sampling helps exploration of a subject matter but lacks generaliza
 
 Interview schedule and questionnaire are widely used for collecting social data.
 Many people unknowingly use these two terms interchangeably, but they are not the same although the both are printed set of questions.
-These can be structured (all questions are set in advance), non-structured (questions are framed during interview by expert interviewers), or semi-structured (some questions are prepared in advance and some are not).
+These can be structured (all questions are with fixed answers or closed-forms), non-structured (questions are framed without any predefined answers), or semi-structured (some questions have fixed answers and some are open-ended).
 The differences are given here.
 
 -   **Interview Schedule:** Used in qualitative research or in-depth studies where understanding context, emotions, and detailed responses are important.

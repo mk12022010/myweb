@@ -159,6 +159,26 @@ csl: apa.csl
 
 ---
 
+### Split PLot Design
+
+- Two factors or treatments and one is difficult to manage or manipulate.
+- For example, effect of irrigation and N on rice yield.
+- This design can follow any of the basic designs.
+
+---
+
+### Split Plot Design under CRD
+
+![](../courses/images/clipboard-1953270149.png){fig-align="center"}
+
+---
+
+### Split Plot Design under RCBD
+
+![](../courses/images/clipboard-125333176.png){fig-align="center"}
+
+---
+
 ### Social Research Design
 
 **A. Pre-experimental design:** no randomization. e.g. one group pretest-posttest design, one group posttest only design, static group comparison design (posttest only with control group)
