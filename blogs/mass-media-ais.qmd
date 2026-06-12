@@ -24,7 +24,7 @@ Human brain never makes wrong decision. It always makes the best decision based 
 
 ## **Presentation slides on the role of mass media in disseminating agricultural information**
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQiliymofxzNsU53Nrn0HZj1BHmNWIBhYqFKjHDyrsQal6eb-JFu3khCMkofROfXA/pubembed?start=false&loop=false&delayms=60000" frameborder="0" width="1280" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQiliymofxzNsU53Nrn0HZj1BHmNWIBhYqFKjHDyrsQal6eb-JFu3khCMkofROfXA/pubembed?start=false&loop=false&delayms=60000" frameborder="0" width="640" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ## **Importance of Mass Media in Agriculture**
 
