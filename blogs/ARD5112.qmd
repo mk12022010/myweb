@@ -512,11 +512,11 @@ The message is the orderly organized and encoded for information, instructions, 
 
 For effective persuasion [@hovland1953], message treatment involves:
 
-- (A) Pattern of organization
-- (B) Ordering of arguments  
-- (C) Nature of arguments
-- (D) Message style
-- (E) Message appeals
+ (A) Pattern of organization
+ (B) Ordering of arguments  
+ (C) Nature of arguments
+ (D) Message style
+ (E) Message appeals
 
 
 
@@ -524,8 +524,8 @@ For effective persuasion [@hovland1953], message treatment involves:
 
 1. **Spatial order** - space or geographical pattern (e.g. AEZ, soil tracts)
 2. **Chronological order** - time pattern,  historical perspective (e.g. Agricultural development)
-3. **Deductive order** - general to specific (e.g. role of communication)
-4. **Inductive order** - specific to general (e.g. impact of compost use)
+3. **Deductive order** - general to specific (e.g. role of communication -> technology adoption)
+4. **Inductive order** - specific to general (e.g. impact of compost use -> role of compost in soil fertility)
 5. **Psychological order** - based on attitude, need, satisfaction, visualization, action
 6. **Problem-solving order** - focuses on breking down the problem (e.g. cultivation process)
 7. **Climax order** - key points at the end
@@ -547,7 +547,7 @@ For effective persuasion [@hovland1953], message treatment involves:
 
 **One-sided vs two-sided message**
 
-- Limiting disfavourable parts suitable for illiterate audience. Example: Family planning helps welfare (favourable) but may contradict religion (disfavourable)
+- Limiting disfavourable parts suitable for illiterate audience. Example: Family planning helps welfare (favourable) but may contradict social tradition (disfavourable)
 - Two-sided message more effective with higher education receivers
 
 
@@ -589,7 +589,7 @@ Psychological features that invoke feelings and create motivation.
 
 - 'Pathos' appeals creating appropriate feeling using values/emotions
 - Argue for belief by pointing out rewards from holding belief and affection (religious, family, loving ones, communinity, country, environment, welfare, and so on)
-- This something like finding one's weak (extreme affinity) points and directing the message encompassing that side.
+- This is something like finding one's weak (extreme affinity) points and directing the message encompassing that side.
 - Example: Clean homestead for safe environment for kids/parents
 
 
@@ -599,8 +599,8 @@ Psychological features that invoke feelings and create motivation.
 
 - 'Logos' appeals presenting empirical/logical evidence
 - Result demonstration is rational appeal (seeing is believing)
-- Emotional and rational appeals often complementary
-- Emotional for politicians; rational for elite/educated voters
+- Emotional and rational appeals are often complementary
+- Emotional for less educated; rational for elite/educated voters
 - Association with known facts, visual elements, non-verbal cues works well
 
 
