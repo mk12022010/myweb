@@ -1074,9 +1074,9 @@ ggplot(df, aes(x, y, label = country)) +
 
 **References**
 
-- https://www.fao.org/research-extension-systems/ais/en/
-- https://cd4ais.ifpri.info/what-is-an-agricultural-innovation-system/
-- https://www.oecd.org/content/dam/oecd/en/publications/reports/2013/06/agricultural-innovation-systems_g1g2ec7d/9789264200593-en.pdf
+- [https://www.fao.org/research-extension-systems/ais/en/](https://www.fao.org/research-extension-systems/ais/en/)
+- [https://cd4ais.ifpri.info/what-is-an-agricultural-innovation-system/](https://cd4ais.ifpri.info/what-is-an-agricultural-innovation-system/)
+- [https://www.oecd.org/content/dam/oecd/en/publications/reports/2013/06/agricultural-innovation-systems_g1g2ec7d/9789264200593-en.pdf](https://www.oecd.org/content/dam/oecd/en/publications/reports/2013/06/agricultural-innovation-systems_g1g2ec7d/9789264200593-en.pdf)
 
 
 ## Agricultural Innovation System
@@ -1086,7 +1086,7 @@ ggplot(df, aes(x, y, label = country)) +
 </div>
 
 
-## Agricultural Innovation System
+## Agricultural Innovation Dynamics
 
 <div style="text-align: center;">
   <img src="images/innovation-dynamics.png" alt="Innovation dynamics" />
