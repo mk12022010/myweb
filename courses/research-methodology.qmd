@@ -17,7 +17,7 @@ author: "Professor Dr. Md. Kamrul Hasan"
 
 ## Knowledge, Science, Technology, Research
 
-![](images/fuller-quote.png.png)
+![](images/fuller-quote.png)
 
 Knowledge is the stored information in our brain, books or internet that can be recalled when needed.
 If we cannot recall or retrieve the information that is not considered as knowledge.
