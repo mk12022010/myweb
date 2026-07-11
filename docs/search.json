@@ -893,7 +893,7 @@
     "href": "blogs/ARD5112.html#communication-methods-channels-and-aids",
     "title": "ARD 5112: Communication and Information Technology",
     "section": "Communication methods, channels and aids",
-    "text": "Communication methods, channels and aids\n\nMethods (TV broadcast): \n\nhow to transfer the message\nnature of interaction\n\nChannels (TV): \n\nthrough what the message is transferred\nmedium or essential tools of interaction\n\nAids (loud speaker): \n\nhow the transfer can be made more effective\nhelping tools of interaction"
+    "text": "Communication methods, channels and aids\n\nMethods (TV broadcast): \n\nhow to transfer the message\nnature of interaction\n\nChannels (TV): \n\nthrough what the message is transferred\nmedium or essential tools of interaction\n\nAids (loud speaker): \n\nhow the transfer can be made more effective\nhelping tools of interaction\n\n\n\nCommunication types linked to methods, channels and aids (Ray, 2003). Note: These are sometimes overlapping and the distiction is fuzzy and blurred. Consider their position and way of use."
   },
   {
     "objectID": "blogs/ARD5112.html#individual",
@@ -949,7 +949,7 @@
     "href": "blogs/ARD5112.html#example-of-a-communication-strategy",
     "title": "ARD 5112: Communication and Information Technology",
     "section": "Example of a communication strategy",
-    "text": "Example of a communication strategy\nA strategy to inform 200 potential farmers about a technology could involve: poster/leaflet/farmers meeting, and campaign, using consistent parallel messaging about the benefits to motivate them to adopt the technology.\n\nQ. How will you evaluate teh success of this communication strategy? Communication success = Fidelity + Effectiveness"
+    "text": "Example of a communication strategy\nA strategy to inform 200 potential farmers about a technology could involve: poster/leaflet/farmers meeting, and campaign, using consistent parallel messaging about the benefits to motivate them to adopt the technology.\n\nQ. How will you evaluate the success of this communication strategy? Communication success = Fidelity + Effectiveness"
   },
   {
     "objectID": "blogs/ARD5112.html#communication-fidelity",
@@ -977,7 +977,7 @@
     "href": "blogs/ARD5112.html#factors-affecting-communication-effectiveness",
     "title": "ARD 5112: Communication and Information Technology",
     "section": "Factors affecting communication effectiveness",
-    "text": "Factors affecting communication effectiveness\n\nSocio-deomographic and economic characteristics, including education, experience, income level, social interaction intensity\nMedia choice\nLanguage barriers\nAudience attitude\nAudience need\nRole of extension agents, input dealers and farmer groups\nFocus of the communication: targeted vs general\n\nReferences: Awili et al. (2016), Age et al. (2012) and Oktarina et al. (2008)"
+    "text": "Factors affecting communication effectiveness\n\nSocio-demographic and economic characteristics, including education, experience, income level, social interaction intensity\nMedia choice\nLanguage barriers\nAudience attitude\nAudience need\nRole of extension agents, input dealers and farmer groups\nFocus of the communication: targeted vs general\n\nReferences: Awili et al. (2016), Age et al. (2012) and Oktarina et al. (2008)"
   },
   {
     "objectID": "blogs/ARD5112.html#how-to-measure-communication-effectiveness",
@@ -1012,7 +1012,7 @@
     "href": "blogs/ARD5112.html#knowledge-and-information",
     "title": "ARD 5112: Communication and Information Technology",
     "section": "Knowledge and Information",
-    "text": "Knowledge and Information\n\nKnowledge and information are often used interchangeably.\nKnowledge means processed and perceived information that can be retrieved when needed.\n\n\n\n\n\n\n%%{init: {'themeVariables': { 'fontSize': '2rem'}}}%%\ngraph LR\nA[Environment] --&gt; B[Data]\nB --&gt; C[Information]\nC --&gt; D[Knowledge]\n\nE[Systematised knowledge] --&gt; F[Science]\nF --&gt; G[Innovation or Technology]\n\n\n\n\n\n\n\nAll are projected towards reducing uncertainty for a decision maker."
+    "text": "Knowledge and Information\n\nKnowledge and information are often used interchangeably.\nKnowledge means processed and perceived information that can be retrieved when needed.\n\n\n\n\n\n\n%%{init: {'theme': 'default'}}%%\ngraph LR\n    A[Environment] --&gt; B[Data]\n    B --&gt; C[Information]\n    C --&gt; D[Knowledge]\n    E[Systematised knowledge] --&gt; F[Science]\n    F --&gt; G[Innovation or Technology]\n\n    %% Apply a large font size safely to all nodes\n    classDef largeFont font-size:24px;\n    class A,B,C,D,E,F,G largeFont;\n\n\n\n\n\n\n\nAll are projected towards reducing uncertainty for a decision maker."
   },
   {
     "objectID": "blogs/ARD5112.html#concept-of-a-system",

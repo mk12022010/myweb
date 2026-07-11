@@ -739,7 +739,7 @@ Source: [ecampusontario.pressbooks.pub](https://ecampusontario.pressbooks.pub/in
 
 # Mass Communication
 
-## Communication methods, channels and aids
+## Communication methods, channels and aids {.smaller2}
 
 - **Methods (TV broadcast): **
 
@@ -758,7 +758,7 @@ Source: [ecampusontario.pressbooks.pub](https://ecampusontario.pressbooks.pub/in
   - helping tools of interaction
   
 
-# Communication types linked to methods, channels and aids [@ray2003]. Note: These are sometimes overlapping and the distiction is fuzzy and blurred. Consider their position and way of use. {.smaller2}
+> Communication types linked to methods, channels and aids [@ray2003]. Note: These are sometimes overlapping and the distiction is fuzzy and blurred. Consider their position and way of use. 
 
 ## **Individual**
 
@@ -832,7 +832,7 @@ A communication strategy is a detail plan that includes:
 
 A strategy to inform 200 potential farmers about a technology could involve: poster/leaflet/farmers meeting, and campaign, using consistent parallel messaging about the benefits to motivate them to adopt the technology. 
 
-> **Q. How will you evaluate teh success of this communication strategy?**
+> **Q. How will you evaluate the success of this communication strategy?**
 > Communication success = Fidelity + Effectiveness
 
 
@@ -864,7 +864,7 @@ A strategy to inform 200 potential farmers about a technology could involve: pos
 
 ## Factors affecting communication effectiveness
 
-1. Socio-deomographic and economic characteristics, including education, experience, income level, social interaction intensity
+1. Socio-demographic and economic characteristics, including education, experience, income level, social interaction intensity
 2. Media choice
 3. Language barriers
 4. Audience attitude
@@ -936,15 +936,17 @@ Source:
 - Knowledge means processed and perceived information that can be retrieved when needed.
 
 ```{mermaid}
-%%| echo: false
-%%{init: {'themeVariables': { 'fontSize': '2rem'}}}%%
+%%{init: {'theme': 'default'}}%%
 graph LR
-A[Environment] --> B[Data]
-B --> C[Information]
-C --> D[Knowledge]
+    A[Environment] --> B[Data]
+    B --> C[Information]
+    C --> D[Knowledge]
+    E[Systematised knowledge] --> F[Science]
+    F --> G[Innovation or Technology]
 
-E[Systematised knowledge] --> F[Science]
-F --> G[Innovation or Technology]
+    %% Apply a large font size safely to all nodes
+    classDef largeFont font-size:24px;
+    class A,B,C,D,E,F,G largeFont;
 ```
 
 - All are projected towards reducing uncertainty for a decision maker.
