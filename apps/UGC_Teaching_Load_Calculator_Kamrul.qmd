@@ -1,0 +1,959 @@
+---
+title: "Teaching Load Calculator — Barishal University"
+subtitle: "Professor Dr. Md. Kamrul Hasan"
+format:
+  html:
+    embed-resources: true
+    toc: false
+    page-layout: full
+    code-fold: false
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+
+<style>
+:root {
+  --accent:#1f6f8b;
+  --accent2:#174b5d;
+  --soft:#f4f8fa;
+  --border:#d7e1e6;
+  --danger:#a33a3a;
+  --ok:#edf8f0;
+}
+body { font-family: Arial, sans-serif; }
+h1 { color:var(--accent2); }
+.app-subtitle { color:#5b6770; margin-top:-8px; }
+.cardx {
+  border:1px solid var(--border); border-radius:12px; padding:16px;
+  margin:14px 0; background:#fff;
+}
+.cardx h2,.cardx h3 { color:var(--accent2); margin-top:0; }
+.grid2 { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; }
+.grid3 { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px; }
+.grid4 { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:12px; }
+label { font-weight:600; display:block; margin-bottom:4px; }
+input, select, textarea {
+  width:100%; box-sizing:border-box; padding:8px;
+  border:1px solid #bccbd2; border-radius:7px; font-size:14px;
+}
+textarea { min-height:70px; resize:vertical; }
+button {
+  border:0; border-radius:7px; padding:8px 12px; cursor:pointer;
+  margin:3px;
+}
+.btn-primary { background:var(--accent); color:#fff; }
+.btn-secondary { background:#e9f1f4; color:var(--accent2); }
+.btn-danger { background:#f8e8e8; color:var(--danger); }
+.btn-print { background:#444; color:white; }
+.small { font-size:.88rem; color:#5b6770; }
+.notice {
+  background:#fff8df; border:1px solid #ead58a;
+  padding:11px 13px; border-radius:8px; margin:12px 0;
+}
+.formula {
+  background:#f8fafb; border-left:4px solid var(--accent);
+  padding:10px 12px; margin:8px 0; font-family:Georgia,serif;
+}
+.resultbox {
+  background:#eef7fa; border:2px solid #9ec9d6;
+  border-radius:12px; padding:16px; text-align:center;
+}
+.big { font-size:1.55rem; font-weight:700; color:var(--accent2); }
+.scroll { overflow-x:auto; }
+.data-table { width:100%; border-collapse:collapse; min-width:1050px; }
+.data-table th,.data-table td {
+  border:1px solid var(--border); padding:6px; vertical-align:middle;
+}
+.data-table th { background:var(--soft); white-space:nowrap; }
+.data-table input,.data-table select { min-width:105px; }
+.loadcell { white-space:nowrap; font-weight:700; text-align:right; }
+.chip {
+  display:inline-block; padding:3px 7px; border-radius:10px;
+  background:#e9f1f4; color:var(--accent2); font-size:.82rem;
+}
+.hidden { display:none !important; }
+.kpi {
+  border:1px solid var(--border); border-radius:10px; padding:12px;
+  background:#fff;
+}
+.kpi .v { font-size:1.35rem; font-weight:700; color:var(--accent2); }
+.kpi .l { font-size:.85rem; color:#5b6770; }
+@media(max-width:900px){
+  .grid2,.grid3,.grid4 { grid-template-columns:1fr; }
+}
+@media print {
+  .no-print, button, input, select, textarea { display:none !important; }
+  .cardx { break-inside:avoid; }
+  .scroll { overflow:visible; }
+  .data-table { min-width:0; }
+}
+</style>
+
+```{=html}
+<h1>UGC Teaching Load Calculator</h1>
+
+<div class="app-subtitle">
+Course-wise data-entry system based on the supplied <strong>Public Universities Teaching Load Calculation Policy (Engineering), 2022</strong>.
+</div>
+
+<div class="notice">
+<strong>How this version works:</strong> Enter one row for each course/activity. Select its semester and teaching-load category. The calculator automatically applies the corresponding policy formula, shows the calculation for every row, aggregates the results by category and semester, and calculates the required number of teachers.
+</div>
+
+<div class="cardx">
+<h3>1. Calculation settings</h3>
+<div class="grid4">
+  <div>
+    <label>Calculation mode</label>
+    <select id="calcMode">
+      <option value="semester">Semester system</option>
+      <option value="year">Year System</option>
+    </select>
+  </div>
+  <div>
+    <label>Department/institute head load (hours/week)</label>
+    <input id="headHours" type="number" min="0" step="0.1" value="6">
+  </div>
+  <div>
+    <label>Average teacher contact load (hours/week)</label>
+    <input id="teacherHours" type="number" min="0.1" step="0.1" value="13">
+  </div>
+  <div>
+    <label>University / Department</label>
+    <input id="deptName" type="text" placeholder="e.g., Department of Agricultural Extension">
+  </div>
+</div>
+
+<div class="cardx">
+<h3>Staffing assumptions</h3>
+<div class="grid4">
+  <div>
+    <label for="leaveFactor">Additional teachers for study leave (%)</label>
+    <input id="leaveFactor" type="number" min="0" step="1" value="20">
+  </div>
+  <div><label>Professor : Associate Professor</label><input value="1 : 2" disabled></div>
+  <div><label>Assistant Professor : Lecturer</label><input value="4 : 3" disabled></div>
+  <div><label>Full faculty ratio</label><input value="1 : 2 : 4 : 3" disabled></div>
+</div>
+<p class="small">A 20% study-leave allowance is applied in both systems. The adjusted requirement is distributed as Professor : Associate Professor : Assistant Professor : Lecturer = 1 : 2 : 4 : 3.</p>
+</div>
+
+<p class="small">
+The policy states 13 hours as the average weekly contact workload for a teacher and 6 hours for a department/institute head.
+<br><strong>Semester system:</strong> one academic year has two semesters; the higher Odd/Even course load is used.
+<strong>Year System:</strong> only four-year undergraduate programmes are included; the four years are combined, the teacher number is calculated, and 65% is retained as the semester-system equivalent.
+</p>
+</div>
+
+<div class="cardx no-print">
+<h3>2. Course/activity data entry</h3>
+<p class="small">
+Use one row per course, section, laboratory activity, project/internship/thesis activity, or other applicable teaching activity.
+For categories that require a historical average, enter the applicable historical average. For MPhil and PhD, this specifically means the <strong>previous five-year average</strong>.
+</p>
+
+<div class="grid4">
+  <div>
+    <label for="defaultProgram">Default program</label>
+    <select id="defaultProgram">
+      <option value="Undergraduate">Undergraduate</option>
+      <option value="Postgraduate">Postgraduate</option>
+      <option value="Master's">Master's</option>
+      <option value="MPhil">MPhil</option>
+      <option value="PhD">PhD</option>
+    </select>
+  </div>
+
+  <div id="defaultSemesterBox">
+    <label for="defaultSemester">Default semester</label>
+    <select id="defaultSemester">
+      <option value="Odd">Odd</option>
+      <option value="Even">Even</option>
+    </select>
+  </div>
+
+  <div id="defaultYearBox" class="hidden">
+    <label for="defaultYear">Default undergraduate year</label>
+    <select id="defaultYear">
+      <option value="1">Year 1</option>
+      <option value="2">Year 2</option>
+      <option value="3">Year 3</option>
+      <option value="4">Year 4</option>
+    </select>
+  </div>
+
+  <div>
+    <label for="defaultCredit">Default credit hours</label>
+    <input id="defaultCredit" type="number" min="0" step="0.5" value="3">
+  </div>
+</div>
+
+<div class="no-print" style="margin-top:10px">
+  <button type="button" id="addRow" class="btn-primary">+ Add course/activity</button>
+  <button type="button" id="add10" class="btn-secondary">+ Add 10 rows</button>
+  <button type="button" id="clearRows" class="btn-danger">Clear all rows</button>
+  <button type="button" id="loadExample" class="btn-secondary">Load example data</button>
+</div>
+
+<div class="scroll" style="margin-top:12px">
+<table class="data-table" id="courseTable">
+<thead>
+<tr>
+  <th>#</th>
+  <th id="periodHeader">Semester</th>
+  <th>Semester name</th>
+  <th>Program</th>
+  <th>Teaching-load category</th>
+  <th>Sections / classes</th>
+  <th>Students</th>
+  <th>Credit hours</th>
+  <th>Historical average</th>
+  <th>Contact hours</th>
+  <th>Calculated weekly load</th>
+  <th>Action</th>
+</tr>
+</thead>
+<tbody></tbody>
+</table>
+</div>
+
+<p class="small">
+Interpretation of the fields depends on the selected category. The Historical average is used only where the policy requires a previous-year average. For MPhil and PhD, it is the previous five-year average; their contact hours are fixed at 3 and 4 respectively.
+</p>
+</div>
+
+<div class="cardx">
+<h3>3. Course/activity-wise calculations</h3>
+<div id="rowCalculations"></div>
+</div>
+
+<div class="cardx">
+<h3>4. Load summary</h3>
+<div id="summary"></div>
+</div>
+
+<div class="cardx">
+<h3>5. Teacher requirement</h3>
+<div id="teacherResult"></div>
+</div>
+
+<div class="cardx no-print">
+<h3>6. Actions</h3>
+<button class="btn-print" onclick="window.print()">Print / Save as PDF</button>
+<button class="btn-secondary" id="copyReport">Copy calculation summary</button>
+</div>
+
+<div class="cardx">
+<h3>Policy-based formulas used</h3>
+<div id="formulaReference"></div>
+<p class="small">
+This application is a calculator implementation of the formulas in the supplied policy. It does not create a new policy or independently change the policy's formulas.
+</p>
+</div>
+
+<script>
+const el = id => document.getElementById(id);
+const esc = s => String(s ?? '').replace(/[&<>"']/g, m => ({
+  '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'
+}[m]));
+const n = x => Math.max(0, parseFloat(x) || 0);
+const fmt = x => Number.isFinite(x)
+  ? x.toLocaleString(undefined,{minimumFractionDigits:0,maximumFractionDigits:3})
+  : "0";
+
+const categories = {
+  ug_theory: {
+    label:"UG theory",
+    formula:"Sections/classes × credit hours",
+    fields:"Uses Sections + Credit hours",
+    calc:r => r.sections * r.credit
+  },
+  ug_lab: {
+    label:"UG session / laboratory",
+    formula:"(Students ÷ 10) × credit hours",
+    fields:"Uses Students + Credit hours",
+    calc:r => (r.students / 10) * r.credit
+  },
+  ug_project: {
+    label:"UG project / internship / thesis",
+    formula:"Historical average students (previous 3 years) × contact hours",
+    fields:"Uses Historical average + Contact hours",
+    calc:r => r.avg * r.contact
+  },
+  ug_practical: {
+    label:"UG practical / survey / field / other",
+    formula:"(Students ÷ 15) × credit hours",
+    fields:"Uses Students + Credit hours",
+    calc:r => (r.students / 15) * r.credit
+  },
+  pg_theory: {
+    label:"PG theory",
+    formula:"Historical average course number (previous 3 years) × credit hours",
+    fields:"Uses Historical average + Credit hours",
+    calc:r => r.avg * r.credit
+  },
+  pg_lab: {
+    label:"PG laboratory",
+    formula:"Same laboratory-load calculation as UG laboratory: (Students ÷ 10) × credit hours",
+    fields:"Uses Students + Credit hours",
+    calc:r => (r.students / 10) * r.credit
+  },
+  masters: {
+    label:"Master's thesis",
+    formula:"Historical average Master's degree earners (previous 3 years) × 3 contact hours",
+    fields:"Uses Historical average; contact hours fixed at 3",
+    calc:r => r.avg * 3
+  },
+  mphil: {
+    label:"MPhil thesis",
+    formula:"Previous five-year average MPhil degree earners × 3 contact hours",
+    fields:"Uses previous five-year average; contact hours fixed at 3",
+    calc:r => r.avg * 3
+  },
+  phd: {
+    label:"PhD thesis",
+    formula:"Previous five-year average PhD degree earners × 4 contact hours",
+    fields:"Uses previous five-year average; contact hours fixed at 4",
+    calc:r => r.avg * 4
+  }
+};
+const defaultContact = { ug_project:2, masters:3, mphil:3, phd:4 };
+
+let rows = [];
+let nextId = 1;
+
+function blankRow() {
+  return {
+    id:nextId++,
+    semester:el('defaultSemester').value,
+    semesterName:"",
+    year:Number(el('defaultYear').value),
+    program:el('calcMode').value === "year" ? "Undergraduate" : el('defaultProgram').value,
+    category:"ug_theory",
+    sections:1,
+    students:0,
+    credit:n(el('defaultCredit').value) || 3,
+    avg:0,
+    contact:0
+  };
+}
+
+function addRow(data=null) {
+  const r = data || blankRow();
+  if (r.contact === 0 && defaultContact[r.category]) r.contact = defaultContact[r.category];
+  rows.push(r);
+  renderTable();
+  calculate();
+}
+
+function addMany(k) {
+  for(let i=0;i<k;i++) rows.push(blankRow());
+  renderTable(); calculate();
+}
+
+function removeRow(id) {
+  rows = rows.filter(r => r.id !== id);
+  renderTable(); calculate();
+}
+
+function updateRow(id,key,value) {
+  const r = rows.find(x => x.id === id);
+  if(!r) return;
+
+  if(["sections","students","credit","avg","contact"].includes(key)) {
+    r[key] = n(value);
+  } else {
+    r[key] = value;
+  }
+
+  if(key === "category") {
+    if(r.category === "masters") r.contact = 3;
+    if(r.category === "mphil") r.contact = 3;
+    if(r.category === "phd") r.contact = 4;
+    if(r.category === "ug_project" && r.contact === 0) r.contact = 2;
+
+    const rowEl = document.querySelector(`tr[data-id="${id}"]`);
+    if(rowEl) {
+      const contactEl = rowEl.querySelector('input.contact-input');
+      if(contactEl) contactEl.value = r.contact;
+    }
+  }
+
+  calculate();
+}
+function categoryOptions(selected) {
+  return Object.entries(categories).map(([k,v]) =>
+    `\u003Coption value="${k}" ${k===selected?'selected':''}>${esc(v.label)}\u003C/option>`
+  ).join('');
+}
+
+function renderTable() {
+  const tbody = el('courseTable').querySelector('tbody');
+  const isYear = el('calcMode').value === "year";
+
+  el('periodHeader').textContent = isYear ? "Undergraduate year" : "Semester";
+  el('defaultSemesterBox').classList.toggle('hidden', isYear);
+  el('defaultYearBox').classList.toggle('hidden', !isYear);
+
+  tbody.innerHTML = rows.map((r,i) => {
+    const fixedContact = ["masters","mphil","phd"].includes(r.category);
+    const avgLabel =
+      (r.category === "mphil" || r.category === "phd")
+        ? "Previous 5-year average"
+        : "Historical average";
+
+    return `
+    \u003Ctr data-id="${r.id}">
+      \u003Ctd>${i+1}\u003C/td>
+      \u003Ctd>
+        ${isYear
+          ? `<select onchange="updateRow(${r.id},'year',this.value)">
+              ${[1,2,3,4].map(x => `\u003Coption value="${x}" ${Number(r.year)===x?'selected':''}>Year ${x}\u003C/option>`).join('')}
+             </select>`
+          : `<select onchange="updateRow(${r.id},'semester',this.value)">
+              <option ${r.semester==='Odd'?'selected':''}>Odd</option>
+              <option ${r.semester==='Even'?'selected':''}>Even</option>
+             </select>`
+        }
+      \u003C/td>
+      \u003Ctd>
+        \u003Cinput value="${esc(r.semesterName || '')}"
+          oninput="updateRow(${r.id},'semesterName',this.value)"
+          placeholder="1st / 2nd / 3rd...">
+      \u003C/td>
+      \u003Ctd>
+        ${isYear
+          ? `<select disabled><option selected>Undergraduate</option></select>`
+          : `<select onchange="updateRow(${r.id},'program',this.value)">
+              ${["Undergraduate","Postgraduate","Master's","MPhil","PhD"].map(x =>
+                `\u003Coption ${r.program===x?'selected':''}>${x}\u003C/option>`).join('')}
+             </select>`
+        }
+      \u003C/td>
+      \u003Ctd>
+        \u003Cselect onchange="updateRow(${r.id},'category',this.value)">
+          ${categoryOptions(r.category)}
+        \u003C/select>
+      \u003C/td>
+      \u003Ctd>\u003Cinput type="number" min="0" step="0.01" value="${r.sections}"
+        oninput="updateRow(${r.id},'sections',this.value)">\u003C/td>
+      \u003Ctd>\u003Cinput type="number" min="0" step="0.01" value="${r.students}"
+        oninput="updateRow(${r.id},'students',this.value)">\u003C/td>
+      \u003Ctd>\u003Cinput type="number" min="0" step="0.5" value="${r.credit}"
+        oninput="updateRow(${r.id},'credit',this.value)">\u003C/td>
+      \u003Ctd>\u003Cinput type="number" min="0" step="0.01" value="${r.avg}"
+        title="${esc(avgLabel)}" placeholder="${esc(avgLabel)}"
+        oninput="updateRow(${r.id},'avg',this.value)">\u003C/td>
+      \u003Ctd>
+        \u003Cinput class="contact-input" type="number" min="0" step="0.01" value="${r.contact}"
+          ${fixedContact ? "disabled title='Fixed by policy: 3 hours for Master\'s/MPhil; 4 hours for PhD'" : ""}
+          oninput="updateRow(${r.id},'contact',this.value)">
+      \u003C/td>
+      \u003Ctd class="loadcell" id="load-${r.id}">0\u003C/td>
+      \u003Ctd>\u003Cbutton type="button" class="btn-danger" onclick="removeRow(${r.id})">Remove\u003C/button>\u003C/td>
+    \u003C/tr>`;
+  }).join('');
+}
+function rowLoad(r) {
+  return categories[r.category].calc(r);
+}
+
+function selectedRows() {
+  const mode = el('calcMode').value;
+  if(mode === "year") return rows.filter(r => r.program === "Undergraduate");
+  return rows.slice();
+}
+
+function totals(data) {
+  const out = {};
+  Object.keys(categories).forEach(k => out[k]=0);
+  data.forEach(r => out[r.category] += rowLoad(r));
+  const ug = out.ug_theory + out.ug_lab + out.ug_project + out.ug_practical;
+  const pg = out.pg_theory + out.pg_lab + out.masters + out.mphil + out.phd;
+  return {byCat:out, ug, pg, total:ug+pg};
+}
+
+function teacherNumber(total) {
+  const head = n(el('headHours').value);
+  const teacher = n(el('teacherHours').value);
+  if(teacher <= 0) return NaN;
+  return ((total - head) / teacher) + 1;
+}
+
+function renderRowCalculations() {
+  if(!rows.length) {
+    el('rowCalculations').innerHTML = '\u003Cp class="small">Add course/activity rows to see the calculations.\u003C/p>';
+    return;
+  }
+
+  el('rowCalculations').innerHTML = `
+    \u003Cdiv class="scroll">
+    \u003Ctable class="data-table" style="min-width:1050px">
+      \u003Cthead>\u003Ctr>
+        \u003Cth>#\u003C/th>\u003Cth>Semester / Year\u003C/th>\u003Cth>Semester name\u003C/th>\u003Cth>Category\u003C/th>
+        \u003Cth>Formula\u003C/th>\u003Cth>Substitution\u003C/th>\u003Cth>Weekly load\u003C/th>
+      \u003C/tr>\u003C/thead>
+      \u003Ctbody>
+      ${rows.map((r,i) => {
+        const c = categories[r.category];
+        const load = rowLoad(r);
+        let sub = "";
+        if(r.category === "ug_theory")
+          sub = `${fmt(r.sections)} × ${fmt(r.credit)} = ${fmt(load)}`;
+        else if(r.category === "ug_lab" || r.category === "pg_lab")
+          sub = `(${fmt(r.students)} ÷ 10) × ${fmt(r.credit)} = ${fmt(load)}`;
+        else if(r.category === "ug_practical")
+          sub = `(${fmt(r.students)} ÷ 15) × ${fmt(r.credit)} = ${fmt(load)}`;
+        else if(r.category === "masters")
+          sub = `${fmt(r.avg)} × 3 = ${fmt(load)}`;
+        else if(r.category === "mphil")
+          sub = `${fmt(r.avg)} (previous 5-year average) × 3 = ${fmt(load)}`;
+        else if(r.category === "phd")
+          sub = `${fmt(r.avg)} (previous 5-year average) × 4 = ${fmt(load)}`;
+        else
+          sub = `${fmt(r.avg)} × ${fmt(r.credit)} = ${fmt(load)}`;
+
+        return `<tr>
+          <td>${i+1}</td>
+          <td>${esc(el('calcMode').value === "year" ? `Year ${r.year}` : r.semester)}</td>
+          <td>${esc(r.semesterName || "—")}</td>
+          <td>${esc(c.label)}</td>
+          <td>${esc(c.formula)}</td>
+          <td>${sub}</td>
+          <td class="loadcell">${fmt(load)}</td>
+        </tr>`;
+      }).join('')}
+      \u003C/tbody>
+    \u003C/table>
+    \u003C/div>`;
+}
+
+function renderLoadSummary() {
+  const target = el('summary');
+  if(!target) return;
+
+  if(!rows.length) {
+    target.innerHTML = '<p class="small">Add course/activity rows to see the load summary.</p>';
+    return;
+  }
+
+  const mode = el('calcMode').value;
+  if(mode === "semester") {
+    const odd = totals(rows.filter(r => r.semester === "Odd"));
+    const even = totals(rows.filter(r => r.semester === "Even"));
+    const chosen = odd.total >= even.total ? "Odd" : "Even";
+    target.innerHTML = `
+      <div class="cardx">
+        <h3>Load summary</h3>
+        <table>
+          <thead><tr><th>Semester</th><th>Total weekly load</th></tr></thead>
+          <tbody>
+            <tr><td>Odd</td><td>${fmt(odd.total)}</td></tr>
+            <tr><td>Even</td><td>${fmt(even.total)}</td></tr>
+            <tr><th>Higher load used</th><th>${chosen} (${fmt(chosen === "Odd" ? odd.total : even.total)})</th></tr>
+          </tbody>
+        </table>
+      </div>`;
+  } else {
+    const data = rows.filter(r => r.program === "Undergraduate");
+    const years = [1,2,3,4].map(y => ({
+      year:y,
+      total:totals(data.filter(r => Number(r.year) === y)).total
+    }));
+    const total = years.reduce((s,x) => s+x.total, 0);
+    target.innerHTML = `
+      <div class="cardx">
+        <h3>Load summary</h3>
+        <table>
+          <thead><tr><th>Undergraduate year</th><th>Total weekly load</th></tr></thead>
+          <tbody>
+            ${years.map(x => `<tr><td>Year ${x.year}</td><td>${fmt(x.total)}</td></tr>`).join('')}
+            <tr><th>Four-year total</th><th>${fmt(total)}</th></tr>
+          </tbody>
+        </table>
+      </div>`;
+  }
+}
+
+function renderSummaryFor(data, title) {
+  const t = totals(data);
+  const categoryRows = Object.entries(categories).map(([k,c]) =>
+    `\u003Ctr>\u003Ctd>${esc(c.label)}\u003C/td>\u003Ctd>${fmt(t.byCat[k])}\u003C/td>\u003C/tr>`
+  ).join('');
+  return `
+    \u003Cdiv class="cardx">
+      \u003Ch3>${esc(title)}\u003C/h3>
+      \u003Cdiv class="grid4">
+        \u003Cdiv class="kpi">\u003Cdiv class="v">${fmt(data.length)}\u003C/div>\u003Cdiv class="l">Rows included\u003C/div>\u003C/div>
+        \u003Cdiv class="kpi">\u003Cdiv class="v">${fmt(t.ug)}\u003C/div>\u003Cdiv class="l">UG load (hours/week)\u003C/div>\u003C/div>
+        \u003Cdiv class="kpi">\u003Cdiv class="v">${fmt(t.pg)}\u003C/div>\u003Cdiv class="l">PG/research load (hours/week)\u003C/div>\u003C/div>
+        \u003Cdiv class="kpi">\u003Cdiv class="v">${fmt(t.total)}\u003C/div>\u003Cdiv class="l">Overall load (hours/week)\u003C/div>\u003C/div>
+      \u003C/div>
+      \u003Cdiv class="scroll">
+      \u003Ctable>
+        \u003Cthead>\u003Ctr>\u003Cth>Load component\u003C/th>\u003Cth>Weekly load (hours)\u003C/th>\u003C/tr>\u003C/thead>
+        \u003Ctbody>
+          ${categoryRows}
+          \u003Ctr>\u003Cth>Undergraduate total\u003C/th>\u003Cth>${fmt(t.ug)}\u003C/th>\u003C/tr>
+          \u003Ctr>\u003Cth>Postgraduate / research total\u003C/th>\u003Cth>${fmt(t.pg)}\u003C/th>\u003C/tr>
+          \u003Ctr>\u003Cth>Overall weekly teaching load\u003C/th>\u003Cth>${fmt(t.total)}\u003C/th>\u003C/tr>
+        \u003C/tbody>
+      \u003C/table>
+      \u003C/div>
+    \u003C/div>`;
+}
+
+
+function renderTeacherRequirements() {
+  const mode = el('calcMode').value;
+  const target = el('teacherResult');
+  if(!target) return;
+
+  if(mode === "year") {
+    const data = rows.filter(r => r.program === "Undergraduate");
+    const fourYearLoad = [1,2,3,4].reduce(
+      (s,y) => s + totals(data.filter(r => Number(r.year) === y)).total, 0
+    );
+    target.innerHTML = renderYearTeacher(fourYearLoad);
+  } else {
+    const odd = rows.filter(r => r.semester === "Odd");
+    const even = rows.filter(r => r.semester === "Even");
+    const ot = totals(odd);
+    const et = totals(even);
+    const chosen = ot.total >= et.total ? odd : even;
+    const title = ot.total >= et.total
+      ? "Semester System — Odd semester (higher load)"
+      : "Semester System — Even semester (higher load)";
+    target.innerHTML = renderTeacher(title, chosen);
+  }
+}
+
+function staffingBreakdown(baseTeachers) {
+  const leavePct = Math.max(0, n(el('leaveFactor').value));
+  const adjusted = Math.max(0, baseTeachers) * (1 + leavePct / 100);
+  const totalWhole = Math.max(0, Math.ceil(adjusted));
+
+  // Professor : Associate Professor : Assistant Professor : Lecturer = 1:2:4:3
+  const ratios = [1, 2, 4, 3];
+  const exact = ratios.map(r => adjusted * r / 10);
+  const counts = exact.map(x => Math.floor(x));
+  let remaining = totalWhole - counts.reduce((a,b) => a+b, 0);
+
+  const order = exact.map((x,i) => ({i, frac:x-Math.floor(x)}))
+    .sort((a,b) => b.frac - a.frac);
+  for(let i=0; i<remaining; i++) counts[order[i].i]++;
+
+  return {
+    base:Math.max(0,baseTeachers), leavePct, adjusted, totalWhole,
+    professor:counts[0], associate:counts[1], assistant:counts[2], lecturer:counts[3],
+    exactProfessor:exact[0], exactAssociate:exact[1], exactAssistant:exact[2], exactLecturer:exact[3]
+  };
+}
+
+function staffingTable(s) {
+  return `
+    <div class="cardx">
+      <h3>Total teacher requirement and rank distribution</h3>
+      <div class="formula">
+        <strong>Base teacher requirement:</strong> ${fmt(s.base)} teachers<br>
+        <strong>After 20% study-leave allowance:</strong>
+        ${fmt(s.base)} × 1.20 = ${fmt(s.adjusted)} teachers
+      </div>
+      <div class="formula">
+        <strong>Rank distribution:</strong>
+        Professor : Associate Professor : Assistant Professor : Lecturer = 1 : 2 : 4 : 3
+      </div>
+      <div class="resultbox">
+        <div class="big">Total teachers required: ${s.totalWhole}</div>
+        <div>Adjusted calculated requirement: ${fmt(s.adjusted)} teachers</div>
+      </div>
+      <div class="scroll">
+      <table class="data-table" style="min-width:700px">
+        <thead><tr>
+          <th>Rank</th><th>Ratio</th><th>Calculated share</th><th>Teachers</th>
+        </tr></thead>
+        <tbody>
+          <tr><td>Professor</td><td>1</td><td>${fmt(s.exactProfessor)}</td><td><strong>${s.professor}</strong></td></tr>
+          <tr><td>Associate Professor</td><td>2</td><td>${fmt(s.exactAssociate)}</td><td><strong>${s.associate}</strong></td></tr>
+          <tr><td>Assistant Professor</td><td>4</td><td>${fmt(s.exactAssistant)}</td><td><strong>${s.assistant}</strong></td></tr>
+          <tr><td>Lecturer</td><td>3</td><td>${fmt(s.exactLecturer)}</td><td><strong>${s.lecturer}</strong></td></tr>
+          <tr><th>Total</th><th>10</th><th>${fmt(s.adjusted)}</th><th><strong>${s.totalWhole}</strong></th></tr>
+        </tbody>
+      </table>
+      </div>
+      <p class="small">Whole-teacher rank figures are allocated by largest remainder so that the four ranks add exactly to the displayed total.</p>
+    </div>`;
+}
+
+function renderTeacher(title,data) {
+  const t = totals(data);
+  const h = n(el('headHours').value);
+  const th = n(el('teacherHours').value);
+  const raw = teacherNumber(t.total);
+
+  if(!Number.isFinite(raw)) {
+    return `\u003Cdiv class="notice">Enter a teacher contact workload greater than zero.\u003C/div>`;
+  }
+
+  const s = staffingBreakdown(raw);
+
+  return `
+    \u003Cdiv class="cardx">
+      \u003Ch3>${esc(title)}\u003C/h3>
+      \u003Cdiv class="formula">
+        \u003Cstrong>Teacher-number formula\u003C/strong>\u003Cbr>
+        Teacher number = [(Weekly total teaching load − Department head load) ÷ Average teacher contact load] + 1
+        \u003Cbr>\u003Cbr>
+        = [(${fmt(t.total)} − ${fmt(h)}) ÷ ${fmt(th)}] + 1
+        = \u003Cstrong>${fmt(raw)}\u003C/strong>
+      \u003C/div>
+      \u003Cdiv class="resultbox">\u003Cdiv class="big">Base requirement: ${fmt(raw)} teachers\u003C/div>\u003C/div>
+    \u003C/div>
+    ${staffingTable(s)}`;
+}
+function renderYearTeacher(fourYearLoad) {
+  const h = n(el('headHours').value);
+  const th = n(el('teacherHours').value);
+  if(th <= 0) return `\u003Cdiv class="notice">Enter a teacher contact workload greater than zero.\u003C/div>`;
+
+  const raw = ((fourYearLoad - h) / th) + 1;
+  const equivalent = raw * 0.65;
+  const s = staffingBreakdown(equivalent);
+
+  return `
+    \u003Cdiv class="cardx">
+      \u003Ch3>Year System — four-year undergraduate calculation\u003C/h3>
+      \u003Cdiv class="formula">\u003Cstrong>Step 1 — Four-year load\u003C/strong>\u003Cbr>
+        Year 1 + Year 2 + Year 3 + Year 4 = \u003Cstrong>${fmt(fourYearLoad)}\u003C/strong> hours/week-equivalent
+      \u003C/div>
+      \u003Cdiv class="formula">\u003Cstrong>Step 2 — Teacher number before conversion\u003C/strong>\u003Cbr>
+        [(${fmt(fourYearLoad)} − ${fmt(h)}) ÷ ${fmt(th)}] + 1 = \u003Cstrong>${fmt(raw)}\u003C/strong> teachers
+      \u003C/div>
+      \u003Cdiv class="formula">\u003Cstrong>Step 3 — 65% conversion to semester-system equivalent\u003C/strong>\u003Cbr>
+        ${fmt(raw)} × 65% = \u003Cstrong>${fmt(equivalent)}\u003C/strong> teachers
+      \u003C/div>
+      ${staffingTable(s)}
+    \u003C/div>`;
+}
+function calculate() {
+  const mode = el('calcMode').value;
+
+  if(mode === "year") {
+    rows.forEach(r => r.program = "Undergraduate");
+  }
+
+
+  rows.forEach(r => {
+    const cell = el(`load-${r.id}`);
+    if(cell) cell.textContent = fmt(rowLoad(r));
+  });
+
+  renderRowCalculations();
+
+  if(mode === "semester") {
+    const odd = rows.filter(r => r.semester === "Odd");
+    const even = rows.filter(r => r.semester === "Even");
+    const ot = totals(odd), et = totals(even);
+
+    el('summary').innerHTML =
+      renderSummaryFor(odd,"Odd semester") +
+      renderSummaryFor(even,"Even semester");
+
+    const chosen = ot.total >= et.total
+      ? {name:"Odd semester",data:odd}
+      : {name:"Even semester",data:even};
+
+    el('teacherResult').innerHTML =
+      renderTeacher(`${chosen.name} — higher course-load semester selected`, chosen.data) +
+      `\u003Cdiv class="notice">
+        \u003Cstrong>Semester System:\u003C/strong> one academic year consists of two semesters.
+        The higher course load between Odd and Even is used for the teacher-number calculation.
+      \u003C/div>`;
+  } else {
+    const data = rows.filter(r => r.program === "Undergraduate");
+    const byYear = [1,2,3,4].map(y => data.filter(r => Number(r.year) === y));
+    const yearTotals = byYear.map(d => totals(d));
+    const fourYearLoad = yearTotals.reduce((s,t) => s + t.total, 0);
+
+    el('summary').innerHTML =
+      byYear.map((d,i) => renderSummaryFor(d,`Undergraduate Year ${i+1}`)).join('') +
+      `\u003Cdiv class="cardx">
+        \u003Ch3>Four-year undergraduate total\u003C/h3>
+        \u003Cdiv class="resultbox">
+          \u003Cdiv class="big">${fmt(fourYearLoad)} hours/week-equivalent\u003C/div>
+          \u003Cdiv>Sum of the loads entered for Years 1–4\u003C/div>
+        \u003C/div>
+      \u003C/div>`;
+
+    el('teacherResult').innerHTML =
+      renderYearTeacher(fourYearLoad) +
+      `\u003Cdiv class="notice">
+        \u003Cstrong>Year System:\u003C/strong> this mode is restricted to undergraduate four-year programmes.
+        Postgraduate programmes are not included.
+      \u003C/div>`;
+  }
+
+  renderFormulaReference();
+
+}
+function renderFormulaReference() {
+  el('formulaReference').innerHTML = `
+  \u003Cdiv class="scroll">
+  \u003Ctable>
+    \u003Cthead>\u003Ctr>\u003Cth>Category\u003C/th>\u003Cth>Formula applied by this app\u003C/th>\u003Cth>Input interpretation\u003C/th>\u003C/tr>\u003C/thead>
+    \u003Ctbody>
+      ${Object.entries(categories).map(([k,c]) =>
+        `<tr><td>${esc(c.label)}</td><td>${esc(c.formula)}</td><td>${esc(c.fields)}</td></tr>`
+      ).join('')}
+    \u003C/tbody>
+  \u003C/table>
+  \u003C/div>
+  \u003Cdiv class="formula">
+    \u003Cstrong>Final teacher-number formula:\u003C/strong>
+    Teacher number = [(Weekly total teaching load − 6) ÷ 13] + 1,
+    with the 6 and 13 values editable in the settings for transparency/testing.
+  \u003C/div>`;
+}
+
+function exampleData() {
+  rows = [];
+  nextId = 1;
+
+  if(el('calcMode').value === "year") {
+    [
+      [1,"1st","UG theory",2,3],
+      [2,"2nd","UG laboratory",40,2],
+      [3,"3rd","UG theory",2,3],
+      [4,"4th","UG theory",2,3]
+    ].forEach(([year,semesterName,kind,students,credit]) => {
+      const category = kind === "UG laboratory" ? "ug_lab" : "ug_theory";
+      rows.push({
+        id:nextId++,semester:"Odd",semesterName,year,program:"Undergraduate",
+        category,sections:category==="ug_lab"?1:2,students:category==="ug_lab"?students:0,
+        credit,avg:0,contact:0
+      });
+    });
+  } else {
+    rows.push(
+      {id:nextId++,semester:"Odd",semesterName:"1st",year:1,program:"Undergraduate",category:"ug_theory",sections:2,students:0,credit:3,avg:0,contact:0},
+      {id:nextId++,semester:"Odd",semesterName:"1st",year:1,program:"Undergraduate",category:"ug_lab",sections:1,students:40,credit:2,avg:0,contact:0},
+      {id:nextId++,semester:"Even",semesterName:"2nd",year:2,program:"Undergraduate",category:"ug_project",sections:1,students:0,credit:0,avg:20,contact:2},
+      {id:nextId++,semester:"Even",semesterName:"2nd",year:1,program:"Postgraduate",category:"pg_theory",sections:1,students:0,credit:3,avg:4,contact:0},
+      {id:nextId++,semester:"Even",semesterName:"2nd",year:1,program:"PhD",category:"phd",sections:0,students:0,credit:0,avg:3,contact:4},
+      {id:nextId++,semester:"Even",semesterName:"2nd",year:1,program:"MPhil",category:"mphil",sections:0,students:0,credit:0,avg:2,contact:3}
+    );
+  }
+  renderTable();
+  calculate();
+}
+el('addRow').onclick = () => addRow();
+el('add10').onclick = () => addMany(10);
+el('clearRows').onclick = () => { rows=[]; renderTable(); calculate(); };
+el('loadExample').onclick = () => exampleData();
+
+['headHours','teacherHours','deptName','leaveFactor'].forEach(id => {
+  el(id).addEventListener('input',calculate);
+  el(id).addEventListener('change',calculate);
+});
+
+el('calcMode').addEventListener('change', () => {
+  if(el('calcMode').value === "year") {
+    el('defaultProgram').value = "Undergraduate";
+    rows.forEach(r => r.program = "Undergraduate");
+  }
+  renderTable();
+  calculate();
+});
+
+el('copyReport').onclick = async () => {
+  const dept = el('deptName').value || "Department";
+  const mode = el('calcMode').value;
+
+  let report =
+`${dept}
+UGC Teaching Load Calculation
+
+Calculation mode: ${mode === "semester" ? "Semester system" : "Year System"}
+
+`;
+
+  if(mode === "semester") {
+    const odd = rows.filter(r => r.semester === "Odd");
+    const even = rows.filter(r => r.semester === "Even");
+    const ot = totals(odd), et = totals(even);
+    const chosen = ot.total >= et.total ? {name:"Odd",total:ot.total} : {name:"Even",total:et.total};
+    const x = teacherNumber(chosen.total);
+
+    report +=
+`Odd semester load: ${fmt(ot.total)} hours/week
+Even semester load: ${fmt(et.total)} hours/week
+Higher-load semester: ${chosen.name}
+
+Teacher-number formula:
+[(${fmt(chosen.total)} - ${fmt(n(el('headHours').value))}) / ${fmt(n(el('teacherHours').value))}] + 1
+Teacher requirement: ${fmt(x)}
+Whole-teacher planning figure: ${Math.max(0,Math.ceil(x))}`;
+  } else {
+    const data = rows.filter(r => r.program === "Undergraduate");
+    const fourYearLoad = [1,2,3,4].reduce(
+      (s,y) => s + totals(data.filter(r => Number(r.year) === y)).total, 0
+    );
+    const raw = ((fourYearLoad - n(el('headHours').value)) / n(el('teacherHours').value)) + 1;
+    const equivalent = raw * 0.65;
+
+    report +=
+`Year 1–4 combined undergraduate load: ${fmt(fourYearLoad)} hours/week-equivalent
+Teacher number before 65% conversion: ${fmt(raw)}
+65% semester-system equivalent: ${fmt(equivalent)}
+Whole-teacher planning figure: ${Math.max(0,Math.ceil(equivalent))}`;
+  }
+
+  try {
+    await navigator.clipboard.writeText(report);
+    el('copyReport').textContent = "Copied!";
+    setTimeout(() => el('copyReport').textContent = "Copy calculation summary", 1500);
+  } catch(e) {
+    alert(report);
+  }
+};
+
+renderTable();
+calculate();
+</script>
+
+<div class="cardx">
+<h3>Source and implementation note</h3>
+<div class="notice">
+<strong>Important:</strong> The supplied policy clearly shows the Odd/Even higher-load rule and the teacher-number formula.
+The <strong>Year System + 65% conversion</strong>, 20% study-leave allowance, 1:2:4:3 faculty-rank distribution, and corrected MPhil/PhD formulas have been implemented according to the rules specified for this application.
+</div>
+<p>
+The formulas in this application are based on the supplied
+<strong>Public Universities Teaching Load Calculation Policy (Engineering), 2022</strong>.
+The application preserves the policy's calculation structure rather than introducing an alternative staffing model.
+</p>
+<ul>
+<li>Teacher average weekly contact workload: 13 hours.</li>
+<li>Department/institute head weekly contact workload: 6 hours.</li>
+<li>Semester System: one academic year has two semesters, and the higher Odd/Even course load is considered.</li>
+<li>Year System: four undergraduate years are added; the resulting teacher number is multiplied by 65% to obtain the semester-system equivalent.</li>
+<li>Year System is restricted to undergraduate programmes; postgraduate programmes are not included.</li>
+<li>UG laboratory: students ÷ 10 × credit hours.</li>
+<li>UG practical/survey/field/other: students ÷ 15 × credit hours.</li>
+<li>UG project/internship/thesis: average students over the previous three years × contact hours; the policy image specifies 2 hours, with a separate Architecture/Urban & Regional Planning note of 3 hours.</li>
+<li>PG theory: average course number over the previous three years × credit hours.</li>
+<li>PG laboratory: follows the laboratory-load calculation.</li>
+<li>Master's thesis: historical average degree earners over the previous three years × 3 contact hours.</li>
+<li>MPhil thesis: <strong>previous five-year average</strong> MPhil degree earners × <strong>3 contact hours</strong>.</li>
+<li>PhD thesis: <strong>previous five-year average</strong> PhD degree earners × <strong>4 contact hours</strong>.</li>
+<li>Both systems add a 20% study-leave allowance by default.</li>
+<li>The adjusted teacher requirement is distributed as Professor : Associate Professor : Assistant Professor : Lecturer = 1 : 2 : 4 : 3.</li>
+</ul>
+<p class="small">
+For categories where the policy requires a previous-year average, the app does not calculate that average automatically unless the user enters the underlying average; this avoids inventing data not supplied by the user.
+</p>
+</div>
+```
