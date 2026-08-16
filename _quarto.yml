@@ -29,6 +29,8 @@ website:
             href: courses/machine-learning.qmd
       - text: "Blogs"
         href: blogs.qmd
+      - text: "Apps"
+        href: UGC_Teaching_Load_Calculator_Kamrul.qmd
       # - text: "My Courses"
       #   href: enrol.qmd
     right:
