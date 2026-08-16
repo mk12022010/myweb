@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 publish:
-  dir: .
+  dir: docs
 
 website:
   title: "RUEN Research"
