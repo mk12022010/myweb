@@ -30,7 +30,7 @@ website:
       - text: "Blogs"
         href: blogs.qmd
       - text: "Apps"
-        href: UGC_Teaching_Load_Calculator_Kamrul.qmd
+        href: UGC_Teaching_Load_Calculator_Kamrul.html
       # - text: "My Courses"
       #   href: enrol.qmd
     right:

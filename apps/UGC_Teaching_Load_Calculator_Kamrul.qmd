@@ -3,7 +3,6 @@ title: "Teaching Load Calculator — Barishal University"
 subtitle: "Professor Dr. Md. Kamrul Hasan"
 format:
   html:
-    embed-resources: true
     toc: false
     page-layout: full
     code-fold: false
