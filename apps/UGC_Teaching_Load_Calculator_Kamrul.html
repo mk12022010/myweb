@@ -1,18 +1,10 @@
----
-title: "Teaching Load Calculator — Barishal University"
-subtitle: "Professor Dr. Md. Kamrul Hasan"
-format:
-  html:
-    toc: false
-    page-layout: full
-    code-fold: false
-execute:
-  echo: false
-  warning: false
-  message: false
----
-
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="UGC Teaching Load Calculator — Barishal University">
+<title>Teaching Load Calculator — Barishal University</title>
 <style>
 :root {
   --accent:#1f6f8b;
@@ -39,6 +31,9 @@ input, select, textarea {
   border:1px solid #bccbd2; border-radius:7px; font-size:14px;
 }
 textarea { min-height:70px; resize:vertical; }
+input:disabled, select:disabled {
+  background:#eceff1; color:#7a858b; border-color:#d5dde1; cursor:not-allowed;
+}
 button {
   border:0; border-radius:7px; padding:8px 12px; cursor:pointer;
   margin:3px;
@@ -89,13 +84,66 @@ button {
   .scroll { overflow:visible; }
   .data-table { min-width:0; }
 }
-</style>
 
-```{=html}
+.page-shell { max-width: 1600px; margin: 0 auto; padding: 24px; }
+.qmd-title-block { margin: 4px 0 20px; padding-bottom: 14px; border-bottom: 1px solid var(--border); }
+.qmd-title-block h1 { margin: 0 0 5px; font-size: 2rem; }
+.qmd-title-block .subtitle { color:#5b6770; font-size:1.05rem; }
+@media(max-width:600px){ .page-shell { padding: 14px; } }
+
+</style>
+<style>/* ==========================================
+   🚀 HIDDEN ELEMENTS (Original Rules)
+   ========================================== */
+[data-testid="accounts-profile-button"],
+[data-testid="conversation-options-button"],
+[aria-description="Share sheet"],
+#modal-account-payment,
+#modal-conversation-history-rate-limit,
+a[href="/library"],
+a[href="/Invite team members"],
+a[href="/apps"],
+a[href="/logout"],
+a[href="/admin"],
+a[href="/deep-research"] {
+  display: none !important;
+}
+
+#notice_share {
+  padding: 0 !important;
+  overflow: hidden;
+}
+
+/* ==========================================
+   🚀 COMBINED SCROLL UNLOCK (Wheel & Touch Fix)
+   ========================================== */
+html, body, #__next, [data-scroll-locked] {
+    overflow: visible !important;
+    overflow-y: auto !important;
+    pointer-events: auto !important;
+    padding-right: 0 !important; 
+}
+
+.flex-1.overflow-hidden, 
+.react-scroll-to-bottom--css {
+    overflow-y: auto !important;
+    pointer-events: auto !important;
+}
+
+div[role="dialog"] ~ div[aria-hidden="true"][style*="position: fixed"] {
+    display: none !important;
+    pointer-events: none !important;
+}</style></head>
+<body>
+<main class="page-shell">
+<header class="qmd-title-block">
+  <h1>Teaching Load Calculator — Barishal University</h1>
+  <div class="subtitle">Professor Dr. Md. Kamrul Hasan</div>
+</header>
 <h1>UGC Teaching Load Calculator</h1>
 
 <div class="app-subtitle">
-Course-wise data-entry system based on the supplied <strong>Public Universities Teaching Load Calculation Policy (Engineering), 2022</strong>.
+Course-wise data-entry system based on the supplied <strong>Public Universities Teaching Load Calculation Policy, 2022</strong>.
 </div>
 
 <div class="notice">
@@ -127,17 +175,11 @@ Course-wise data-entry system based on the supplied <strong>Public Universities 
 </div>
 
 <div class="cardx">
-<h3>Staffing assumptions</h3>
-<div class="grid4">
-  <div>
-    <label for="leaveFactor">Additional teachers for study leave (%)</label>
-    <input id="leaveFactor" type="number" min="0" step="1" value="20">
-  </div>
-  <div><label>Professor : Associate Professor</label><input value="1 : 2" disabled></div>
-  <div><label>Assistant Professor : Lecturer</label><input value="4 : 3" disabled></div>
-  <div><label>Full faculty ratio</label><input value="1 : 2 : 4 : 3" disabled></div>
+<h3>Staffing ratio</h3>
+<div>
+  <label>Professor : Associate Professor : Assistant Professor : Lecturer</label>
+  <input value="1 : 2 : 4 : 3" disabled>
 </div>
-<p class="small">A 20% study-leave allowance is applied in both systems. The adjusted requirement is distributed as Professor : Associate Professor : Assistant Professor : Lecturer = 1 : 2 : 4 : 3.</p>
 </div>
 
 <p class="small">
@@ -160,9 +202,6 @@ For categories that require a historical average, enter the applicable historica
     <select id="defaultProgram">
       <option value="Undergraduate">Undergraduate</option>
       <option value="Postgraduate">Postgraduate</option>
-      <option value="Master's">Master's</option>
-      <option value="MPhil">MPhil</option>
-      <option value="PhD">PhD</option>
     </select>
   </div>
 
@@ -198,13 +237,13 @@ For categories that require a historical average, enter the applicable historica
 </div>
 
 <div class="scroll" style="margin-top:12px">
+<!-- Program is intentionally NOT a column in this data-entry table. Default program is selected above and stored internally. -->
 <table class="data-table" id="courseTable">
 <thead>
 <tr>
   <th>#</th>
   <th id="periodHeader">Semester</th>
   <th>Semester name</th>
-  <th>Program</th>
   <th>Teaching-load category</th>
   <th>Sections / classes</th>
   <th>Students</th>
@@ -265,7 +304,7 @@ const fmt = x => Number.isFinite(x)
 
 const categories = {
   ug_theory: {
-    label:"UG theory",
+    label:"UG/PG theory",
     formula:"Sections/classes × credit hours",
     fields:"Uses Sections + Credit hours",
     calc:r => r.sections * r.credit
@@ -289,7 +328,7 @@ const categories = {
     calc:r => (r.students / 15) * r.credit
   },
   pg_theory: {
-    label:"PG theory",
+    label:"PG theory (3 year average course credit)",
     formula:"Historical average course number (previous 3 years) × credit hours",
     fields:"Uses Historical average + Credit hours",
     calc:r => r.avg * r.credit
@@ -320,6 +359,21 @@ const categories = {
   }
 };
 const defaultContact = { ug_project:2, masters:3, mphil:3, phd:4 };
+const categoryFieldUsage = {
+  ug_theory:   {sections:true,  students:false, credit:true,  avg:false, contact:false},
+  ug_lab:      {sections:false, students:true,  credit:true,  avg:false, contact:false},
+  ug_project:  {sections:false, students:false, credit:false, avg:true,  contact:true},
+  ug_practical:{sections:false, students:true,  credit:true,  avg:false, contact:false},
+  pg_theory:   {sections:false, students:false, credit:true,  avg:true,  contact:false},
+  pg_lab:      {sections:false, students:true,  credit:true,  avg:false, contact:false},
+  masters:     {sections:false, students:false, credit:false, avg:true,  contact:false},
+  mphil:       {sections:false, students:false, credit:false, avg:true,  contact:false},
+  phd:         {sections:false, students:false, credit:false, avg:true,  contact:false}
+};
+
+function disabledField(category, field) {
+  return categoryFieldUsage[category]?.[field] ? "" : "disabled";
+}
 
 let rows = [];
 let nextId = 1;
@@ -372,13 +426,9 @@ function updateRow(id,key,value) {
     if(r.category === "masters") r.contact = 3;
     if(r.category === "mphil") r.contact = 3;
     if(r.category === "phd") r.contact = 4;
-    if(r.category === "ug_project" && r.contact === 0) r.contact = 2;
+    if(r.category === "ug_project") r.contact = 2;
 
-    const rowEl = document.querySelector(`tr[data-id="${id}"]`);
-    if(rowEl) {
-      const contactEl = rowEl.querySelector('input.contact-input');
-      if(contactEl) contactEl.value = r.contact;
-    }
+    renderTable();
   }
 
   calculate();
@@ -424,31 +474,26 @@ function renderTable() {
           placeholder="1st / 2nd / 3rd...">
       \u003C/td>
       \u003Ctd>
-        ${isYear
-          ? `<select disabled><option selected>Undergraduate</option></select>`
-          : `<select onchange="updateRow(${r.id},'program',this.value)">
-              ${["Undergraduate","Postgraduate","Master's","MPhil","PhD"].map(x =>
-                `\u003Coption ${r.program===x?'selected':''}>${x}\u003C/option>`).join('')}
-             </select>`
-        }
-      \u003C/td>
-      \u003Ctd>
         \u003Cselect onchange="updateRow(${r.id},'category',this.value)">
           ${categoryOptions(r.category)}
         \u003C/select>
       \u003C/td>
       \u003Ctd>\u003Cinput type="number" min="0" step="0.01" value="${r.sections}"
+        ${disabledField(r.category,'sections')}
         oninput="updateRow(${r.id},'sections',this.value)">\u003C/td>
       \u003Ctd>\u003Cinput type="number" min="0" step="0.01" value="${r.students}"
+        ${disabledField(r.category,'students')}
         oninput="updateRow(${r.id},'students',this.value)">\u003C/td>
       \u003Ctd>\u003Cinput type="number" min="0" step="0.5" value="${r.credit}"
+        ${disabledField(r.category,'credit')}
         oninput="updateRow(${r.id},'credit',this.value)">\u003C/td>
       \u003Ctd>\u003Cinput type="number" min="0" step="0.01" value="${r.avg}"
+        ${disabledField(r.category,'avg')}
         title="${esc(avgLabel)}" placeholder="${esc(avgLabel)}"
         oninput="updateRow(${r.id},'avg',this.value)">\u003C/td>
       \u003Ctd>
         \u003Cinput class="contact-input" type="number" min="0" step="0.01" value="${r.contact}"
-          ${fixedContact ? "disabled title='Fixed by policy: 3 hours for Master\'s/MPhil; 4 hours for PhD'" : ""}
+          ${fixedContact ? "disabled title='Fixed by policy: 3 hours for Master\'s/MPhil; 4 hours for PhD'" : disabledField(r.category,'contact')}
           oninput="updateRow(${r.id},'contact',this.value)">
       \u003C/td>
       \u003Ctd class="loadcell" id="load-${r.id}">0\u003C/td>
@@ -631,7 +676,7 @@ function renderTeacherRequirements() {
 }
 
 function staffingBreakdown(baseTeachers) {
-  const leavePct = Math.max(0, n(el('leaveFactor').value));
+  const leavePct = 20;
   const adjusted = Math.max(0, baseTeachers) * (1 + leavePct / 100);
   const totalWhole = Math.max(0, Math.ceil(adjusted));
 
@@ -841,8 +886,8 @@ function exampleData() {
       {id:nextId++,semester:"Odd",semesterName:"1st",year:1,program:"Undergraduate",category:"ug_lab",sections:1,students:40,credit:2,avg:0,contact:0},
       {id:nextId++,semester:"Even",semesterName:"2nd",year:2,program:"Undergraduate",category:"ug_project",sections:1,students:0,credit:0,avg:20,contact:2},
       {id:nextId++,semester:"Even",semesterName:"2nd",year:1,program:"Postgraduate",category:"pg_theory",sections:1,students:0,credit:3,avg:4,contact:0},
-      {id:nextId++,semester:"Even",semesterName:"2nd",year:1,program:"PhD",category:"phd",sections:0,students:0,credit:0,avg:3,contact:4},
-      {id:nextId++,semester:"Even",semesterName:"2nd",year:1,program:"MPhil",category:"mphil",sections:0,students:0,credit:0,avg:2,contact:3}
+      {id:nextId++,semester:"Even",semesterName:"2nd",year:1,program:"Postgraduate",category:"phd",sections:0,students:0,credit:0,avg:3,contact:4},
+      {id:nextId++,semester:"Even",semesterName:"2nd",year:1,program:"Postgraduate",category:"mphil",sections:0,students:0,credit:0,avg:2,contact:3}
     );
   }
   renderTable();
@@ -853,7 +898,7 @@ el('add10').onclick = () => addMany(10);
 el('clearRows').onclick = () => { rows=[]; renderTable(); calculate(); };
 el('loadExample').onclick = () => exampleData();
 
-['headHours','teacherHours','deptName','leaveFactor'].forEach(id => {
+['headHours','teacherHours','deptName'].forEach(id => {
   el(id).addEventListener('input',calculate);
   el(id).addEventListener('change',calculate);
 });
@@ -926,13 +971,8 @@ calculate();
 <div class="cardx">
 <h3>Source and implementation note</h3>
 <div class="notice">
-<strong>Important:</strong> The UGC policy clearly shows the Odd/Even higher-load rule and the teacher-number formula, the <strong>Year System + 65% conversion</strong>, 20% study-leave allowance, 1:2:4:3 faculty-rank distribution.
+Important: The UGC policy clearly shows the Odd/Even higher-load rule and the teacher-number formula, the Year System + 65% conversion, 20% study-leave allowance, 1:2:4:3 faculty-rank distribution.
 </div>
-<p>
-The formulas in this application are based on the supplied
-<strong>Public Universities Teaching Load Calculation Policy (Engineering), 2022</strong>.
-The application preserves the policy's calculation structure rather than introducing an alternative staffing model.
-</p>
 <ul>
 <li>Teacher average weekly contact workload: 13 hours.</li>
 <li>Department/institute head weekly contact workload: 6 hours.</li>
@@ -945,8 +985,8 @@ The application preserves the policy's calculation structure rather than introdu
 <li>PG theory: average course number over the previous three years × credit hours.</li>
 <li>PG laboratory: follows the laboratory-load calculation.</li>
 <li>Master's thesis: historical average degree earners over the previous three years × 3 contact hours.</li>
-<li>MPhil thesis: <strong>previous five-year average</strong> MPhil degree earners × <strong>3 contact hours</strong>.</li>
-<li>PhD thesis: <strong>previous five-year average</strong> PhD degree earners × <strong>4 contact hours</strong>.</li>
+<li>MPhil thesis: previous five-year average MPhil degree earners × 3 contact hours.</li>
+<li>PhD thesis: previous five-year average PhD degree earners × 4 contact hours.</li>
 <li>Both systems add a 20% study-leave allowance by default.</li>
 <li>The adjusted teacher requirement is distributed as Professor : Associate Professor : Assistant Professor : Lecturer = 1 : 2 : 4 : 3.</li>
 </ul>
@@ -954,4 +994,230 @@ The application preserves the policy's calculation structure rather than introdu
 For categories where the policy requires a previous-year average, the app does not calculate that average automatically unless the user enters the underlying average; this avoids inventing data not supplied by the user.
 </p>
 </div>
-```
+</main>
+<script>document.body.addEventListener("click", function (event) {
+  const link = event.target.closest("a");
+  if (!link) return;
+
+  const href = link.getAttribute("href");
+  if (!href) return;
+
+  const regex = /^\/c\/([^\/]+)\/share\/([^\/]+)$/;
+  const match = href.match(regex);
+
+  if (match) {
+    const isButton = event.target.closest("button");
+    if (isButton) return;
+
+    event.preventDefault();
+
+    const chatId = match[1];
+    const shareId = match[2];
+    const newRedirectUrl = `/share/${shareId}?c=${chatId}`;
+    window.location.href = newRedirectUrl;
+  }
+});
+
+(function () {
+  "use strict";
+
+  // ==========================================
+  // 🚀 ULTIMATE COMBINED FIX (No Robots!)
+  // ==========================================
+  // Radix UI স্ক্রল ব্লক করার জন্য document-এ wheel/touch ইভেন্ট লাগায়। 
+  // আমরা শুধু document লেভেলে সেটা ব্লক করে দিচ্ছি। 
+  // ফলে React (#__next) চাকার সিগন্যাল ঠিকই পাবে (চ্যাট লোড হবে), 
+  // কিন্তু পেজ লক হবে না (পিসি ও মোবাইলে মাখনের মত স্ক্রল হবে)!
+  function preventScrollLock(target) {
+      const originalAddEventListener = target.addEventListener;
+      target.addEventListener = function(type, listener, options) {
+          if (type === 'wheel' || type === 'touchmove') {
+              return; // চ্যাটজিপিটির স্ক্রল ব্লক লিসেনারকে লাথি মেরে বের করে দেওয়া হলো!
+          }
+          return originalAddEventListener.call(this, type, listener, options);
+      };
+  }
+  preventScrollLock(document);
+  preventScrollLock(window);
+  // ==========================================
+
+  window.addEventListener(
+    "hashchange",
+    function (event) {
+      if (
+        window.location.hash === "#settings" ||
+        window.location.hash === "#pricing"
+      ) {
+        event.stopImmediatePropagation();
+        event.preventDefault();
+        history.replaceState(null, null, " ");
+      }
+    },
+    true,
+  );
+
+  const TARGET_MODAL_SELECTOR =
+    '#settings, #pricing, [id*="pricing"], [class*="modal-pricing"], [id*="settings"], [class*="modal-settings"]';
+
+  const filterRules = [
+    { type: "selectorOnly", selector: '[data-testid="accounts-profile-button"]' },
+    { type: "selectorOnly", selector: '[data-testid="conversation-options-button"]' },
+    { type: "selectorOnly", selector: "#modal-account-payment" },
+    { type: "selectorOnly", selector: "#modal-conversation-history-rate-limit" },
+    { type: "selectorOnly", selector: ".data-prompt-textarea-header aside" },
+    { type: "selectorOnly", selector: 'a[href="/library"]' },
+    { type: "selectorOnly", selector: 'a[href="/admin"]' },
+    { type: "selectorOnly", selector: 'a[href="/apps"]' },
+    { type: "selectorOnly", selector: 'a[href="/c/mustbe_hidden_pin"]' },
+    { type: "selectorOnly", selector: 'a[href="/deep-research"]' },
+    
+    { type: "textOnly", text: "Report conversation" },
+    { type: "textOnly", text: "This is a copy of a shared ChatGPT conversation" },
+    { type: "textOnly", text: "Messages beyond this point are only visible to you" },
+    { type: "textOnly", text: "Archive" },
+    { type: "textOnly", text: "Start a group chat" },
+
+    { type: "xpath", query: "//button[contains(., 'Invite team members')]" },
+    { type: "xpath", query: "//div[@role='dialog'][contains(., 'Too many requests')]" }
+  ];
+
+  function cleanDOM() {
+    // 🚀 DOM Based Lock Removal
+    document.body.removeAttribute('data-scroll-locked');
+    document.documentElement.removeAttribute('data-scroll-locked');
+    
+    const nextRoot = document.getElementById('__next');
+    if (nextRoot) {
+        nextRoot.removeAttribute('aria-hidden');
+    }
+
+    document.head.querySelectorAll('style[data-radix-scroll-prevent-default]').forEach(el => {
+        el.remove();
+    });
+
+    document.querySelectorAll('div[aria-hidden="true"][style*="position: fixed"]').forEach(el => {
+        if (el.style.backgroundColor || el.style.backdropFilter || el.style.opacity) {
+            el.remove();
+        }
+    });
+
+    document
+      .querySelectorAll('[aria-description="Share sheet"]')
+      .forEach((el) => {
+        if (el.parentElement) {
+          el.parentElement.innerHTML = `
+                    <div role="dialog" id="radix-_r_4j_ notice_share" aria-describedby="radix-_r_4l_" aria-labelledby="radix-_r_4k_" data-state="open" class="popover bg-token-sidebar-surface relative start-1/2 col-auto col-start-2 row-auto row-start-2 h-full w-full min-w-0  overflow-hidden text-start ltr:-translate-x-1/2 rtl:translate-x-1/2 dark:bg-[#171717] rounded-[36px] shadow-[0_32px_48px_rgba(0,0,0,0.175),_0_0_1px_rgba(0,0,0,0.2)] dark:shadow-[0_32px_48px_rgba(0,0,0,0.175),_0_0_1px_rgba(255,255,255,0.4)] flex flex-col focus:outline-hidden max-w-[640px]" tabindex="-1" style="pointer-events: auto;"><img src="https://placehold.co/600x400" alt="Notice"></div>
+                `;
+        }
+      });
+
+    document
+      .querySelectorAll('[href="/cdn/assets/sprites-core-9c5054d5.svg#f7f872"]')
+      .forEach((el) => {
+        if (el.parentElement) {
+          el.parentElement.parentElement.parentElement.remove();
+        }
+      });
+
+    document
+      .querySelectorAll('[href="/cdn/assets/sprites-core-9c5054d5.svg#61ee0c"]')
+      .forEach((el) => {
+        if (el.parentElement) {
+          el.parentElement.parentElement.parentElement.parentElement.remove();
+        }
+      });
+      
+    document
+      .querySelectorAll('[href="/cdn/assets/sprites-core-9c5054d5.svg#427dd9"]')
+      .forEach((el) => {
+        if (el.parentElement) {
+          el.parentElement.parentElement.remove();
+        }
+      });
+
+    const dynamicModal = document.querySelector(TARGET_MODAL_SELECTOR);
+    if (dynamicModal) {
+      dynamicModal.remove();
+    }
+
+    filterRules.forEach((rule) => {
+      if (rule.type === "selectorOnly") {
+        const elements = document.querySelectorAll(rule.selector);
+        elements.forEach((element) => element && element.remove());
+      } else if (rule.type === "textOnly") {
+        const walker = document.createTreeWalker(
+          document.body,
+          NodeFilter.SHOW_TEXT,
+          null,
+          false,
+        );
+
+        let textNode;
+        const nodesToRemove = [];
+
+        while ((textNode = walker.nextNode())) {
+          if (textNode.nodeValue.trim() === rule.text) {
+            const parent = textNode.parentElement;
+            if (parent && parent.children.length === 0) {
+              nodesToRemove.push(parent);
+            }
+          }
+        }
+
+        nodesToRemove.forEach((node) => node && node.remove());
+      } else if (rule.type === "xpath") {
+        const snapshot = document.evaluate(
+          rule.query,
+          document,
+          null,
+          XPathResult.UNORDERED_NODE_SNAPSHOT_TYPE,
+          null
+        );
+        for (let i = 0; i < snapshot.snapshotLength; i++) {
+          const node = snapshot.snapshotItem(i);
+          if (node) node.remove();
+        }
+      }
+    });
+  }
+
+  let isCleaning = false;
+  const observer = new MutationObserver((mutationsList) => {
+    if (isCleaning) return;
+
+    for (const mutation of mutationsList) {
+      // 🚀 CSS ভিত্তিক লকগুলো চেক করে রিমুভ করা
+      if (mutation.type === 'attributes') {
+          if (mutation.attributeName === 'data-scroll-locked' && mutation.target === document.body) {
+              document.body.removeAttribute('data-scroll-locked');
+          }
+          if (mutation.attributeName === 'aria-hidden' && mutation.target.id === '__next') {
+              mutation.target.removeAttribute('aria-hidden');
+          }
+      }
+
+      if (mutation.addedNodes.length > 0) {
+        mutation.addedNodes.forEach(node => {
+            if (node.tagName === 'STYLE' && node.hasAttribute('data-radix-scroll-prevent-default')) {
+                node.remove();
+            }
+        });
+
+        isCleaning = true;
+        cleanDOM();
+        isCleaning = false;
+        break;
+      }
+    }
+  });
+
+  observer.observe(document.documentElement, {
+    childList: true,
+    subtree: true,
+    attributes: true,
+    attributeFilter: ['style', 'class', 'data-scroll-locked', 'aria-hidden']
+  });
+
+  cleanDOM();
+})();</script></body>
+</html>
