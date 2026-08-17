@@ -1,18 +1,4 @@
 {
   "cleanUrls": true,
-  "public": true,
-  "routes": [
-    {
-      "src": "/UGC_Teaching_Load_Calculator_Kamrul",
-      "dest": "/docs/UGC_Teaching_Load_Calculator_Kamrul.html"
-    },
-    {
-      "src": "/UGC_Teaching_Load_Calculator_Kamrul.html",
-      "dest": "/docs/UGC_Teaching_Load_Calculator_Kamrul.html"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/docs/$1"
-    }
-  ]
+  "outputDirectory": "docs"
 }
